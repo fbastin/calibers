@@ -675,6 +675,22 @@ def guess_primer(category, bullet_dia, case_len):
             return "Small Rifle"
         return "Large Rifle"
 
+# Lien vers une fiche wiki détaillée (par id de calibre)
+WIKI_LINKS = {
+    "75x55_swiss": "https://www.tireur.org/wiki/doku.php?id=technique:cartouche_7-5x55",
+}
+
+# Valeurs non vérifiées (estimées) — affichées comme telles dans la fiche.
+ESTIMATED_NOTES = {
+    "25_acp": "Volume d'étui estimé (non publié C.I.P./SAAMI).",
+    "32_acp": "Volume d'étui estimé (non publié C.I.P./SAAMI).",
+    "32_sw_long": "Volume d'étui estimé (non publié C.I.P./SAAMI).",
+    "500_sw_mag": "Volume d'étui estimé (non publié C.I.P./SAAMI).",
+    "8x50r_lebel": "Volume d'étui estimé (non publié C.I.P./SAAMI).",
+    "416_barrett": "Pression maximale indicative (cartouche non normalisée C.I.P.).",
+}
+
+
 def merge_databases():
     print("Loading simulator databases...")
     calibers_json_path = os.path.join(root_dir, "reloading/tireur_reloaded/data/calibers.json")
@@ -771,7 +787,9 @@ def merge_databases():
             "primer_type": primer,
             "intro_year": intro_year,
             "origin_country": country,
-            "description": description
+            "description": description,
+            "wiki_url": WIKI_LINKS.get(cid),
+            "data_note": ESTIMATED_NOTES.get(cid)
         }
         
         merged_list.append(item)
@@ -897,7 +915,9 @@ def merge_databases():
             "primer_type": primer,
             "intro_year": hand_val["intro_year"],
             "origin_country": hand_val["origin_country"],
-            "description": hand_val["description"]
+            "description": hand_val["description"],
+            "wiki_url": WIKI_LINKS.get(cid),
+            "data_note": ESTIMATED_NOTES.get(cid)
         }
         
         merged_list.append(item)

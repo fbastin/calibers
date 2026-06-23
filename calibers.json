@@ -19,7 +19,9 @@
         "primer_type": "Rimfire",
         "intro_year": 2002,
         "origin_country": "États-Unis",
-        "description": "Obtenu en rétreignant un étui de .22 WMR au calibre .17. Vitesse de sortie exceptionnelle pour un calibre à percussion annulaire (plus de 770 m/s)."
+        "description": "Obtenu en rétreignant un étui de .22 WMR au calibre .17. Vitesse de sortie exceptionnelle pour un calibre à percussion annulaire (plus de 770 m/s).",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "204_ruger",
@@ -42,7 +44,9 @@
         "primer_type": "Small Rifle",
         "intro_year": 2004,
         "origin_country": "États-Unis",
-        "description": "Développé en partenariat avec Hornady et Ruger. Un calibre 'varmint' (petite nuisible) tirant à très haute vélocité (1280 m/s) à trajectoire ultra-tendue."
+        "description": "Développé en partenariat avec Hornady et Ruger. Un calibre 'varmint' (petite nuisible) tirant à très haute vélocité (1280 m/s) à trajectoire ultra-tendue.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "22_creedmoor",
@@ -64,7 +68,9 @@
         "primer_type": "Small Rifle",
         "intro_year": null,
         "origin_country": "États-Unis",
-        "description": "Calibre d'arme d'épaule d'origine de type rimless, développé et utilisé principalement en États-Unis. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site."
+        "description": "Calibre d'arme d'épaule d'origine de type rimless, développé et utilisé principalement en États-Unis. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "22_hornet",
@@ -87,7 +93,9 @@
         "primer_type": "Small Rifle",
         "intro_year": 1930,
         "origin_country": "États-Unis",
-        "description": "Un des plus petits calibres de carabine de chasse à percussion centrale. Idéal pour les renards et le tir nuisible silencieux à 100-150m."
+        "description": "Un des plus petits calibres de carabine de chasse à percussion centrale. Idéal pour les renards et le tir nuisible silencieux à 100-150m.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "22_lr",
@@ -109,7 +117,9 @@
         "primer_type": "Rimfire",
         "intro_year": 1887,
         "origin_country": "États-Unis",
-        "description": "Le calibre à percussion annulaire le plus populaire au monde. Utilisé pour le tir de loisir, la compétition (pistolet et carabine à 50m) et l'initiation."
+        "description": "Le calibre à percussion annulaire le plus populaire au monde. Utilisé pour le tir de loisir, la compétition (pistolet et carabine à 50m) et l'initiation.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "22_nosler",
@@ -131,7 +141,9 @@
         "primer_type": "Small Rifle",
         "intro_year": null,
         "origin_country": "États-Unis",
-        "description": "Calibre d'arme d'épaule d'origine de type rebated, développé et utilisé principalement en États-Unis. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site."
+        "description": "Calibre d'arme d'épaule d'origine de type rebated, développé et utilisé principalement en États-Unis. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "22_ppcusa",
@@ -154,7 +166,9 @@
         "primer_type": "Small Rifle",
         "intro_year": null,
         "origin_country": "Inconnu",
-        "description": "Calibre d'arme d'épaule d'origine de type rimless, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site."
+        "description": "Calibre d'arme d'épaule d'origine de type rimless, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "22_wmr",
@@ -176,7 +190,9 @@
         "primer_type": "Rimfire",
         "intro_year": 1959,
         "origin_country": "États-Unis",
-        "description": "Une version allongée et plus puissante du .22 LR, offrant une trajectoire plus tendue et une plus grande portée pour la petite chasse ou le tir récréatif."
+        "description": "Une version allongée et plus puissante du .22 LR, offrant une trajectoire plus tendue et une plus grande portée pour la petite chasse ou le tir récréatif.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "22_250_rem",
@@ -199,7 +215,9 @@
         "primer_type": "Large Rifle Magnum",
         "intro_year": 1937,
         "origin_country": "États-Unis",
-        "description": "Calibre de chasse varmint ultra-rapide capable de dépasser les 1200 m/s avec un projectile léger. Très apprécié pour le tir de régulation."
+        "description": "Calibre de chasse varmint ultra-rapide capable de dépasser les 1200 m/s avec un projectile léger. Très apprécié pour le tir de régulation.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "220_swift",
@@ -221,7 +239,9 @@
         "primer_type": "Large Rifle",
         "intro_year": 1935,
         "origin_country": "États-Unis",
-        "description": "Calibre pionnier de la très haute vélocité (dépassant 1200 m/s). Réputé exigeant pour les canons."
+        "description": "Calibre pionnier de la très haute vélocité (dépassant 1200 m/s). Réputé exigeant pour les canons.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "221_remington_fireball",
@@ -243,7 +263,9 @@
         "primer_type": "Small Rifle",
         "intro_year": null,
         "origin_country": "États-Unis",
-        "description": "Calibre d'arme d'épaule d'origine de type rimmed, développé et utilisé principalement en États-Unis. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site."
+        "description": "Calibre d'arme d'épaule d'origine de type rimmed, développé et utilisé principalement en États-Unis. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "222_rem",
@@ -266,7 +288,9 @@
         "primer_type": "Small Rifle",
         "intro_year": 1950,
         "origin_country": "États-Unis",
-        "description": "Calibre mythique de Benchrest et de chasse légendaire pour sa précision. Très populaire en France en raison des anciennes législations sur les calibres militaires."
+        "description": "Calibre mythique de Benchrest et de chasse légendaire pour sa précision. Très populaire en France en raison des anciennes législations sur les calibres militaires.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "222_rem_mag",
@@ -288,7 +312,9 @@
         "primer_type": "Small Rifle",
         "intro_year": null,
         "origin_country": "États-Unis",
-        "description": "Calibre d'arme d'épaule d'origine de type rimmed, développé et utilisé principalement en États-Unis. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site."
+        "description": "Calibre d'arme d'épaule d'origine de type rimmed, développé et utilisé principalement en États-Unis. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "223_rem",
@@ -311,7 +337,9 @@
         "primer_type": "Small Rifle",
         "intro_year": 1957,
         "origin_country": "États-Unis",
-        "description": "Dérivé du .222 Rem, il a servi de base au standard militaire de l'OTAN (5.56x45mm). Universellement répandu dans les fusils de type AR-15."
+        "description": "Dérivé du .222 Rem, il a servi de base au standard militaire de l'OTAN (5.56x45mm). Universellement répandu dans les fusils de type AR-15.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "223_wssm",
@@ -334,7 +362,9 @@
         "primer_type": "Small Rifle",
         "intro_year": null,
         "origin_country": "Inconnu",
-        "description": "Calibre d'arme d'épaule d'origine de type rebated, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site."
+        "description": "Calibre d'arme d'épaule d'origine de type rebated, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "224_valkyrie",
@@ -356,7 +386,9 @@
         "primer_type": "Small Rifle",
         "intro_year": null,
         "origin_country": "États-Unis",
-        "description": "Calibre d'arme d'épaule d'origine de type rimless, développé et utilisé principalement en États-Unis. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site."
+        "description": "Calibre d'arme d'épaule d'origine de type rimless, développé et utilisé principalement en États-Unis. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "240_weatherby_magnum",
@@ -378,7 +410,9 @@
         "primer_type": "Small Rifle",
         "intro_year": null,
         "origin_country": "États-Unis",
-        "description": "Calibre d'arme d'épaule d'origine de type rimmed, développé et utilisé principalement en États-Unis. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site."
+        "description": "Calibre d'arme d'épaule d'origine de type rimmed, développé et utilisé principalement en États-Unis. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "243_win",
@@ -401,7 +435,9 @@
         "primer_type": "Small Rifle",
         "intro_year": 1955,
         "origin_country": "États-Unis",
-        "description": "Créé en rétreignant le collet de la douille du .308 Win. Très polyvalent pour le chevreuil, le renard et le tir de précision."
+        "description": "Créé en rétreignant le collet de la douille du .308 Win. Très polyvalent pour le chevreuil, le renard et le tir de précision.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "25_acp",
@@ -423,7 +459,9 @@
         "primer_type": "Small Pistol",
         "intro_year": 1905,
         "origin_country": "Belgique / États-Unis",
-        "description": "Conçu par John Browning pour les pistolets de poche ultra-compacts (gilets de protection). Très faible recul."
+        "description": "Conçu par John Browning pour les pistolets de poche ultra-compacts (gilets de protection). Très faible recul.",
+        "wiki_url": null,
+        "data_note": "Volume d'étui estimé (non publié C.I.P./SAAMI)."
     },
     {
         "id": "250_savage",
@@ -446,7 +484,9 @@
         "primer_type": "Large Rifle Magnum",
         "intro_year": null,
         "origin_country": "États-Unis",
-        "description": "Calibre d'arme d'épaule d'origine de type rimless, développé et utilisé principalement en États-Unis. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site."
+        "description": "Calibre d'arme d'épaule d'origine de type rimless, développé et utilisé principalement en États-Unis. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "257_roberts",
@@ -468,7 +508,9 @@
         "primer_type": "Large Rifle",
         "intro_year": null,
         "origin_country": "Inconnu",
-        "description": "Calibre d'arme d'épaule d'origine de type rimmed, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site."
+        "description": "Calibre d'arme d'épaule d'origine de type rimmed, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "257_wby_mag",
@@ -491,7 +533,9 @@
         "primer_type": "Large Rifle",
         "intro_year": null,
         "origin_country": "États-Unis",
-        "description": "Calibre d'arme d'épaule d'origine de type belted, développé et utilisé principalement en États-Unis. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site."
+        "description": "Calibre d'arme d'épaule d'origine de type belted, développé et utilisé principalement en États-Unis. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "260_rem",
@@ -514,7 +558,9 @@
         "primer_type": "Large Rifle",
         "intro_year": 1997,
         "origin_country": "États-Unis",
-        "description": "Un étui de .308 Winchester rétreint en 6.5mm. Offre des performances très similaires au 6.5 Creedmoor."
+        "description": "Un étui de .308 Winchester rétreint en 6.5mm. Offre des performances très similaires au 6.5 Creedmoor.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "270_wsm",
@@ -537,7 +583,9 @@
         "primer_type": "Large Rifle",
         "intro_year": null,
         "origin_country": "Inconnu",
-        "description": "Calibre d'arme d'épaule d'origine de type rebated, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site."
+        "description": "Calibre d'arme d'épaule d'origine de type rebated, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "270_weatherby_magnum",
@@ -559,7 +607,9 @@
         "primer_type": "Large Rifle",
         "intro_year": null,
         "origin_country": "États-Unis",
-        "description": "Calibre d'arme d'épaule d'origine de type rimmed, développé et utilisé principalement en États-Unis. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site."
+        "description": "Calibre d'arme d'épaule d'origine de type rimmed, développé et utilisé principalement en États-Unis. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "270_win",
@@ -582,7 +632,9 @@
         "primer_type": "Large Rifle",
         "intro_year": 1925,
         "origin_country": "États-Unis",
-        "description": "Obtenu en rétreignant le collet du .30-06. Une munition légendaire de grande chasse à tir très tendu (grand gibier, plaine et montagne)."
+        "description": "Obtenu en rétreignant le collet du .30-06. Une munition légendaire de grande chasse à tir très tendu (grand gibier, plaine et montagne).",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "280_remington",
@@ -604,7 +656,9 @@
         "primer_type": "Large Rifle",
         "intro_year": null,
         "origin_country": "États-Unis",
-        "description": "Calibre d'arme d'épaule d'origine de type rimmed, développé et utilisé principalement en États-Unis. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site."
+        "description": "Calibre d'arme d'épaule d'origine de type rimmed, développé et utilisé principalement en États-Unis. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "284_winchester",
@@ -626,7 +680,9 @@
         "primer_type": "Large Rifle",
         "intro_year": null,
         "origin_country": "États-Unis",
-        "description": "Calibre d'arme d'épaule d'origine de type rebated, développé et utilisé principalement en États-Unis. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site."
+        "description": "Calibre d'arme d'épaule d'origine de type rebated, développé et utilisé principalement en États-Unis. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "30_carbine",
@@ -648,7 +704,9 @@
         "primer_type": "Large Rifle",
         "intro_year": null,
         "origin_country": "Inconnu",
-        "description": "Calibre d'arme d'épaule d'origine de type rimless, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site."
+        "description": "Calibre d'arme d'épaule d'origine de type rimless, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "30_r_blaser",
@@ -670,7 +728,9 @@
         "primer_type": "Large Rifle",
         "intro_year": null,
         "origin_country": "Allemagne",
-        "description": "Calibre d'arme d'épaule d'origine de type rimmed, développé et utilisé principalement en Allemagne. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site."
+        "description": "Calibre d'arme d'épaule d'origine de type rimmed, développé et utilisé principalement en Allemagne. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "30_t/c",
@@ -693,7 +753,9 @@
         "primer_type": "Large Rifle",
         "intro_year": null,
         "origin_country": "Inconnu",
-        "description": "Calibre d'arme d'épaule d'origine de type rimless, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site."
+        "description": "Calibre d'arme d'épaule d'origine de type rimless, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "30_06_springfield",
@@ -716,7 +778,9 @@
         "primer_type": "Large Rifle",
         "intro_year": 1906,
         "origin_country": "États-Unis",
-        "description": "Calibre militaire des deux guerres mondiales (M1 Garand, Springfield 1903). Devenu l'une des munitions de chasse les plus utilisées au monde."
+        "description": "Calibre militaire des deux guerres mondiales (M1 Garand, Springfield 1903). Devenu l'une des munitions de chasse les plus utilisées au monde.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "30_30_win",
@@ -739,7 +803,9 @@
         "primer_type": "Large Rifle",
         "intro_year": 1895,
         "origin_country": "États-Unis",
-        "description": "Calibre emblématique des carabines de cow-boy à levier de sous-garde (Winchester 94, Marlin 336). Portée pratique limitée mais recul modéré."
+        "description": "Calibre emblématique des carabines de cow-boy à levier de sous-garde (Winchester 94, Marlin 336). Portée pratique limitée mais recul modéré.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "300_blackout",
@@ -763,7 +829,9 @@
         "primer_type": "Large Rifle Magnum",
         "intro_year": 2011,
         "origin_country": "États-Unis",
-        "description": "Développé pour offrir des performances similaires au 7.62x39mm dans une carcasse d'AR-15 standard, excellent comportement en chargement subsonique avec modérateur de son."
+        "description": "Développé pour offrir des performances similaires au 7.62x39mm dans une carcasse d'AR-15 standard, excellent comportement en chargement subsonique avec modérateur de son.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "300_lapua_magnum",
@@ -785,7 +853,9 @@
         "primer_type": "Large Rifle Magnum",
         "intro_year": null,
         "origin_country": "Finlande",
-        "description": "Calibre d'arme d'épaule d'origine de type belted, développé et utilisé principalement en Finlande. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site."
+        "description": "Calibre d'arme d'épaule d'origine de type belted, développé et utilisé principalement en Finlande. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "300_norma_magnum",
@@ -807,7 +877,9 @@
         "primer_type": "Large Rifle Magnum",
         "intro_year": null,
         "origin_country": "Inconnu",
-        "description": "Calibre d'arme d'épaule d'origine de type belted, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site."
+        "description": "Calibre d'arme d'épaule d'origine de type belted, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "300_prc",
@@ -830,7 +902,9 @@
         "primer_type": "Large Rifle Magnum",
         "intro_year": 2018,
         "origin_country": "États-Unis",
-        "description": "Calibre magnum moderne sans ceinture de feu (beltless) optimisé pour loger des balles très longues à coefficient balistique très élevé pour le tir ELR."
+        "description": "Calibre magnum moderne sans ceinture de feu (beltless) optimisé pour loger des balles très longues à coefficient balistique très élevé pour le tir ELR.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "300_rcm",
@@ -853,7 +927,9 @@
         "primer_type": "Large Rifle Magnum",
         "intro_year": null,
         "origin_country": "Inconnu",
-        "description": "Calibre d'arme d'épaule d'origine de type rimmed, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site."
+        "description": "Calibre d'arme d'épaule d'origine de type rimmed, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "300_rem_ultra_mag",
@@ -876,7 +952,9 @@
         "primer_type": "Large Rifle Magnum",
         "intro_year": null,
         "origin_country": "États-Unis",
-        "description": "Calibre d'arme d'épaule d'origine de type rimmed, développé et utilisé principalement en États-Unis. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site."
+        "description": "Calibre d'arme d'épaule d'origine de type rimmed, développé et utilisé principalement en États-Unis. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "300_savage",
@@ -898,7 +976,9 @@
         "primer_type": "Large Rifle Magnum",
         "intro_year": null,
         "origin_country": "États-Unis",
-        "description": "Calibre d'arme d'épaule d'origine de type rimless, développé et utilisé principalement en États-Unis. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site."
+        "description": "Calibre d'arme d'épaule d'origine de type rimless, développé et utilisé principalement en États-Unis. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "300_wsm",
@@ -921,7 +1001,9 @@
         "primer_type": "Large Rifle Magnum",
         "intro_year": null,
         "origin_country": "Inconnu",
-        "description": "Calibre d'arme d'épaule d'origine de type rebated, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site."
+        "description": "Calibre d'arme d'épaule d'origine de type rebated, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "300_weatherby_magnum",
@@ -943,7 +1025,9 @@
         "primer_type": "Large Rifle Magnum",
         "intro_year": null,
         "origin_country": "États-Unis",
-        "description": "Calibre d'arme d'épaule d'origine de type rimmed, développé et utilisé principalement en États-Unis. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site."
+        "description": "Calibre d'arme d'épaule d'origine de type rimmed, développé et utilisé principalement en États-Unis. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "300_win_mag",
@@ -966,7 +1050,9 @@
         "primer_type": "Large Rifle Magnum",
         "intro_year": 1963,
         "origin_country": "États-Unis",
-        "description": "Très populaire pour le tir d'élite longue distance (militaires et forces de l'ordre) ainsi que pour la chasse au très gros gibier."
+        "description": "Très populaire pour le tir d'élite longue distance (militaires et forces de l'ordre) ainsi que pour la chasse au très gros gibier.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "303_british",
@@ -989,7 +1075,9 @@
         "primer_type": "Large Rifle",
         "intro_year": 1889,
         "origin_country": "Royaume-Uni",
-        "description": "Calibre militaire du Lee-Enfield de l'Empire britannique. À l'origine conçu pour la poudre noire avec une balle à calotte de papier."
+        "description": "Calibre militaire du Lee-Enfield de l'Empire britannique. À l'origine conçu pour la poudre noire avec une balle à calotte de papier.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "308_marlin_express",
@@ -1011,7 +1099,9 @@
         "primer_type": "Large Rifle",
         "intro_year": null,
         "origin_country": "États-Unis",
-        "description": "Calibre d'arme d'épaule d'origine de type rimmed, développé et utilisé principalement en États-Unis. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site."
+        "description": "Calibre d'arme d'épaule d'origine de type rimmed, développé et utilisé principalement en États-Unis. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "308_win",
@@ -1034,7 +1124,9 @@
         "primer_type": "Large Rifle",
         "intro_year": 1952,
         "origin_country": "États-Unis",
-        "description": "Standard militaire de fait (7.62x51). Calibre universel de précision pour fusils à verrou ou semi-automatiques, réputé stable et tolérant."
+        "description": "Standard militaire de fait (7.62x51). Calibre universel de précision pour fusils à verrou ou semi-automatiques, réputé stable et tolérant.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "32_acp",
@@ -1056,7 +1148,9 @@
         "primer_type": "Small Pistol",
         "intro_year": 1899,
         "origin_country": "Belgique",
-        "description": "Calibre mythique de John Browning ayant équipé d'innombrables pistolets policiers et militaires européens au XXe siècle (ex: Walther PP/PPK, Ruby)."
+        "description": "Calibre mythique de John Browning ayant équipé d'innombrables pistolets policiers et militaires européens au XXe siècle (ex: Walther PP/PPK, Ruby).",
+        "wiki_url": null,
+        "data_note": "Volume d'étui estimé (non publié C.I.P./SAAMI)."
     },
     {
         "id": "32_sw_long",
@@ -1078,7 +1172,9 @@
         "primer_type": "Small Pistol",
         "intro_year": 1896,
         "origin_country": "États-Unis",
-        "description": "Calibre réputé pour sa précision extrême à courte distance. Très prisé dans les épreuves de tir de précision ISSF à 25 mètres (Pistolet Sport)."
+        "description": "Calibre réputé pour sa précision extrême à courte distance. Très prisé dans les épreuves de tir de précision ISSF à 25 mètres (Pistolet Sport).",
+        "wiki_url": null,
+        "data_note": "Volume d'étui estimé (non publié C.I.P./SAAMI)."
     },
     {
         "id": "338_lapua",
@@ -1101,7 +1197,9 @@
         "primer_type": "Large Rifle Magnum",
         "intro_year": 1989,
         "origin_country": "Finlande",
-        "description": "Conçu spécifiquement pour le tir de précision militaire longue distance (jusqu'à 1500m+) afin de se situer entre le 7.62 NATO et le .50 BMG."
+        "description": "Conçu spécifiquement pour le tir de précision militaire longue distance (jusqu'à 1500m+) afin de se situer entre le 7.62 NATO et le .50 BMG.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "338_norma_mag",
@@ -1123,7 +1221,9 @@
         "primer_type": "Large Rifle Magnum",
         "intro_year": null,
         "origin_country": "Inconnu",
-        "description": "Calibre d'arme d'épaule d'origine de type belted, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site."
+        "description": "Calibre d'arme d'épaule d'origine de type belted, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "338_win_mag",
@@ -1145,7 +1245,9 @@
         "primer_type": "Large Rifle Magnum",
         "intro_year": null,
         "origin_country": "États-Unis",
-        "description": "Calibre d'arme d'épaule d'origine de type belted, développé et utilisé principalement en États-Unis. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site."
+        "description": "Calibre d'arme d'épaule d'origine de type belted, développé et utilisé principalement en États-Unis. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "357_magnum",
@@ -1168,7 +1270,9 @@
         "primer_type": "Small Pistol Magnum",
         "intro_year": 1934,
         "origin_country": "États-Unis",
-        "description": "Créé en allongeant la douille du .38 Special pour supporter de très fortes pressions. Un grand classique pour revolvers de défense et de sport."
+        "description": "Créé en allongeant la douille du .38 Special pour supporter de très fortes pressions. Un grand classique pour revolvers de défense et de sport.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "357_sig",
@@ -1191,7 +1295,9 @@
         "primer_type": "Small Pistol",
         "intro_year": 1994,
         "origin_country": "Suisse / États-Unis",
-        "description": "Créé en rétreignant un étui de .40 S&W pour y loger une balle de 9mm. Conçu pour reproduire la balistique du .357 Mag dans un pistolet semi-automatique."
+        "description": "Créé en rétreignant un étui de .40 S&W pour y loger une balle de 9mm. Conçu pour reproduire la balistique du .357 Mag dans un pistolet semi-automatique.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "375_hh_mag",
@@ -1214,7 +1320,9 @@
         "primer_type": "Large Rifle Magnum",
         "intro_year": 1912,
         "origin_country": "Royaume-Uni",
-        "description": "La référence absolue pour le safari africain. Considéré comme le calibre minimum légal pour la chasse aux « Big Five » (les 5 grands fauves) dans de nombreux pays."
+        "description": "La référence absolue pour le safari africain. Considéré comme le calibre minimum légal pour la chasse aux « Big Five » (les 5 grands fauves) dans de nombreux pays.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "38_special",
@@ -1237,7 +1345,9 @@
         "primer_type": "Large Pistol",
         "intro_year": 1898,
         "origin_country": "États-Unis",
-        "description": "Le calibre de revolver le plus populaire au monde, réputé pour sa précision exceptionnelle et son recul modéré."
+        "description": "Le calibre de revolver le plus populaire au monde, réputé pour sa précision exceptionnelle et son recul modéré.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "380_acp",
@@ -1263,7 +1373,9 @@
         "primer_type": "Small Pistol",
         "intro_year": 1908,
         "origin_country": "États-Unis",
-        "description": "Conçu pour les pistolets semi-automatiques compacts à culasse non calée (blowback). Populaire pour la défense personnelle."
+        "description": "Conçu pour les pistolets semi-automatiques compacts à culasse non calée (blowback). Populaire pour la défense personnelle.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "40_sw",
@@ -1286,7 +1398,9 @@
         "primer_type": "Small Pistol",
         "intro_year": 1990,
         "origin_country": "États-Unis",
-        "description": "Compromis entre le 9mm Parabellum et le .45 ACP, conçu à la demande du FBI après la fusillade de Miami."
+        "description": "Compromis entre le 9mm Parabellum et le .45 ACP, conçu à la demande du FBI après la fusillade de Miami.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "408_cheytac",
@@ -1308,7 +1422,9 @@
         "primer_type": "Large Rifle Magnum",
         "intro_year": 2001,
         "origin_country": "États-Unis",
-        "description": "Conçu pour combler le vide entre le .338 Lapua et le .50 BMG. Détient de nombreux records mondiaux de tir à très longue distance (ELR)."
+        "description": "Conçu pour combler le vide entre le .338 Lapua et le .50 BMG. Détient de nombreux records mondiaux de tir à très longue distance (ELR).",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "41_rem_mag",
@@ -1332,7 +1448,9 @@
         "primer_type": "Large Pistol Magnum",
         "intro_year": 1964,
         "origin_country": "États-Unis",
-        "description": "Calibre intermédiaire de revolver destiné à combler le fossé entre le .357 Magnum et le .44 Magnum pour le maintien de l'ordre."
+        "description": "Calibre intermédiaire de revolver destiné à combler le fossé entre le .357 Magnum et le .44 Magnum pour le maintien de l'ordre.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "416_barrett",
@@ -1354,7 +1472,9 @@
         "primer_type": "Large Rifle Magnum",
         "intro_year": 2005,
         "origin_country": "États-Unis",
-        "description": "Développé en modifiant un étui de .50 BMG. Conçu pour le tir à ultra-longue distance, avec un vol supersonique au-delà de 2000 mètres."
+        "description": "Développé en modifiant un étui de .50 BMG. Conçu pour le tir à ultra-longue distance, avec un vol supersonique au-delà de 2000 mètres.",
+        "wiki_url": null,
+        "data_note": "Pression maximale indicative (cartouche non normalisée C.I.P.)."
     },
     {
         "id": "416_rigby",
@@ -1376,7 +1496,9 @@
         "primer_type": "Large Rifle Magnum",
         "intro_year": null,
         "origin_country": "Inconnu",
-        "description": "Calibre d'arme d'épaule d'origine de type rimmed, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site."
+        "description": "Calibre d'arme d'épaule d'origine de type rimmed, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "44_magnum",
@@ -1399,7 +1521,9 @@
         "primer_type": "Large Pistol Magnum",
         "intro_year": 1955,
         "origin_country": "États-Unis",
-        "description": "Popularisé par le film 'L'Inspecteur Harry'. Calibre mythique pour la chasse de gros gigier à l'arme de poing et la silhouette métallique."
+        "description": "Popularisé par le film 'L'Inspecteur Harry'. Calibre mythique pour la chasse de gros gigier à l'arme de poing et la silhouette métallique.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "44_special",
@@ -1421,7 +1545,9 @@
         "primer_type": "Large Pistol",
         "intro_year": 1907,
         "origin_country": "États-Unis",
-        "description": "Grand frère historique du .44 Magnum. Réputé pour sa douceur et sa précision dans les revolvers compacts."
+        "description": "Grand frère historique du .44 Magnum. Réputé pour sa douceur et sa précision dans les revolvers compacts.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "44_40_win",
@@ -1443,7 +1569,9 @@
         "primer_type": "Large Pistol",
         "intro_year": 1873,
         "origin_country": "États-Unis",
-        "description": "Premier calibre polyvalent moderne permettant d'utiliser les mêmes cartouches dans sa carabine Winchester 1873 et son revolver Colt Frontier."
+        "description": "Premier calibre polyvalent moderne permettant d'utiliser les mêmes cartouches dans sa carabine Winchester 1873 et son revolver Colt Frontier.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "444_marlin",
@@ -1465,7 +1593,9 @@
         "primer_type": "Large Rifle",
         "intro_year": null,
         "origin_country": "États-Unis",
-        "description": "Calibre d'arme d'épaule d'origine de type rimmed, développé et utilisé principalement en États-Unis. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site."
+        "description": "Calibre d'arme d'épaule d'origine de type rimmed, développé et utilisé principalement en États-Unis. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "45_acp",
@@ -1490,7 +1620,9 @@
         "primer_type": "Small Pistol",
         "intro_year": 1904,
         "origin_country": "États-Unis",
-        "description": "Développé par John Browning pour le célèbre pistolet Colt M1911. Calibre lourd et lent doté d'un excellent pouvoir d'arrêt."
+        "description": "Développé par John Browning pour le célèbre pistolet Colt M1911. Calibre lourd et lent doté d'un excellent pouvoir d'arrêt.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "45_colt",
@@ -1513,7 +1645,9 @@
         "primer_type": "Large Pistol",
         "intro_year": 1872,
         "origin_country": "États-Unis",
-        "description": "Calibre historique du revolver Colt Single Action Army (Peacemaker) à l'époque de la conquête de l'Ouest. Très populaire en Cowboy Action Shooting."
+        "description": "Calibre historique du revolver Colt Single Action Army (Peacemaker) à l'époque de la conquête de l'Ouest. Très populaire en Cowboy Action Shooting.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "45_winchester_magnum",
@@ -1535,7 +1669,9 @@
         "primer_type": "Large Pistol Magnum",
         "intro_year": null,
         "origin_country": "États-Unis",
-        "description": "Calibre d'arme de poing d'origine de type rimmed, développé et utilisé principalement en États-Unis. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site."
+        "description": "Calibre d'arme de poing d'origine de type rimmed, développé et utilisé principalement en États-Unis. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "45_70_govt",
@@ -1559,7 +1695,9 @@
         "primer_type": "Large Rifle",
         "intro_year": 1873,
         "origin_country": "États-Unis",
-        "description": "Munition de l'armée américaine à la fin du XIXe siècle. Très prisée dans les carabines modernes à levier de sous-garde pour la chasse en sous-bois."
+        "description": "Munition de l'armée américaine à la fin du XIXe siècle. Très prisée dans les carabines modernes à levier de sous-garde pour la chasse en sous-bois.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "450_bushmaster",
@@ -1581,7 +1719,9 @@
         "primer_type": "Large Rifle",
         "intro_year": 2007,
         "origin_country": "États-Unis",
-        "description": "Conçu pour le concept de 'gros calibre' (Thumper) dans la plateforme AR-15, tirant des balles de .452\" à courte distance pour la chasse en battue."
+        "description": "Conçu pour le concept de 'gros calibre' (Thumper) dans la plateforme AR-15, tirant des balles de .452\" à courte distance pour la chasse en battue.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "454_casull",
@@ -1604,7 +1744,9 @@
         "primer_type": "Large Pistol",
         "intro_year": 1957,
         "origin_country": "États-Unis",
-        "description": "Développé par Dick Casull. Version sur-vitaminée du .45 Colt conçue pour résister à d'immenses pressions, destinée à la chasse aux grands fauves."
+        "description": "Développé par Dick Casull. Version sur-vitaminée du .45 Colt conçue pour résister à d'immenses pressions, destinée à la chasse aux grands fauves.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "458_socom",
@@ -1626,7 +1768,9 @@
         "primer_type": "Large Rifle",
         "intro_year": null,
         "origin_country": "États-Unis",
-        "description": "Calibre d'arme d'épaule d'origine de type rebated, développé et utilisé principalement en États-Unis. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site."
+        "description": "Calibre d'arme d'épaule d'origine de type rebated, développé et utilisé principalement en États-Unis. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "458_win_mag",
@@ -1649,7 +1793,9 @@
         "primer_type": "Large Rifle",
         "intro_year": 1956,
         "origin_country": "États-Unis",
-        "description": "Créé pour remplacer les coûteux calibres anglais de double Express en safari. Calibre lourd et puissant pour éléphants et buffles."
+        "description": "Créé pour remplacer les coûteux calibres anglais de double Express en safari. Calibre lourd et puissant pour éléphants et buffles.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "460_sw_mag",
@@ -1673,7 +1819,9 @@
         "primer_type": "Large Pistol Magnum",
         "intro_year": 2005,
         "origin_country": "États-Unis",
-        "description": "Le calibre de revolver à percussion centrale de série le plus rapide du monde. Développé pour la chasse à longue distance."
+        "description": "Le calibre de revolver à percussion centrale de série le plus rapide du monde. Développé pour la chasse à longue distance.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "50_ae",
@@ -1697,7 +1845,9 @@
         "primer_type": "Large Pistol",
         "intro_year": 1988,
         "origin_country": "États-Unis",
-        "description": "Munition reine du pistolet semi-automatique Desert Eagle. Diamètre de culot réduit (identique au .44 Mag) pour faciliter la conversion d'armes."
+        "description": "Munition reine du pistolet semi-automatique Desert Eagle. Diamètre de culot réduit (identique au .44 Mag) pour faciliter la conversion d'armes.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "50_bmg",
@@ -1719,7 +1869,9 @@
         "primer_type": "Large Rifle Magnum",
         "intro_year": 1921,
         "origin_country": "États-Unis",
-        "description": "Munition lourde de mitrailleuse lourde (M2 Browning) et de fusil de précision à très longue portée antimatériel (ex: Barrett M82)."
+        "description": "Munition lourde de mitrailleuse lourde (M2 Browning) et de fusil de précision à très longue portée antimatériel (ex: Barrett M82).",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "500_sw_mag",
@@ -1741,7 +1893,9 @@
         "primer_type": "Large Rifle",
         "intro_year": 2003,
         "origin_country": "États-Unis",
-        "description": "Conçu par Smith & Wesson pour son revolver géant à carcasse X. L'une des munitions d'arme de poing de série les plus énergétiques."
+        "description": "Conçu par Smith & Wesson pour son revolver géant à carcasse X. L'une des munitions d'arme de poing de série les plus énergétiques.",
+        "wiki_url": null,
+        "data_note": "Volume d'étui estimé (non publié C.I.P./SAAMI)."
     },
     {
         "id": "103_x_60_r",
@@ -1763,7 +1917,9 @@
         "primer_type": "Large Rifle",
         "intro_year": null,
         "origin_country": "Inconnu",
-        "description": "Calibre d'arme d'épaule d'origine de type rimmed, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site."
+        "description": "Calibre d'arme d'épaule d'origine de type rimmed, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "10mm_auto",
@@ -1786,7 +1942,9 @@
         "primer_type": "Large Pistol",
         "intro_year": 1983,
         "origin_country": "États-Unis",
-        "description": "Calibre d'arme de poing très puissant à trajectoire tendue, initialement adopté par le FBI avant d'être jugé trop puissant pour un usage généralisé."
+        "description": "Calibre d'arme de poing très puissant à trajectoire tendue, initialement adopté par le FBI avant d'être jugé trop puissant pour un usage généralisé.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "219_zipper",
@@ -1808,7 +1966,9 @@
         "primer_type": "Small Rifle",
         "intro_year": null,
         "origin_country": "États-Unis",
-        "description": "Calibre d'arme d'épaule d'origine de type rimmed, développé et utilisé principalement en États-Unis. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site."
+        "description": "Calibre d'arme d'épaule d'origine de type rimmed, développé et utilisé principalement en États-Unis. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "25_06_remington",
@@ -1830,7 +1990,9 @@
         "primer_type": "Large Rifle",
         "intro_year": null,
         "origin_country": "États-Unis",
-        "description": "Calibre d'arme d'épaule d'origine de type rimmed, développé et utilisé principalement en États-Unis. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site."
+        "description": "Calibre d'arme d'épaule d'origine de type rimmed, développé et utilisé principalement en États-Unis. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "33806",
@@ -1853,7 +2015,9 @@
         "primer_type": "Large Rifle Magnum",
         "intro_year": null,
         "origin_country": "Inconnu",
-        "description": "Calibre d'arme d'épaule d'origine de type rimless, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site."
+        "description": "Calibre d'arme d'épaule d'origine de type rimless, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "35_remington",
@@ -1875,7 +2039,9 @@
         "primer_type": "Large Rifle",
         "intro_year": null,
         "origin_country": "États-Unis",
-        "description": "Calibre d'arme d'épaule d'origine de type rimmed, développé et utilisé principalement en États-Unis. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site."
+        "description": "Calibre d'arme d'épaule d'origine de type rimmed, développé et utilisé principalement en États-Unis. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "357_maximum",
@@ -1900,7 +2066,9 @@
         "primer_type": "Large Pistol",
         "intro_year": null,
         "origin_country": "Inconnu",
-        "description": "Calibre d'arme de poing d'origine de type rimmed, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site."
+        "description": "Calibre d'arme de poing d'origine de type rimmed, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "38_super_auto",
@@ -1923,7 +2091,9 @@
         "primer_type": "Small Pistol",
         "intro_year": null,
         "origin_country": "Inconnu",
-        "description": "Calibre d'arme de poing d'origine de type rimmed, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site."
+        "description": "Calibre d'arme de poing d'origine de type rimmed, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "475_linebaugh",
@@ -1945,7 +2115,9 @@
         "primer_type": "Large Pistol",
         "intro_year": null,
         "origin_country": "États-Unis",
-        "description": "Calibre d'arme de poing d'origine de type rimmed, développé et utilisé principalement en États-Unis. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site."
+        "description": "Calibre d'arme de poing d'origine de type rimmed, développé et utilisé principalement en États-Unis. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "545x39_m74",
@@ -1967,7 +2139,9 @@
         "primer_type": "Small Rifle",
         "intro_year": 1974,
         "origin_country": "Union Soviétique",
-        "description": "Réponse soviétique au 5.56 NATO. Utilisé dans le fusil d'assaut AK-74, réputé pour sa flèche très tendue et son recul quasi-inexistant."
+        "description": "Réponse soviétique au 5.56 NATO. Utilisé dans le fusil d'assaut AK-74, réputé pour sa flèche très tendue et son recul quasi-inexistant.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "56_x_50_r_mag",
@@ -1989,7 +2163,9 @@
         "primer_type": "Large Rifle Magnum",
         "intro_year": null,
         "origin_country": "Inconnu",
-        "description": "Calibre d'arme d'épaule d'origine de type rimmed, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site."
+        "description": "Calibre d'arme d'épaule d'origine de type rimmed, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "57x28_fn",
@@ -2011,7 +2187,9 @@
         "primer_type": "Small Rifle",
         "intro_year": 1990,
         "origin_country": "Belgique",
-        "description": "Conçu par la FN Herstal pour remplacer le 9mm dans les rôles de défense individuelle (P90 et Five-seveN). Projectile léger ultra-rapide."
+        "description": "Conçu par la FN Herstal pour remplacer le 9mm dans les rôles de défense individuelle (P90 et Five-seveN). Projectile léger ultra-rapide.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "6_norma_br",
@@ -2035,7 +2213,9 @@
         "primer_type": "Small Rifle",
         "intro_year": null,
         "origin_country": "Inconnu",
-        "description": "Calibre d'arme d'épaule d'origine de type rimless, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site."
+        "description": "Calibre d'arme d'épaule d'origine de type rimless, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "6_xc",
@@ -2057,7 +2237,9 @@
         "primer_type": "Small Rifle",
         "intro_year": null,
         "origin_country": "Inconnu",
-        "description": "Calibre d'arme d'épaule d'origine de type rimless, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site."
+        "description": "Calibre d'arme d'épaule d'origine de type rimless, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "65_creedmoor",
@@ -2079,7 +2261,9 @@
         "primer_type": "Large Rifle",
         "intro_year": 2007,
         "origin_country": "États-Unis",
-        "description": "Calibre moderne développé par Hornady. Standard de fait pour le tir à longue distance (TLD) à faible recul, optimisé pour les culasses courtes d'action standard."
+        "description": "Calibre moderne développé par Hornady. Standard de fait pour le tir à longue distance (TLD) à faible recul, optimisé pour les culasses courtes d'action standard.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "65_grendel",
@@ -2102,7 +2286,9 @@
         "primer_type": "Large Rifle",
         "intro_year": 2003,
         "origin_country": "États-Unis",
-        "description": "Développé pour maximiser les performances à moyenne et longue distance de la plateforme AR-15 en remplaçant la munition 5.56 NATO."
+        "description": "Développé pour maximiser les performances à moyenne et longue distance de la plateforme AR-15 en remplaçant la munition 5.56 NATO.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "65_prc",
@@ -2124,7 +2310,9 @@
         "primer_type": "Large Rifle",
         "intro_year": 2018,
         "origin_country": "États-Unis",
-        "description": "Version 'Magnum' moderne du 6.5 Creedmoor conçue par Hornady. Offre environ 80 m/s de vitesse supplémentaire pour le tir à longue distance et la chasse."
+        "description": "Version 'Magnum' moderne du 6.5 Creedmoor conçue par Hornady. Offre environ 80 m/s de vitesse supplémentaire pour le tir à longue distance et la chasse.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "65284_norma",
@@ -2147,7 +2335,9 @@
         "primer_type": "Large Rifle",
         "intro_year": null,
         "origin_country": "Inconnu",
-        "description": "Calibre d'arme d'épaule d'origine de type rebated, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site."
+        "description": "Calibre d'arme d'épaule d'origine de type rebated, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "65x47_lapua",
@@ -2170,7 +2360,9 @@
         "primer_type": "Large Rifle",
         "intro_year": 2005,
         "origin_country": "Finlande",
-        "description": "Développé spécifiquement par Lapua pour la compétition de tir de précision à 300m. Exceptionnellement régulier."
+        "description": "Développé spécifiquement par Lapua pour la compétition de tir de précision à 300m. Exceptionnellement régulier.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "65x55_swedish",
@@ -2195,7 +2387,9 @@
         "primer_type": "Large Rifle",
         "intro_year": 1894,
         "origin_country": "Suède / Norvège",
-        "description": "Calibre militaire historique scandinave (Mauser suédois), légendaire pour sa précision, son recul doux et la grande densité de section de ses projectiles."
+        "description": "Calibre militaire historique scandinave (Mauser suédois), légendaire pour sa précision, son recul doux et la grande densité de section de ses projectiles.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "68_western",
@@ -2217,7 +2411,9 @@
         "primer_type": "Large Rifle",
         "intro_year": null,
         "origin_country": "Inconnu",
-        "description": "Calibre d'arme d'épaule d'origine de type rebated, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site."
+        "description": "Calibre d'arme d'épaule d'origine de type rebated, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "6mm_arc",
@@ -2240,7 +2436,9 @@
         "primer_type": "Small Rifle",
         "intro_year": null,
         "origin_country": "Inconnu",
-        "description": "Calibre d'arme d'épaule d'origine de type rimless, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site."
+        "description": "Calibre d'arme d'épaule d'origine de type rimless, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "6mm_creedmoor",
@@ -2263,7 +2461,9 @@
         "primer_type": "Small Rifle",
         "intro_year": 2007,
         "origin_country": "États-Unis",
-        "description": "Version de compétition issue du 6.5 Creedmoor, optimisée pour le tir à très longue distance avec un recul encore plus modéré."
+        "description": "Version de compétition issue du 6.5 Creedmoor, optimisée pour le tir à très longue distance avec un recul encore plus modéré.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "6mm_ppc",
@@ -2288,7 +2488,9 @@
         "primer_type": "Small Rifle",
         "intro_year": null,
         "origin_country": "Inconnu",
-        "description": "Calibre d'arme d'épaule d'origine de type rimless, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site."
+        "description": "Calibre d'arme d'épaule d'origine de type rimless, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "6_mm_remington",
@@ -2310,7 +2512,9 @@
         "primer_type": "Small Rifle",
         "intro_year": null,
         "origin_country": "États-Unis",
-        "description": "Calibre d'arme d'épaule d'origine de type rimmed, développé et utilisé principalement en États-Unis. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site."
+        "description": "Calibre d'arme d'épaule d'origine de type rimmed, développé et utilisé principalement en États-Unis. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "7_x_57_r",
@@ -2332,7 +2536,9 @@
         "primer_type": "Large Rifle",
         "intro_year": null,
         "origin_country": "Inconnu",
-        "description": "Calibre d'arme d'épaule d'origine de type rimmed, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site."
+        "description": "Calibre d'arme d'épaule d'origine de type rimmed, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "7_x_65_r",
@@ -2355,7 +2561,9 @@
         "primer_type": "Large Rifle",
         "intro_year": null,
         "origin_country": "Inconnu",
-        "description": "Calibre d'arme d'épaule d'origine de type rimmed, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site."
+        "description": "Calibre d'arme d'épaule d'origine de type rimmed, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "75_swiss_rev",
@@ -2377,7 +2585,9 @@
         "primer_type": "Small Pistol",
         "intro_year": 1882,
         "origin_country": "Suisse",
-        "description": "Munition de service du revolver d'ordonnance suisse Modèle 1882. Chargée à l'origine à la poudre noire puis à la poudre sans fumée."
+        "description": "Munition de service du revolver d'ordonnance suisse Modèle 1882. Chargée à l'origine à la poudre noire puis à la poudre sans fumée.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "75x54_french",
@@ -2399,7 +2609,9 @@
         "primer_type": "Large Rifle",
         "intro_year": 1929,
         "origin_country": "France",
-        "description": "Calibre de service français pour les fusils MAS 36, MAS 49/56 et fusils-mitrailleurs 24/29."
+        "description": "Calibre de service français pour les fusils MAS 36, MAS 49/56 et fusils-mitrailleurs 24/29.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "75x55_swiss",
@@ -2422,7 +2634,9 @@
         "primer_type": "Large Rifle",
         "intro_year": 1911,
         "origin_country": "Suisse",
-        "description": "Munition militaire d'ordonnance suisse (GP11) utilisée dans le K31. Exceptionnelle régularité de fabrication d'origine."
+        "description": "Munition militaire d'ordonnance suisse (GP11) utilisée dans le K31. Exceptionnelle régularité de fabrication d'origine.",
+        "wiki_url": "https://www.tireur.org/wiki/doku.php?id=technique:cartouche_7-5x55",
+        "data_note": null
     },
     {
         "id": "762x25_tokarev",
@@ -2444,7 +2658,9 @@
         "primer_type": "Small Pistol",
         "intro_year": 1930,
         "origin_country": "Union Soviétique",
-        "description": "Calibre à douille bouteille ultra-rapide utilisé dans les pistolets TT-33 et pistolets-mitrailleurs (PPSh-41). Forte capacité de perforation."
+        "description": "Calibre à douille bouteille ultra-rapide utilisé dans les pistolets TT-33 et pistolets-mitrailleurs (PPSh-41). Forte capacité de perforation.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "762x39_m43",
@@ -2467,7 +2683,9 @@
         "primer_type": "Large Rifle",
         "intro_year": 1943,
         "origin_country": "Union Soviétique",
-        "description": "Calibre de l'AK-47 et de la SKS. Conçu pour le combat à moyenne portée. Munition économique et rustique."
+        "description": "Calibre de l'AK-47 et de la SKS. Conçu pour le combat à moyenne portée. Munition économique et rustique.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "762x54r",
@@ -2490,7 +2708,9 @@
         "primer_type": "Large Rifle",
         "intro_year": 1891,
         "origin_country": "Union Soviétique",
-        "description": "Le plus ancien calibre militaire toujours en service actif dans le monde (Dragunov SVD, PKM, Mosin-Nagant). Puissant et doté d'un gros bourrelet."
+        "description": "Le plus ancien calibre militaire toujours en service actif dans le monde (Dragunov SVD, PKM, Mosin-Nagant). Puissant et doté d'un gros bourrelet.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "763_mauser",
@@ -2512,7 +2732,9 @@
         "primer_type": "Small Pistol",
         "intro_year": 1896,
         "origin_country": "Allemagne",
-        "description": "Munition d'origine du pistolet Mauser C96. Très proche du Tokarev mais avec une pression de fonctionnement légèrement inférieure."
+        "description": "Munition d'origine du pistolet Mauser C96. Très proche du Tokarev mais avec une pression de fonctionnement légèrement inférieure.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "765_luger",
@@ -2534,7 +2756,9 @@
         "primer_type": "Small Pistol",
         "intro_year": 1898,
         "origin_country": "Allemagne",
-        "description": "Prédécesseur du 9x19mm Parabellum. Utilisé notamment dans le pistolet Luger original et adopté par l'armée suisse."
+        "description": "Prédécesseur du 9x19mm Parabellum. Utilisé notamment dans le pistolet Luger original et adopté par l'armée suisse.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "765_argentined",
@@ -2556,7 +2780,9 @@
         "primer_type": "Large Rifle",
         "intro_year": 1889,
         "origin_country": "Allemagne",
-        "description": "Calibre militaire historique conçu par Mauser pour la Belgique et l'Argentine. Très proche balistiquement du .303 British ou du 7.62x54R."
+        "description": "Calibre militaire historique conçu par Mauser pour la Belgique et l'Argentine. Très proche balistiquement du .303 British ou du 7.62x54R.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "7mm_br_remington",
@@ -2579,7 +2805,9 @@
         "primer_type": "Large Rifle",
         "intro_year": null,
         "origin_country": "États-Unis",
-        "description": "Calibre d'arme d'épaule d'origine de type rimmed, développé et utilisé principalement en États-Unis. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site."
+        "description": "Calibre d'arme d'épaule d'origine de type rimmed, développé et utilisé principalement en États-Unis. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "7mm_prc",
@@ -2602,7 +2830,9 @@
         "primer_type": "Large Rifle",
         "intro_year": null,
         "origin_country": "Inconnu",
-        "description": "Calibre d'arme d'épaule d'origine de type rimless, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site."
+        "description": "Calibre d'arme d'épaule d'origine de type rimless, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "7mm_rum",
@@ -2625,7 +2855,9 @@
         "primer_type": "Large Rifle",
         "intro_year": null,
         "origin_country": "Inconnu",
-        "description": "Calibre d'arme d'épaule d'origine de type rimmed, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site."
+        "description": "Calibre d'arme d'épaule d'origine de type rimmed, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "7mm_rem_mag",
@@ -2648,7 +2880,9 @@
         "primer_type": "Large Rifle",
         "intro_year": 1962,
         "origin_country": "États-Unis",
-        "description": "Une des munitions magnum de grande chasse les plus populaires au monde, réputée pour sa vitesse et son énergie résiduelle à longue distance."
+        "description": "Une des munitions magnum de grande chasse les plus populaires au monde, réputée pour sa vitesse et son énergie résiduelle à longue distance.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "7mm_wsm",
@@ -2672,7 +2906,9 @@
         "primer_type": "Large Rifle",
         "intro_year": null,
         "origin_country": "Inconnu",
-        "description": "Calibre d'arme d'épaule d'origine de type rebated, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site."
+        "description": "Calibre d'arme d'épaule d'origine de type rebated, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "7mm_weatherby_magnum",
@@ -2694,7 +2930,9 @@
         "primer_type": "Large Rifle",
         "intro_year": null,
         "origin_country": "États-Unis",
-        "description": "Calibre d'arme d'épaule d'origine de type rimmed, développé et utilisé principalement en États-Unis. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site."
+        "description": "Calibre d'arme d'épaule d'origine de type rimmed, développé et utilisé principalement en États-Unis. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "7mm_08_rem",
@@ -2718,7 +2956,9 @@
         "primer_type": "Large Rifle",
         "intro_year": 1980,
         "origin_country": "États-Unis",
-        "description": "Douille de .308 rétreinte en 7mm. Offre un excellent équilibre entre le recul modéré et une excellente efficacité à la chasse et en TLD."
+        "description": "Douille de .308 rétreinte en 7mm. Offre un excellent équilibre entre le recul modéré et une excellente efficacité à la chasse et en TLD.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "7x57_mauser",
@@ -2741,7 +2981,9 @@
         "primer_type": "Large Rifle",
         "intro_year": 1892,
         "origin_country": "Allemagne",
-        "description": "Calibre militaire historique adopté par l'Espagne et plusieurs pays d'Amérique du Sud. Réputé pour son recul confortable et sa pénétration élevée."
+        "description": "Calibre militaire historique adopté par l'Espagne et plusieurs pays d'Amérique du Sud. Réputé pour son recul confortable et sa pénétration élevée.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "7x64_brenneke",
@@ -2764,7 +3006,9 @@
         "primer_type": "Large Rifle",
         "intro_year": 1917,
         "origin_country": "Allemagne",
-        "description": "Une des munitions de chasse au grand gibier les plus populaires d'Europe centrale et de France, conçue par Wilhelm Brenneke."
+        "description": "Une des munitions de chasse au grand gibier les plus populaires d'Europe centrale et de France, conçue par Wilhelm Brenneke.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "8_x_57_irs",
@@ -2786,7 +3030,9 @@
         "primer_type": "Large Rifle",
         "intro_year": null,
         "origin_country": "Inconnu",
-        "description": "Calibre d'arme d'épaule d'origine de type rimmed, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site."
+        "description": "Calibre d'arme d'épaule d'origine de type rimmed, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "8mm_lebel_rev",
@@ -2808,7 +3054,9 @@
         "primer_type": "Small Pistol",
         "intro_year": 1892,
         "origin_country": "France",
-        "description": "Conçue pour le Revolver Modèle 1892 français d'ordonnance. Munition de service de l'armée française durant la Grande Guerre."
+        "description": "Conçue pour le Revolver Modèle 1892 français d'ordonnance. Munition de service de l'armée française durant la Grande Guerre.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "8x50r_lebel",
@@ -2830,7 +3078,9 @@
         "primer_type": "Large Rifle",
         "intro_year": 1886,
         "origin_country": "France",
-        "description": "La toute première cartouche militaire chargée de poudre sans fumée (poudre B) de l'histoire, adoptée pour le fusil Lebel Mle 1886."
+        "description": "La toute première cartouche militaire chargée de poudre sans fumée (poudre B) de l'histoire, adoptée pour le fusil Lebel Mle 1886.",
+        "wiki_url": null,
+        "data_note": "Volume d'étui estimé (non publié C.I.P./SAAMI)."
     },
     {
         "id": "8x57_is",
@@ -2853,7 +3103,9 @@
         "primer_type": "Large Rifle",
         "intro_year": 1905,
         "origin_country": "Allemagne",
-        "description": "Calibre militaire légendaire du Mauser 98k. Attention : ne pas confondre avec le 8x57 I (diamètre de balle de .318\")."
+        "description": "Calibre militaire légendaire du Mauser 98k. Attention : ne pas confondre avec le 8x57 I (diamètre de balle de .318\").",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "8x68s",
@@ -2876,7 +3128,9 @@
         "primer_type": "Large Rifle",
         "intro_year": 1939,
         "origin_country": "Allemagne",
-        "description": "L'un des calibres de chasse de 8mm les plus performants, souvent appelé 'Magnum sans ceinture de feu allemand'. Conçu pour les chasses de montagne et de plaine de gros gibier."
+        "description": "L'un des calibres de chasse de 8mm les plus performants, souvent appelé 'Magnum sans ceinture de feu allemand'. Conçu pour les chasses de montagne et de plaine de gros gibier.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "9_x_23_winchester",
@@ -2898,7 +3152,9 @@
         "primer_type": "Small Pistol",
         "intro_year": null,
         "origin_country": "États-Unis",
-        "description": "Calibre d'arme de poing d'origine de type rimless, développé et utilisé principalement en États-Unis. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site."
+        "description": "Calibre d'arme de poing d'origine de type rimless, développé et utilisé principalement en États-Unis. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "93_x_64_brenneke",
@@ -2920,7 +3176,9 @@
         "primer_type": "Large Rifle",
         "intro_year": null,
         "origin_country": "Allemagne",
-        "description": "Calibre d'arme d'épaule d'origine de type rebated, développé et utilisé principalement en Allemagne. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site."
+        "description": "Calibre d'arme d'épaule d'origine de type rebated, développé et utilisé principalement en Allemagne. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "93x62_mauser",
@@ -2943,7 +3201,9 @@
         "primer_type": "Large Rifle",
         "intro_year": 1905,
         "origin_country": "Allemagne",
-        "description": "Conçue par Otto Bock pour les colons européens en Afrique. Une munition formidable pour la chasse en battue du sanglier et des grands cervidés."
+        "description": "Conçue par Otto Bock pour les colons européens en Afrique. Une munition formidable pour la chasse en battue du sanglier et des grands cervidés.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "93x74r",
@@ -2966,7 +3226,9 @@
         "primer_type": "Large Rifle",
         "intro_year": 1900,
         "origin_country": "Allemagne",
-        "description": "Version à bourrelet pour carabines express (canons basculants) du calibre 9.3mm. Calibre roi de la battue de grand gibier en France."
+        "description": "Version à bourrelet pour carabines express (canons basculants) du calibre 9.3mm. Calibre roi de la battue de grand gibier en France.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "9x18_makarov",
@@ -2988,7 +3250,9 @@
         "primer_type": "Small Pistol",
         "intro_year": 1951,
         "origin_country": "Union Soviétique",
-        "description": "Calibre militaire soviétique standard pour le pistolet Makarov. Le projectile est légèrement plus large que le 9mm occidental."
+        "description": "Calibre militaire soviétique standard pour le pistolet Makarov. Le projectile est légèrement plus large que le 9mm occidental.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "9x19_parabellum",
@@ -3013,7 +3277,9 @@
         "primer_type": "Small Pistol",
         "intro_year": 1902,
         "origin_country": "Allemagne",
-        "description": "Le calibre d'arme de poing le plus répandu au monde. Standard de l'OTAN pour les pistolets et pistolets-mitrailleurs."
+        "description": "Le calibre d'arme de poing le plus répandu au monde. Standard de l'OTAN pour les pistolets et pistolets-mitrailleurs.",
+        "wiki_url": null,
+        "data_note": null
     },
     {
         "id": "9x21_imi",
@@ -3035,6 +3301,8 @@
         "primer_type": "Small Pistol",
         "intro_year": 1984,
         "origin_country": "Israël",
-        "description": "Développé par Israel Military Industries (IMI) pour contourner les législations interdisant le 9x19mm militaire dans certains pays européens (ex. Italie)."
+        "description": "Développé par Israel Military Industries (IMI) pour contourner les législations interdisant le 9x19mm militaire dans certains pays européens (ex. Italie).",
+        "wiki_url": null,
+        "data_note": null
     }
 ]
