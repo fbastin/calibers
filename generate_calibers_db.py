@@ -819,7 +819,66 @@ def merge_databases():
         elif cid == "8mm_lebel_rev":
             rim, base, neck, bullet, case_len, pmax, category, rim_type, primer = 10.40, 9.75, 9.00, 8.35, 27.20, 1150, "Handgun", "Rimmed", "Small Pistol"
             case_vol = 0.95
-            
+        # --- Cotes ajoutées (CIP/SAAMI via Wikipédia) : cartouches qui héritaient à tort des valeurs .22 LR ---
+        elif cid == "9x18_makarov":
+            rim, base, neck, bullet, case_len, pmax, category, rim_type, primer = 9.95, 9.95, 9.91, 9.27, 18.10, 1620, "Handgun", "Rimless", "Small Pistol"
+            case_vol = 0.83
+        elif cid == "762x25_tokarev":
+            rim, base, shoulder, neck, bullet, case_len, pmax, category, rim_type, primer = 9.95, 9.83, 9.48, 8.50, 7.85, 25.00, 2500, "Handgun", "Rimless", "Small Pistol"
+            case_vol = 1.09
+        elif cid == "765_luger":
+            rim, base, neck, bullet, case_len, pmax, category, rim_type, primer = 9.98, 9.93, 8.43, 7.85, 21.59, 2350, "Handgun", "Rimless", "Small Pistol"
+            case_vol = 0.93
+        elif cid == "25_acp":
+            rim, base, neck, bullet, case_len, pmax, category, rim_type, primer = 7.70, 7.10, 7.00, 6.38, 15.60, 1700, "Handgun", "Semi-rimmed", "Small Pistol"
+            case_vol = 0.30
+        elif cid == "32_acp":
+            rim, base, neck, bullet, case_len, pmax, category, rim_type, primer = 9.10, 8.60, 8.55, 7.94, 17.30, 1410, "Handgun", "Semi-rimmed", "Small Pistol"
+            case_vol = 0.55
+        elif cid == "32_sw_long":
+            rim, base, neck, bullet, case_len, pmax, category, rim_type, primer = 9.50, 8.60, 8.60, 7.90, 23.40, 1000, "Handgun", "Rimmed", "Small Pistol"
+            case_vol = 0.95
+        elif cid == "500_sw_mag":
+            rim, base, neck, bullet, case_len, pmax, category, rim_type, primer = 14.10, 13.40, 13.40, 12.70, 41.30, 4100, "Handgun", "Semi-rimmed", "Large Rifle"
+            case_vol = 3.50
+        elif cid == "44_40_win":
+            rim, base, shoulder, neck, bullet, case_len, pmax, category, rim_type, primer = 13.30, 12.00, 11.60, 11.30, 10.90, 33.10, 760, "Rifle", "Rimmed", "Large Pistol"
+            case_vol = 2.60
+        elif cid == "57x28_fn":
+            rim, base, shoulder, neck, bullet, case_len, pmax, category, rim_type, primer = 7.80, 7.95, 7.95, 6.38, 5.70, 28.90, 3450, "Handgun", "Rebated", "Small Rifle"
+            case_vol = 0.90
+        elif cid == "545x39_m74":
+            rim, base, shoulder, neck, bullet, case_len, pmax, category, rim_type, primer = 10.00, 10.00, 9.25, 6.29, 5.60, 39.82, 3550, "Rifle", "Rimless", "Small Rifle"
+            case_vol = 1.75
+        elif cid == "220_swift":
+            rim, base, shoulder, neck, bullet, case_len, pmax, category, rim_type, primer = 12.00, 11.30, 10.20, 6.60, 5.70, 56.00, 4300, "Rifle", "Semi-rimmed", "Large Rifle"
+            case_vol = 3.00
+        elif cid == "75x54_french":
+            rim, base, shoulder, neck, bullet, case_len, pmax, category, rim_type, primer = 12.34, 12.25, 11.30, 8.66, 7.84, 54.00, 3800, "Rifle", "Rimless", "Large Rifle"
+            case_vol = 3.76
+        elif cid == "765_argentined":
+            rim, base, shoulder, neck, bullet, case_len, pmax, category, rim_type, primer = 12.05, 12.01, 10.90, 8.78, 7.94, 53.60, 3900, "Rifle", "Rimless", "Large Rifle"
+            case_vol = 3.70
+        elif cid == "8x50r_lebel":
+            rim, base, shoulder, neck, bullet, case_len, pmax, category, rim_type, primer = 16.00, 13.77, 11.42, 8.85, 8.30, 50.50, 3200, "Rifle", "Rimmed", "Large Rifle"
+            case_vol = 4.00
+        elif cid == "450_bushmaster":
+            rim, base, neck, bullet, case_len, pmax, category, rim_type, primer = 12.01, 12.70, 12.19, 11.48, 43.20, 2650, "Rifle", "Rebated", "Large Rifle"
+            case_vol = 3.86
+        elif cid == "408_cheytac":
+            rim, base, shoulder, neck, bullet, case_len, pmax, category, rim_type, primer = 16.25, 16.18, 15.24, 11.12, 10.36, 77.21, 4400, "Rifle", "Rimless", "Large Rifle Magnum"
+            case_vol = 10.32
+        elif cid == "416_barrett":
+            rim, base, shoulder, neck, bullet, case_len, pmax, category, rim_type, primer = 20.40, 20.40, 18.50, 11.60, 10.60, 83.00, 4000, "Rifle", "Rimless", "Large Rifle Magnum"
+            case_vol = 13.00
+        elif cid == "50_bmg":
+            rim, base, shoulder, neck, bullet, case_len, pmax, category, rim_type, primer = 20.42, 20.42, 18.14, 14.22, 12.65, 99.31, 3700, "Rifle", "Rimless", "Large Rifle Magnum"
+            case_vol = 18.97
+
+        # Garde-fou : signale toute cartouche curée tombée sur les valeurs .22 LR par défaut.
+        if cid != "22_lr" and bullet == 5.72 and case_len == 15.57 and neck == 5.72:
+            print(f"  /!\\ '{cid}' sans cotes dediees : valeurs .22 LR par defaut — entree a completer.")
+
         item = {
             "id": cid,
             "name": hand_val["name"],
