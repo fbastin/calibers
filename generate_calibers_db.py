@@ -791,7 +791,15 @@ def merge_databases():
             "wiki_url": WIKI_LINKS.get(cid),
             "data_note": ESTIMATED_NOTES.get(cid)
         }
-        
+        if cid in processed_ids:
+            for existing_item in merged_list:
+                if existing_item["id"] == cid:
+                    for alias in aliases:
+                        if alias not in existing_item["aliases"]:
+                            existing_item["aliases"].append(alias)
+                    break
+            continue
+            
         merged_list.append(item)
         processed_ids.add(cid)
         
