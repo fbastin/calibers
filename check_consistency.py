@@ -46,6 +46,19 @@ missing = []
 discrepancies = []
 checked = 0
 
+# Doublons DANS l'estimateur : deux entrées désignant la même cartouche (nom ou alias
+# se normalisant pareil). Cause des bugs 6 Norma BR (2026-06-25) et 6 XC / 7x64 / 8x57
+# (2026-07-11) : les ancres partent sur une clé, l'UI en propose une autre, quasi vide.
+est_seen = {}
+duplicates = []
+for ek, ev in est.items():
+    for key in [ek] + ev.get("aliases", []):
+        n = norm(key)
+        prev = est_seen.get(n)
+        if prev is not None and prev != ek:
+            duplicates.append(f"{prev!r} et {ek!r} désignent la même cartouche (via {key!r})")
+        est_seen[n] = ek
+
 for ek, ev in est.items():
     r = idx.get(norm(ek))
     if r is None:
@@ -62,6 +75,10 @@ for ek, ev in est.items():
             discrepancies.append(f"{ek} · {label} : estimateur {a} vs base {b} (Δ {b - a:+.3g})")
 
 print(f"Cohérence base ↔ estimateur : {checked}/{len(est)} calibres comparés.")
+if duplicates:
+    print(f"  /!\\ {len(duplicates)} doublon(s) de cartouche dans l'estimateur :")
+    for d in duplicates:
+        print(f"     - {d}")
 if missing:
     print(f"  /!\\ {len(missing)} calibre(s) de l'estimateur ABSENT(s) de la base : {', '.join(missing)}")
 if discrepancies:
@@ -69,7 +86,7 @@ if discrepancies:
     for d in discrepancies:
         print(f"     - {d}")
 
-if missing or discrepancies:
+if missing or discrepancies or duplicates:
     sys.exit(1)
 print("  OK — aucune divergence.")
 sys.exit(0)
