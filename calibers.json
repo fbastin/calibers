@@ -2276,12 +2276,14 @@
         "id": "6_xc",
         "name": "6 XC",
         "aliases": [
+            "6mm XC",
+            "6XC",
             "6 XC"
         ],
         "category": "Rifle",
         "bullet_diameter_mm": 6.17,
         "bullet_diameter_in": 0.243,
-        "case_length_mm": 40.9,
+        "case_length_mm": 48.1,
         "rim_diameter_mm": 11.86,
         "rim_type": "Rimless",
         "base_diameter_mm": 11.84,
@@ -2568,31 +2570,6 @@
         "intro_year": null,
         "origin_country": "États-Unis",
         "description": "Calibre d'arme d'épaule d'origine de type rimmed, développé et utilisé principalement en États-Unis. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
-        "wiki_url": null,
-        "data_note": null
-    },
-    {
-        "id": "6mm_xc",
-        "name": "6mm XC",
-        "aliases": [
-            "6mm XC",
-            "6XC"
-        ],
-        "category": "Rifle",
-        "bullet_diameter_mm": 6.17,
-        "bullet_diameter_in": 0.243,
-        "case_length_mm": 39.6,
-        "rim_diameter_mm": 6.17,
-        "rim_type": "Rimless",
-        "base_diameter_mm": 6.17,
-        "shoulder_diameter_mm": null,
-        "neck_diameter_mm": 6.17,
-        "max_pressure_bar": null,
-        "case_volume_cm3": 2.967,
-        "primer_type": "Small Rifle",
-        "intro_year": null,
-        "origin_country": "Inconnu",
-        "description": "Calibre d'arme d'épaule d'origine de type rimless, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
         "wiki_url": null,
         "data_note": null
     },
@@ -3095,10 +3072,10 @@
         "id": "7x64_brenneke",
         "name": "7×64mm Brenneke",
         "aliases": [
-            "7 x 64",
-            "7×64mm Brenneke",
             "7x64",
-            "7x64 Brenneke"
+            "7x64 Brenneke",
+            "7 x 64",
+            "7×64mm Brenneke"
         ],
         "category": "Rifle",
         "bullet_diameter_mm": 7.24,
@@ -3194,12 +3171,12 @@
         "id": "8x57_is",
         "name": "8×57mm IS (8mm Mauser)",
         "aliases": [
-            "8 x 57 IS",
-            "8×57mm IS (8mm Mauser)",
             "8x57 Mauser",
             "8x57 IS",
             "8x57 JS",
-            "8x57"
+            "8x57",
+            "8 x 57 IS",
+            "8×57mm IS (8mm Mauser)"
         ],
         "category": "Rifle",
         "bullet_diameter_mm": 8.2,
