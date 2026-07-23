@@ -340,7 +340,7 @@
         "origin_country": "États-Unis",
         "description": "Dérivé du .222 Rem, il a servi de base au standard militaire de l'OTAN (5.56x45mm). Universellement répandu dans les fusils de type AR-15.",
         "wiki_url": null,
-        "data_note": null
+        "data_note": "Voir aussi la variante militaire distincte 5.56×45mm NATO (cotes extérieures identiques, mais chambre à leade plus long et pression supérieure). Une chambre .223 Rem n'est pas prévue pour la munition 5.56 OTAN."
     },
     {
         "id": "223_wssm",
@@ -1153,7 +1153,7 @@
         "origin_country": "États-Unis",
         "description": "Standard militaire de fait (7.62x51). Calibre universel de précision pour fusils à verrou ou semi-automatiques, réputé stable et tolérant.",
         "wiki_url": null,
-        "data_note": null
+        "data_note": "Voir aussi la variante militaire distincte 7.62×51mm NATO (cotes proches, spécifications différentes). Tirer une munition .308 Win dans une chambre militaire 7.62 OTAN (headspace plus long) peut provoquer une rupture d'étui."
     },
     {
         "id": "32_acp",
@@ -2148,6 +2148,33 @@
         "data_note": null
     },
     {
+        "id": "46x30_hk",
+        "name": "4.6×30mm HK",
+        "aliases": [
+            "4.6×30mm HK",
+            "4.6x30",
+            "4.6 mm x 30",
+            "4.6mm HK"
+        ],
+        "category": "Handgun",
+        "bullet_diameter_mm": 4.65,
+        "bullet_diameter_in": 0.183,
+        "case_length_mm": 30.5,
+        "rim_diameter_mm": 8.0,
+        "rim_type": "Rimless",
+        "base_diameter_mm": 8.02,
+        "shoulder_diameter_mm": 7.75,
+        "neck_diameter_mm": 5.31,
+        "max_pressure_bar": 4000,
+        "case_volume_cm3": 0.87,
+        "primer_type": "Small Rifle",
+        "intro_year": 1999,
+        "origin_country": "Allemagne",
+        "description": "Cartouche de très petit calibre à haute vitesse conçue par Heckler & Koch pour l'arme de défense individuelle MP7. Projectile léger optimisé pour la perforation des gilets pare-balles souples, avec recul et masse réduits. Concurrente directe du 5.7×28 mm FN.",
+        "wiki_url": null,
+        "data_note": null
+    },
+    {
         "id": "475_linebaugh",
         "name": "475 Linebaugh",
         "aliases": [
@@ -2194,6 +2221,35 @@
         "description": "Réponse soviétique au 5.56 NATO. Utilisé dans le fusil d'assaut AK-74, réputé pour sa flèche très tendue et son recul quasi-inexistant.",
         "wiki_url": null,
         "data_note": null
+    },
+    {
+        "id": "556x45_nato",
+        "name": "5.56×45mm NATO",
+        "aliases": [
+            "5.56×45mm NATO",
+            "5.56 NATO",
+            "5.56x45",
+            "5.56 mm x 45",
+            "SS109",
+            "M855"
+        ],
+        "category": "Rifle",
+        "bullet_diameter_mm": 5.7,
+        "bullet_diameter_in": 0.224,
+        "case_length_mm": 44.7,
+        "rim_diameter_mm": 9.6,
+        "rim_type": "Rimless",
+        "base_diameter_mm": 9.58,
+        "shoulder_diameter_mm": 9.0,
+        "neck_diameter_mm": 6.43,
+        "max_pressure_bar": 4300,
+        "case_volume_cm3": 1.85,
+        "primer_type": "Small Rifle",
+        "intro_year": 1980,
+        "origin_country": "Belgique",
+        "description": "Standard OTAN (STANAG 4172) dérivé du .223 Remington, adopté avec le projectile SS109/M855 à noyau d'acier. Cotes extérieures identiques au .223, mais chambre à cône de forcement (leade) plus long et chargement à plus haute pression. Munition de service des fusils d'assaut de l'OTAN (M16, HK416, etc.).",
+        "wiki_url": null,
+        "data_note": "Cotes extérieures identiques au .223 Remington, mais cartouches NON strictement interchangeables : une munition 5.56 OTAN tirée dans une chambre .223 Rem peut générer une surpression dangereuse. L'inverse (.223 Rem dans une chambre 5.56/OTAN) est généralement sans risque. Spécification militaire OTAN, non normalisée C.I.P."
     },
     {
         "id": "56_x_50_r_mag",
@@ -2767,6 +2823,33 @@
         "description": "Calibre de l'AK-47 et de la SKS. Conçu pour le combat à moyenne portée. Munition économique et rustique.",
         "wiki_url": null,
         "data_note": null
+    },
+    {
+        "id": "762x51_nato",
+        "name": "7.62×51mm NATO",
+        "aliases": [
+            "7.62×51mm NATO",
+            "7.62 NATO",
+            "7.62x51",
+            "7.62 mm x 51"
+        ],
+        "category": "Rifle",
+        "bullet_diameter_mm": 7.82,
+        "bullet_diameter_in": 0.308,
+        "case_length_mm": 51.2,
+        "rim_diameter_mm": 12.0,
+        "rim_type": "Rimless",
+        "base_diameter_mm": 11.9,
+        "shoulder_diameter_mm": 11.5,
+        "neck_diameter_mm": 8.8,
+        "max_pressure_bar": 4150,
+        "case_volume_cm3": 3.38,
+        "primer_type": "Large Rifle",
+        "intro_year": 1954,
+        "origin_country": "États-Unis",
+        "description": "Standard OTAN (STANAG 2310) dérivé du .308 Winchester, adopté en 1954 pour le fusil M14 et la mitrailleuse M60. Cotes proches du .308 mais spécifications militaires (mesure de pression EPVAT, parois d'étui plus épaisses). Munition de service de nombreux fusils d'appui et de précision de l'OTAN.",
+        "wiki_url": null,
+        "data_note": "Très proche du .308 Winchester, mais cartouches NON strictement interchangeables : le 7.62 OTAN se tire généralement sans risque dans une chambre .308 Win, alors qu'une munition .308 (pression plus élevée, parois d'étui plus fines) tirée dans une chambre militaire 7.62 (headspace plus long) peut provoquer une rupture d'étui. Spécification militaire OTAN, non normalisée C.I.P."
     },
     {
         "id": "762x54r",

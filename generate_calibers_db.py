@@ -223,6 +223,24 @@ hand_curated_metadata = {
         "origin_country": "Belgique",
         "description": "Conçu par la FN Herstal pour remplacer le 9mm dans les rôles de défense individuelle (P90 et Five-seveN). Projectile léger ultra-rapide."
     },
+    "46x30_hk": {
+        "name": "4.6×30mm HK",
+        "intro_year": 1999,
+        "origin_country": "Allemagne",
+        "description": "Cartouche de très petit calibre à haute vitesse conçue par Heckler & Koch pour l'arme de défense individuelle MP7. Projectile léger optimisé pour la perforation des gilets pare-balles souples, avec recul et masse réduits. Concurrente directe du 5.7×28 mm FN."
+    },
+    "556x45_nato": {
+        "name": "5.56×45mm NATO",
+        "intro_year": 1980,
+        "origin_country": "Belgique",
+        "description": "Standard OTAN (STANAG 4172) dérivé du .223 Remington, adopté avec le projectile SS109/M855 à noyau d'acier. Cotes extérieures identiques au .223, mais chambre à cône de forcement (leade) plus long et chargement à plus haute pression. Munition de service des fusils d'assaut de l'OTAN (M16, HK416, etc.)."
+    },
+    "762x51_nato": {
+        "name": "7.62×51mm NATO",
+        "intro_year": 1954,
+        "origin_country": "États-Unis",
+        "description": "Standard OTAN (STANAG 2310) dérivé du .308 Winchester, adopté en 1954 pour le fusil M14 et la mitrailleuse M60. Cotes proches du .308 mais spécifications militaires (mesure de pression EPVAT, parois d'étui plus épaisses). Munition de service de nombreux fusils d'appui et de précision de l'OTAN."
+    },
     "765_luger": {
         "name": "7.65×21mm Parabellum",
         "intro_year": 1898,
@@ -688,6 +706,10 @@ ESTIMATED_NOTES = {
     "500_sw_mag": "Volume d'étui estimé (non publié C.I.P./SAAMI).",
     "8x50r_lebel": "Volume d'étui estimé (non publié C.I.P./SAAMI).",
     "416_barrett": "Pression maximale indicative (cartouche non normalisée C.I.P.).",
+    "556x45_nato": "Cotes extérieures identiques au .223 Remington, mais cartouches NON strictement interchangeables : une munition 5.56 OTAN tirée dans une chambre .223 Rem peut générer une surpression dangereuse. L'inverse (.223 Rem dans une chambre 5.56/OTAN) est généralement sans risque. Spécification militaire OTAN, non normalisée C.I.P.",
+    "762x51_nato": "Très proche du .308 Winchester, mais cartouches NON strictement interchangeables : le 7.62 OTAN se tire généralement sans risque dans une chambre .308 Win, alors qu'une munition .308 (pression plus élevée, parois d'étui plus fines) tirée dans une chambre militaire 7.62 (headspace plus long) peut provoquer une rupture d'étui. Spécification militaire OTAN, non normalisée C.I.P.",
+    "223_rem": "Voir aussi la variante militaire distincte 5.56×45mm NATO (cotes extérieures identiques, mais chambre à leade plus long et pression supérieure). Une chambre .223 Rem n'est pas prévue pour la munition 5.56 OTAN.",
+    "308_win": "Voir aussi la variante militaire distincte 7.62×51mm NATO (cotes proches, spécifications différentes). Tirer une munition .308 Win dans une chambre militaire 7.62 OTAN (headspace plus long) peut provoquer une rupture d'étui.",
 }
 
 
@@ -900,6 +922,18 @@ def merge_databases():
         elif cid == "50_bmg":
             rim, base, shoulder, neck, bullet, case_len, pmax, category, rim_type, primer = 20.42, 20.42, 18.14, 14.22, 12.65, 99.31, 3700, "Rifle", "Rimless", "Large Rifle Magnum"
             case_vol = 18.97
+        elif cid == "46x30_hk":
+            rim, base, shoulder, neck, bullet, case_len, pmax, category, rim_type, primer = 8.00, 8.02, 7.75, 5.31, 4.65, 30.50, 4000, "Handgun", "Rimless", "Small Rifle"
+            case_vol = 0.87
+            aliases = ["4.6x30", "4.6 mm x 30", "4.6mm HK"]
+        elif cid == "556x45_nato":
+            rim, base, shoulder, neck, bullet, case_len, pmax, category, rim_type, primer = 9.60, 9.58, 9.00, 6.43, 5.70, 44.70, 4300, "Rifle", "Rimless", "Small Rifle"
+            case_vol = 1.85
+            aliases = ["5.56 NATO", "5.56x45", "5.56 mm x 45", "SS109", "M855"]
+        elif cid == "762x51_nato":
+            rim, base, shoulder, neck, bullet, case_len, pmax, category, rim_type, primer = 12.00, 11.90, 11.50, 8.80, 7.82, 51.20, 4150, "Rifle", "Rimless", "Large Rifle"
+            case_vol = 3.38
+            aliases = ["7.62 NATO", "7.62x51", "7.62 mm x 51"]
 
         # Garde-fou : signale toute cartouche curée tombée sur les valeurs .22 LR par défaut.
         if cid != "22_lr" and bullet == 5.72 and case_len == 15.57 and neck == 5.72:
