@@ -696,6 +696,11 @@ def guess_primer(category, bullet_dia, case_len):
 # Lien vers une fiche wiki détaillée (par id de calibre)
 WIKI_LINKS = {
     "75x55_swiss": "https://www.tireur.org/wiki/doku.php?id=technique:cartouche_7-5x55",
+    "556x45_nato": "https://www.tireur.org/wiki/doku.php?id=technique:calibres_militaires",
+    "762x51_nato": "https://www.tireur.org/wiki/doku.php?id=technique:calibres_militaires",
+    "46x30_hk": "https://www.tireur.org/wiki/doku.php?id=technique:calibres_militaires",
+    "223_rem": "https://www.tireur.org/wiki/doku.php?id=technique:calibres_militaires",
+    "308_win": "https://www.tireur.org/wiki/doku.php?id=technique:calibres_militaires",
 }
 
 # Valeurs non vérifiées (estimées) — affichées comme telles dans la fiche.
