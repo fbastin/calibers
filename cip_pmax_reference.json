@@ -1,0 +1,541 @@
+{
+  "_provenance": {
+    "source": "Tables C.I.P. (TDCC), listes publiques par type de cartouche",
+    "url": "https://bobp.cip-bobp.org/en/tdcc_public",
+    "releve_le": "2026-08-01, complété le 2026-08-02 (7,5 x 55 Suisse, 300 PRC, 257 Weath. Mag.)",
+    "portee": "Valeurs ponctuelles des seuls calibres presents dans calibers.json : la Pmax et rien d'autre. Aucun document C.I.P. n'est redistribue ; pas d'extraction en masse.",
+    "note": "Pmax seule est relevee. P_K et P_E ne sont PAS stockees : elles se deduisent de Pmax par des ratios fixes (P_K = 1,150 x Pmax partout ; P_E = 1,250 x en tables I-III, armes rayees, et 1,300 x en tables IV-V, poing et annulaire), et les stocker reviendrait a recopier la fiche plutot qu'a citer une valeur. Le champ `tab` suffit a retrouver le bon coefficient."
+  },
+  "calibres": {
+    "103_x_60_r": {
+      "cip_name": "10,3 x 60 R",
+      "tab": "II",
+      "pmax_bar": 2700
+    },
+    "10mm_auto": {
+      "cip_name": "10 mm Auto",
+      "tab": "IV",
+      "pmax_bar": 2300
+    },
+    "204_ruger": {
+      "cip_name": "204 Ruger",
+      "tab": "I",
+      "pmax_bar": 4050
+    },
+    "219_zipper": {
+      "cip_name": "219 Zipper",
+      "tab": "II",
+      "pmax_bar": 2850
+    },
+    "220_swift": {
+      "cip_name": "220 Swift",
+      "tab": "I",
+      "pmax_bar": 4300
+    },
+    "221_remington_fireball": {
+      "cip_name": "221 Rem. Fireball",
+      "tab": "IV",
+      "pmax_bar": 3200
+    },
+    "222_rem": {
+      "cip_name": "222 Rem.",
+      "tab": "I",
+      "pmax_bar": 3700
+    },
+    "222_rem_mag": {
+      "cip_name": "222 Rem. Mag.",
+      "tab": "I",
+      "pmax_bar": 4050
+    },
+    "223_rem": {
+      "cip_name": "223 Rem.",
+      "tab": "I",
+      "pmax_bar": 4300
+    },
+    "224_valkyrie": {
+      "cip_name": "224 Valkyrie",
+      "tab": "I",
+      "pmax_bar": 3890
+    },
+    "22_250_rem": {
+      "cip_name": "22-250 Rem.",
+      "tab": "I",
+      "pmax_bar": 4050
+    },
+    "22_hornet": {
+      "cip_name": "22 Hornet",
+      "tab": "II",
+      "pmax_bar": 3000
+    },
+    "22_lr": {
+      "cip_name": "22 Long Rifle",
+      "tab": "V",
+      "pmax_bar": 1700
+    },
+    "22_ppcusa": {
+      "cip_name": "22 PPC-USA",
+      "tab": "I",
+      "pmax_bar": 4050
+    },
+    "243_win": {
+      "cip_name": "243 Win.",
+      "tab": "I",
+      "pmax_bar": 4150
+    },
+    "250_savage": {
+      "cip_name": "250 Savage",
+      "tab": "I",
+      "pmax_bar": 3650
+    },
+    "257_roberts": {
+      "cip_name": "257 Roberts",
+      "tab": "I",
+      "pmax_bar": 3550
+    },
+    "257_wby_mag": {
+      "cip_name": "257 Weath. Mag.",
+      "tab": "III",
+      "pmax_bar": 4400
+    },
+    "25_06_remington": {
+      "cip_name": "25-06 Rem.",
+      "tab": "I",
+      "pmax_bar": 4400
+    },
+    "260_rem": {
+      "cip_name": "260 Rem.",
+      "tab": "I",
+      "pmax_bar": 4150
+    },
+    "270_win": {
+      "cip_name": "270 Win.",
+      "tab": "I",
+      "pmax_bar": 4300
+    },
+    "270_wsm": {
+      "cip_name": "270 Win. Short Mag.",
+      "tab": "I",
+      "pmax_bar": 4400
+    },
+    "280_remington": {
+      "cip_name": "280 Rem.",
+      "tab": "I",
+      "pmax_bar": 4050
+    },
+    "284_winchester": {
+      "cip_name": "284 Win.",
+      "tab": "I",
+      "pmax_bar": 4400
+    },
+    "300_blackout": {
+      "cip_name": "300 AAC Blackout",
+      "tab": "I",
+      "pmax_bar": 3900
+    },
+    "300_lapua_magnum": {
+      "cip_name": "300 Lapua Mag.",
+      "tab": "I",
+      "pmax_bar": 4400
+    },
+    "300_norma_magnum": {
+      "cip_name": "300 Norma Mag",
+      "tab": "I",
+      "pmax_bar": 4400
+    },
+    "300_prc": {
+      "cip_name": "300 Precision Rifle Cartridge",
+      "tab": "I",
+      "pmax_bar": 4400
+    },
+    "300_rcm": {
+      "cip_name": "300 RCM",
+      "tab": "I",
+      "pmax_bar": 4400
+    },
+    "300_rem_ultra_mag": {
+      "cip_name": "300 Rem. Ultra Mag.",
+      "tab": "I",
+      "pmax_bar": 4400
+    },
+    "300_savage": {
+      "cip_name": "300 Savage",
+      "tab": "I",
+      "pmax_bar": 3650
+    },
+    "300_win_mag": {
+      "cip_name": "300 Win. Mag.",
+      "tab": "III",
+      "pmax_bar": 4300
+    },
+    "300_wsm": {
+      "cip_name": "300 Win. Short Mag.",
+      "tab": "I",
+      "pmax_bar": 4400
+    },
+    "303_british": {
+      "cip_name": "303 British",
+      "tab": "II",
+      "pmax_bar": 3650
+    },
+    "308_marlin_express": {
+      "cip_name": "308 Marlin Express",
+      "tab": "II",
+      "pmax_bar": 3300
+    },
+    "308_win": {
+      "cip_name": "308 Win.",
+      "tab": "I",
+      "pmax_bar": 4150
+    },
+    "30_06_springfield": {
+      "cip_name": "30-06 Spring.",
+      "tab": "I",
+      "pmax_bar": 4050
+    },
+    "30_30_win": {
+      "cip_name": "30-30 Win.",
+      "tab": "II",
+      "pmax_bar": 3200
+    },
+    "30_carbine": {
+      "cip_name": "30 Carbine",
+      "tab": "I",
+      "pmax_bar": 3200
+    },
+    "30_r_blaser": {
+      "cip_name": "30 R Blaser",
+      "tab": "II",
+      "pmax_bar": 4050
+    },
+    "30_t/c": {
+      "cip_name": "30 TC",
+      "tab": "I",
+      "pmax_bar": 4250
+    },
+    "32_sw_long": {
+      "cip_name": "32 S&W Long",
+      "tab": "IV",
+      "pmax_bar": 1000
+    },
+    "338_lapua": {
+      "cip_name": "338 Lapua Mag.",
+      "tab": "I",
+      "pmax_bar": 4200
+    },
+    "338_norma_mag": {
+      "cip_name": "338 Norma Mag.",
+      "tab": "I",
+      "pmax_bar": 4400
+    },
+    "338_win_mag": {
+      "cip_name": "338 Win. Mag.",
+      "tab": "III",
+      "pmax_bar": 4300
+    },
+    "357_magnum": {
+      "cip_name": "357 Magnum",
+      "tab": "IV",
+      "pmax_bar": 3000
+    },
+    "357_maximum": {
+      "cip_name": "357 Maximum",
+      "tab": "IV",
+      "pmax_bar": 3100
+    },
+    "357_sig": {
+      "cip_name": "357 SIG",
+      "tab": "IV",
+      "pmax_bar": 3050
+    },
+    "35_remington": {
+      "cip_name": "35 Rem.",
+      "tab": "I",
+      "pmax_bar": 2750
+    },
+    "375_hh_mag": {
+      "cip_name": "375 H&H Mag.",
+      "tab": "III",
+      "pmax_bar": 4300
+    },
+    "375_ruger": {
+      "cip_name": "375 Ruger",
+      "tab": "I",
+      "pmax_bar": 4275
+    },
+    "380_acp": {
+      "cip_name": "9 mm Browning court",
+      "tab": "IV",
+      "pmax_bar": 1350
+    },
+    "38_special": {
+      "cip_name": "38 Special",
+      "tab": "IV",
+      "pmax_bar": 1500
+    },
+    "38_super_auto": {
+      "cip_name": "38 Super Auto",
+      "tab": "IV",
+      "pmax_bar": 2300
+    },
+    "40_sw": {
+      "cip_name": "40 S&W",
+      "tab": "IV",
+      "pmax_bar": 2250
+    },
+    "416_barrett": {
+      "cip_name": "416 Barrett",
+      "tab": "I",
+      "pmax_bar": 4400
+    },
+    "416_rigby": {
+      "cip_name": "416 Rigby",
+      "tab": "I",
+      "pmax_bar": 3250
+    },
+    "41_rem_mag": {
+      "cip_name": "41 Rem. Mag.",
+      "tab": "IV",
+      "pmax_bar": 3000
+    },
+    "444_marlin": {
+      "cip_name": "444 Marlin",
+      "tab": "II",
+      "pmax_bar": 3550
+    },
+    "44_40_win": {
+      "cip_name": "44-40 Win.",
+      "tab": "II",
+      "pmax_bar": 1100
+    },
+    "44_magnum": {
+      "cip_name": "44 Rem. Mag.",
+      "tab": "IV",
+      "pmax_bar": 2800
+    },
+    "450_bushmaster": {
+      "cip_name": "450 Bushmaster",
+      "tab": "I",
+      "pmax_bar": 2700
+    },
+    "454_casull": {
+      "cip_name": "454 Casull",
+      "tab": "IV",
+      "pmax_bar": 3900
+    },
+    "458_socom": {
+      "cip_name": "458 Socom",
+      "tab": "I",
+      "pmax_bar": 2400
+    },
+    "458_win_mag": {
+      "cip_name": "458 Win. Mag.",
+      "tab": "III",
+      "pmax_bar": 4300
+    },
+    "45_70_govt": {
+      "cip_name": "45-70 Govt.",
+      "tab": "II",
+      "pmax_bar": 2200
+    },
+    "45_acp": {
+      "cip_name": "45 Auto",
+      "tab": "IV",
+      "pmax_bar": 1300
+    },
+    "45_colt": {
+      "cip_name": "45 Colt",
+      "tab": "IV",
+      "pmax_bar": 1100
+    },
+    "45_winchester_magnum": {
+      "cip_name": "45 Win. Mag.",
+      "tab": "IV",
+      "pmax_bar": 2750
+    },
+    "460_sw_mag": {
+      "cip_name": "460 S&W Mag.",
+      "tab": "IV",
+      "pmax_bar": 3950
+    },
+    "46x30_hk": {
+      "cip_name": "4,6 X 30",
+      "tab": "I",
+      "pmax_bar": 4000
+    },
+    "475_linebaugh": {
+      "cip_name": "475 Linebaugh",
+      "tab": "IV",
+      "pmax_bar": 3450
+    },
+    "500_sw_mag": {
+      "cip_name": "500 S&W Mag.",
+      "tab": "IV",
+      "pmax_bar": 3700
+    },
+    "50_ae": {
+      "cip_name": "50 AE",
+      "tab": "IV",
+      "pmax_bar": 2300
+    },
+    "56_x_50_r_mag": {
+      "cip_name": "5,6 x 50 R Mag.",
+      "tab": "II",
+      "pmax_bar": 3400
+    },
+    "65284_norma": {
+      "cip_name": "6,5 - 284 Norma",
+      "tab": "I",
+      "pmax_bar": 4100
+    },
+    "65_creedmoor": {
+      "cip_name": "6,5 Creedmoor",
+      "tab": "I",
+      "pmax_bar": 4350
+    },
+    "65_grendel": {
+      "cip_name": "6,5 Grendel",
+      "tab": "I",
+      "pmax_bar": 4050
+    },
+    "65_prc": {
+      "cip_name": "6,5 PRC",
+      "tab": "I",
+      "pmax_bar": 4400
+    },
+    "65x47_lapua": {
+      "cip_name": "6,5 x 47 Lapua",
+      "tab": "I",
+      "pmax_bar": 4350
+    },
+    "65x55_swedish": {
+      "cip_name": "6,5 x 55 SE",
+      "tab": "I",
+      "pmax_bar": 3800
+    },
+    "68_western": {
+      "cip_name": "6,8 Western",
+      "tab": "I",
+      "pmax_bar": 4400
+    },
+    "6_mm_remington": {
+      "cip_name": "6 mm Rem.",
+      "tab": "I",
+      "pmax_bar": 4300
+    },
+    "6_norma_br": {
+      "cip_name": "6 mm BR Norma",
+      "tab": "I",
+      "pmax_bar": 4050
+    },
+    "6_xc": {
+      "cip_name": "6 XC",
+      "tab": "I",
+      "pmax_bar": 4400
+    },
+    "6mm_creedmoor": {
+      "cip_name": "6 mm Creedmoor",
+      "tab": "I",
+      "pmax_bar": 4350
+    },
+    "6mm_ppc": {
+      "cip_name": "6 mm PPC",
+      "tab": "I",
+      "pmax_bar": 4050
+    },
+    "75x55_swiss": {
+      "cip_name": "7,5 x 55 Suisse",
+      "tab": "I",
+      "pmax_bar": 3800
+    },
+    "762x39_m43": {
+      "cip_name": "7,62 x 39",
+      "tab": "I",
+      "pmax_bar": 3550
+    },
+    "762x54r": {
+      "cip_name": "7,62 x 54 R",
+      "tab": "II",
+      "pmax_bar": 3900
+    },
+    "7_x_57_r": {
+      "cip_name": "7 x 57 R",
+      "tab": "II",
+      "pmax_bar": 3400
+    },
+    "7_x_65_r": {
+      "cip_name": "7 x 65 R",
+      "tab": "II",
+      "pmax_bar": 3800
+    },
+    "7mm_08_rem": {
+      "cip_name": "7 mm - 08 Rem.",
+      "tab": "I",
+      "pmax_bar": 4150
+    },
+    "7mm_br_remington": {
+      "cip_name": "7 mm B.R. Rem.",
+      "tab": "I",
+      "pmax_bar": 4050
+    },
+    "7mm_rem_mag": {
+      "cip_name": "7 mm Rem. Mag.",
+      "tab": "III",
+      "pmax_bar": 4300
+    },
+    "7mm_rum": {
+      "cip_name": "7 mm Rem. Ultra Mag.",
+      "tab": "I",
+      "pmax_bar": 4400
+    },
+    "7mm_wsm": {
+      "cip_name": "7 mm Win. Short Mag.",
+      "tab": "I",
+      "pmax_bar": 4400
+    },
+    "7x57_mauser": {
+      "cip_name": "7 x 57",
+      "tab": "I",
+      "pmax_bar": 3900
+    },
+    "7x64_brenneke": {
+      "cip_name": "7 x 64",
+      "tab": "I",
+      "pmax_bar": 4150
+    },
+    "8_x_57_irs": {
+      "cip_name": "8 x 57 IRS",
+      "tab": "II",
+      "pmax_bar": 3300
+    },
+    "8x57_is": {
+      "cip_name": "8 x 57 IS",
+      "tab": "I",
+      "pmax_bar": 3900
+    },
+    "8x68s": {
+      "cip_name": "8 x 68 S",
+      "tab": "I",
+      "pmax_bar": 4400
+    },
+    "93_x_64_brenneke": {
+      "cip_name": "9,3 x 64 Brenneke",
+      "tab": "I",
+      "pmax_bar": 4400
+    },
+    "93x62_mauser": {
+      "cip_name": "9,3 x 62",
+      "tab": "I",
+      "pmax_bar": 3900
+    },
+    "93x74r": {
+      "cip_name": "9,3 x 74 R",
+      "tab": "II",
+      "pmax_bar": 3400
+    },
+    "9x19_parabellum": {
+      "cip_name": "9 mm Luger",
+      "tab": "IV",
+      "pmax_bar": 2350
+    }
+  }
+}

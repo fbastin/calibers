@@ -35,15 +35,23 @@ for r in db:
         idx[norm(k)] = r
 
 # (label, clé estimateur, clé base, tolérance absolue, tolérance relative)
+#
+# `pmax_cip_bar` de l'estimateur est la limite QUI PILOTE LA COURBE, pas forcément une
+# valeur C.I.P. : elle vaut la SAAMI quand la cartouche n'est pas homologuée, et
+# `pmax_src` le dit alors. Le libellé disait « pression CIP » et laissait croire que
+# les deux bases divergeaient sur une valeur C.I.P. alors qu'elles comparaient deux
+# référentiels — d'où les 59 faux écarts du 2026-08-02.
 FIELDS = [
     ("Ø balle (mm)", "bore_mm", "bullet_diameter_mm", 0.05, 0.0),
     ("longueur étui (mm)", "case_mm", "case_length_mm", 0.30, 0.0),
     ("volume étui (cm³)", "case_vol_cm3", "case_volume_cm3", 0.05, 0.02),
-    ("pression CIP (bar)", "pmax_cip_bar", "max_pressure_bar", 1.0, 0.0),
+    ("limite de pression (bar)", "pmax_cip_bar", "max_pressure_bar", 1.0, 0.0),
+    ("pression SAAMI (bar)", "pmax_saami_bar", "pmax_saami_bar", 1.0, 0.0),
 ]
 
 missing = []
 discrepancies = []
+referentials = []
 checked = 0
 
 # Doublons DANS l'estimateur : deux entrées désignant la même cartouche (nom ou alias
@@ -74,6 +82,17 @@ for ek, ev in est.items():
         if abs(a - b) > atol + rtol * abs(a):
             discrepancies.append(f"{ek} · {label} : estimateur {a} vs base {b} (Δ {b - a:+.3g})")
 
+    # Invariant du référentiel : `pmax_src` n'est présent QUE si la limite n'est pas
+    # une valeur C.I.P. Les deux bases doivent donc s'accorder sur l'homologation
+    # elle-même, pas seulement sur le nombre — sans quoi l'estimateur peut tracer
+    # P_K 1,15× / P_E 1,25× sur une valeur SAAMI sans que rien ne le signale.
+    est_cip = not ev.get("pmax_src") and ev.get("pmax_cip_bar") is not None
+    db_cip = r.get("pmax_cip_bar") is not None
+    if est_cip != db_cip:
+        quoi = "se dit C.I.P. côté estimateur, hors C.I.P. côté base" if est_cip \
+            else "hors C.I.P. côté estimateur, C.I.P. côté base"
+        referentials.append(f"{ek} · {quoi}")
+
 print(f"Cohérence base ↔ estimateur : {checked}/{len(est)} calibres comparés.")
 if duplicates:
     print(f"  /!\\ {len(duplicates)} doublon(s) de cartouche dans l'estimateur :")
@@ -86,7 +105,12 @@ if discrepancies:
     for d in discrepancies:
         print(f"     - {d}")
 
-if missing or discrepancies or duplicates:
+if referentials:
+    print(f"  /!\\ {len(referentials)} désaccord(s) de référentiel :")
+    for d in referentials:
+        print(f"     - {d}")
+
+if missing or discrepancies or duplicates or referentials:
     sys.exit(1)
 print("  OK — aucune divergence.")
 sys.exit(0)

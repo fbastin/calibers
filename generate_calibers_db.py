@@ -7,6 +7,33 @@ import os
 # Root directory path
 root_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 
+# Relevé des tables C.I.P. — autorité unique de la colonne C.I.P. (voir _provenance
+# dans le fichier). L'estimateur ne fournit plus que la valeur SAAMI ou le repli.
+with open(os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                       "cip_pmax_reference.json"), encoding="utf-8") as _f:
+    CIP_PMAX = {k: v["pmax_bar"] for k, v in json.load(_f)["calibres"].items()}
+
+
+def pressure_fields(cid, sim_val=None, fallback=None):
+    """Renvoie (pmax_cip_bar, pmax_saami_bar, max_pressure_bar) pour un calibre.
+
+    Le référentiel se lit sans champ supplémentaire : C.I.P. si `pmax_cip_bar` est
+    non nul. `max_pressure_bar` est CONSERVÉ pour la douzaine de consommateurs en
+    aval (fiches, export CSV, synchro MySQL) et vaut la C.I.P. si elle existe,
+    sinon la SAAMI. Une valeur héritée sans provenance (calibres curés à la main,
+    hors relevé C.I.P.) alimente `max_pressure_bar` seul : on ne lui invente pas
+    de référentiel.
+    """
+    cip = CIP_PMAX.get(cid)
+    saami = None
+    if sim_val is not None:
+        saami = sim_val.get("pmax_saami_bar")
+        if saami is None and sim_val.get("pmax_src") == "SAAMI":
+            saami = sim_val.get("pmax_cip_bar")
+        if fallback is None:
+            fallback = sim_val.get("pmax_cip_bar")
+    return cip, saami, cip if cip is not None else (saami if saami is not None else fallback)
+
 # Mappings of simulator names to our hand-curated IDs
 sim_key_to_id = {
     "308 Win.": "308_win",
@@ -751,7 +778,7 @@ def merge_databases():
             
         bullet_dia = sim_val["bore_mm"]
         case_len = sim_val["case_mm"]
-        pmax = sim_val.get("pmax_cip_bar")
+        pmax_cip, pmax_saami, pmax = pressure_fields(cid, sim_val)
         case_vol = sim_val.get("case_vol_cm3")
         
         # Dimensions from dims file
@@ -813,6 +840,8 @@ def merge_databases():
             "shoulder_diameter_mm": round(shoulder, 2) if shoulder else None,
             "neck_diameter_mm": round(neck, 2),
             "max_pressure_bar": pmax,
+            "pmax_cip_bar": pmax_cip,
+            "pmax_saami_bar": pmax_saami,
             "case_volume_cm3": round(case_vol, 3) if case_vol else None,
             "primer_type": primer,
             "intro_year": intro_year,
@@ -947,6 +976,10 @@ def merge_databases():
         if cid != "22_lr" and bullet == 5.72 and case_len == 15.57 and neck == 5.72:
             print(f"  /!\\ '{cid}' sans cotes dediees : valeurs .22 LR par defaut — entree a completer.")
 
+        # La table C.I.P. prime aussi sur les cotes curées à la main, saisies sans
+        # provenance : sans elle, une valeur approchée resterait servie telle quelle.
+        pmax_cip, pmax_saami, pmax = pressure_fields(cid, None, pmax)
+
         item = {
             "id": cid,
             "name": hand_val["name"],
@@ -961,6 +994,8 @@ def merge_databases():
             "shoulder_diameter_mm": shoulder,
             "neck_diameter_mm": neck,
             "max_pressure_bar": pmax,
+            "pmax_cip_bar": pmax_cip,
+            "pmax_saami_bar": pmax_saami,
             "case_volume_cm3": case_vol,
             "primer_type": primer,
             "intro_year": hand_val["intro_year"],
@@ -1002,6 +1037,8 @@ def make_sqlite_db(output_path, calibers_list):
         shoulder_diameter_mm REAL,
         neck_diameter_mm REAL,
         max_pressure_bar INTEGER,
+        pmax_cip_bar INTEGER,
+        pmax_saami_bar INTEGER,
         case_volume_cm3 REAL,
         primer_type TEXT,
         intro_year INTEGER,
@@ -1015,9 +1052,10 @@ def make_sqlite_db(output_path, calibers_list):
         INSERT INTO calibers (
             id, name, aliases, category, bullet_diameter_mm, bullet_diameter_in,
             case_length_mm, rim_diameter_mm, rim_type, base_diameter_mm,
-            shoulder_diameter_mm, neck_diameter_mm, max_pressure_bar, 
+            shoulder_diameter_mm, neck_diameter_mm, max_pressure_bar,
+            pmax_cip_bar, pmax_saami_bar,
             case_volume_cm3, primer_type, intro_year, origin_country, description
-        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
         """, (
             item["id"],
             item["name"],
@@ -1032,6 +1070,8 @@ def make_sqlite_db(output_path, calibers_list):
             item["shoulder_diameter_mm"],
             item["neck_diameter_mm"],
             item["max_pressure_bar"],
+            item["pmax_cip_bar"],
+            item["pmax_saami_bar"],
             item["case_volume_cm3"],
             item["primer_type"],
             item["intro_year"],
