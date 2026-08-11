@@ -2856,7 +2856,7 @@
     "base_diameter_mm": null,
     "shoulder_diameter_mm": null,
     "neck_diameter_mm": null,
-    "max_pressure_bar": null,
+    "max_pressure_bar": 4350,
     "pmax_cip_bar": null,
     "pmax_saami_bar": null,
     "case_volume_cm3": 2.79,
@@ -2865,7 +2865,7 @@
     "origin_country": "Finlande",
     "description": "Calibre d'arme d'épaule d'origine de type rimless, développé et utilisé principalement en Finlande. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
     "wiki_url": null,
-    "data_note": null
+    "data_note": "Wildcat non homologué C.I.P. ni normalisé SAAMI : limite reprise du 6,5 x 47 Lapua dont il dérive (même étui, collet rétreint en 6 mm). Valeur indicative."
   },
   {
     "id": "7_x_57_r",
