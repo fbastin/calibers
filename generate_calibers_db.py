@@ -668,7 +668,12 @@ BELTED_KEYS = {
     "240 Weatherby Magnum", "270 Weatherby Magnum", "300 Weatherby Magnum",
     "7mm Weatherby Magnum", "458 Winchester Magnum",
 }
-SEMI_RIMMED_KEYS = {"220 Swift"}
+# Le semi-bourrelet se reconnaît à la GORGE D'EXTRACTION, cote que cartridge_dims.json ne
+# porte pas : bourrelet et culot seuls ne distinguent pas un .38 Super (semi) d'un .45 Colt
+# (vrai bourrelet), tous deux à ~0,5-0,8 mm d'écart. D'où cette table, relevée en fiche C.I.P.
+#   38 Super Auto — Tab IV, rév. 08-09-23 : R1 10,31 / P1 9,75 / E1 8,76 (gorge en retrait
+#   des deux) ; .38 Special, à vrai bourrelet, n'a pas de gorge.
+SEMI_RIMMED_KEYS = {"220 Swift", "38 Super Auto"}
 
 
 def classify_rim_type(name, category, rim, base):
