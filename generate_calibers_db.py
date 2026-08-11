@@ -817,14 +817,24 @@ def merge_databases():
         if base is None and neck is not None:
             base = neck
 
-        isBottleneck = (base is not None and neck is not None
-                        and (base - neck) > 0.8 and category == "Rifle")
-        if shoulder is None and isBottleneck:
-            # Épaulement non relevé sur une cartouche à collet : approché au culot moins
-            # 0,2 mm. Approximation ASSUMÉE et signalée — deux fiches en dépendent.
-            shoulder = base - 0.2
-            print(f"  /!\\ '{sim_name}' : épaulement non relevé, approché à {shoulder:.2f} mm "
-                  f"(culot - 0,2). À relever dans cartridge_dims.json.")
+        # PAS d'épaulement approché. Le repli « culot - 0,2 » a été retiré le 2026-08-11 :
+        # il déduisait l'existence d'un épaulement d'un simple écart culot-collet > 0,8 mm,
+        # ce qui confondait un rétreint avec la CONICITÉ d'un étui droit. Les deux seules
+        # fiches concernées l'ont montré : le .300 AAC Blackout a bien un épaulement, mais
+        # à 9,16 mm et non 9,35 ; le .458 Win. Mag. n'en a aucun, et ses 0,80 mm d'écart
+        # basculaient le test sur un artefact de flottant (13,03 - 12,22 = 0,80000000000007).
+        # Un épaulement se relève sur la fiche C.I.P. — bloc « Junction Cone », rempli si et
+        # seulement si l'étui en a un — il ne se déduit pas des autres cotes.
+        # `"shoulder": null` ÉCRIT dans la fiche = relevé, l'étui n'en a pas. Clé ABSENTE =
+        # pas encore vérifié. Sans cette nuance l'avertissement crierait chaque nuit sur le
+        # .458 Win. Mag., dont le cas est tranché — et une alerte qui ne s'éteint jamais
+        # apprend à ignorer les alertes.
+        if "shoulder" not in dims_val and base is not None and neck is not None \
+                and (base - neck) > 0.8 and category == "Rifle":
+            print(f"  /!\\ '{sim_name}' : écart culot-collet de {base - neck:.2f} mm sans "
+                  f"épaulement relevé. Lire le bloc « Junction Cone » de sa fiche C.I.P. : "
+                  f"s'il est rempli, porter P2 dans cartridge_dims.json ; s'il est vide, "
+                  f"l'étui n'a pas d'épaulement et il n'y a rien à faire.")
 
 
         rim_type = classify_rim_type(sim_name, category, rim, base)
