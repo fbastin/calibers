@@ -852,7 +852,15 @@ def merge_databases():
         description = hand_curated.get("description")
         if not description:
             description = f"Calibre d'arme {'de poing' if category == 'Handgun' else 'd\'épaule'} d'origine de type {rim_type.lower()}, développé et utilisé principalement en {country}. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site."
-            
+
+        # Le caveat de pression rédigé en amont (`pmax_note`) était jeté. Il dit précisément
+        # ce qu'une valeur vaut quand elle n'est ni C.I.P. ni SAAMI — le .243 Ackley Improved
+        # emprunte la limite du .243 Win. dont il dérive — et sans lui la fiche affichait
+        # « 4150 bar » nu, c'est-à-dire un chiffre indicatif avec l'allure d'une norme.
+        # Il rejoint data_note, que la fiche rend en encadré « ⚠ ».
+        notes = [n for n in (ESTIMATED_NOTES.get(cid), sim_val.get("pmax_note")) if n]
+
+
         item = {
             "id": cid,
             "name": name,
@@ -875,7 +883,7 @@ def merge_databases():
             "origin_country": country,
             "description": description,
             "wiki_url": WIKI_LINKS.get(cid),
-            "data_note": ESTIMATED_NOTES.get(cid)
+            "data_note": " ".join(notes) if notes else None
         }
         if cid in processed_ids:
             for existing_item in merged_list:

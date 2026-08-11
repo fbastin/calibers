@@ -2,7 +2,7 @@
   "_provenance": {
     "source": "Tables C.I.P. (TDCC), listes publiques par type de cartouche",
     "url": "https://bobp.cip-bobp.org/en/tdcc_public",
-    "releve_le": "2026-08-01, complété le 2026-08-02 (7,5 x 55 Suisse, 300 PRC, 257 Weath. Mag.)",
+    "releve_le": "2026-08-01, complété le 2026-08-02 (7,5 x 55 Suisse, 300 PRC, 257 Weath. Mag.) ; 240 Weath. Mag. ajoute le 2026-08-11 (omis du releve initial)",
     "portee": "Valeurs ponctuelles des seuls calibres presents dans calibers.json : la Pmax et rien d'autre. Aucun document C.I.P. n'est redistribue ; pas d'extraction en masse.",
     "note": "Pmax seule est relevee. P_K et P_E ne sont PAS stockees : elles se deduisent de Pmax par des ratios fixes (P_K = 1,150 x Pmax partout ; P_E = 1,250 x en tables I-III, armes rayees, et 1,300 x en tables IV-V, poing et annulaire), et les stocker reviendrait a recopier la fiche plutot qu'a citer une valeur. Le champ `tab` suffit a retrouver le bon coefficient."
   },
@@ -76,6 +76,11 @@
       "cip_name": "22 PPC-USA",
       "tab": "I",
       "pmax_bar": 4050
+    },
+    "240_weatherby_magnum": {
+      "cip_name": "240 Weath. Mag.",
+      "tab": "III",
+      "pmax_bar": 4400
     },
     "243_win": {
       "cip_name": "243 Win.",

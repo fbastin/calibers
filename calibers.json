@@ -432,14 +432,14 @@
     "category": "Rifle",
     "bullet_diameter_mm": 6.17,
     "bullet_diameter_in": 0.243,
-    "case_length_mm": 63.4,
+    "case_length_mm": 63.5,
     "rim_diameter_mm": 11.99,
     "rim_type": "Belted",
     "base_diameter_mm": 11.51,
     "shoulder_diameter_mm": 10.9,
     "neck_diameter_mm": 6.91,
-    "max_pressure_bar": null,
-    "pmax_cip_bar": null,
+    "max_pressure_bar": 4400,
+    "pmax_cip_bar": 4400,
     "pmax_saami_bar": null,
     "case_volume_cm3": 3.73,
     "primer_type": "Small Rifle",
@@ -475,7 +475,7 @@
     "origin_country": "Inconnu",
     "description": "Calibre d'arme d'épaule d'origine de type rimless, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
     "wiki_url": null,
-    "data_note": null
+    "data_note": "Wildcat non homologué C.I.P. ni normalisé SAAMI : limite reprise du .243 Win. dont il dérive (même étui, épaulement redressé). Valeur indicative."
   },
   {
     "id": "243_win",

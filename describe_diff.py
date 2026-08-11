@@ -24,6 +24,7 @@ SUIVIS = [
     "case_length_mm", "bullet_diameter_mm", "rim_diameter_mm", "base_diameter_mm",
     "shoulder_diameter_mm", "neck_diameter_mm", "rim_type", "case_volume_cm3",
     "max_pressure_bar", "pmax_cip_bar", "pmax_saami_bar", "name", "wiki_url",
+    "data_note",
 ]
 
 
