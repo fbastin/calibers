@@ -2228,7 +2228,7 @@
     "base_diameter_mm": 11.99,
     "shoulder_diameter_mm": 11.2,
     "neck_diameter_mm": 9.37,
-    "max_pressure_bar": 4050,
+    "max_pressure_bar": 4482,
     "pmax_cip_bar": null,
     "pmax_saami_bar": null,
     "case_volume_cm3": 3.707,
@@ -2237,7 +2237,7 @@
     "origin_country": "Inconnu",
     "description": "Calibre d'arme d'épaule d'origine de type rimless, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
     "wiki_url": null,
-    "data_note": "Wildcat non normalisé : absent des tables C.I.P. (Tab I) comme du standard SAAMI Z299.4-2025, vérifié le 2026-08-11. Limite reprise du .30-06 Springfield dont il dérive (même étui, collet ouvert en 8,6 mm). Conservatrice : parmi les dérivés du .30-06, seuls ceux de plus petit alésage sont normalisés au-dessus du parent. Valeur indicative."
+    "data_note": "Wildcat non normalisé : absent des tables C.I.P. (Tab I) comme du standard SAAMI Z299.4-2025, vérifié le 2026-08-11. Plafond de TRAVAIL de 65 000 psi, établi sur les 48 charges maximales mesurées du guide ADI 2013 (jusqu'à 64 000 psi) : sur les cartouches normalisées, ce guide développe à moins de 2 600 psi sous la MAP. Valeur indicative, non normative."
   },
   {
     "id": "35_remington",
@@ -2865,7 +2865,7 @@
     "origin_country": "Finlande",
     "description": "Calibre d'arme d'épaule d'origine de type rimless, développé et utilisé principalement en Finlande. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
     "wiki_url": null,
-    "data_note": "Wildcat non homologué C.I.P. ni normalisé SAAMI : limite reprise du 6,5 x 47 Lapua dont il dérive (même étui, collet rétreint en 6 mm). Valeur indicative."
+    "data_note": "Wildcat non homologué C.I.P. ni normalisé SAAMI : limite reprise du 6,5 x 47 Lapua dont il dérive (même étui, collet rétreint en 6 mm). Valeur indicative, corroborée par le guide Hodgdon AM24 : ses 40 charges maximales du 6x47 Lapua plafonnent à 62 500 psi, sous cette limite."
   },
   {
     "id": "7_x_57_r",
