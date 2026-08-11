@@ -41,10 +41,23 @@ for r in db:
 # `pmax_src` le dit alors. Le libellé disait « pression CIP » et laissait croire que
 # les deux bases divergeaient sur une valeur C.I.P. alors qu'elles comparaient deux
 # référentiels — d'où les 59 faux écarts du 2026-08-02.
+#
+# TOLÉRANCES — resserrées le 2026-08-11 après mesure. Le générateur RECOPIE ces champs
+# sans les transformer (`case_len = sim_val["case_mm"]` puis `"case_length_mm": case_len`) :
+# l'écart mesuré sur les 112 calibres vaut exactement 0 pour les cinq. Il n'y avait donc
+# aucun arrondi à absorber, et les anciennes marges n'étaient que des angles morts. La
+# longueur d'étui tolérait 0,30 mm et a masqué QUATRE valeurs fausses : 6,5 PRC (0,25),
+# .220 Swift (0,12), puis .38 Super en longueur (0,08) et en culot (0,03). Elles n'ont été
+# vues qu'en relistant sans tolérance.
+#
+# Ce qui reste couvert : l'arrondi au millième du volume (`round(case_vol, 3)`), seule
+# transformation du générateur. Les pressions gardent 1 bar — la base peut légitimement
+# porter la valeur du relevé C.I.P. quand elle diffère de celle qui pilote la courbe, et
+# ce champ se compte en milliers de bars.
 FIELDS = [
-    ("Ø balle (mm)", "bore_mm", "bullet_diameter_mm", 0.05, 0.0),
-    ("longueur étui (mm)", "case_mm", "case_length_mm", 0.30, 0.0),
-    ("volume étui (cm³)", "case_vol_cm3", "case_volume_cm3", 0.05, 0.02),
+    ("Ø balle (mm)", "bore_mm", "bullet_diameter_mm", 0.005, 0.0),
+    ("longueur étui (mm)", "case_mm", "case_length_mm", 0.005, 0.0),
+    ("volume étui (cm³)", "case_vol_cm3", "case_volume_cm3", 0.001, 0.0),
     ("limite de pression (bar)", "pmax_cip_bar", "max_pressure_bar", 1.0, 0.0),
     ("pression SAAMI (bar)", "pmax_saami_bar", "pmax_saami_bar", 1.0, 0.0),
 ]
