@@ -2222,7 +2222,7 @@
     "category": "Rifle",
     "bullet_diameter_mm": 8.59,
     "bullet_diameter_in": 0.338,
-    "case_length_mm": 63.3,
+    "case_length_mm": 63.35,
     "rim_diameter_mm": 12.01,
     "rim_type": "Rimless",
     "base_diameter_mm": 11.99,
@@ -2237,7 +2237,7 @@
     "origin_country": "Inconnu",
     "description": "Calibre d'arme d'épaule d'origine de type rimless, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
     "wiki_url": null,
-    "data_note": null
+    "data_note": "Cartouche non normalisée : absente des tables C.I.P. (Tab I) comme du standard SAAMI Z299.4-2025, vérifié le 2026-08-11. Aucune limite de pression officielle ne peut lui être attribuée."
   },
   {
     "id": "35_remington",
