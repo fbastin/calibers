@@ -3,6 +3,7 @@ import sqlite3
 import json
 import csv
 import os
+import re
 
 # Root directory path
 root_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
@@ -570,6 +571,11 @@ hand_curated_metadata = {
     }
 }
 
+def r2(v):
+    """Arrondi au centième en laissant passer l'absence de cote."""
+    return None if v is None else round(v, 2)
+
+
 def clean_id(key):
     return key.lower().replace('.', '').replace('-', '').replace(' ', '_').replace('__', '_')
 
@@ -649,40 +655,47 @@ def clean_display_name(key):
             
     return name
 
+# Ceinture et semi-bourrelet ne se LISENT PAS dans le couple bourrelet/culot : une
+# ceinture d'arrêt se place devant le culot, un semi-bourrelet se définit par sa gorge
+# d'extraction. Ces deux-là passent donc par une table nominative, courte et relisible ;
+# tout le reste se déduit des cotes. Clés = libellés exacts de l'estimateur.
+BELTED_KEYS = {
+    "257 Wby. Mag.", "300 Lapua Magnum", "300 Norma Magnum", "300 Win. Mag.",
+    "338 Norma Mag.", "338 Win. Mag.", "375 H&H Mag.", "7 Rem. Mag.",
+    # Ajoutées le 2026-08-11 : l'ancienne liste les visait déjà (« 270 wby. », « 458 win. »)
+    # mais testait des abréviations que ces clés-ci n'emploient pas ; elles ressortaient
+    # « Rimmed », c'est-à-dire pourvues d'un bourrelet qu'elles n'ont pas.
+    "240 Weatherby Magnum", "270 Weatherby Magnum", "300 Weatherby Magnum",
+    "7mm Weatherby Magnum", "458 Winchester Magnum",
+}
+SEMI_RIMMED_KEYS = {"220 Swift"}
+
+
 def classify_rim_type(name, category, rim, base):
-    name_lower = name.lower()
-    if any(x in name_lower for x in ["belted", "belt", "mag.", "magnum", "weatherby", "wby"]):
-        belted_list = [
-            "300 win. mag.", "7 rem. mag.", "375 h&h", "338 win.", "257 wby.", 
-            "270 wby.", "300 wby.", "7mm wby.", "240 wby.", "458 win.", 
-            "458 lott", "300 lapua", "300 norma", "338 norma", "belted"
-        ]
-        if any(x in name_lower for x in belted_list) and category == "Rifle":
-            return "Belted"
-            
-    # Rimmed check
-    rimmed_indicators = [
-        " r ", " r", "govt", "government", "hornet", "winchester-rimmed", 
-        "303 british", "lebel", "nagant", "tokarev-rimmed", "marlin", 
-        "zipper", "maximum"
-    ]
+    """Type de bourrelet, déduit des COTES dès qu'elles sont connues.
+
+    L'ancienne version décidait sur le nom : elle cherchait la sous-chaîne « r », que
+    « .223 Rem. », « 204 Ruger » ou « 416 Rigby » contiennent. Vingt cartouches sans
+    bourrelet ont ainsi été publiées « Rimmed » jusqu'au relevé C.I.P. du 2026-08-10.
+    Le nom ne décide plus de rien qui soit mesurable.
+    """
     if category == "Rimfire":
         return "Rimmed"
-    if any(name_lower.endswith(x) for x in [" r", " irs"]) or any(x in name_lower for x in rimmed_indicators):
-        return "Rimmed"
-    if category == "Handgun" and any(x in name_lower for x in ["special", "magnum", "colt", "casull", "s&w", "linebaugh"]):
-        return "Rimmed"
-        
-    if rim and base:
+    if name in BELTED_KEYS:
+        return "Belted"
+    if name in SEMI_RIMMED_KEYS:
+        return "Semi-rimmed"
+
+    if rim is not None and base is not None:
         diff = rim - base
         if diff < -0.12:
             return "Rebated"
-        elif diff > 0.4:
-            if category == "Handgun" and any(x in name_lower for x in ["acp", "browning"]):
-                return "Semi-rimmed"
+        if diff > 0.35:
             return "Rimmed"
-            
-    return "Rimless"
+        return "Rimless"
+
+    # Sans cotes : dernier recours, le « R » suffixe des désignations métriques (7 x 57 R).
+    return "Rimmed" if re.search(r"(?:^|[\s.])R\b", name) else "Rimless"
 
 def guess_country(name):
     name_lower = name.lower()
@@ -788,18 +801,27 @@ def merge_databases():
         neck = dims_val.get("neck")
         shoulder = dims_val.get("shoulder")
         
-        # Fallbacks for dimensions if missing
-        if not rim: rim = base if base else bullet_dia
-        if not base: base = neck if neck else bullet_dia
-        if not neck: neck = bullet_dia
-        
-        isBottleneck = (base - neck) > 0.8 and category == "Rifle"
-        if not shoulder:
-            if isBottleneck:
-                shoulder = base - 0.2
-            else:
-                shoulder = None
-                
+        # Cotes absentes : on ne renseigne RIEN. Le repli d'origine recopiait le diamètre
+        # d'OGIVE dans le bourrelet, le culot et le collet — trois grandeurs physiques
+        # distinctes ramenées à une seule valeur. Douze cartouches, celles qui manquaient
+        # à cartridge_dims.json, ont été publiées ainsi jusqu'au 2026-08-10 : un .300 PRC
+        # s'y voyait attribuer un culot de 7,82 mm, la cote de sa balle. Une cote absente
+        # s'affiche « N/A », ce qui est exact ; une cote inventée se propage jusqu'au public.
+        if rim is None and base is not None:
+            rim = base
+        if base is None and neck is not None:
+            base = neck
+
+        isBottleneck = (base is not None and neck is not None
+                        and (base - neck) > 0.8 and category == "Rifle")
+        if shoulder is None and isBottleneck:
+            # Épaulement non relevé sur une cartouche à collet : approché au culot moins
+            # 0,2 mm. Approximation ASSUMÉE et signalée — deux fiches en dépendent.
+            shoulder = base - 0.2
+            print(f"  /!\\ '{sim_name}' : épaulement non relevé, approché à {shoulder:.2f} mm "
+                  f"(culot - 0,2). À relever dans cartridge_dims.json.")
+
+
         rim_type = classify_rim_type(sim_name, category, rim, base)
         
         # Aliases
@@ -834,11 +856,11 @@ def merge_databases():
             "bullet_diameter_mm": bullet_dia,
             "bullet_diameter_in": round(bullet_dia / 25.4, 3),
             "case_length_mm": case_len,
-            "rim_diameter_mm": round(rim, 2),
+            "rim_diameter_mm": r2(rim),
             "rim_type": rim_type,
-            "base_diameter_mm": round(base, 2),
-            "shoulder_diameter_mm": round(shoulder, 2) if shoulder else None,
-            "neck_diameter_mm": round(neck, 2),
+            "base_diameter_mm": r2(base),
+            "shoulder_diameter_mm": r2(shoulder),
+            "neck_diameter_mm": r2(neck),
             "max_pressure_bar": pmax,
             "pmax_cip_bar": pmax_cip,
             "pmax_saami_bar": pmax_saami,
@@ -1086,7 +1108,7 @@ def make_sqlite_db(output_path, calibers_list):
 def make_json_file(output_path, calibers_list):
     print(f"Writing JSON database at {output_path}...")
     with open(output_path, "w", encoding="utf-8") as f:
-        json.dump(calibers_list, f, ensure_ascii=False, indent=4)
+        json.dump(calibers_list, f, ensure_ascii=False, indent=2)
     print("JSON write done.")
 
 def make_csv_file(output_path, calibers_list):
