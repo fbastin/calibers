@@ -2228,7 +2228,7 @@
     "base_diameter_mm": 11.99,
     "shoulder_diameter_mm": 11.2,
     "neck_diameter_mm": 9.37,
-    "max_pressure_bar": null,
+    "max_pressure_bar": 4050,
     "pmax_cip_bar": null,
     "pmax_saami_bar": null,
     "case_volume_cm3": 3.707,
@@ -2237,7 +2237,7 @@
     "origin_country": "Inconnu",
     "description": "Calibre d'arme d'épaule d'origine de type rimless, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
     "wiki_url": null,
-    "data_note": "Cartouche non normalisée : absente des tables C.I.P. (Tab I) comme du standard SAAMI Z299.4-2025, vérifié le 2026-08-11. Aucune limite de pression officielle ne peut lui être attribuée."
+    "data_note": "Wildcat non normalisé : absent des tables C.I.P. (Tab I) comme du standard SAAMI Z299.4-2025, vérifié le 2026-08-11. Limite reprise du .30-06 Springfield dont il dérive (même étui, collet ouvert en 8,6 mm). Conservatrice : parmi les dérivés du .30-06, seuls ceux de plus petit alésage sont normalisés au-dessus du parent. Valeur indicative."
   },
   {
     "id": "35_remington",
