@@ -753,6 +753,7 @@ WIKI_LINKS = {
 
 # Valeurs non vérifiées (estimées) — affichées comme telles dans la fiche.
 ESTIMATED_NOTES = {
+    "22_lr": "Volume d'étui estimé (non publié C.I.P./SAAMI). Cotes et pressions relevées sur la fiche C.I.P. TAB. V « 22 Long Rifle » (révision 2024-05-14) : L3 = 15,57, L6 = 25,40, R1 = 7,06, P1 = 5,74, G1 = 5,72 mm ; Pmax 1700, PK 1955, PE 2210 bar. Canon de référence C.I.P. : âme 5,38 / fond de rayure 5,58 mm, 6 rayures, pas de 406 mm (1:16\").",
     "25_acp": "Volume d'étui estimé (non publié C.I.P./SAAMI).",
     "32_acp": "Volume d'étui estimé (non publié C.I.P./SAAMI).",
     "32_sw_long": "Volume d'étui estimé (non publié C.I.P./SAAMI).",
@@ -912,7 +913,11 @@ def merge_databases():
         if cid in processed_ids:
             continue
             
-        # Determine defaults for missing dimensions in hand-curated list
+        # Determine defaults for missing dimensions in hand-curated list.
+        # Ces valeurs par défaut SONT celles du .22 Long Rifle (branche `pass`
+        # plus bas) : fiche C.I.P. TAB. V, révision 2024-05-14, colonne
+        # CARTRIDGE MAXI. Toute autre entrée de hand_curated_metadata doit
+        # avoir sa propre branche, sinon elle hérite en silence de ces cotes.
         rim = 7.06
         base = 5.74
         shoulder = None
@@ -927,7 +932,7 @@ def merge_databases():
         aliases = []
         
         if cid == "22_lr":
-            pass
+            pass  # les valeurs par défaut ci-dessus SONT la fiche C.I.P. du .22 LR
         elif cid == "22_wmr":
             rim, base, neck, bullet, case_len, pmax = 7.40, 6.13, 6.10, 5.69, 26.80, 1610
             case_vol = 0.70
