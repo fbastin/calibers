@@ -744,6 +744,7 @@ def guess_primer(category, bullet_dia, case_len):
 _MIL = "https://www.tireur.org/wiki/doku.php?id=technique:calibres_militaires"
 WIKI_LINKS = {
     "75x55_swiss": "https://www.tireur.org/wiki/doku.php?id=technique:cartouche_7-5x55",
+    "30_06_springfield": "https://www.tireur.org/wiki/doku.php?id=technique:cartouche_30_06",
     "556x45_nato": _MIL + "#nato_et_le_223_remington",
     "762x51_nato": _MIL + "#nato_et_la_308_winchester",
     "46x30_hk": _MIL + "#hk",
