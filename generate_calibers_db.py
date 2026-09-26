@@ -752,6 +752,43 @@ WIKI_LINKS = {
 }
 
 # Valeurs non vérifiées (estimées) — affichées comme telles dans la fiche.
+# Traduction anglaise des notes de données, indexée par le TEXTE français (qu'il vienne
+# d'ESTIMATED_NOTES ou du `pmax_note` du simulateur) : une note française sans traduction
+# ici est signalée à la génération au lieu de passer en silence. Ces notes portaient des
+# avertissements de sécurité (5,56 OTAN dans une chambre .223, .308 dans une chambre 7,62)
+# que la page anglaise des calibres affichait en français (relecture du 2026-09-25).
+DATA_NOTE_EN = {
+    "Volume d'étui estimé (non publié C.I.P./SAAMI).":
+        "Estimated case capacity (not published by C.I.P./SAAMI).",
+    "Volume d'étui estimé (non publié C.I.P./SAAMI). Cotes et pressions relevées sur la fiche C.I.P. TAB. V « 22 Long Rifle » (révision 2024-05-14) : L3 = 15,57, L6 = 25,40, R1 = 7,06, P1 = 5,74, G1 = 5,72 mm ; Pmax 1700, PK 1955, PE 2210 bar. Canon de référence C.I.P. : âme 5,38 / fond de rayure 5,58 mm, 6 rayures, pas de 406 mm (1:16\").":
+        "Estimated case capacity (not published by C.I.P./SAAMI). Dimensions and pressures taken from the C.I.P. TAB. V sheet “22 Long Rifle” (revision 2024-05-14): L3 = 15.57, L6 = 25.40, R1 = 7.06, P1 = 5.74, G1 = 5.72 mm; Pmax 1700, PK 1955, PE 2210 bar. C.I.P. reference barrel: bore 5.38 / groove 5.58 mm, 6 grooves, 406 mm twist (1:16\").",
+    "Pression maximale indicative (cartouche non normalisée C.I.P.).":
+        "Indicative maximum pressure (cartridge not standardised by C.I.P.).",
+    "Cotes extérieures identiques au .223 Remington, mais cartouches NON strictement interchangeables : une munition 5.56 OTAN tirée dans une chambre .223 Rem peut générer une surpression dangereuse. L'inverse (.223 Rem dans une chambre 5.56/OTAN) est généralement sans risque. Spécification militaire OTAN, non normalisée C.I.P.":
+        "Same external dimensions as the .223 Remington, but the cartridges are NOT strictly interchangeable: 5.56 NATO ammunition fired in a .223 Rem chamber can generate dangerous overpressure. The reverse (.223 Rem in a 5.56/NATO chamber) is generally safe. NATO military specification, not standardised by C.I.P.",
+    "Très proche du .308 Winchester, mais cartouches NON strictement interchangeables : le 7.62 OTAN se tire généralement sans risque dans une chambre .308 Win, alors qu'une munition .308 (pression plus élevée, parois d'étui plus fines) tirée dans une chambre militaire 7.62 (headspace plus long) peut provoquer une rupture d'étui. Spécification militaire OTAN, non normalisée C.I.P.":
+        "Very close to the .308 Winchester, but the cartridges are NOT strictly interchangeable: 7.62 NATO can generally be fired safely in a .308 Win chamber, whereas .308 ammunition (higher pressure, thinner case walls) fired in a 7.62 military chamber (longer headspace) can cause a case rupture. NATO military specification, not standardised by C.I.P.",
+    "Voir aussi la variante militaire distincte 5.56×45mm NATO (cotes extérieures identiques, mais chambre à leade plus long et pression supérieure). Une chambre .223 Rem n'est pas prévue pour la munition 5.56 OTAN.":
+        "See also the distinct military variant, 5.56×45mm NATO (identical external dimensions, but a chamber with a longer leade and a higher pressure). A .223 Rem chamber is not intended for 5.56 NATO ammunition.",
+    "Voir aussi la variante militaire distincte 7.62×51mm NATO (cotes proches, spécifications différentes). Tirer une munition .308 Win dans une chambre militaire 7.62 OTAN (headspace plus long) peut provoquer une rupture d'étui.":
+        "See also the distinct military variant, 7.62×51mm NATO (similar dimensions, different specifications). Firing .308 Win ammunition in a 7.62 NATO military chamber (longer headspace) can cause a case rupture.",
+    "Wildcat non normalisé : absent des tables C.I.P. (Tab I) comme du standard SAAMI Z299.4-2025, vérifié le 2026-08-11. Plafond de TRAVAIL de 65 000 psi, au-dessus des 14 charges maximales mesurées du guide ADI 2013 (59 900 à 63 400 psi) : sur les cartouches que ce guide donne en psi, il développe 200 à 1 600 psi sous la MAP (.308 Win, .223 Rem). Valeur indicative, non normative.":
+        "Non-standardised wildcat: absent from both the C.I.P. tables (Tab I) and the SAAMI Z299.4-2025 standard, checked on 2026-08-11. WORKING ceiling of 65,000 psi, above the 14 maximum loads measured in the 2013 ADI guide (59,900 to 63,400 psi): on the cartridges that guide gives in psi, it runs 200 to 1,600 psi below the MAP (.308 Win, .223 Rem). Indicative value, not normative.",
+    "Wildcat non homologué C.I.P. ni normalisé SAAMI : limite reprise du 6,5 x 47 Lapua dont il dérive (même étui, collet rétreint en 6 mm). Valeur indicative. Le guide Hodgdon AM24 couvre cette cartouche mais en CUP, unité non convertible : il ne permet pas de contrôler cette limite.":
+        "Wildcat, neither approved by C.I.P. nor standardised by SAAMI: limit taken from the 6.5 x 47 Lapua it derives from (same case, neck reduced to 6 mm). Indicative value. The Hodgdon AM24 guide covers this cartridge, but in CUP, a unit that cannot be converted: it cannot be used to check this limit.",
+    "Wildcat non homologué C.I.P. ni normalisé SAAMI : limite reprise du .243 Win. dont il dérive (même étui, épaulement redressé). Valeur indicative.":
+        "Wildcat, neither approved by C.I.P. nor standardised by SAAMI: limit taken from the .243 Win. it derives from (same case, sharper shoulder). Indicative value.",
+}
+NOTES_SANS_TRADUCTION = []
+
+
+def data_note_en(notes):
+    """Traduction anglaise d'une liste de notes françaises, ou None s'il en manque une."""
+    manquantes = [n for n in notes if n not in DATA_NOTE_EN]
+    NOTES_SANS_TRADUCTION.extend(manquantes)
+    return None if (manquantes or not notes) else " ".join(DATA_NOTE_EN[n] for n in notes)
+
+
 ESTIMATED_NOTES = {
     "22_lr": "Volume d'étui estimé (non publié C.I.P./SAAMI). Cotes et pressions relevées sur la fiche C.I.P. TAB. V « 22 Long Rifle » (révision 2024-05-14) : L3 = 15,57, L6 = 25,40, R1 = 7,06, P1 = 5,74, G1 = 5,72 mm ; Pmax 1700, PK 1955, PE 2210 bar. Canon de référence C.I.P. : âme 5,38 / fond de rayure 5,58 mm, 6 rayures, pas de 406 mm (1:16\").",
     "25_acp": "Volume d'étui estimé (non publié C.I.P./SAAMI).",
@@ -894,7 +931,8 @@ def merge_databases():
             "origin_country": country,
             "description": description,
             "wiki_url": WIKI_LINKS.get(cid),
-            "data_note": " ".join(notes) if notes else None
+            "data_note": " ".join(notes) if notes else None,
+            "data_note_en": data_note_en(notes)
         }
         if cid in processed_ids:
             for existing_item in merged_list:
@@ -1052,7 +1090,8 @@ def merge_databases():
             "origin_country": hand_val["origin_country"],
             "description": hand_val["description"],
             "wiki_url": WIKI_LINKS.get(cid),
-            "data_note": ESTIMATED_NOTES.get(cid)
+            "data_note": ESTIMATED_NOTES.get(cid),
+            "data_note_en": data_note_en([ESTIMATED_NOTES[cid]] if cid in ESTIMATED_NOTES else [])
         }
         
         merged_list.append(item)
@@ -1168,6 +1207,11 @@ def main():
     make_json_file(os.path.join(dest_dir, "calibers.json"), calibers_list)
     make_csv_file(os.path.join(dest_dir, "calibers.csv"), calibers_list)
     print("All databases successfully compiled and stored with case volume and shoulder diameter.")
+    if NOTES_SANS_TRADUCTION:
+        print("\n⚠ Note(s) de données SANS traduction anglaise (DATA_NOTE_EN) — la page anglaise "
+              "n'affichera pas la note :")
+        for n in sorted(set(NOTES_SANS_TRADUCTION)):
+            print("   ", n[:120])
 
 if __name__ == "__main__":
     main()
