@@ -1,0 +1,198 @@
+{
+  "_provenance": {
+    "source": "Guides de rechargement : Lyman Reloading Handbook 48e éd. (« Primer Size »), Western Powders 8e éd. (amorce d'essai : WSR/WLR…), Vihtavuori 2026 (« Primers: ») ; ADI Handloaders Guide 2013 (« Primer: CCI 35 » pour la .50 BMG, amorce propre à ce calibre)",
+    "releve_le": "2026-10-04",
+    "regle": "Taille d'amorce corrigée quand les guides s'accordent entre eux et contredisent la base ; mention Magnum seulement si toutes les sources vont dans le même sens. Taille selon l'étui (6 mm Creedmoor : Large chez Western, étuis Hornady ; Small chez Vihtavuori, étuis Lapua) : non tranchée, non relevée.",
+    "portee": "Cartouches relues uniquement ; les autres gardent la valeur du générateur."
+  },
+  "calibres": {
+    "220_swift": {
+      "primer": "Large Rifle",
+      "sources": [
+        "Lyman",
+        "Western"
+      ]
+    },
+    "223_wssm": {
+      "primer": "Large Rifle",
+      "sources": [
+        "VV"
+      ]
+    },
+    "22_250_rem": {
+      "primer": "Large Rifle",
+      "sources": [
+        "Lyman",
+        "VV"
+      ]
+    },
+    "22_creedmoor": {
+      "primer": "Large Rifle",
+      "sources": [
+        "VV"
+      ]
+    },
+    "240_weatherby_magnum": {
+      "primer": "Large Rifle",
+      "sources": [
+        "Lyman",
+        "VV",
+        "Western"
+      ]
+    },
+    "243_win": {
+      "primer": "Large Rifle",
+      "sources": [
+        "Lyman",
+        "VV"
+      ]
+    },
+    "250_savage": {
+      "primer": "Large Rifle",
+      "sources": [
+        "Lyman",
+        "Western"
+      ]
+    },
+    "257_wby_mag": {
+      "primer": "Large Rifle Magnum",
+      "sources": [
+        "Lyman"
+      ]
+    },
+    "270_wsm": {
+      "primer": "Large Rifle Magnum",
+      "sources": [
+        "Lyman",
+        "VV"
+      ]
+    },
+    "300_blackout": {
+      "primer": "Small Rifle",
+      "sources": [
+        "Western"
+      ]
+    },
+    "300_savage": {
+      "primer": "Large Rifle",
+      "sources": [
+        "Lyman"
+      ]
+    },
+    "30_carbine": {
+      "primer": "Small Rifle",
+      "sources": [
+        "Western"
+      ]
+    },
+    "357_maximum": {
+      "primer": "Small Rifle Magnum",
+      "sources": [
+        "Western"
+      ]
+    },
+    "38_special": {
+      "primer": "Small Pistol",
+      "sources": [
+        "Lyman",
+        "VV"
+      ]
+    },
+    "41_rem_mag": {
+      "primer": "Large Pistol",
+      "sources": [
+        "Lyman"
+      ]
+    },
+    "454_casull": {
+      "primer": "Small Rifle",
+      "sources": [
+        "Lyman",
+        "VV"
+      ]
+    },
+    "45_acp": {
+      "primer": "Large Pistol",
+      "sources": [
+        "Lyman",
+        "VV"
+      ]
+    },
+    "45_winchester_magnum": {
+      "primer": "Large Pistol",
+      "sources": [
+        "VV"
+      ]
+    },
+    "460_sw_mag": {
+      "primer": "Large Rifle",
+      "sources": [
+        "VV"
+      ]
+    },
+    "50_bmg": {
+      "primer": ".50 BMG (CCI 35)",
+      "sources": [
+        "ADI"
+      ]
+    },
+    "65_grendel": {
+      "primer": "Small Rifle",
+      "sources": [
+        "VV"
+      ]
+    },
+    "65x47_lapua": {
+      "primer": "Small Rifle",
+      "sources": [
+        "VV",
+        "Western"
+      ]
+    },
+    "68_western": {
+      "primer": "Large Rifle Magnum",
+      "sources": [
+        "VV"
+      ]
+    },
+    "6_mm_remington": {
+      "primer": "Large Rifle",
+      "sources": [
+        "Lyman",
+        "VV"
+      ]
+    },
+    "6_xc": {
+      "primer": "Large Rifle",
+      "sources": [
+        "VV"
+      ]
+    },
+    "7mm_br_remington": {
+      "primer": "Small Rifle",
+      "sources": [
+        "VV"
+      ]
+    },
+    "7mm_rem_mag": {
+      "primer": "Large Rifle Magnum",
+      "sources": [
+        "Lyman",
+        "VV"
+      ]
+    },
+    "7mm_rum": {
+      "primer": "Large Rifle Magnum",
+      "sources": [
+        "VV"
+      ]
+    },
+    "7mm_wsm": {
+      "primer": "Large Rifle Magnum",
+      "sources": [
+        "Lyman",
+        "VV"
+      ]
+    }
+  }
+}

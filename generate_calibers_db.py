@@ -22,6 +22,14 @@ with open(os.path.join(os.path.dirname(os.path.abspath(__file__)),
                        "cip_origin_reference.json"), encoding="utf-8") as _f:
     CIP_PAYS = {k: v["pays"] for k, v in json.load(_f)["calibres"].items()}
 
+# Amorces RELEVÉES dans les guides de rechargement (primer_reference.json, 2026-10-04).
+# Elles priment sur la devinette par taille et sur la règle par nom, qui donnait par
+# exemple « Large Rifle Magnum » à la .300 AAC Blackout (Small Rifle) et « Small Rifle »
+# à la .243 Winchester (Large Rifle).
+with open(os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                       "primer_reference.json"), encoding="utf-8") as _f:
+    PRIMER_REF = {k: v["primer"] for k, v in json.load(_f)["calibres"].items()}
+
 # Libellé français du culot, pour la description générée (« de type rimless » mêlait
 # l'anglais au français).
 CULOT_FR = {"Rimless": "sans bourrelet", "Rimmed": "à bourrelet", "Semi-rimmed": "à semi-bourrelet",
@@ -909,7 +917,9 @@ def merge_databases():
         primer = hand_curated.get("primer_type", guess_primer(category, bullet_dia, case_len))
         
         # Specific overrides for primer types of known big rounds
-        if "338" in cid or "300" in cid or "375" in cid or "416" in cid or "50" in cid:
+        # « "50" in cid » attrapait la .22-250, la .250 Savage… (corrigé le 2026-10-04) ;
+        # les cartouches relues dans les guides passent de toute façon par PRIMER_REF.
+        if cid.startswith(("338", "300", "375", "416")) or cid == "50_bmg":
             if category == "Rifle":
                 primer = "Large Rifle Magnum"
         if "magnum" in name.lower() and category == "Handgun" and "32" not in cid:
@@ -1119,6 +1129,11 @@ def merge_databases():
         merged_list.append(item)
         processed_ids.add(cid)
         
+    # Amorce relevée dans les guides : prime sur les deux chemins ci-dessus.
+    for item in merged_list:
+        if item["id"] in PRIMER_REF:
+            item["primer_type"] = PRIMER_REF[item["id"]]
+
     # Sort merged list alphabetically by name
     merged_list.sort(key=lambda x: x["name"])
     
