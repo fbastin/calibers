@@ -3,5 +3,938 @@
     "regle": "Description publiée seulement si réécrite au ton factuel, chaque affirmation sourcée ; sinon description générée (type d'arme, culot).",
     "decision": "2026-10-04, propriétaire"
   },
-  "calibres": {}
+  "calibres": {
+    "380_acp": {
+      "description": "Cartouche de John Browning, tirée de la .38 Auto dont il a supprimé le demi-bourrelet et raccourci l'étui pour le pistolet de poche Colt aujourd'hui appelé Model 1908. Connue en Europe sous les noms de 9 mm Kurz ou 9 × 17 mm, elle a armé des pistolets de service, dont le Beretta 1934 de l'armée italienne. La plupart des pistolets actuels dans ce calibre sont des micro-pistolets.",
+      "description_en": "A John Browning cartridge, derived from the .38 Auto by removing its semi-rim and shortening the case for the Colt pocket pistol now known as the Model 1908. Known in Europe as the 9 mm Kurz or 9×17 mm, it armed service pistols such as the Italian Army's Beretta 1934. Most current pistols in this chambering are micro-pistols.",
+      "affirmations": [
+        {
+          "texte": "Browning a créé la .380 ACP en supprimant le bourrelet et en raccourcissant l'étui",
+          "source": "D. Campbell, « The .380 ACP: History & Performance », American Rifleman (NRA), 25 mars 2023, https://www.americanrifleman.org/content/the-380-acp-history-performance/",
+          "page": "(page web)",
+          "citation": "So Browning elected to remove the offending rim and make a case that was truly rimless. He also shortened it to 0.680\" and added a zero to the caliber designation, thus creating the .380 ACP cartridge.",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "l'étui de départ est celui de la .38 Auto, à demi-bourrelet, trop long pour le pistolet de poche Colt",
+          "source": "D. Campbell, « The .380 ACP: History & Performance », American Rifleman (NRA), 25 mars 2023, https://www.americanrifleman.org/content/the-380-acp-history-performance/",
+          "page": "(page web)",
+          "citation": "That cartridge, called the .38 Auto, featured a semi-rimmed case that measured 0.900\" (23 mm) long. For the Colt Pocket Automatic Pistol, it was a case that was too long",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "le pistolet est aujourd'hui appelé Model 1908",
+          "source": "D. Campbell, « The .380 ACP: History & Performance », American Rifleman (NRA), 25 mars 2023, https://www.americanrifleman.org/content/the-380-acp-history-performance/",
+          "page": "(page web)",
+          "citation": "Colt still called the gun the Colt Automatic Pistol, but now it is known as the Model 1908.",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "appellations européennes 9 mm Kurz / 9 × 17 mm",
+          "source": "D. Campbell, « The .380 ACP: History & Performance », American Rifleman (NRA), 25 mars 2023, https://www.americanrifleman.org/content/the-380-acp-history-performance/",
+          "page": "(page web)",
+          "citation": "where it is known as the 9x17 mm or 9 mm Kurz",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "Beretta 1934, pistolet de service de l'armée italienne",
+          "source": "D. Campbell, « The .380 ACP: History & Performance », American Rifleman (NRA), 25 mars 2023, https://www.americanrifleman.org/content/the-380-acp-history-performance/",
+          "page": "(page web)",
+          "citation": "The ’34 served as the service pistol for the Italian army",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "la plupart des pistolets actuels sont des micro-pistolets",
+          "source": "D. Campbell, « The .380 ACP: History & Performance », American Rifleman (NRA), 25 mars 2023, https://www.americanrifleman.org/content/the-380-acp-history-performance/",
+          "page": "(page web)",
+          "citation": "It should be noted that most .380 ACP pistols made today are “micro-pistols,”",
+          "nature": "secondaire"
+        }
+      ]
+    },
+    "38_special": {
+      "description": "Cartouche de revolver créée par Smith & Wesson pour son revolver Military & Police à carcasse K. Son étui a les dimensions de celui de la .38 Long Colt, en plus long ; d'abord chargée à la poudre noire, elle l'a été à la poudre sans fumée dans l'année. Adoptée par des polices et des tireurs sur cible, elle se tire aussi en balle wadcutter, y compris dans des pistolets de match comme le S&W Model 52.",
+      "description_en": "A revolver cartridge created by Smith & Wesson for its K-frame Military & Police revolver. Its case has the dimensions of the .38 Long Colt case, only longer; first loaded with black powder, it was offered with smokeless powder within a year. Taken up by police departments and target shooters, it is also fired with wadcutter bullets, including in match pistols such as the S&W Model 52.",
+      "affirmations": [
+        {
+          "texte": "créée avec le revolver Military & Police à carcasse K de S&W",
+          "source": "D. Campbell, « The .38 Special: History & Performance », American Rifleman (NRA), 29 avr. 2023, https://www.americanrifleman.org/content/the-38-special-history-performance/",
+          "page": "(page web)",
+          "citation": "Smith & Wesson beefed up and improved its solid-frame revolver it developed into the K-frame in 1899. It was called the Military and Police (M&P) model and was available in .32-20 Winchester Center Fire (WCF) and a new cartridge—designed in 1898—known as the .38 Smith & Wesson Special.",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "dimensions de la .38 Long Colt, en plus long",
+          "source": "D. Campbell, « The .38 Special: History & Performance », American Rifleman (NRA), 29 avr. 2023, https://www.americanrifleman.org/content/the-38-special-history-performance/",
+          "page": "(page web)",
+          "citation": "The .38 Special (Spl.) is dimensionally identical to the .38 Long Colt except for length",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "poudre noire puis sans fumée dans l'année",
+          "source": "D. Campbell, « The .38 Special: History & Performance », American Rifleman (NRA), 29 avr. 2023, https://www.americanrifleman.org/content/the-38-special-history-performance/",
+          "page": "(page web)",
+          "citation": "Initially, the .38 Spl. was loaded with 21 grains of blackpowder for a velocity of 775 f.p.s. with a 158-grain lead, round-nose bullet, however, within a year, smokeless powder loads became available.",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "polices et tireurs sur cible",
+          "source": "D. Campbell, « The .38 Special: History & Performance », American Rifleman (NRA), 29 avr. 2023, https://www.americanrifleman.org/content/the-38-special-history-performance/",
+          "page": "(page web)",
+          "citation": "Police departments and target shooters flocked to the M&P revolvers.",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "balle wadcutter, pistolet S&W Model 52",
+          "source": "D. Campbell, « The .38 Special: History & Performance », American Rifleman (NRA), 29 avr. 2023, https://www.americanrifleman.org/content/the-38-special-history-performance/",
+          "page": "(page web)",
+          "citation": "Smith & Wesson made a semi-automatic pistol for use with wadcutter bullets that had a frame based upon its Model 39 but was chambered for .38 Spl. from 1961 to 1993.",
+          "nature": "secondaire"
+        }
+      ]
+    },
+    "408_cheytac": {
+      "description": "Cartouche de tir à très longue distance dont l'étui dérive de celui de la .505 Gibbs, mise au point par les sociétés THEIS (Tactical High Energy Impact Solutions) et Lost River Ballistics Technology. Elle est associée au fusil CheyTac M200, issu d'une version réduite du « Windrunner » d'EDM Arms.",
+      "description_en": "A very long range cartridge whose case derives from the .505 Gibbs, developed by THEIS (Tactical High Energy Impact Solutions) and Lost River Ballistics Technology. It is associated with the CheyTac M200 rifle, developed from a scaled-down EDM Arms “Windrunner”.",
+      "affirmations": [
+        {
+          "texte": "étui dérivé de la .505 Gibbs ; mise au point par THEIS et Lost River Ballistics Technology",
+          "source": "« History of .408 CheyTac® », CheyTac Rifles (site de revendeur/distributeur), https://cheytacrifles.com/history/",
+          "page": "(page web)",
+          "citation": "The .408ct cartridge was originally developed and produced by two companies, first THEIS (Tactical High Energy Impact Solutions) which provided the modification necessary to translate what modifications became apparent and necessary from the original 505 Gibbs case. The second entity involved in the cartridge development was Lost River Ballistics Technology",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "fusil M200 issu du Windrunner d'EDM Arms",
+          "source": "« History of .408 CheyTac® », CheyTac Rifles (site de revendeur/distributeur), https://cheytacrifles.com/history/",
+          "page": "(page web)",
+          "citation": "Mr. Ritchie was approached by CheyTac ® LLC to scale down his “Windrunner” rifle to accommodate and better suit the .408CT cartridge.",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "très longue distance",
+          "source": "« History of .408 CheyTac® », CheyTac Rifles (site de revendeur/distributeur), https://cheytacrifles.com/history/",
+          "page": "(page web)",
+          "citation": "It became apparent that with the extreme range that could be achieved with the .408 cartridge, a ballistic computing system would be quite a boon",
+          "nature": "secondaire"
+        }
+      ]
+    },
+    "40_sw": {
+      "description": "Cartouche de pistolet présentée par Smith & Wesson et Winchester pour les armes de service de police. Après la fusillade du FBI à Miami en 1986, le FBI avait retenu un 10 mm Auto en charge réduite ; Smith & Wesson a raccourci l'étui du 10 mm pour obtenir la même balistique dans des pistolets de la taille d'un 9 mm Parabellum, dont les chargeurs n'exigent qu'une légère modification.",
+      "description_en": "A pistol cartridge introduced by Smith & Wesson and Winchester for police service pistols. After the 1986 FBI shootout in Miami, the FBI had settled on a reduced-power 10 mm Auto load; Smith & Wesson shortened the 10 mm case to obtain the same ballistics in pistols the size of a 9 mm Parabellum, whose magazines need only a minor change.",
+      "affirmations": [
+        {
+          "texte": "présentée par S&W avec Winchester",
+          "source": "W. Clapp, « The Short, Happy Life Of The .40 Smith & Wesson », American Rifleman (NRA), 22 févr. 2025, https://www.americanrifleman.org/content/the-short-happy-life-of-the-40-smith-wesson/",
+          "page": "(page web)",
+          "citation": "Partnered with Winchester Ammunition, Smith & Wesson introduced a new cartridge and the service pistol to fire it.",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "visait les armes de service de police",
+          "source": "W. Clapp, « The Short, Happy Life Of The .40 Smith & Wesson », American Rifleman (NRA), 22 févr. 2025, https://www.americanrifleman.org/content/the-short-happy-life-of-the-40-smith-wesson/",
+          "page": "(page web)",
+          "citation": "The gun-cartridge combination was calculated to dominate the police service pistol market",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "fusillade du FBI à Miami en 1986",
+          "source": "B. Pearce, « 40 Smith & Wesson: Here to Stay! », Handloader, https://www.handloadermagazine.com/40-smith-wesson",
+          "page": "(page web)",
+          "citation": "After a disastrous April 11, 1986, FBI shootout in Miami, Florida, the FBI realized that they needed to improve their sidearm choices.",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "le FBI demande une charge réduite de 10 mm",
+          "source": "B. Pearce, « 40 Smith & Wesson: Here to Stay! », Handloader, https://www.handloadermagazine.com/40-smith-wesson",
+          "page": "(page web)",
+          "citation": "the FBI eventually requested reduced power loads from Federal Cartridge",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "S&W raccourcit l'étui pour la même balistique que la charge FBI du 10 mm",
+          "source": "B. Pearce, « 40 Smith & Wesson: Here to Stay! », Handloader, https://www.handloadermagazine.com/40-smith-wesson",
+          "page": "(page web)",
+          "citation": "they immediately recognized that they could shorten the cartridge and fit it into smaller, lighter and more compact pistols and still easily reach the same ballistics and terminal performance of the 10mm FBI Load.",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "étui = 10 mm Auto raccourci",
+          "source": "B. Pearce, « 40 Smith & Wesson: Here to Stay! », Handloader, https://www.handloadermagazine.com/40-smith-wesson",
+          "page": "(page web)",
+          "citation": "Essentially the 40 S&W case is a 10mm Auto shortened from .992 inch to .850 inch",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "longueur du 9 mm Luger, chargeurs à peine modifiés",
+          "source": "W. Clapp, « The Short, Happy Life Of The .40 Smith & Wesson », American Rifleman (NRA), 22 févr. 2025, https://www.americanrifleman.org/content/the-short-happy-life-of-the-40-smith-wesson/",
+          "page": "(page web)",
+          "citation": "Since the .40 S&W is almost exactly the same length as the 9 mm Luger, the popular double-column 9 mm magazines require only a minor change to the feed lips (sometimes a follower change) to accept .40 S&W cartridges.",
+          "nature": "secondaire"
+        }
+      ]
+    },
+    "416_barrett": {
+      "description": "Cartouche conçue chez Barrett, au nombre des réalisations de Chris Barrett, sur un étui de .50 BMG raccourci et rétreint au calibre .416.",
+      "description_en": "A cartridge designed at Barrett, listed among Chris Barrett's contributions, on a .50 BMG case shortened and necked down to .416 caliber.",
+      "affirmations": [
+        {
+          "texte": "conçue chez Barrett ; étui de .50 BMG raccourci et rétreint",
+          "source": "« Barrett: 40 Years Of .50-Caliber Authority », American Rifleman (NRA), https://www.americanrifleman.org/content/barrett-40-years-of-50-caliber-authority/",
+          "page": "(page web)",
+          "citation": "The .416 Barrett cartridge (2007)—using a necked-down, shortened .50 BMG case that delivers more downrange energy than its parent",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "attribuée à Chris Barrett (liste de ses contributions)",
+          "source": "« Barrett: 40 Years Of .50-Caliber Authority », American Rifleman (NRA), https://www.americanrifleman.org/content/barrett-40-years-of-50-caliber-authority/",
+          "page": "(page web)",
+          "citation": "Noteworthy contributions include:",
+          "nature": "secondaire"
+        }
+      ]
+    },
+    "41_rem_mag": {
+      "description": "Cartouche de revolver lancée par Remington et Smith & Wesson avec le revolver Model 57, à l'intention des forces de l'ordre, après les insuffisances constatées de la .38 Special dans la police : calibre, poids de balle et vitesse y sont intermédiaires. Elle ne s'est guère imposée dans la police, son revolver étant jugé trop lourd à porter.",
+      "description_en": "A revolver cartridge introduced by Remington and Smith & Wesson with the Model 57 revolver for law enforcement, after the .38 Special was found wanting in police service: its bore size, bullet weight and velocity are intermediate. It gained little acceptance with police, its revolver being considered too heavy to carry.",
+      "affirmations": [
+        {
+          "texte": "Remington et S&W, revolver Model 57",
+          "source": "Lyman Reloading Handbook, 48e éd. (2002), commentaire de la cartouche (texte : gtxt/Lyman Reloading Handbook .txt)",
+          "page": "p. 349 (notice 41 Magnum)",
+          "citation": "Remington and Smith & Wesson introduced the 41 Magnum in the Model 57 revolver in 1964.",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "destinée aux forces de l'ordre, peu adoptée",
+          "source": "Lyman Reloading Handbook, 48e éd. (2002), commentaire de la cartouche (texte : gtxt/Lyman Reloading Handbook .txt)",
+          "page": "p. 349 (notice 41 Magnum)",
+          "citation": "The cartridge never gained a great deal of acceptance with the law enforcement market for which it was intended.",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "née des insuffisances de la .38 Special ; intermédiaire en calibre, poids, vitesse ; revolver trop lourd",
+          "source": "W. Clapp, « The Short, Happy Life Of The .40 Smith & Wesson », American Rifleman (NRA), 22 févr. 2025, https://www.americanrifleman.org/content/the-short-happy-life-of-the-40-smith-wesson/",
+          "page": "(page web)",
+          "citation": "inadequate performance of police .38 Spl. ammo generated a drive toward a medium revolver. That’s medium in velocity, bore size and bullet weight. We got the .41 Magnum, which clearly delivered all three, but in a big six-shot revolver that was unacceptably heavy for everyone to carry.",
+          "nature": "secondaire"
+        }
+      ]
+    },
+    "44_40_win": {
+      "description": "Première cartouche métallique à percussion centrale fabriquée par Winchester, lancée comme chambrage de la carabine à levier Model 1873. Colt a ensuite proposé son revolver Single Action Army dans ce calibre, ce qui permettait de tirer la même munition dans la carabine et dans le revolver. Elle est aujourd'hui employée en Cowboy Action Shooting.",
+      "description_en": "Winchester's first metallic centerfire cartridge, introduced as the chambering of the Model 1873 lever-action rifle. Colt then offered its Single Action Army revolver in this caliber, allowing the same ammunition to be fired in rifle and revolver. It is used today in Cowboy Action Shooting.",
+      "affirmations": [
+        {
+          "texte": "carabine Model 1873 chambrée en 44-40",
+          "source": "Winchester, « Historical Timeline » 1860-1899, https://www.winchesterguns.com/news/historical-timeline/1860-1899.html",
+          "page": "(page web)",
+          "citation": "The Model 1873 lever-action rifle is introduced in 44-40 WCF.",
+          "nature": "fabricant"
+        },
+        {
+          "texte": "première cartouche centrale métallique de Winchester, chambrage standard du Model 1873",
+          "source": "P. McCombs, « Colt’s Frontier Six Shooter », American Society of Arms Collectors (PDF), https://americansocietyofarmscollectors.org/wp-content/uploads/2022/10/McCombs-Colt-Forntier-six-shooter-v125.pdf",
+          "page": "(page web)",
+          "citation": "This was the first metallic centerfire cartridge manufactured by Winchester and was promoted as the standard chambering for their new model 1873 rifle.",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "Colt chambre ensuite le SAA en 44-40 ; même munition pour carabine et revolver",
+          "source": "P. McCombs, « Colt’s Frontier Six Shooter », American Society of Arms Collectors (PDF), https://americansocietyofarmscollectors.org/wp-content/uploads/2022/10/McCombs-Colt-Forntier-six-shooter-v125.pdf",
+          "page": "(page web)",
+          "citation": "Colt introduced the Single Action Army in .44-40 caliber. The advantage of having a rifle and pistol chambered for the same cartridge made these two weapons wildly popular",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "Cowboy Action Shooting",
+          "source": "Lyman Reloading Handbook, 48e éd. (2002), commentaire de la cartouche (texte : gtxt/Lyman Reloading Handbook .txt)",
+          "page": "p. 362 (notice 45 Colt) — la phrase vise la 44-40, la 45-70 et la 45 Colt",
+          "citation": "Widespread use in Cowboy Action shooting is also contributing to their current popularity.",
+          "nature": "secondaire"
+        }
+      ]
+    },
+    "44_magnum": {
+      "description": "Issue des chargements à haute pression d'Elmer Keith dans l'étui de la .44 Special ; Smith & Wesson en a produit les premiers revolvers, suivi par Sturm, Ruger & Co. Elle est aussi chambrée dans des carabines à levier et semi-automatiques.",
+      "description_en": "Grew out of Elmer Keith's high-pressure loads in the .44 Special case; Smith & Wesson built the first revolvers for it, followed by Sturm, Ruger & Co. It is also chambered in lever-action and semi-automatic carbines.",
+      "affirmations": [
+        {
+          "texte": "issue des chargements à haute pression de Keith dans la .44 Special",
+          "source": "Lyman Reloading Handbook, 48e éd. (2002), commentaire de la cartouche (texte : gtxt/Lyman Reloading Handbook .txt)",
+          "page": "p. 354 (notice 44 Remington Magnum)",
+          "citation": "The 44 Remington Magnum is the product of Elmer Keith's experimentation with high-pressure loadings in the 44 Special during the early 1950s.",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "premiers revolvers S&W, puis Ruger",
+          "source": "Lyman Reloading Handbook, 48e éd. (2002), commentaire de la cartouche (texte : gtxt/Lyman Reloading Handbook .txt)",
+          "page": "p. 354 (notice 44 Remington Magnum)",
+          "citation": "Smith & Wesson first produced revolvers for it in 1955 and Sturm, Ruger & Co. soon followed.",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "carabines à levier et semi-automatiques",
+          "source": "Lyman Reloading Handbook, 48e éd. (2002), commentaire de la cartouche (texte : gtxt/Lyman Reloading Handbook .txt)",
+          "page": "p. 354 (notice 44 Remington Magnum)",
+          "citation": "It has also proven an effective short-range brush cartridge when chambered in various lever action and semiautomatic carbines.",
+          "nature": "secondaire"
+        }
+      ]
+    },
+    "44_special": {
+      "description": "Version allongée de la .44 Russian, créée pour mieux tirer parti de la poudre sans fumée. Elmer Keith l'a employée pour ses chargements à haute vitesse, travaux qui ont abouti à la .44 Remington Magnum.",
+      "description_en": "A lengthened version of the .44 Russian, created to make better use of smokeless powder. Elmer Keith used it for his high-velocity loads, work that led to the .44 Remington Magnum.",
+      "affirmations": [
+        {
+          "texte": ".44 Russian allongée pour la poudre sans fumée",
+          "source": "Lyman Reloading Handbook, 48e éd. (2002), commentaire de la cartouche (texte : gtxt/Lyman Reloading Handbook .txt)",
+          "page": "p. 352 (notice 44 Special)",
+          "citation": "The 44 Special came into being in 1907 as a lengthened version of the old 44 Russian cartridge in order to better utilize smokeless powder.",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "Keith, chargements à haute vitesse, aboutissement : .44 Magnum",
+          "source": "Lyman Reloading Handbook, 48e éd. (2002), commentaire de la cartouche (texte : gtxt/Lyman Reloading Handbook .txt)",
+          "page": "p. 352 (notice 44 Special)",
+          "citation": "Elmer Keith used the 44 Special extensively in pursuit of high-velocity handgun loads. His efforts culminated in the introduction of the 44 Remington Magnum in 1955.",
+          "nature": "secondaire"
+        }
+      ]
+    },
+    "450_bushmaster": {
+      "description": "Issue du concept « Thumper » de Jeff Cooper : une cartouche de gros calibre pour fusil semi-automatique de type AR-15, utilisable aussi sur le gros gibier. Elle reprend la .45 Professional de Tim LeGendre (LeMAG Firearms), étui droit à gorge, dont Hornady a fait raccourcir l'étui pour la produire avec Bushmaster ; elle tire des balles de 0,452 po.",
+      "description_en": "Descends from Jeff Cooper's “Thumper” concept: a big-bore cartridge for AR-15-type semi-automatic rifles, also usable on large game. It takes up Tim LeGendre's (LeMAG Firearms) .45 Professional, a straight-walled rebated-rim case that Hornady had shortened for production with Bushmaster; it fires .452-inch bullets.",
+      "affirmations": [
+        {
+          "texte": "concept Thumper de Jeff Cooper, AR-15, gros gibier",
+          "source": "« Case Histories: 450 Bushmaster », Gunmart (mis à jour 14/10/2019), https://www.gunmart.net/ammunition/rifle-ammunition/case-histories-450-bushmaster",
+          "page": "(page web)",
+          "citation": "It all started when gun-writer and IPSC founding president Jeff Cooper mused on the idea of a semi-auto big bore ‘Thumper’ cartridge, suitable for use in AR15-type platforms and also/maybe serve as a large game round.",
+          "nature": "secondaire"
+        },
+        {
+          "texte": ".45 Professional de LeGendre, étui droit à gorge",
+          "source": "« Case Histories: 450 Bushmaster », Gunmart (mis à jour 14/10/2019), https://www.gunmart.net/ammunition/rifle-ammunition/case-histories-450-bushmaster",
+          "page": "(page web)",
+          "citation": "the challenge was met by former General Motors Engineer Tim J LeGendre of LeMAG Firearms in the early 1990’s, presenting Cooper with a converted AR and a straight wall, rebated rim cartridge that he named the .45 Professional.",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "Hornady fait raccourcir l'étui ; production avec Bushmaster",
+          "source": "« Case Histories: 450 Bushmaster », Gunmart (mis à jour 14/10/2019), https://www.gunmart.net/ammunition/rifle-ammunition/case-histories-450-bushmaster",
+          "page": "(page web)",
+          "citation": "Hornady requested that the case length be reduced from 1.771” to 1.700”. The redesign was approved by Bushmaster and designer LeGendre and the new version renamed the .450 Bushmaster.",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "balles de 0,452 po",
+          "source": "P. Massaro, « Behind the Bullet: .450 Bushmaster », American Hunter (NRA), 16 nov. 2022, https://www.americanhunter.org/content/behind-the-bullet-450-bushmaster/",
+          "page": "(page web)",
+          "citation": "the .450 Bushmaster is designed to use the same 0.452”-diameter bullets that the .45 ACP, .45 Colt and .454 Casull use.",
+          "nature": "secondaire"
+        }
+      ]
+    },
+    "454_casull": {
+      "description": "Cartouche conçue par Dick Casull pour la chasse à l'arme de poing, sur un étui de .45 Colt allongé et renforcé. Freedom Arms, société fondée par Wayne Baker et Dick Casull, en a produit le premier revolver d'usine, le Model 83.",
+      "description_en": "A cartridge designed by Dick Casull for handgun hunting, on a lengthened and thickened .45 Colt case. Freedom Arms, founded by Wayne Baker and Dick Casull, produced the first factory revolver for it, the Model 83.",
+      "affirmations": [
+        {
+          "texte": "conçue par Dick Casull pour la chasse à l'arme de poing",
+          "source": "Lyman Reloading Handbook, 48e éd. (2002), commentaire de la cartouche (texte : gtxt/Lyman Reloading Handbook .txt)",
+          "page": "p. 364 (notice 454 Casull)",
+          "citation": "The 454 Casull is a very powerful cartridge designed by Dick Casull for handgun hunting",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "étui de .45 Colt allongé et renforcé",
+          "source": "Lyman Reloading Handbook, 48e éd. (2002), commentaire de la cartouche (texte : gtxt/Lyman Reloading Handbook .txt)",
+          "page": "p. 364 (notice 454 Casull)",
+          "citation": "The 454 Casull is based on a lengthened and thickened 45 Colt case.",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "Freedom Arms fondée par Baker et Casull",
+          "source": "« Freedom Arms: A Custom-Grade Revolver Company », American Rifleman (NRA), https://www.americanrifleman.org/content/freedom-arms-a-custom-grade-revolver-company/",
+          "page": "(page web)",
+          "citation": "Wayne Baker and noted gunsmith Dick Casull—whose namesake .454 Casull cartridge first made headlines in 1959 —established the company.",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "premier revolver d'usine : Model 83",
+          "source": "« Freedom Arms: A Custom-Grade Revolver Company », American Rifleman (NRA), https://www.americanrifleman.org/content/freedom-arms-a-custom-grade-revolver-company/",
+          "page": "(page web)",
+          "citation": "It introduced its Model ’83 in 1983 and with it the world was introduced to the first, factory-built .454 Casull revolver.",
+          "nature": "secondaire"
+        }
+      ]
+    },
+    "458_win_mag": {
+      "description": "Magnum ceinturée de Winchester, sur un étui dérivé de la .375 H&H, lancée avec une carabine à verrou Model 70 baptisée « African ». Elle devait offrir, dans une arme à verrou abordable, la balistique des .450 et .470 Nitro Express ; elle s'est fait un nom sur le gibier dangereux d'Afrique.",
+      "description_en": "Winchester's belted magnum, on a case derived from the .375 H&H, introduced with a Model 70 bolt-action rifle named the “African”. It was meant to offer the ballistics of the .450 and .470 Nitro Express in an affordable bolt-action rifle; it made its name on African dangerous game.",
+      "affirmations": [
+        {
+          "texte": "étui ceinturé dérivé de la .375 H&H ; Model 70 « African »",
+          "source": "« The .458 Lott: A Dedicated Cartridge for Dangerous Game », American Rifleman (NRA), https://www.americanrifleman.org/content/the-458-lott-a-dedicated-cartridge-for-dangerous-game/",
+          "page": "(page web)",
+          "citation": "The .458 Win. Mag., based on a belted .375 H&H case",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "lancée avec la Model 70 « African »",
+          "source": "« The .458 Lott: A Dedicated Cartridge for Dangerous Game », American Rifleman (NRA), https://www.americanrifleman.org/content/the-458-lott-a-dedicated-cartridge-for-dangerous-game/",
+          "page": "(page web)",
+          "citation": "was introduced in 1956 by Winchester along with a Model 70 rifle dubbed the “African.”",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "balistique des .450 et .470 NE dans une arme à verrou abordable",
+          "source": "« The .458 Lott: A Dedicated Cartridge for Dangerous Game », American Rifleman (NRA), https://www.americanrifleman.org/content/the-458-lott-a-dedicated-cartridge-for-dangerous-game/",
+          "page": "(page web)",
+          "citation": "It was intended to offer the ballistics of the .450 Nitro Express and .470 Nitro Express through an affordable bolt-action platform.",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "gibier dangereux d'Afrique",
+          "source": "Lyman Reloading Handbook, 48e éd. (2002), commentaire de la cartouche (texte : gtxt/Lyman Reloading Handbook .txt)",
+          "page": "p. 310 (notice 458 Winchester Magnum)",
+          "citation": "The cartridge has made a name for itself since then on the most dangerous game in Africa and around the world.",
+          "nature": "secondaire"
+        }
+      ]
+    },
+    "45_70_govt": {
+      "description": "Cartouche réglementaire de l'armée américaine, adoptée pour remplacer la .50-70 et associée au fusil Springfield modèle 1873 dit « Trapdoor » ; sa désignation d'origine, 45-70-500, indiquait le calibre, la charge de 70 grains de poudre noire et la balle de 500 grains. Remplacée en 1892 par la .30-40 Krag, elle est aussi chambrée dans des carabines à levier plus robustes que le Trapdoor, comme les Winchester 1886 et Marlin 1895.",
+      "description_en": "A U.S. Army service cartridge, adopted to replace the .50-70 and associated with the Model 1873 “Trapdoor” Springfield rifle; its original designation, 45-70-500, gave the caliber, the 70-grain black-powder charge and the 500-grain bullet. Replaced by the .30-40 Krag in 1892, it is also chambered in lever-action rifles stronger than the Trapdoor, such as the Winchester 1886 and Marlin 1895.",
+      "affirmations": [
+        {
+          "texte": "adoptée par l'armée américaine pour remplacer la .50-70",
+          "source": "Lyman Reloading Handbook, 48e éd. (2002), commentaire de la cartouche (texte : gtxt/Lyman Reloading Handbook .txt)",
+          "page": "p. 296 (notice 45-70 Government, Trapdoor)",
+          "citation": "The United States Army adopted this cartridge in 1873 as a replacement for the short lived 50-70.",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "associée au Springfield 1873 « Trapdoor »",
+          "source": "Lyman Reloading Handbook, 48e éd. (2002), commentaire de la cartouche (texte : gtxt/Lyman Reloading Handbook .txt)",
+          "page": "p. 296 (notice 45-70 Government, Trapdoor)",
+          "citation": "The 45-70 has become synonymous with the Model 1873 Springfield rifle, nicknamed the \"Trapdoor\" due to the unique operation of its hinged breech.",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "désignation 45-70-500",
+          "source": "Lyman Reloading Handbook, 48e éd. (2002), commentaire de la cartouche (texte : gtxt/Lyman Reloading Handbook .txt)",
+          "page": "p. 296 (notice 45-70 Government, Trapdoor)",
+          "citation": "The cartridge was originally designated the 45-70-500 to indicate its 45-caliber bullet, 70grains black powder, and 500-grain bullet composition.",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "remplacée par la .30-40 Krag en 1892",
+          "source": "Lyman Reloading Handbook, 48e éd. (2002), commentaire de la cartouche (texte : gtxt/Lyman Reloading Handbook .txt)",
+          "page": "p. 296 (notice 45-70 Government, Trapdoor) (OCR « 3O40 » = 30-40)",
+          "citation": "The 3O40 Krag rifle and cartridge officially replaced the Trapdoor Springfield in 1892",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "carabines à levier Winchester 1886 et Marlin 1895, plus robustes",
+          "source": "Lyman Reloading Handbook, 48e éd. (2002), commentaire de la cartouche (texte : gtxt/Lyman Reloading Handbook .txt)",
+          "page": "p. 299 (notice 45-70, carabines à levier)",
+          "citation": "The stronger lock up of the Winchester Model 1886 and Marlin 1895 lever action rifles allow the reloader to safely exceed the pressure levels associated with the elderly Trapdoor rifles.",
+          "nature": "secondaire"
+        }
+      ]
+    },
+    "45_acp": {
+      "description": "Cartouche de John Browning et Colt, apparue avec le pistolet Colt Model 1905 ; les essais Thompson-LaGarde ayant conduit l'Ordnance à exiger un calibre .45, l'armée américaine l'a adoptée avec le pistolet Colt M1911. Le M1911 et sa version 1911A1 sont restés l'arme de poing réglementaire américaine jusqu'à leur remplacement officiel par le 9 mm Beretta en 1985.",
+      "description_en": "A John Browning and Colt cartridge that appeared with the Colt Model 1905 pistol; after the Thompson-LaGarde tests led Ordnance to call for a .45 caliber, the U.S. Army adopted it with the Colt M1911 pistol. The M1911 and its 1911A1 version remained the standard U.S. sidearm until officially replaced by the 9 mm Beretta in 1985.",
+      "affirmations": [
+        {
+          "texte": "apparue avec le Colt Model 1905 de Browning",
+          "source": "Lyman Reloading Handbook, 48e éd. (2002), commentaire de la cartouche (texte : gtxt/Lyman Reloading Handbook .txt)",
+          "page": "p. 357 (notice 45 ACP)",
+          "citation": "The 45 ACP (Automatic Colt Pistol) originated in the Colt Model 1905 pistol developed by John Moses Browning.",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "Thompson-LaGarde → calibre .45 exigé ; Model 1905",
+          "source": "D. Campbell, « The .45 ACP: History & Performance », American Rifleman (NRA), 8 déc. 2022, https://www.americanrifleman.org/content/the-45-acp-history-performance/",
+          "page": "(page web)",
+          "citation": "As a result of the Thompson-LaGarde Tests, the Ordnance Department specified a .45-cal. cartridge, and Browning obliged the department with a .45-cal. Model 1905 pistol.",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "adoptée par l'armée avec le M1911",
+          "source": "D. Campbell, « The .45 ACP: History & Performance », American Rifleman (NRA), 8 déc. 2022, https://www.americanrifleman.org/content/the-45-acp-history-performance/",
+          "page": "(page web)",
+          "citation": "on March 29, 1911, the Colt Model 1911 pistol and the \"Cal. 45 Automatic Pistol Ball Cartridge, Model of 1911\"—now known as the .45 ACP—were formally adopted by the Army.",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "arme réglementaire jusqu'au remplacement par le Beretta en 1985",
+          "source": "Lyman Reloading Handbook, 48e éd. (2002), commentaire de la cartouche (texte : gtxt/Lyman Reloading Handbook .txt)",
+          "page": "p. 357 (notice 45 ACP)",
+          "citation": "Although officially replaced by the 9mm Beretta in 1985, the 45 ACP cartridge remains in use with Special Operations units.",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "M1911 et 1911A1 arme réglementaire",
+          "source": "Lyman Reloading Handbook, 48e éd. (2002), commentaire de la cartouche (texte : gtxt/Lyman Reloading Handbook .txt)",
+          "page": "p. 357 (notice 45 ACP) (OCR « AI » = A1)",
+          "citation": "The Model 1911 and 1911 AI pistol served as the standard U.S. military sidearm for over 70 years.",
+          "nature": "secondaire"
+        }
+      ]
+    },
+    "45_colt": {
+      "description": "Cartouche introduite par Colt avec son revolver Single Action Army modèle 1873, chargée à l'origine à la poudre noire. On l'appelle à tort « .45 Long Colt » : il n'a jamais existé de .45 Short Colt. Elle est employée en Cowboy Action Shooting.",
+      "description_en": "A cartridge introduced by Colt with its Model 1873 Single Action Army revolver, originally loaded with black powder. It is mistakenly called the “.45 Long Colt”: there never was a .45 Short Colt. It is used in Cowboy Action Shooting.",
+      "affirmations": [
+        {
+          "texte": "introduite avec le Colt Single Action Army 1873",
+          "source": "Lyman Reloading Handbook, 48e éd. (2002), commentaire de la cartouche (texte : gtxt/Lyman Reloading Handbook .txt)",
+          "page": "p. 362 (notice 45 Colt)",
+          "citation": "Colt introduced their 45 cartridge in the famed Model 1873 Single Action Army.",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "chargement d'origine à la poudre noire",
+          "source": "Lyman Reloading Handbook, 48e éd. (2002), commentaire de la cartouche (texte : gtxt/Lyman Reloading Handbook .txt)",
+          "page": "p. 362 (notice 45 Colt)",
+          "citation": "The original loading propelled a 255-grain lead bullet with 40grains of black powder around 900 feet per second.",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "« .45 Long Colt » est une appellation erronée",
+          "source": "Lyman Reloading Handbook, 48e éd. (2002), commentaire de la cartouche (texte : gtxt/Lyman Reloading Handbook .txt)",
+          "page": "p. 362 (notice 45 Colt)",
+          "citation": "The 45 Colt is also known— mistakenly-as the 45 Long Colt.",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "pas de .45 Short Colt",
+          "source": "Lyman Reloading Handbook, 48e éd. (2002), commentaire de la cartouche (texte : gtxt/Lyman Reloading Handbook .txt)",
+          "page": "p. 362 (notice 45 Colt)",
+          "citation": "there never was a 45 Short Colt.",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "Cowboy Action Shooting",
+          "source": "Lyman Reloading Handbook, 48e éd. (2002), commentaire de la cartouche (texte : gtxt/Lyman Reloading Handbook .txt)",
+          "page": "p. 362 (notice 45 Colt)",
+          "citation": "Widespread use in Cowboy Action shooting is also contributing to their current popularity.",
+          "nature": "secondaire"
+        }
+      ]
+    },
+    "460_sw_mag": {
+      "description": "Cartouche de revolver de Smith & Wesson, chambrée dans ses revolvers à carcasse X, pour la plupart à canon long destinés à la chasse à l'arme de poing. À la longueur d'étui près, elle a les dimensions extérieures de la .454 Casull et de la .45 Colt, de sorte qu'un revolver .460 comme le 460XVR tire aussi ces deux cartouches.",
+      "description_en": "A Smith & Wesson revolver cartridge chambered in its X-Frame revolvers, mostly long-barreled guns intended for handgun hunting. Except for case length, it shares the external dimensions of the .454 Casull and .45 Colt, so that a .460 revolver such as the 460XVR also fires those two cartridges.",
+      "affirmations": [
+        {
+          "texte": "revolvers à carcasse X",
+          "source": "B. Gil Horman, « Smith & Wesson 460XVR Revolver Review », American Rifleman (NRA), 26 févr. 2020, https://www.americanrifleman.org/content/smith-wesson-460xvr-revolver-review/",
+          "page": "(page web)",
+          "citation": "The X-Frame revolvers chambered for the .460 S&W cartridge first arrived on the market in 2005",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "canons longs, chasse à l'arme de poing",
+          "source": "B. Gil Horman, « Smith & Wesson 460XVR Revolver Review », American Rifleman (NRA), 26 févr. 2020, https://www.americanrifleman.org/content/smith-wesson-460xvr-revolver-review/",
+          "page": "(page web)",
+          "citation": "most of the X-Frames have been constructed with long, heavy barrels intended to harness the .500 and .460 cartridges’ power for handgun hunting.",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "mêmes dimensions extérieures que .454 Casull et .45 Colt sauf la longueur ; les trois se tirent dans le 460XVR",
+          "source": "B. Gil Horman, « Smith & Wesson 460XVR Revolver Review », American Rifleman (NRA), 26 févr. 2020, https://www.americanrifleman.org/content/smith-wesson-460xvr-revolver-review/",
+          "page": "(page web)",
+          "citation": "With the exception of case length, the .460 S&W shares the same external dimensions as the .454 Casull and .45 Colt. This means all three cartridges, in all of their varying power levels, can be safely fired in this gun.",
+          "nature": "secondaire"
+        }
+      ]
+    },
+    "46x30_hk": {
+      "description": "Cartouche conçue par Heckler & Koch pour son arme de défense individuelle (PDW) MP7, afin de satisfaire aux exigences OTAN « CRISAT » de perforation d'une protection de référence (plaque de titane doublée de Kevlar). Son développement est contemporain de celui du P90 de FN Herstal et de la 5,7 × 28 mm concurrente.",
+      "description_en": "A cartridge designed by Heckler & Koch for its MP7 personal defence weapon (PDW), to meet the NATO “CRISAT” requirement of defeating a reference protection (a titanium plate backed by Kevlar). Its development was contemporary with FN Herstal's P90 and the competing 5.7×28 mm.",
+      "affirmations": [
+        {
+          "texte": "H&K, pour la PDW MP7, conçue pour les exigences CRISAT",
+          "source": "« Case Histories: HK 4.6x30mm », Gunmart (2006, mis à jour 19/12/2016), https://www.gunmart.net/ammunition/rifle-ammunition/case-history-hk-4.6x30mm",
+          "page": "(page web)",
+          "citation": "Introduced in 2001 by Heckler & Koch for use in their all new, MP7 personal defence weapon (PDW) the 4.6 x 30 cartridge was specifically designed to meet CRISAT requirements.",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "cible CRISAT = titane + Kevlar",
+          "source": "« Case Histories: HK 4.6x30mm », Gunmart (2006, mis à jour 19/12/2016), https://www.gunmart.net/ammunition/rifle-ammunition/case-history-hk-4.6x30mm",
+          "page": "(page web)",
+          "citation": "(The CRISAT target is defined as 1.6mm titanium (UK IMI Ti 318) plate supplemented by 20 layers of Kevlar (UK/SC/4468))",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "contemporaine du P90 et de la 5,7 × 28 concurrente",
+          "source": "« The Heckler & Koch MP7: High Speed PDW », Athlon Outdoors, https://athlonoutdoors.com/article/the-heckler-koch-mp7/",
+          "page": "(page web)",
+          "citation": "The MP7’s development coincided with FN Herstal’s P90, which utilized the competing 5.7×28mm round.",
+          "nature": "secondaire"
+        }
+      ]
+    },
+    "500_sw_mag": {
+      "description": "Cartouche créée par Smith & Wesson pour un revolver de chasse à carcasse X, que le fabricant présentait à son lancement comme le revolver de série le plus puissant jamais produit.",
+      "description_en": "A cartridge created by Smith & Wesson for an X-Frame hunting revolver, which the maker presented at its launch as the most powerful production revolver ever made.",
+      "affirmations": [
+        {
+          "texte": "cartouche nouvelle pour le revolver 500 S&W",
+          "source": "Smith & Wesson Holding Corp., communiqué « Smith & Wesson Introduces New .50 Caliber Magnum Revolver », 13 févr. 2003 (original ir.smith-wesson.com en 403, lu sur la reprise https://www.corrections1.com/products/firearms/press-releases/smith-wesson-introduces-new-50-caliber-magnum-revolver-drkMcLg8HjkokryT/)",
+          "page": "(page web)",
+          "citation": "The new 500 Smith & Wesson Magnum(R) revolver is chambered for the new .50 caliber 500 Smith & Wesson Magnum(R) cartridge.",
+          "nature": "fabricant"
+        },
+        {
+          "texte": "présenté comme le revolver de série le plus puissant (dire du fabricant)",
+          "source": "Smith & Wesson Holding Corp., communiqué « Smith & Wesson Introduces New .50 Caliber Magnum Revolver », 13 févr. 2003 (original ir.smith-wesson.com en 403, lu sur la reprise https://www.corrections1.com/products/firearms/press-releases/smith-wesson-introduces-new-50-caliber-magnum-revolver-drkMcLg8HjkokryT/)",
+          "page": "(page web)",
+          "citation": "today introduced the largest and most powerful production revolver ever made",
+          "nature": "fabricant"
+        },
+        {
+          "texte": "revolver de chasse",
+          "source": "Smith & Wesson Holding Corp., communiqué « Smith & Wesson Introduces New .50 Caliber Magnum Revolver », 13 févr. 2003 (original ir.smith-wesson.com en 403, lu sur la reprise https://www.corrections1.com/products/firearms/press-releases/smith-wesson-introduces-new-50-caliber-magnum-revolver-drkMcLg8HjkokryT/)",
+          "page": "(page web)",
+          "citation": "we have once again produced a premier hunting revolver with no equal.",
+          "nature": "fabricant"
+        },
+        {
+          "texte": "carcasse X",
+          "source": "B. Gil Horman, « Smith & Wesson 460XVR Revolver Review », American Rifleman (NRA), 26 févr. 2020, https://www.americanrifleman.org/content/smith-wesson-460xvr-revolver-review/",
+          "page": "(page web)",
+          "citation": "just two years after the .500 S&W X-Frames quashed the who's-going-to-build-the-biggest-revolver debate of the new century.",
+          "nature": "secondaire"
+        }
+      ]
+    },
+    "50_ae": {
+      "description": "Cartouche conçue pour le pistolet semi-automatique Desert Eagle. Son étui, de forme conique, a un culot à gorge (rebated rim) du même diamètre que celui de la .44 Magnum.",
+      "description_en": "A cartridge designed for the semi-automatic Desert Eagle pistol. Its tapered case has a rebated rim of the same diameter as the .44 Magnum's.",
+      "affirmations": [
+        {
+          "texte": "conçue pour le Desert Eagle",
+          "source": "Lyman Reloading Handbook, 48e éd. (2002), commentaire de la cartouche (texte : gtxt/Lyman Reloading Handbook .txt)",
+          "page": "p. 367 (notice 50 Action Express)",
+          "citation": "The 50 Action Express is a very powerful cartridge designed to be fired in the semi-automatic Desert Eagle pistol.",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "culot à gorge du diamètre de la .44 Magnum, étui conique",
+          "source": "Lyman Reloading Handbook, 48e éd. (2002), commentaire de la cartouche (texte : gtxt/Lyman Reloading Handbook .txt)",
+          "page": "p. 367 (notice 50 Action Express)",
+          "citation": "The 50 AE case uses a rebated rim of the same diameter as the 44 Magnum, and has a tapered body.",
+          "nature": "secondaire"
+        }
+      ]
+    },
+    "50_bmg": {
+      "description": "Cartouche née d'une demande de l'Ordnance américaine, qui voulait une munition lourde perforante : Winchester fut chargé de la concevoir, puis Frankford Arsenal en reprit la mise au point, et John Browning dessina l'arme, devenue la mitrailleuse M1921 puis la M2. Elle est aussi tirée dans des fusils d'épaule, comme le Barrett M82A1 semi-automatique, adopté par le Corps des Marines américain.",
+      "description_en": "A cartridge born of a U.S. Ordnance request for a heavy armor-piercing round: Winchester was contracted to design it, Frankford Arsenal then took over, and John Browning designed the gun, which became the M1921 and then the M2 machine gun. It is also fired in shoulder rifles such as the semi-automatic Barrett M82A1, adopted by the U.S. Marine Corps.",
+      "affirmations": [
+        {
+          "texte": "demande de l'Ordnance pour une cartouche perforante",
+          "source": "Browning, « Browning M2 Machine Gun — Gun That Won the War » (cite W. Tillman), https://www.browning.com/news/articles/historical/50-caliber-machine-gun-won-ww2.html",
+          "page": "(page web)",
+          "citation": "“American interest in an armor-piercing cartridge … (prompted) U.S. Army Ordnance officers to consult Browning,” noted Tillman.",
+          "nature": "fabricant"
+        },
+        {
+          "texte": "Winchester, puis Frankford Arsenal",
+          "source": "Browning, « Browning M2 Machine Gun — Gun That Won the War » (cite W. Tillman), https://www.browning.com/news/articles/historical/50-caliber-machine-gun-won-ww2.html",
+          "page": "(page web)",
+          "citation": "Ordnance contracted with Winchester to design a .50-cal. cartridge. Subsequently, Frankford Arsenal took over from Winchester, producing the historic .50 BMG or 12.7x99 mm cartridge.",
+          "nature": "fabricant"
+        },
+        {
+          "texte": "arme de Browning : M1921 puis M2",
+          "source": "Browning, « Browning M2 Machine Gun — Gun That Won the War » (cite W. Tillman), https://www.browning.com/news/articles/historical/50-caliber-machine-gun-won-ww2.html",
+          "page": "(page web)",
+          "citation": "the resulting gun was approved for production and called the M1921 water-cooled .50-cal. machine gun, and it formed the basis for today’s M2 model",
+          "nature": "fabricant"
+        },
+        {
+          "texte": "Barrett, fusil semi-automatique en .50 BMG",
+          "source": "« Barrett: 40 Years Of .50-Caliber Authority », American Rifleman (NRA), https://www.americanrifleman.org/content/barrett-40-years-of-50-caliber-authority/",
+          "page": "(page web)",
+          "citation": "Ronnie Barrett’s impulse to build his own rifle—a .50 BMG semi-automatic—transformed his father’s garage into a workshop",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "M82A1 adopté par les Marines",
+          "source": "« Barrett: 40 Years Of .50-Caliber Authority », American Rifleman (NRA), https://www.americanrifleman.org/content/barrett-40-years-of-50-caliber-authority/",
+          "page": "(page web)",
+          "citation": "the Barrett M82A1 was made an official Marine Corps rifle.",
+          "nature": "secondaire"
+        }
+      ]
+    },
+    "545x39_m74": {
+      "description": "Cartouche soviétique de petit calibre, développée après l'adoption américaine du 5,56 × 45 et du M16, et adoptée avec la munition 7N6 et les fusils d'assaut AK-74 et AKS-74. Son étui en acier, de longueur voisine de celle du 7,62 × 39 mais d'un diamètre un peu inférieur, empêche d'y introduire par erreur les anciennes cartouches de 7,62 mm ; les balles réglementaires 7N6 et 7N10 ont un noyau d'acier.",
+      "description_en": "A Soviet small-caliber cartridge, developed after the U.S. adoption of the 5.56×45 and M16, and adopted with the 7N6 round and the AK-74 and AKS-74 assault rifles. Its steel case, of about the same length as the 7.62×39 case but slightly smaller in diameter, prevents old 7.62 mm rounds from being loaded by mistake; the 7N6 and 7N10 service bullets have steel cores.",
+      "affirmations": [
+        {
+          "texte": "développée après l'adoption américaine du 5,56 et du M16",
+          "source": "M. Popenker, Modern Firearms, « 5.45x39 », https://modernfirearms.net/en/cartridge/5-45x39/",
+          "page": "(page web)",
+          "citation": "Активная разработка малоимпульсных патронов уменьшенного калибра была начата в СССР в начале 1960х годов, после получения информации об аналогичных разработках в США, приведших к принятию на вооружение патрона 5.56х45 и винтовки М16 под этот патрон.",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "étui acier, diamètre inférieur, même longueur ; évite l'erreur avec le 7,62",
+          "source": "M. Popenker, Modern Firearms, « 5.45x39 », https://modernfirearms.net/en/cartridge/5-45x39/",
+          "page": "(page web)",
+          "citation": "окончательный вариант нового патрона для Советской армии имел стальную гильзу несколько меньшего диаметра (при практически той же длине), что, помимо уменьшения габаритов патронов и магазинов под них, исключало ошибочное заряжание «старых» патронов калибра 7.62мм в оружие под новый патрон.",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "adoptée avec la 7N6, AK-74 et AKS-74",
+          "source": "M. Popenker, Modern Firearms, « 5.45x39 », https://modernfirearms.net/en/cartridge/5-45x39/",
+          "page": "(page web)",
+          "citation": "Новый комплекс стрелкового оружия, состоявший из 5.45мм патрона 7Н6 и автоматов АК-74 и АКС-74 поступил на вооружение ВС СССР в 1974 году.",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "7N6 et 7N10 à noyau d'acier",
+          "source": "M. Popenker, Modern Firearms, « 5.45x39 », https://modernfirearms.net/en/cartridge/5-45x39/",
+          "page": "(page web)",
+          "citation": "помимо штатных патронов 7Н6 со стальным сердечником, а также ставшего с конца 1980х годов основным патрона 7Н10 (также со стальным сердечником пули, повышенной пробиваемости)",
+          "nature": "secondaire"
+        }
+      ]
+    },
+    "556x45_nato": {
+      "description": "Désignation militaire de la cartouche commercialisée par Remington sous le nom de .223 Remington, peu après son adoption par l'armée américaine ; FN Herstal a conçu la munition SS109, retenue comme standard OTAN. Selon la SAAMI, une chambre .223 Remington a une gorge plus courte qu'une chambre 5,56 : la munition 5,56 OTAN ne doit pas y être tirée, alors que la .223 se tire sans danger dans une chambre 5,56 de spécification militaire.",
+      "description_en": "The military designation of the cartridge Remington marketed as the .223 Remington shortly after its adoption by the U.S. Army; FN Herstal designed the SS109 round, adopted as the NATO standard. According to SAAMI, a .223 Remington chamber has a shorter throat than a 5.56 chamber: 5.56 NATO ammunition must not be fired in it, whereas .223 is safe in a military-specification 5.56 chamber.",
+      "affirmations": [
+        {
+          "texte": ".223 commercialisée par Remington peu après l'adoption par l'armée américaine",
+          "source": "Lyman Reloading Handbook, 48e éd. (2002), commentaire de la cartouche (texte : gtxt/Lyman Reloading Handbook .txt)",
+          "page": "p. 145 du texte extrait (notice 223 Remington)",
+          "citation": "Remington introduced this cartridge to the commercial market in 1964 soon after its adoption by the U.S. Army as the 5.56 NATO.",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "SS109 conçue par FN, standard OTAN",
+          "source": "FN Herstal, « 5.56x45mm NATO », https://fnherstal.com/en/defence/ammunition/556x45mm/",
+          "page": "(page web)",
+          "citation": "FN Herstal is the original designer of the military 5.56x45mm SS109 cartridge, which was adopted by NATO as the second official standardized calibre in 1980.",
+          "nature": "fabricant"
+        },
+        {
+          "texte": ".223 sans danger en chambre 5,56 militaire",
+          "source": "SAAMI, FAQ « Are 223 Remington (223 Rem) and 5.56 (5.56x45mm / 5.56 NATO) ammunition interchangeable? », https://saami.org/faqs/",
+          "page": "(page web)",
+          "citation": "It is safe to shoot 223 Remington ammunition in a 5.56 military specification chamber.",
+          "nature": "primaire"
+        },
+        {
+          "texte": "5,56 interdite en chambre .223 ; gorge plus courte",
+          "source": "SAAMI, FAQ « Are 223 Remington (223 Rem) and 5.56 (5.56x45mm / 5.56 NATO) ammunition interchangeable? », https://saami.org/faqs/",
+          "page": "(page web)",
+          "citation": "a barrel marked as chambered in 223 Remington will have a shorter throat into the rifling than a “5.56” barrel which may cause increased pressure if the “5.56” ammunition is fired in it.",
+          "nature": "primaire"
+        }
+      ]
+    },
+    "57x28_fn": {
+      "description": "Cartouche développée par FN Herstal pour des missions de défense et de sécurité, tirée par l'arme P90 et le pistolet Five-seveN. Selon le fabricant, sa balle perce les protections souples et les casques jusqu'à 200 m ; le calibre est standardisé par l'OTAN.",
+      "description_en": "A cartridge developed by FN Herstal for defence and security missions, fired by the P90 and the Five-seveN pistol. According to the maker, its bullet penetrates soft body armour and helmets up to 200 m; the caliber is NATO-standardised.",
+      "affirmations": [
+        {
+          "texte": "développée par FN pour la défense et la sécurité",
+          "source": "FN Herstal, « 5.7x28mm NATO », https://fnherstal.com/en/defence/ammunition/57x28mm/",
+          "page": "(page web)",
+          "citation": "FN Herstal developed the 5.7x28mm NATO cartridges for Defence and Security missions.",
+          "nature": "fabricant"
+        },
+        {
+          "texte": "P90",
+          "source": "FN Herstal, « 5.7x28mm NATO », https://fnherstal.com/en/defence/ammunition/57x28mm/",
+          "page": "(page web)",
+          "citation": "FN P90 ® submachine gun",
+          "nature": "fabricant"
+        },
+        {
+          "texte": "Five-seveN",
+          "source": "FN Herstal, « 5.7x28mm NATO », https://fnherstal.com/en/defence/ammunition/57x28mm/",
+          "page": "(page web)",
+          "citation": "FN FIVE-SEVEN ® MRD MK3 handgun",
+          "nature": "fabricant"
+        },
+        {
+          "texte": "perce protections souples et casques jusqu'à 200 m (dire du fabricant)",
+          "source": "FN Herstal, « 5.7x28mm NATO », https://fnherstal.com/en/defence/ammunition/57x28mm/",
+          "page": "(page web)",
+          "citation": "Penetrates soft body armour and helmet up to 200m",
+          "nature": "fabricant"
+        },
+        {
+          "texte": "standardisée par l'OTAN",
+          "source": "FN Herstal, « 5.7x28mm NATO », https://fnherstal.com/en/defence/ammunition/57x28mm/",
+          "page": "(page web)",
+          "citation": "Caliber standardized by NATO",
+          "nature": "fabricant"
+        }
+      ]
+    },
+    "65_creedmoor": {
+      "description": "Cartouche conçue chez Hornady par Dave Emary et Joe Thielen, à partir d'une demande de Dennis DeMille (Creedmoor Sports) : une munition de match vendue chargée, au recul inférieur à celui de la .308. Son étui dérive de celui de la .30 TC, assez court pour loger des balles de 6,5 mm à longue ogive dans la longueur de magasin d'une action courte ; d'abord pensée pour la cible, elle s'est étendue à la chasse.",
+      "description_en": "A cartridge designed at Hornady by Dave Emary and Joe Thielen, from a request by Dennis DeMille (Creedmoor Sports): a factory-loaded match round with less recoil than the .308. Its case derives from the .30 TC, short enough to hold long-ogive 6.5 mm bullets within short-action magazine length; first conceived for target shooting, it spread to hunting.",
+      "affirmations": [
+        {
+          "texte": "conversation Emary, DeMille, Thielen",
+          "source": "Hornady, « The 6.5 Creedmoor — An interview with Hornady’s senior ballistician, Dave Emary », The Hole Story, 1er août 2017, https://www.hornady.com/blog/the-6-5-creedmoor-an-interview-with-hornady-s-senior-ballistician-dave-emary",
+          "page": "(page web)",
+          "citation": "The cartridge concept came from a conversation between myself, Dennis DeMille and Joe Thielen of Hornady",
+          "nature": "fabricant"
+        },
+        {
+          "texte": "demande : munition de commerce gagnante, moins de recul que la .308",
+          "source": "Hornady, « The 6.5 Creedmoor — An interview with Hornady’s senior ballistician, Dave Emary », The Hole Story, 1er août 2017, https://www.hornady.com/blog/the-6-5-creedmoor-an-interview-with-hornady-s-senior-ballistician-dave-emary",
+          "page": "(page web)",
+          "citation": "Dennis said he wanted an off-the-shelf cartridge that was accurate enough to win, with less recoil than the .308",
+          "nature": "fabricant"
+        },
+        {
+          "texte": "étui de la .30 TC, action courte",
+          "source": "Hornady, « The 6.5 Creedmoor — An interview with Hornady’s senior ballistician, Dave Emary », The Hole Story, 1er août 2017, https://www.hornady.com/blog/the-6-5-creedmoor-an-interview-with-hornady-s-senior-ballistician-dave-emary",
+          "page": "(page web)",
+          "citation": "The .30 TC was a new cartridge at the time and gave us a well-designed case, with short enough length to allow the very long ogive 6.5mm bullets to stay within a short action, magazine length restriction.",
+          "nature": "fabricant"
+        },
+        {
+          "texte": "conception Emary et Thielen",
+          "source": "Hornady, « The 6.5 Creedmoor — An interview with Hornady’s senior ballistician, Dave Emary », The Hole Story, 1er août 2017, https://www.hornady.com/blog/the-6-5-creedmoor-an-interview-with-hornady-s-senior-ballistician-dave-emary",
+          "page": "(page web)",
+          "citation": "The design and development was a joint effort between myself and Joe.",
+          "nature": "fabricant"
+        },
+        {
+          "texte": "d'abord cible, puis chasse",
+          "source": "Hornady, « The 6.5 Creedmoor — An interview with Hornady’s senior ballistician, Dave Emary », The Hole Story, 1er août 2017, https://www.hornady.com/blog/the-6-5-creedmoor-an-interview-with-hornady-s-senior-ballistician-dave-emary",
+          "page": "(page web)",
+          "citation": "We originally envisioned it as a target/match cartridge that would have good longer range performance. We quickly realized it would also make a superb medium weight hunting cartridge.",
+          "nature": "fabricant"
+        }
+      ]
+    },
+    "65_grendel": {
+      "description": "Mise au point par Arne Brennan et Bill Alexander (Alexander Arms) à partir d'un wildcat 6,5 PPC monté sur AR-15, sur l'étui de la .220 Russian commun à la famille PPC. Elle devait loger des balles de 6,5 mm, plus lourdes que celles du 5,56 × 45, dans la plateforme M16/AR-15, avec une carcasse supérieure ou un canon et une culasse dédiés et un nouveau chargeur.",
+      "description_en": "Developed by Arne Brennan and Bill Alexander (Alexander Arms) from a 6.5 PPC wildcat built on an AR-15, on the .220 Russian case shared by the PPC family. It was meant to put heavier 6.5 mm bullets than the 5.56×45's into the M16/AR-15 platform, with a dedicated upper receiver or barrel and bolt and a new magazine.",
+      "affirmations": [
+        {
+          "texte": "Brennan et Alexander (Alexander Arms)",
+          "source": "« 6.5mm Grendel », Gunmart (mis à jour 13/12/2016), https://www.gunmart.net/ammunition/rifle-ammunition/6.5mm-grendel",
+          "page": "(page web)",
+          "citation": "Research indicates the 6.5 Grendel came about from collaboration between Arne Brennan and Bill Alexander (Alexander Arms).",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "wildcat 6,5 PPC sur AR-15",
+          "source": "« 6.5mm Grendel », Gunmart (mis à jour 13/12/2016), https://www.gunmart.net/ammunition/rifle-ammunition/6.5mm-grendel",
+          "page": "(page web)",
+          "citation": "By 2000 he had developed a 6.5 PPC wildcat in a modified AR15.",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "étui .220 Russian, comme les PPC",
+          "source": "« 6.5mm Grendel », Gunmart (mis à jour 13/12/2016), https://www.gunmart.net/ammunition/rifle-ammunition/6.5mm-grendel",
+          "page": "(page web)",
+          "citation": "The Grendel uses the same 220 Russian (5.56x39mm) case as does the 22 and 6mm PPC",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "plateforme M16 : carcasse, canon/culasse, chargeur dédiés",
+          "source": "« 6.5mm Grendel », Gunmart (mis à jour 13/12/2016), https://www.gunmart.net/ammunition/rifle-ammunition/6.5mm-grendel",
+          "page": "(page web)",
+          "citation": "one of the criteria for both the 6.8 and 6.5 was to fit into the existing M16 platform. This by the simple expedient of making a dedicated receiver, or re-barrelling and bolting the existing one and adding a new magazine that would fit the original lower",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "balles plus lourdes que le 5,56",
+          "source": "« 6.5mm Grendel », Gunmart (mis à jour 13/12/2016), https://www.gunmart.net/ammunition/rifle-ammunition/6.5mm-grendel",
+          "page": "(page web)",
+          "citation": "But the military seems to think that something bigger would be better, technically correct as a heavier bullet should in theory carry more energy",
+          "nature": "secondaire"
+        }
+      ]
+    },
+    "65_prc": {
+      "description": "Cartouche de Hornady (« Precision Rifle Cartridge ») à culot de magnum standard (0,532 po), qui loge dans une action courte ou moyenne, destinée selon le fabricant à la chasse et au tir sur cible au-delà de 1 000 yards.",
+      "description_en": "A Hornady cartridge (“Precision Rifle Cartridge”) with a standard magnum bolt face (.532 in), fitting short or medium actions, intended, according to the manufacturer, for hunting and target shooting beyond 1,000 yards.",
+      "affirmations": [
+        {
+          "texte": "nom Precision Rifle Cartridge (Hornady)",
+          "source": "Hornady, communiqué « Hornady® Announces New Products for 2018 », 18 oct. 2017, https://press.hornady.com/release/2017/10/18/hornady-announces-new-products-for-2018/",
+          "page": "(page web)",
+          "citation": "The 6.5 Precision Rifle Cartridge was designed to achieve the highest levels of accuracy, flat trajectory and extended range performance in a sensibly designed compact package.",
+          "nature": "fabricant"
+        },
+        {
+          "texte": "tête de culasse magnum standard 0,532 po",
+          "source": "Hornady, communiqué « Hornady® Announces New Products for 2018 », 18 oct. 2017, https://press.hornady.com/release/2017/10/18/hornady-announces-new-products-for-2018/",
+          "page": "(page web)",
+          "citation": "Standard magnum bolt face (.532\")",
+          "nature": "fabricant"
+        },
+        {
+          "texte": "action courte ou moyenne",
+          "source": "Hornady, communiqué « Hornady® Announces New Products for 2018 », 18 oct. 2017, https://press.hornady.com/release/2017/10/18/hornady-announces-new-products-for-2018/",
+          "page": "(page web)",
+          "citation": "Fits in short or medium actions",
+          "nature": "fabricant"
+        },
+        {
+          "texte": "chasse et cible au-delà de 1 000 yards",
+          "source": "Hornady, communiqué « Hornady® Announces New Products for 2018 », 18 oct. 2017, https://press.hornady.com/release/2017/10/18/hornady-announces-new-products-for-2018/",
+          "page": "(page web)",
+          "citation": "the 6.5 PRC still produces high velocities for both hunting and target shooting with performance well beyond 1000 yards.",
+          "nature": "fabricant"
+        }
+      ]
+    },
+    "65x47_lapua": {
+      "description": "Cartouche de Lapua conçue pour le tir de compétition à 300 m, pour y concurrencer la 6 mm BR, mais aussi pour d'autres disciplines et la chasse de précision. Le diamètre du culot et la longueur de chargement reprennent ceux de la .308 Winchester, afin qu'une arme existante puisse être convertie par simple changement de canon ; chambre et gorge sont optimisées pour les balles Lapua Scenar.",
+      "description_en": "A Lapua cartridge designed for 300 m competition shooting, to compete with the 6 mm BR there, but also for other disciplines and precision hunting. The case-head diameter and loaded length are those of the .308 Winchester, so that an existing rifle can be converted by a barrel change; chamber and throat are optimised for Lapua Scenar bullets.",
+      "affirmations": [
+        {
+          "texte": "conçue pour la compétition à 300 m",
+          "source": "Lapua, « 6.5×47 Lapua », 21 nov. 2018, https://www.lapua.com/cartridges/6-5x47-lapua/",
+          "page": "(page web)",
+          "citation": "The 6.5x47 Lapua is a cartridge designed for serious competition shooting, specifically for 300 meter matches.",
+          "nature": "fabricant"
+        },
+        {
+          "texte": "concurrencer la 6 mm BR à 300 m ; autres disciplines, chasse",
+          "source": "Lapua, « Case Study: the 6,5×47 Lapua », https://www.lapua.com/case-study-he-65x47-lapua/",
+          "page": "(page web)",
+          "citation": "The idea for the caliber was to make a design that can meet the 6 mm BR dominance in 300 m shooting, but also gain a foothold in other sport shooting and precision-demanding hunting.",
+          "nature": "fabricant"
+        },
+        {
+          "texte": "culot et longueur de chargement de la .308 ; conversion par changement de canon",
+          "source": "Lapua, « Case Study: the 6,5×47 Lapua », https://www.lapua.com/case-study-he-65x47-lapua/",
+          "page": "(page web)",
+          "citation": "The diameter of the base as well as the loading length were copied from the .308 Winchester caliber, as it was thought that the existing armament would serve the newcomer practically by simply changing the barrel.",
+          "nature": "fabricant"
+        },
+        {
+          "texte": "chambre et gorge optimisées pour les Scenar",
+          "source": "Lapua, « 6.5×47 Lapua », 21 nov. 2018, https://www.lapua.com/cartridges/6-5x47-lapua/",
+          "page": "(page web)",
+          "citation": "The chamber and throat dimensions are optimized for the Lapua Scenar bullets.",
+          "nature": "fabricant"
+        }
+      ]
+    }
+  }
 }
