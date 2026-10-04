@@ -1846,6 +1846,800 @@
           "nature": "fabricant"
         }
       ]
+    },
+    "65x55_swedish": {
+      "description": "Cartouche réglementaire de l'armée suédoise, désignée « patron m/94 », tirée dans les fusils Mauser m/96 et m/38 et dans le fusil de tireur d'élite m/41B, dérivé du m/96. Elle fut aussi adoptée par la Norvège. Les chasseurs scandinaves l'emploient sur du gibier allant jusqu'à l'élan, et elle sert aussi en tir de compétition.",
+      "description_en": "Swedish Army service cartridge, designated \"patron m/94\", fired in the m/96 and m/38 Mauser rifles and in the m/41B sniper rifle derived from the m/96. It was also adopted by Norway. Scandinavian hunters use it on game as large as moose, and it is also used as a match cartridge.",
+      "affirmations": [
+        {
+          "texte": "désignation « patron m/94 », fusil m/41B dérivé du m/96",
+          "source": "Swedish Mauser Rifle Manual (trad. 1999 du manuel SoldI Mtrl 1977) — books/libres/m96_swedish_mauser_rifle_manual_trad_1999.pdf",
+          "page": "PDF p. 8, § 11 « Rifle m/41B »",
+          "citation": "Rifle m/41B is a m/96 rifle intended for sniping.",
+          "nature": "primaire"
+        },
+        {
+          "texte": "cartouche m/94 tirée dans le m/41B",
+          "source": "Swedish Mauser Rifle Manual (trad. 1999 du manuel SoldI Mtrl 1977) — books/libres/m96_swedish_mauser_rifle_manual_trad_1999.pdf",
+          "page": "PDF p. 8",
+          "citation": "Only live ammunition, cartridge m/94 with m/41 spitzer (torped-) bullet is to be used.",
+          "nature": "primaire"
+        },
+        {
+          "texte": "fusils m/96 et m/38 en 6,5 mm",
+          "source": "Swedish Mauser Rifle Manual (trad. 1999 du manuel SoldI Mtrl 1977) — books/libres/m96_swedish_mauser_rifle_manual_trad_1999.pdf",
+          "page": "PDF p. 2, § 1 (mise en page en deux colonnes)",
+          "citation": "Rifle m/38(B) differs from the m/96 rifle only in the way that its barrel is shorter",
+          "nature": "primaire"
+        },
+        {
+          "texte": "aussi adoptée par la Norvège",
+          "source": "M. Popenker, Modern Firearms, « 6.5x55 Swedish Mauser », https://modernfirearms.net/en/cartridge/6-5x55-swedish-mauser/",
+          "page": "—",
+          "citation": "This cartridge was first adopted by Norway but became most famous after its adoption in Sweden for military Mauser rifle in 1894.",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "chasse jusqu'à l'élan, tir de compétition",
+          "source": "Lyman Reloading Handbook, 48e éd., section « Comments » de la cartouche (texte local gtxt/Lyman Reloading Handbook .txt)",
+          "page": "6.5 x 55mm Swedish Mauser, Comments",
+          "citation": "Scandinavian hunters have used this cartridge for many years on game as large as moose as well as a match cartridge.",
+          "nature": "secondaire"
+        }
+      ]
+    },
+    "6mm_creedmoor": {
+      "description": "Étui de 6.5 Creedmoor au collet rétreint à 6 mm, apparu d'abord comme wildcat chez des tireurs de cible qui cherchaient le recul plus faible des balles de 6 mm, plus légères. Hornady l'a ensuite produit en munitions et en étuis, et l'a présenté dans sa gamme de munitions de match.",
+      "description_en": "A 6.5 Creedmoor case necked down to 6 mm, which first appeared as a wildcat among target shooters seeking the lower recoil of lighter 6 mm bullets. Hornady then produced ammunition and cases for it and introduced it in its match ammunition line.",
+      "affirmations": [
+        {
+          "texte": "6.5 Creedmoor rétreint, d'abord wildcat, recherche d'un recul plus faible",
+          "source": "J. Barsness, « 6mm Creedmoor », Handloader, déc. 2018, https://www.handloadermagazine.com/6mm-creedmoor",
+          "page": "—",
+          "citation": "Yet many target shooters proved even pickier, soon “discovering” 6mm cartridges recoil even less than 6.5mm cartridges due to lighter bullets. As a result of this startling news, “short” 6mm wildcats started appearing, among them (naturally) the 6mm Creedmoor, the 6.5 Creedmoor necked down.",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "production de munitions et d'étuis par Hornady",
+          "source": "J. Barsness, « 6mm Creedmoor », Handloader, déc. 2018, https://www.handloadermagazine.com/6mm-creedmoor (citation relevée dans intro_year_reference.json)",
+          "page": "—",
+          "citation": "Hornady started producing 6mm Creedmoor ammunition and cases in 2017.",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "présentée dans la gamme de munitions de match Hornady",
+          "source": "Hornady, communiqué « Hornady® Announces New Products for 2017 », 28 oct. 2016, https://press.hornady.com/release/2016/10/28/hornady-announces-new-products-for-2017/",
+          "page": "—",
+          "citation": "Match shooters will appreciate the 8 new offerings in this ammunition line, including the 223 Rem magazine length, high BC load, and a new cartridge: the 6mm Creedmoor!",
+          "nature": "fabricant"
+        }
+      ]
+    },
+    "75_swiss_rev": {
+      "description": "Cartouche du revolver d'ordonnance suisse à six coups modèle 1882, destiné aux officiers non montés ; l'arme, du lieutenant-colonel Rudolf Schmidt, reprend le revolver de cavalerie modèle 1878 en le perfectionnant. À l'origine, la cartouche contenait 0,7 g de « poudre suisse n° 1 » et une balle en plomb dur de 7 g enveloppée de papier, à graissage extérieur.",
+      "description_en": "Cartridge of the Swiss six-shot service revolver model 1882, intended for dismounted officers; the revolver, designed by Lieutenant-Colonel Rudolf Schmidt, is an improved version of the model 1878 cavalry revolver. As originally specified, the cartridge held 0.7 g of \"Swiss powder No. 1\" and a 7 g hard-lead bullet wrapped in paper and greased externally.",
+      "affirmations": [
+        {
+          "texte": "revolver à six coups, calibre 7,5 mm, pour officiers non montés",
+          "source": "« Ordonnance du nouveau revolver suisse pour les officiers non montés, modèle 1882 », Revue militaire suisse 28 (1883) — e-periodica https://www.e-periodica.ch/cntmng?pid=rms-001:1883:28::665 (PDF local GoogleDrive/GRT/rms-001_1883_28__665_d.pdf)",
+          "page": "p. 30 (OCR : accents rétablis)",
+          "citation": "Ce revolver d'ordonnance suisse pour les officiers non montés, nommé modèle de 1882, est à six coups, du calibre de 7 mm. 5",
+          "nature": "primaire"
+        },
+        {
+          "texte": "modèle Schmidt dérivé du modèle 1878 perfectionné",
+          "source": "« Ordonnance du nouveau revolver suisse pour les officiers non montés, modèle 1882 », Revue militaire suisse 28 (1883) — e-periodica https://www.e-periodica.ch/cntmng?pid=rms-001:1883:28::665 (PDF local GoogleDrive/GRT/rms-001_1883_28__665_d.pdf)",
+          "page": "p. 30 (OCR : accents rétablis)",
+          "citation": "Le modèle de M. le lieutenant-colonel Rod. Schmidt, pareil au modèle de 1878, mais perfectionné, avec baguette-expulseur, obtint, au point de vue de sa construction, la préférence.",
+          "nature": "primaire"
+        },
+        {
+          "texte": "composition d'origine de la cartouche",
+          "source": "« Ordonnance du nouveau revolver suisse pour les officiers non montés, modèle 1882 », Revue militaire suisse 28 (1883) — e-periodica https://www.e-periodica.ch/cntmng?pid=rms-001:1883:28::665 (PDF local GoogleDrive/GRT/rms-001_1883_28__665_d.pdf)",
+          "page": "p. 30 (OCR : accents rétablis)",
+          "citation": "Elle contient, dans une douille en laiton avec logement d'amorce au centre du fond, 0 gr. 7 de poudre suisse n° 1, un projectile en plomb dur pesant 7 grammes, enveloppé de papier et graissage extérieur.",
+          "nature": "primaire"
+        }
+      ]
+    },
+    "75x54_french": {
+      "description": "Cartouche militaire française qui remplaça la 7,5×58 modèle 1924 : l'étui de celle-ci fut raccourci de 4 mm après des incidents dus à sa ressemblance avec la 7,92×57 (8 mm Mauser). Elle arma le fusil-mitrailleur 24/29, le fusil à répétition MAS 36 et les fusils semi-automatiques MAS 49 et MAS 49/56.",
+      "description_en": "French military cartridge that replaced the 7.5×58 model 1924: the latter's case was shortened by 4 mm after incidents caused by its resemblance to the 7.92×57 (8 mm Mauser). It was used in the model 24/29 light machine gun, the MAS 36 bolt-action rifle and the MAS 49 and MAS 49/56 semi-automatic rifles.",
+      "affirmations": [
+        {
+          "texte": "remplace la 7,5×58 de 1924, étui raccourci de 4 mm à cause de la ressemblance avec la 7,92×57",
+          "source": "« Le FM 1924 M 29 », fiche PDF, monsieur-legionnaire.org, https://www.monsieur-legionnaire.org/pdf/F.M.1924-M-29.pdf",
+          "page": "p. 1, « Historique »",
+          "citation": "Mais suite à des incidents, notamment relatif à la cartouche de 7,92 X 57 (dite 8 mm Mauser) ayant une trop grosse ressemblance, la cartouche est modifiée par un raccourcissement de l’étui de 4 mm.",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "fusil-mitrailleur 24/29",
+          "source": "« Le FM 1924 M 29 », fiche PDF, monsieur-legionnaire.org, https://www.monsieur-legionnaire.org/pdf/F.M.1924-M-29.pdf",
+          "page": "p. 1, caractéristiques",
+          "citation": "7,5 X 54 mle 1929 C (pour le FM mle 24-29)",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "MAS 36 en 7,5×54",
+          "source": "M. Popenker, Modern Firearms, « MAS-36 », https://modernfirearms.net/en/rifles/france-rifles/mas-36-eng/",
+          "page": "tableau des caractéristiques",
+          "citation": "Caliber : 7.5×54 mm",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "MAS 49 et 49/56",
+          "source": "« Les FSA MAS 1949, 49-56 et MSE », fiche PDF, monsieur-legionnaire.org, https://www.monsieur-legionnaire.org/pdf/Les-FSA-MAS-1949-49-56-et-MSE.pdf",
+          "page": "« Renseignements numériques du MAS 49 »",
+          "citation": "Munition : 7,5 x 54 modèle 1929 C",
+          "nature": "secondaire"
+        }
+      ]
+    },
+    "75x55_swiss": {
+      "description": "Cartouche d'ordonnance suisse « GP 11 » (cartouche de fusil 11), fabriquée par les fabriques fédérales de munitions de Thun et d'Altdorf ; sa balle pointue à noyau de plomb et chemise d'acier nickelé a un culot conique. La même munition servait au fusil, au mousqueton, au fusil-mitrailleur et à la mitrailleuse, ainsi qu'au fusil à lunette modèle 1955.",
+      "description_en": "Swiss service cartridge \"GP 11\" (rifle cartridge 11), made by the federal ammunition factories at Thun and Altdorf; its pointed bullet, with a lead core and a nickel-plated steel jacket, has a tapered base. The same ammunition served the rifle, the carbine, the light machine gun and the machine gun, as well as the model 1955 scoped rifle.",
+      "affirmations": [
+        {
+          "texte": "fabriquée à Thun et Altdorf",
+          "source": "Meine neue Waffe — Schweizerischer Karabiner Modell 1931 (1937) — books/libres/k31_meine_neue_waffe_1937.pdf",
+          "page": "PDF p. 16 (p. imprimée 29 ; OCR en colonnes, texte rétabli)",
+          "citation": "Die Patrone 1911 wird in den staatlichen Munitionsfabriken Thun und Altdorf hergestellt",
+          "nature": "primaire"
+        },
+        {
+          "texte": "balle pointue, noyau de plomb, chemise d'acier nickelé, culot conique",
+          "source": "Meine neue Waffe — Schweizerischer Karabiner Modell 1931 (1937) — books/libres/k31_meine_neue_waffe_1937.pdf",
+          "page": "PDF p. 16 (texte OCR, umlauts rétablis)",
+          "citation": "das Geschoß - Bleikern mit vernickeltem Stahlmantel, - hat eine scharfe Spitze zur besseren Ueberwindung des Luftwiderstandes. Der hintere Konus begünstigt das Abfließen der Luft.",
+          "nature": "primaire"
+        },
+        {
+          "texte": "désignation « cartouche de fusil 11 », 7,5 mm",
+          "source": "Swiss K31/K11 manual 53-101 (1958), trad. anglaise — books/libres/k31_k11_manual_53-101_en_1958.pdf",
+          "page": "PDF p. 50",
+          "citation": "Common Rifle Cartridge 11, 7.5 mm caliber",
+          "nature": "primaire"
+        },
+        {
+          "texte": "même munition pour fusil, mousqueton, fusil-mitrailleur, mitrailleuse",
+          "source": "Swiss K31/K11 manual 53-101 (1958), trad. anglaise — books/libres/k31_k11_manual_53-101_en_1958.pdf",
+          "page": "PDF p. 49, § 47",
+          "citation": "Ammunition for long rifle, musketoon (short rifle), Automatic rifle, and machine gun are delivered to troops ready to fire. They are all the same.",
+          "nature": "primaire"
+        },
+        {
+          "texte": "fusil à lunette 1955 en GP 11",
+          "source": "Swiss K31/K11 manual 53-101 (1958), trad. anglaise — books/libres/k31_k11_manual_53-101_en_1958.pdf",
+          "page": "PDF p. 40, § 39",
+          "citation": "Uses the GP 11 cartridge",
+          "nature": "primaire"
+        }
+      ]
+    },
+    "762x25_tokarev": {
+      "description": "Cartouche de pistolet soviétique dérivée de la 7,63×25 Mauser, dont elle ne différait à l'origine que par la gorge d'extraction et le logement d'amorce. Adoptée avec le pistolet Tokarev TT, elle servit aussi dans les pistolets-mitrailleurs PPSh-41 et PPS-43. Certaines charges pour pistolet-mitrailleur dépassent la pression de la munition Mauser d'origine et ne conviennent pas aux anciens pistolets Mauser.",
+      "description_en": "Soviet pistol cartridge derived from the 7.63×25 Mauser, from which it originally differed only in the extractor groove and the primer pocket. Adopted with the Tokarev TT pistol, it was also used in the PPSh-41 and PPS-43 submachine guns. Some submachine-gun loadings exceed the pressure of the original Mauser round and are unsuitable for older Mauser pistols.",
+      "affirmations": [
+        {
+          "texte": "dérivée de la 7,63 Mauser ; différences : gorge d'extraction et logement d'amorce",
+          "source": "M. Popenker, Modern Firearms, « 7.62x25 TT Tokarev », https://modernfirearms.net/en/cartridge/7-62x25-tt-tokarev/",
+          "page": "—",
+          "citation": "The key differences between the initial 7.63mm Mauser and 7.62mm Soviet loadings were the size of the extraction groove and the diameter of the primer pocket",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "adoptée avec le pistolet Tokarev ; pistolets-mitrailleurs",
+          "source": "Lyman Reloading Handbook, 48e éd., section « Comments » de la cartouche (texte local gtxt/Lyman Reloading Handbook .txt)",
+          "page": "7.62x25mm Tokarev, Comments",
+          "citation": "The Soviet Union adopted the 7.62x25 cartridge chambered in the Tokarev TT-30 during the early 1930s. The Soviets also produced large numbers of submachine guns chambered in this cartridge.",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "TT, PPSh-41, PPS-43",
+          "source": "M. Popenker, Modern Firearms, « 7.62x25 TT Tokarev », https://modernfirearms.net/en/cartridge/7-62x25-tt-tokarev/",
+          "page": "—",
+          "citation": "The 7.62×25 TT was the round chambered by the Tokarev TT 33 pistol and the PPSH-41 and PPS-43 Russian submachine guns",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "charges pour PM trop fortes pour les anciens pistolets Mauser",
+          "source": "M. Popenker, Modern Firearms, « 7.62x25 TT Tokarev », https://modernfirearms.net/en/cartridge/7-62x25-tt-tokarev/",
+          "page": "—",
+          "citation": "It must be noted that several ‘submachine gun’ loadings manufactured during and after WW2, produce pressures well beyond the levels of the original Mauser loading. They are thus unsafe to use in older Mauser and Astra pistols.",
+          "nature": "secondaire"
+        }
+      ]
+    },
+    "762x39_m43": {
+      "description": "Cartouche intermédiaire soviétique, dont le développement fut lancé pendant la Seconde Guerre mondiale après l'examen du fusil d'assaut allemand MKb.42 et de la carabine américaine M1. Les premières versions avaient un étui de 41 mm ; c'est avec un étui raccourci à 39 mm et une balle à culot effilé qu'elle fut adoptée. Elle arma la carabine SKS, la mitrailleuse légère RPD et le fusil d'assaut Kalachnikov AK.",
+      "description_en": "Soviet intermediate cartridge whose development began during the Second World War after study of the German MKb.42 assault rifle and the US M1 carbine. Early versions had a 41 mm case; it was adopted with a case shortened to 39 mm and a boat-tailed bullet. It was used in the SKS carbine, the RPD light machine gun and the Kalashnikov AK assault rifle.",
+      "affirmations": [
+        {
+          "texte": "développement lancé après l'étude du MKb.42 et de la carabine M1",
+          "source": "M. Popenker, Modern Firearms, « AK-47 / AKM », https://modernfirearms.net/en/assault-rifles/russia-assault-rifles/ak-47-akm-eng/",
+          "page": "—",
+          "citation": "This program commenced in mid-1943, after close examination of the captured German MKb.42(H) assault rifle and US M1 carbine , supplied through the Lend-lease.",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "étui de 41 mm puis 39 mm, balle à culot effilé, adoptée sous cette forme",
+          "source": "M. Popenker, Modern Firearms, « 7.62x39mm M43 Soviet Intermediate Cartridge », https://modernfirearms.net/en/cartridge/7-62x39-m43-soviet-intermediate-cartridge/",
+          "page": "—",
+          "citation": "In 1947 the cartridge case was shortened to 39mm, with the added introduction of a slightly longer, boat-tailed bullet. This bullet had a mild steel core. In this final form it was adopted for service in the Soviet Army.",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "SKS et RPD",
+          "source": "M. Popenker, Modern Firearms, « AK-47 / AKM », https://modernfirearms.net/en/assault-rifles/russia-assault-rifles/ak-47-akm-eng/",
+          "page": "—",
+          "citation": "Carbines and light machine guns were tested separately, and these parts of the program resulted in the adoption of the Simonov SKS carbine and Degtyarov RPD machine gun in 1949.",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "fusil d'assaut AK",
+          "source": "M. Popenker, Modern Firearms, « AK-47 / AKM », https://modernfirearms.net/en/assault-rifles/russia-assault-rifles/ak-47-akm-eng/",
+          "page": "—",
+          "citation": "However, upon its official adoption in 1949, it was christened simply as Avtomat Kalashnikova AK",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "origine soviétique pendant la guerre",
+          "source": "Lyman Reloading Handbook, 48e éd., section « Comments » de la cartouche (texte local gtxt/Lyman Reloading Handbook .txt)",
+          "page": "7.62x39mm, Comments",
+          "citation": "The 7.62x39mm cartridge originated in the SKS rifle in the Soviet Union in the midst of World War Two.",
+          "nature": "secondaire"
+        }
+      ]
+    },
+    "762x51_nato": {
+      "description": "Cartouche militaire issue des essais américains de cartouches .30-06 raccourcies, adoptée par l'OTAN comme munition standard des fusils et des mitrailleuses ; l'accord de normalisation STANAG 2310 en fixe les spécifications techniques. Le .308 Winchester en est la version civile, lancée par Winchester avant l'adoption de la cartouche par l'armée américaine. Dans l'armée américaine, la munition 7,62 mm « special ball » M118 est celle du fusil de tireur d'élite M24.",
+      "description_en": "Military cartridge that grew out of US trials of shortened .30-06 cartridges, adopted by NATO as its standard rifle and machine-gun round; the STANAG 2310 standardization agreement sets its technical specifications. The .308 Winchester is its civilian counterpart, introduced by Winchester before the US military adopted the cartridge. In the US Army, the 7.62 mm M118 special ball round is the ammunition of the M24 sniper rifle.",
+      "affirmations": [
+        {
+          "texte": "issue des essais de .30-06 raccourcies ; .308 = version civile, avant l'adoption militaire américaine",
+          "source": "Lyman Reloading Handbook, 48e éd., section « Comments » de la cartouche (texte local gtxt/Lyman Reloading Handbook .txt)",
+          "page": "308 Winchester, Comments",
+          "citation": "It is the end result of the U.S. military's experiment with shortened 3006 cartridges during the late 1940s. [...] Winchester introduced the 308 as the civilian counterpart to the 7.62 NATO in 1952, several years before its adoption by the U.S. military.",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "standard OTAN fusils et mitrailleuses ; STANAG 2310",
+          "source": "D. Zhou, « NATO Small Arms Ammunition Standardization », Policy Brief vol. 4 n° 3, Centre for International and Defence Policy, Queen's University, 2018, https://www.queensu.ca/cidp/sites/cidpwww/files/uploaded_files/4-3%20Sum2018_PB_Zhou_web.pdf",
+          "page": "p. 1",
+          "citation": "After a meeting convened by US, British and French leaders in 1953, NATO agreed to standardize the US-developed 7.62x51mm caliber as its standard rifle and machine gun ammunition [...] STANAG 2310 set the technical standards for 7.62x51mm ammunition and was ratified in 1957.",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "M24 de calibre 7,62 mm",
+          "source": "Department of the Army, FM 23-10 Sniper Training — books/libres/fm_23-10_sniper_training.pdf",
+          "page": "PDF p. 17",
+          "citation": "The M24 sniper weapon system is a 7.62-mm, bolt-action, six-shot repeating rifle",
+          "nature": "primaire"
+        },
+        {
+          "texte": "munition M118 special ball du M24",
+          "source": "Department of the Army, FM 23-10 Sniper Training — books/libres/fm_23-10_sniper_training.pdf",
+          "page": "PDF p. 34, § 2-6",
+          "citation": "The sniper uses the 7.62-mm special ball (M118) ammunition with the sniper weapon system.",
+          "nature": "primaire"
+        }
+      ]
+    },
+    "762x54r": {
+      "description": "Cartouche à bourrelet et à étui à épaulement du fusil Mosin-Nagant de la Russie impériale, restée la munition standard des fusils, carabines et fusils semi-automatiques soviétiques comme des mitrailleuses ; une balle pointue légère (Spitzer) fut introduite en 1908. Le fusil de tireur d'élite Dragunov (SVD) la tire aussi, et elle sert encore, après l'ère soviétique, de cartouche de mitrailleuse, dont la PKM.",
+      "description_en": "Rimmed, bottlenecked cartridge of the Imperial Russian Mosin-Nagant rifle, which remained the standard round of Soviet rifles, carbines and semi-automatic rifles as well as machine guns; a light pointed (spitzer) bullet was introduced in 1908. The Dragunov sniper rifle (SVD) also fires it, and it remains in use after the Soviet era as a machine-gun cartridge, including in the PKM.",
+      "affirmations": [
+        {
+          "texte": "fusil Mosin-Nagant de la Russie impériale",
+          "source": "Department of the Army, ORD I 7-101, Soviet Rifles and Carbines (1954) — books/libres/ordi_7-101_soviet_rifles_carbines_1954.pdf",
+          "page": "PDF p. 9, § 5",
+          "citation": "The Mosin-Nagant rifle was adopted in 1891 by Imperial Russia.",
+          "nature": "primaire"
+        },
+        {
+          "texte": "étui à bourrelet et épaulement ; munition des fusils et carabines, même cartouche que les mitrailleuses",
+          "source": "Department of the Army, ORD I 7-101, Soviet Rifles and Carbines (1954) — books/libres/ordi_7-101_soviet_rifles_carbines_1954.pdf",
+          "page": "PDF p. 25, § 18",
+          "citation": "Standard Soviet rifle ammunition (fig. 33) is of 7,.62-mm caliber (cal..30), has a rimmed bottlenecked case, and is 3.03 inches in length. Ground machinegun ammunition, which is identical in appearance except for color markings, may be used in rifles and carbines",
+          "nature": "primaire"
+        },
+        {
+          "texte": "fusils semi-automatiques",
+          "source": "Department of the Army, ORD I 7-101, Soviet Rifles and Carbines (1954) — books/libres/ordi_7-101_soviet_rifles_carbines_1954.pdf",
+          "page": "PDF p. 46, § 60",
+          "citation": "The ammunition uSed in the semiautomatic and automatic rifles is the same as that uSed in the bolt action rifles and carbines.",
+          "nature": "primaire"
+        },
+        {
+          "texte": "balle Spitzer légère en 1908",
+          "source": "Department of the Army, ORD I 7-101, Soviet Rifles and Carbines (1954) — books/libres/ordi_7-101_soviet_rifles_carbines_1954.pdf",
+          "page": "PDF p. 9, § 6a",
+          "citation": "In 1908 the Spitzer pointed light ball round (which is still used) was introduced and the rear sight was changed.",
+          "nature": "primaire"
+        },
+        {
+          "texte": "SVD : cartouches de fusil",
+          "source": "Ministère de la Défense de l'URSS, Наставление по стрелковому делу. 7,62-мм снайперская винтовка Драгунова (СВД), Voenizdat 1976 — books/libres/svd_nastavlenie_strelkovomu_delu_1976.pdf",
+          "page": "PDF p. 3-4 (p. imprimées 3-4), § 1-2, lu en image",
+          "citation": "Для стрельбы из снайперской винтовки применяются винтовочные патроны с обыкновенными, трассирующими и бронебойно-зажигательными пулями или винтовочные снайперские патроны.",
+          "nature": "primaire"
+        },
+        {
+          "texte": "cartouche de mitrailleuse après l'ère soviétique",
+          "source": "Lyman Reloading Handbook, 48e éd., section « Comments » de la cartouche (texte local gtxt/Lyman Reloading Handbook .txt)",
+          "page": "7.62 x 54R Russian, Comments",
+          "citation": "It was initially adopted by Imperial Russia in 1891 and continues to serve in the post-Soviet era as a light machine gun cartridge.",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "PKM",
+          "source": "M. Popenker, Modern Firearms, « 7.62x54R », https://modernfirearms.net/en/cartridge/7-62x54r-2/",
+          "page": "—",
+          "citation": "Over time, it has been chambered in a number of bolt-action and semi-automatic military rifles (such as the SVD-98), as well as several machine guns (such as the PKM)",
+          "nature": "secondaire"
+        }
+      ]
+    },
+    "763_mauser": {
+      "description": "Cartouche du pistolet Mauser C96, dérivée de la 7,65 mm Borchardt, celle du pistolet Borchardt de 1893. La 7,62×25 Tokarev soviétique en dérive : les deux cartouches sont distinctes mais de cotes assez proches pour avoir souvent été employées l'une pour l'autre. La C.I.P. fixe pour la 7,63 Mauser une pression maximale (2 250 bar) inférieure à celle de la 7,62×25 Tokarev (2 500 bar).",
+      "description_en": "Cartridge of the Mauser C96 pistol, derived from the 7.65 mm Borchardt, the round of the 1893 Borchardt pistol. The Soviet 7.62×25 Tokarev is derived from it: the two are distinct cartridges, but their dimensions are close enough that they have often been used interchangeably. The C.I.P. sets a lower maximum pressure for the 7.63 Mauser (2,250 bar) than for the 7.62×25 Tokarev (2,500 bar).",
+      "affirmations": [
+        {
+          "texte": "cartouche du C96, dérivée de la 7,65 Borchardt",
+          "source": "M. Popenker, Modern Firearms, « 7.63x25 Mauser », https://modernfirearms.net/en/cartridge/7-63x25-mauser/",
+          "page": "—",
+          "citation": "The 7.63×25 Mauser cartridge , also known as .30 Mauser, was developed in 1896 specifically for the famous Mauser C96 pistol. It was derived from the 7.65mm Borchardt cartridge of 1893.",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "origine dans le pistolet Borchardt ; C96 ; cotes proches du Tokarev mais cartouches distinctes",
+          "source": "Lyman Reloading Handbook, 48e éd., section « Comments » de la cartouche (texte local gtxt/Lyman Reloading Handbook .txt)",
+          "page": "7.62x25mm Tokarev / 30 Mauser, Comments",
+          "citation": "The 7.62x25mm Tokarev and 30 Mauser are two different cartridges. However, their dimensions are so close that it has been common practice to use them interchangeably. The 30 Mauser had its origins in the Borchardt semiautomatic pistol developed in 1893. It became best known as the cartridge most often encountered in the Mauser C96 \"Broomhandle\" pistol.",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "Borchardt de 1893",
+          "source": "War Office, Textbook of Small Arms 1929 (HMSO) — books/libres/textbook_of_small_arms_1929.pdf",
+          "page": "PDF p. 120",
+          "citation": "In 1893 appeared the Borchardt, the predecessor of the modern German service pistol, the Luger Parabellum.",
+          "nature": "primaire"
+        },
+        {
+          "texte": "Pmax 7,63 Mauser",
+          "source": "Fiche C.I.P. /var/www/tireur.org/CIP/763_mauser.pdf",
+          "page": "tableau, cotes « 84-06-14 »",
+          "citation": "Pmax = 2250 bar",
+          "nature": "primaire"
+        },
+        {
+          "texte": "Pmax 7,62×25 Tokarev",
+          "source": "Fiche C.I.P. /var/www/tireur.org/CIP/762x25_tokarev.pdf",
+          "page": "tableau, « 90-04-04 »",
+          "citation": "Pmax = 2500 bar",
+          "nature": "primaire"
+        }
+      ]
+    },
+    "765_argentined": {
+      "description": "Première cartouche militaire à poudre sans fumée de Paul Mauser, adoptée d'abord par la Belgique puis, avec des fusils Mauser, par l'Argentine, la Bolivie, la Colombie, l'Équateur, le Pérou et la Turquie. Son collet est plus court que celui des autres cartouches Mauser.",
+      "description_en": "Paul Mauser's first smokeless military cartridge, adopted first by Belgium and then, with Mauser rifles, by Argentina, Bolivia, Colombia, Ecuador, Peru and Turkey. Its neck is shorter than that of other Mauser cartridges.",
+      "affirmations": [
+        {
+          "texte": "première cartouche militaire sans fumée de Mauser ; collet plus court",
+          "source": "Lyman Reloading Handbook, 48e éd., section « Comments » de la cartouche (texte local gtxt/Lyman Reloading Handbook .txt)",
+          "page": "7.65 Argentine Mauser, Comments",
+          "citation": "This was Paul Mauser's first smokeless military cartridge. [...] The 7.65x53 features a shorter neck than typically found on other Mauser cartridges.",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "Belgique, Argentine, Bolivie, Colombie, Équateur, Pérou, Turquie en 7,65",
+          "source": "War Office, Textbook of Small Arms 1929 (HMSO) — books/libres/textbook_of_small_arms_1929.pdf",
+          "page": "PDF p. 25 (p. imprimée 11), tableau « Mauser Rifles », vérifié sur l'image de la page",
+          "citation": "Argentine Pattern 1891 .. Cal. 7.65 mm. [...] Belgium 1889 7.65 [...] Bolivia 1891 7.65 [...] Columbia 1891 7.65 [...] Eucador 1891 7.65 [...] Peru 1891 7.65 [...] Turkey 1905 7.65",
+          "nature": "primaire"
+        },
+        {
+          "texte": "adoptée d'abord par la Belgique",
+          "source": "M. Popenker, Modern Firearms, « 7.65x53 Mauser », https://modernfirearms.net/en/cartridge/7-65x53-mauser-2/",
+          "page": "—",
+          "citation": "It was originally adopted by Belgian army in 1889, with round-nose FMJ bullet. Later it was adopted by Turkey and a number of South American countries, most notably Argentine.",
+          "nature": "secondaire"
+        }
+      ]
+    },
+    "765_luger": {
+      "description": "Cartouche mise au point par Georg Luger à partir de la 7,65 mm Borchardt, pour le pistolet Parabellum fabriqué par DWM. La Suisse l'adopta avec ce pistolet comme pistolet d'ordonnance, et elle servit aussi d'arme militaire au Brésil, en Finlande et en Lituanie. La 9×19 Parabellum en dérive : à la demande de la marine allemande, DWM raccourcit l'étui à 19 mm et le chargea d'une balle de 9 mm.",
+      "description_en": "Cartridge developed by Georg Luger from the 7.65 mm Borchardt, for the Parabellum pistol made by DWM. Switzerland adopted it with that pistol as its service pistol, and it was also a military round in Brazil, Finland and Lithuania. The 9×19 Parabellum is derived from it: at the request of the German Navy, DWM shortened the case to 19 mm and loaded it with a 9 mm bullet.",
+      "affirmations": [
+        {
+          "texte": "mise au point par Luger à partir de la 7,65 Borchardt ; Suisse, Brésil, Finlande, Lituanie",
+          "source": "M. Popenker, Modern Firearms, « 7.65x21 Luger », https://modernfirearms.net/en/cartridge/7-65x21-luger/",
+          "page": "—",
+          "citation": "This cartridge was developed in around 1898-99 by Georg Luger from the earlier 7.65mm Borchard cartridge. Adopted in 1900 as a standard military cartridge by Switzerland, along with the famous Luger “Parabellum” pistol, this cartridge was also used as a military load in Brazil, Finland and Lithuania.",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "pistolet d'ordonnance suisse",
+          "source": "Allgemeine schweizerische Militärzeitung 46 (1900), n° 46, « Tarif über die Offiziers-Ausrüstung » — e-periodica https://www.e-periodica.ch/cntmng?pid=asm-003:1900:46::432 (PDF local GoogleDrive/GRT/asm-003_1900_46__432_d.pdf)",
+          "page": "p. 387",
+          "citation": "Pistole, 7,5 mm, Mod. 1900 (ohne Futteral) 62. —",
+          "nature": "primaire"
+        },
+        {
+          "texte": "pistolet de Luger fabriqué par DWM ; 9×19 dérivée par raccourcissement de l'étui à la demande de la marine",
+          "source": "M. Popenker, Modern Firearms, « 9mm Luger / 9x19 Parabellum », https://modernfirearms.net/en/cartridge/9mm-luger-9x19-parabellum/",
+          "page": "—",
+          "citation": "It was developed at the request of the German Navy in 1902, which liked the 7.65mm ‘Parabellum’ pistol developed by Luger and made by DWM, but wanted more stopping power. Following this requirement, DWM shortened the case of the original 7.65×21 Luger/Parabellum round to 19mm and loaded it with a 9mm jacketed bullet of truncated cone shape.",
+          "nature": "secondaire"
+        }
+      ]
+    },
+    "7mm_08_rem": {
+      "description": "Étui de .308 Winchester au collet rétreint au calibre 7 mm ; d'abord wildcat, la cartouche a été reprise par Remington. Selon Lyman, elle fut conçue pour le tir aux silhouettes métalliques, et elle sert en tir High-Power, à la chasse et en silhouette.",
+      "description_en": "A .308 Winchester case necked down to 7 mm; originally a wildcat, the cartridge was taken up by Remington. According to Lyman, it was designed for metallic silhouette shooting, and it is used in High-Power competition, hunting and silhouette shooting.",
+      "affirmations": [
+        {
+          "texte": "étui de .308 rétreint ; conçue pour la silhouette",
+          "source": "Lyman Reloading Handbook, 48e éd., section « Comments » de la cartouche (texte local gtxt/Lyman Reloading Handbook .txt)",
+          "page": "7mm-08 Remington, Comments",
+          "citation": "This cartridge was designed to fill a need for silhouette shooting. It is a necked down version of the 308",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "cartouche mère .308 Win.",
+          "source": "J. Haviland, « Reloading the 7 mm-08 Rem. », American Rifleman (NRA), 27 août 2010, https://www.americanrifleman.org/content/reloading-the-7-mm-08-rem/",
+          "page": "—",
+          "citation": "Like its parent cartridge, the .308 Win., the 7 mm-08 Rem. performs well with a variety of propellants.",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "wildcat repris par Remington",
+          "source": "American Rifleman (NRA), « Remington's Model 700: The First 50 Years », https://www.americanrifleman.org/content/remington-s-model-700-the-first-50-years/",
+          "page": "—",
+          "citation": "Remington has adopted more wildcat cartridges than any other company, including: .22-250 Rem., .25-’06 Rem., 6 mm Rem., .257 Roberts, .260 Rem., 7 mm-08 Rem., 7 mm Rem. Mag., 7 mm STW and .35 Whelen to name but a few.",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "High-Power, chasse, silhouette",
+          "source": "Lyman Reloading Handbook, 48e éd., section « Comments » de la cartouche (texte local gtxt/Lyman Reloading Handbook .txt)",
+          "page": "7mm-08 Remington (section Contender), Comments",
+          "citation": "The 7mm-08 has become popular for High-Power, hunting, and metallic silhouette applications.",
+          "nature": "secondaire"
+        }
+      ]
+    },
+    "7mm_rem_mag": {
+      "description": "Cartouche magnum de Remington, proposée parmi les calibres magnum de la carabine à verrou Model 700 dès sa première publicité. Selon American Rifleman, dans les trois premières années il se vendit plus de Model 700 dans ce calibre qu'en .270 Win. et en .30-06 réunis, et Remington l'avait reprise d'un wildcat.",
+      "description_en": "Remington magnum cartridge, offered among the magnum chamberings of the Model 700 bolt-action rifle from its first advertisement. According to American Rifleman, in the first three years more Model 700 rifles were sold in this chambering than in .270 Win. and .30-06 combined, and Remington had taken it up from a wildcat.",
+      "affirmations": [
+        {
+          "texte": "calibre magnum du Model 700 dès la première publicité",
+          "source": "American Rifleman (NRA), « Remington's Model 700: The First 50 Years », https://www.americanrifleman.org/content/remington-s-model-700-the-first-50-years/",
+          "page": "—",
+          "citation": "Its first advertisement appeared in the June 1962 issue of American Rifleman . [...] Prices for magnum versions of the BDL were $154.95 for the .264 Win. Mag., 7 mm Rem. Mag and .300 Win. Mag.",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "ventes des trois premières années",
+          "source": "American Rifleman (NRA), « Remington's Model 700: The First 50 Years », https://www.americanrifleman.org/content/remington-s-model-700-the-first-50-years/",
+          "page": "—",
+          "citation": "Model 700 sales skyrocketed immediately, and during the first three years more rifles chambered for the new 7 mm Rem. Mag. were sold than those in .270 Win. and .30-’06 Sprg. combined.",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "reprise d'un wildcat",
+          "source": "American Rifleman (NRA), « Remington's Model 700: The First 50 Years », https://www.americanrifleman.org/content/remington-s-model-700-the-first-50-years/",
+          "page": "—",
+          "citation": "Remington has adopted more wildcat cartridges than any other company, including: .22-250 Rem., .25-’06 Rem., 6 mm Rem., .257 Roberts, .260 Rem., 7 mm-08 Rem., 7 mm Rem. Mag., 7 mm STW and .35 Whelen to name but a few.",
+          "nature": "secondaire"
+        }
+      ]
+    },
+    "7x57_mauser": {
+      "description": "Cartouche militaire de 7 mm des fusils Mauser, adoptée par l'Espagne et par plusieurs autres États, dont le Brésil, le Chili, le Mexique et l'Uruguay. Les troupes espagnoles l'employèrent à Cuba pendant la guerre hispano-américaine de 1898, avec le fusil Mauser modèle 93. Elle est aussi employée à la chasse.",
+      "description_en": "7 mm military cartridge of Mauser rifles, adopted by Spain and by several other states, including Brazil, Chile, Mexico and Uruguay. Spanish troops used it in Cuba during the Spanish-American War of 1898, with the Model 93 Mauser rifle. It is also used for hunting.",
+      "affirmations": [
+        {
+          "texte": "Espagne, Brésil, Chili, Mexique, Uruguay en 7 mm",
+          "source": "War Office, Textbook of Small Arms 1929 (HMSO) — books/libres/textbook_of_small_arms_1929.pdf",
+          "page": "PDF p. 25 (p. imprimée 11), tableau « Mauser Rifles », vérifié sur l'image de la page",
+          "citation": "Brazil 1904 7.00 [...] Chile 1904 7.00 [...] Mexico 1902 7.00 [...] Spain .. 1896 .. 7.00 mm . [...] Uruguay 1895 7.00 mm .",
+          "nature": "primaire"
+        },
+        {
+          "texte": "Cuba 1898, Mauser modèle 93",
+          "source": "Lyman Reloading Handbook, 48e éd., section « Comments » de la cartouche (texte local gtxt/Lyman Reloading Handbook .txt)",
+          "page": "7mm Mauser (7 x 57mm), Comments",
+          "citation": "This cartridge first earned its reputation in the hands of Spanish forces in Cuba during the Spanish-American War in 1898. Its range, flat trajectory, and rapid rate of fire from the clip-fed Mauser Model 93 rifle was an unpleasant surprise for American troops",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "ventes militaires en Amérique centrale et du Sud ; emploi à la chasse",
+          "source": "Lyman Reloading Handbook, 48e éd., section « Comments » de la cartouche (texte local gtxt/Lyman Reloading Handbook .txt)",
+          "page": "7mm Mauser (7 x 57mm), Comments",
+          "citation": "The 7mm Mauser made its name on both the battlefields and hunting grounds around the world. [...] Military sales of rifles chambered in the 7x57 were wide spread, particularly in Central and South America.",
+          "nature": "secondaire"
+        }
+      ]
+    },
+    "7x64_brenneke": {
+      "description": "Cartouche de chasse « à haute performance » de la maison Brenneke, fondée à Leipzig par Wilhelm Brenneke. Elle parut en même temps que sa variante à bourrelet 7×65 R, après les 8×64 et 8×65 R de la même maison.",
+      "description_en": "High-performance hunting cartridge from the Brenneke company, founded in Leipzig by Wilhelm Brenneke. It appeared together with its rimmed variant, the 7×65 R, after the same company's 8×64 and 8×65 R.",
+      "affirmations": [
+        {
+          "texte": "entreprise fondée à Leipzig par Wilhelm Brenneke",
+          "source": "Brenneke Ammunition, « Firmengeschichte », https://www.brenneke-ammunition.de/unternehmen/brenneke/firmengeschichte",
+          "page": "frise chronologique",
+          "citation": "1895 Firmengründung durch Wilhelm Brenneke am 1. April 1895 in Leipzig",
+          "nature": "fabricant"
+        },
+        {
+          "texte": "Hochleistungspatronen 7×64 et 7×65 R ensemble",
+          "source": "Brenneke Ammunition, « Firmengeschichte », https://www.brenneke-ammunition.de/unternehmen/brenneke/firmengeschichte",
+          "page": "frise chronologique",
+          "citation": "1917 Hochleistungspatronen Kal. 7 x 64 und 7 x 65 R",
+          "nature": "fabricant"
+        },
+        {
+          "texte": "après les 8×64 et 8×65 R",
+          "source": "Brenneke Ammunition, « Firmengeschichte », https://www.brenneke-ammunition.de/unternehmen/brenneke/firmengeschichte",
+          "page": "frise chronologique",
+          "citation": "1912 Hochleistungspatronen Kal. 8 x 64 und 8 x 65 R",
+          "nature": "fabricant"
+        }
+      ]
+    },
+    "8mm_lebel_rev": {
+      "description": "Cartouche à bourrelet, à balle chemisée de cuivre, du revolver d'ordonnance français modèle 1892. Pendant la Première Guerre mondiale, ce revolver fut en grande partie supplanté dans l'armée française par des pistolets semi-automatiques commerciaux de calibre .32.",
+      "description_en": "Rimmed cartridge, with a copper-jacketed bullet, of the French model 1892 service revolver. During the First World War, this revolver was largely superseded in the French Army by commercial .32-calibre self-loading pistols.",
+      "affirmations": [
+        {
+          "texte": "revolver d'ordonnance modèle 1892, cartouche à bourrelet, balle chemisée de cuivre",
+          "source": "War Office, Textbook of Small Arms 1929 (HMSO) — books/libres/textbook_of_small_arms_1929.pdf",
+          "page": "PDF p. 114",
+          "citation": "The French service revolver (Plate IV) is a six-chambered weapon [...] It fires a long central fire high velocity rimmed cartridge with a copper covered bullet",
+          "nature": "primaire"
+        },
+        {
+          "texte": "supplanté pendant la guerre par des pistolets .32",
+          "source": "War Office, Textbook of Small Arms 1929 (HMSO) — books/libres/textbook_of_small_arms_1929.pdf",
+          "page": "PDF p. 125-126 (saut de page avant « arms . »)",
+          "citation": "The French ordnance revolver was largely superseded by commercial types of 32 self-loading pistols of indifferent Spanish workmanship, F. N. Brownings and other similar arms .",
+          "nature": "primaire"
+        }
+      ]
+    },
+    "8x50r_lebel": {
+      "description": "Cartouche du fusil à répétition Lebel de 8 mm, adopté comme arme de l'infanterie française. Selon le Textbook of Small Arms britannique de 1929, ce fut le premier fusil de petit calibre adopté par une nation et le premier à employer la poudre sans fumée, inventée en 1884 par le chimiste français Vieille.",
+      "description_en": "Cartridge of the 8 mm Lebel repeating rifle, adopted as the arm of the French infantry. According to the British Textbook of Small Arms of 1929, it was the first small-bore rifle adopted by any nation and the first to use smokeless powder, invented in 1884 by the French chemist Vieille.",
+      "affirmations": [
+        {
+          "texte": "fusil à répétition de 8 mm adopté pour l'infanterie française",
+          "source": "H. Faillettaz, « Le fusil Lebel », Revue militaire suisse 33 (1888) — e-periodica https://www.e-periodica.ch/cntmng?pid=rms-001:1888:33::283 (PDF local GoogleDrive/GRT/rms-001_1888_33__283_d.pdf)",
+          "page": "p. 218 (OCR : accents rétablis)",
+          "citation": "il fut adopté en automne 1886, comme armement de l'infanterie française.",
+          "nature": "primaire"
+        },
+        {
+          "texte": "premier fusil de petit calibre et premier à poudre sans fumée",
+          "source": "War Office, Textbook of Small Arms 1929 (HMSO) — books/libres/textbook_of_small_arms_1929.pdf",
+          "page": "PDF p. 34",
+          "citation": "This was the first small bore rifle to be adopted by any nation and with it smokeless powder was first used .",
+          "nature": "primaire"
+        },
+        {
+          "texte": "poudre sans fumée inventée par Vieille pour le Lebel",
+          "source": "War Office, Textbook of Small Arms 1929 (HMSO) — books/libres/textbook_of_small_arms_1929.pdf",
+          "page": "PDF p. 257",
+          "citation": "The first smokeless . military rifle powder was that invented in 1884 by the French chemist Vieille for the Lebel rifle .",
+          "nature": "primaire"
+        }
+      ]
+    },
+    "8x57_is": {
+      "description": "Cartouche militaire allemande issue de celle du fusil de commission modèle 88, et non d'une création de la maison Mauser : sa balle d'origine de .318\" fut ensuite remplacée par une balle de .323\" (variante « S »). Elle arma les fusils allemands Gewehr 98 et Kar 98k. Elle ne doit pas être tirée dans les armes à canon de .318\" (8×57 I).",
+      "description_en": "German military cartridge that grew out of the round of the Model 88 Commission rifle, not a Mauser company design: its original .318\" bullet was later replaced by a .323\" bullet (the \"S\" variant). It armed the German Gewehr 98 and Kar 98k rifles. It must not be fired in arms with a .318\" bore (8×57 I).",
+      "affirmations": [
+        {
+          "texte": "issue du fusil de commission 88, pas de Mauser ; balle .318 puis .323",
+          "source": "Lyman Reloading Handbook, 48e éd., section « Comments » de la cartouche (texte local gtxt/Lyman Reloading Handbook .txt)",
+          "page": "8mm Mauser, Comments",
+          "citation": "This cartridge had its birth not from Waffenfabrik Mauser but from the Model 88 Commission rifle adopted by the German Infantry Board in 1888. This cartridge was originally loaded with a .318\" diameter, 226-grain round nose bullet [...] The German military revised it in 1905 with a .323\" diameter bullet",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "ne pas tirer dans les canons de .318",
+          "source": "Lyman Reloading Handbook, 48e éd., section « Comments » de la cartouche (texte local gtxt/Lyman Reloading Handbook .txt)",
+          "page": "8mm Mauser, Comments",
+          "citation": "This data is for use in rifles chambered only for the 8x57mm JS (a.k.a. 7.9x57 or 7.92x57) German military cartridge with the .323\" diameter bullet. It is not for use in any rifle with the older .318\" J-bore.",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "Gewehr 98 et Kar98k",
+          "source": "M. Popenker, Modern Firearms, « 7.92x57mm (8mm Mauser) », https://modernfirearms.net/en/cartridge/7-9x57mm-8mm-mauser-2/",
+          "page": "—",
+          "citation": "It served with the German military throughout both World Wars, being the round chambered by the German Army’s standard rifles; firstly the Gewehr 98 and later the Kar98k ..",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "Mauser allemand modèle 1898 en 7,90",
+          "source": "War Office, Textbook of Small Arms 1929 (HMSO) — books/libres/textbook_of_small_arms_1929.pdf",
+          "page": "PDF p. 25 (p. imprimée 11), tableau « Mauser Rifles », vérifié sur l'image de la page",
+          "citation": "Germany 1898 7.90 .311",
+          "nature": "primaire"
+        }
+      ]
+    },
+    "8x68s": {
+      "description": "Cartouche de chasse conçue par August Schüler avec l'aide du munitionnaire RWS, pour des carabines de chasse sur système Mauser 98 dont le magasin devait être allongé. Le « S » indique le diamètre de balle de .323\".",
+      "description_en": "Hunting cartridge designed by August Schüler with the help of the ammunition maker RWS, for sporting rifles on the Mauser 98 action, whose magazine had to be lengthened. The \"S\" denotes the .323\" bullet diameter.",
+      "affirmations": [
+        {
+          "texte": "conçue par Schüler avec RWS pour des Mauser 98 de chasse",
+          "source": "N. Foster, Ballistic Studies, « 8x68 S », https://www.ballisticstudies.com/Knowledgebase/8x68+S.html",
+          "page": "—",
+          "citation": "Schuler sought the help of the ammunition manufacturing company Rheinisch Westfälische Sprengstoff (RWS) to help develop the cartridge which would eventually be housed in sporting versions of the M98 Mauser rifle.",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "magasin du M98 à allonger",
+          "source": "N. Foster, Ballistic Studies, « 8x68 S », https://www.ballisticstudies.com/Knowledgebase/8x68+S.html",
+          "page": "—",
+          "citation": "To house the 8x68 S and its sibling, the M98 action had to be milled forwards (front of magazine well towards bottom recoil lug rebate) and the magazine extended accordingly.",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "« S » = .323",
+          "source": "N. Foster, Ballistic Studies, « 8x68 S », https://www.ballisticstudies.com/Knowledgebase/8x68+S.html",
+          "page": "—",
+          "citation": "The S designation reflected the .323” bore diameter.",
+          "nature": "secondaire"
+        }
+      ]
+    },
+    "93x62_mauser": {
+      "description": "Cartouche de chasse créée par l'armurier berlinois Otto Bock, comme munition polyvalente pour les fermiers allemands de l'actuelle Tanzanie ; elle se loge dans la carabine Mauser modèle 98.",
+      "description_en": "Hunting cartridge created by the Berlin gunsmith Otto Bock as an all-round round for German farmers in what is now Tanzania; it fits the Model 98 Mauser rifle.",
+      "affirmations": [
+        {
+          "texte": "Otto Bock, Berlin, fermiers allemands de l'actuelle Tanzanie, Mauser 98",
+          "source": "P. Massaro, « Behind the Bullet: 9.3x62mm Mauser », American Hunter (NRA), https://www.americanhunter.org/content/behind-the-bullet-9-3x62mm-mauser/",
+          "page": "—",
+          "citation": "It was the brainchild of the Berlin gunsmith Otto Bock, and by all accounts was developed in or around 1905, as an all-around cartridge for the German farmers in what is modern-day Tanzania. Mr. Bock’s formula worked. It was easily housed in a Model 98 Mauser rifle",
+          "nature": "secondaire"
+        }
+      ]
+    },
+    "93x74r": {
+      "description": "Cartouche de chasse à bourrelet d'origine allemande, introduite par la Deutsche Waffen- und Munitionsfabriken (DWM) comme cartouche à poudre sans fumée ; on la tire dans des express doubles et des armes mixtes. Son culot plus large que celui des anciennes cartouches de 9,3 mm à poudre noire empêche de la chambrer dans ces vieilles armes.",
+      "description_en": "German rimmed hunting cartridge, introduced by Deutsche Waffen- und Munitionsfabriken (DWM) as a smokeless-powder round; it is fired in double rifles and combination guns. Its base is wider than that of the older black-powder 9.3 mm cartridges, which prevents it from being chambered in those older arms.",
+      "affirmations": [
+        {
+          "texte": "origine allemande, DWM, poudre sans fumée",
+          "source": "« Cartridge Board » (9.3x74R), Handloader, https://www.handloadermagazine.com/cartridge-board-13",
+          "page": "—",
+          "citation": "First off, the 9.3x74R (“R” meaning rimmed) is of German origin, introduced around 1900 as a powerful smokeless powder cartridge by Deutsche Waffen- Munitionfabriken (DWM) ammunition works.",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "express doubles et armes mixtes",
+          "source": "« Cartridge Board » (9.3x74R), Handloader, https://www.handloadermagazine.com/cartridge-board-13",
+          "page": "—",
+          "citation": "Standard bullet weight and velocity for the 9.3x74R did not change, no doubt due to all the double rifles and fixed-sight combination guns that fired it.",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "culot plus large que les 9,3 mm à poudre noire",
+          "source": "« Cartridge Board » (9.3x74R), Handloader, https://www.handloadermagazine.com/cartridge-board-13",
+          "page": "—",
+          "citation": "It is important to note that these had case base diameters of 11mm (.433 inch) as opposed to the 9.3x74R, which had a .465-inch diameter, thus positively preventing the hot smokeless round from being used in older rifles.",
+          "nature": "secondaire"
+        }
+      ]
+    },
+    "9x18_makarov": {
+      "description": "Cartouche de pistolet militaire soviétique, conçue pour des pistolets à culasse non calée et adoptée avec le pistolet Makarov PM ; elle fut ensuite imposée aux armées du pacte de Varsovie. Malgré son nom, sa balle mesure .363\" (9,2 mm) de diamètre, contre .355\" pour la 9 mm Luger.",
+      "description_en": "Soviet military pistol cartridge, designed for blowback pistols and adopted with the Makarov PM pistol; it was later imposed on Warsaw Pact armies. Despite its name, its bullet is .363\" (9.2 mm) in diameter, against .355\" for the 9 mm Luger.",
+      "affirmations": [
+        {
+          "texte": "pistolets à culasse non calée ; pacte de Varsovie",
+          "source": "M. Popenker, Modern Firearms, « 9x18 Makarov PM », https://modernfirearms.net/en/cartridge/9x18-makarov-pm/",
+          "page": "—",
+          "citation": "The 9×18 Makarov PM cartridge was the result of the development of a caliber suitable for smaller, blowback-operated pistols. [...] Officially adopted in 1951, this cartridge was also imposed upon Warsaw Pact countries during the 60’s and 70’s in an attempt at standardization.",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "pistolet Makarov",
+          "source": "M. Popenker, Modern Firearms, « 9x18 Makarov PM », https://modernfirearms.net/en/cartridge/9x18-makarov-pm/",
+          "page": "—",
+          "citation": "The 9×18 cartridge is generally known as ‘9mm Makarov’ or ‘9mm PM’ after the popular Makarov ( Пистолет Макарова – PM ) pistol that originally used it.",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "balle de .363\" (9,2 mm)",
+          "source": "Lyman Reloading Handbook, 48e éd., section « Comments » de la cartouche (texte local gtxt/Lyman Reloading Handbook .txt)",
+          "page": "9mm Makarov, Comments",
+          "citation": "While called a 9mm this cartridge actually uses a .363 inch (9.2mm) diameter bullet.",
+          "nature": "secondaire"
+        },
+        {
+          "texte": ".355\" pour la 9 mm Luger",
+          "source": "Lyman Reloading Handbook, 48e éd., section « Comments » de la cartouche (texte local gtxt/Lyman Reloading Handbook .txt)",
+          "page": "9mm Luger, Comments",
+          "citation": "However, the industry standard has recently been established at 0.355 inch.",
+          "nature": "secondaire"
+        }
+      ]
+    },
+    "9x19_parabellum": {
+      "description": "Cartouche créée par DWM à la demande de la marine allemande, en raccourcissant l'étui de la 7,65×21 Parabellum et en le chargeant d'une balle de 9 mm ; le pistolet Parabellum dans ce calibre fut adopté par la marine puis par l'armée allemande (P08), dont il était le pistolet réglementaire. Après la Seconde Guerre mondiale, elle devint la cartouche standard de pistolet et de pistolet-mitrailleur dans l'OTAN, à l'exception des États-Unis pendant une quarantaine d'années.",
+      "description_en": "Cartridge created by DWM at the request of the German Navy by shortening the case of the 7.65×21 Parabellum and loading it with a 9 mm bullet; the Parabellum pistol in this calibre was adopted by the Navy and then by the German Army (P08), whose service pistol it was. After the Second World War it became the standard pistol and submachine-gun cartridge in NATO, except for the United States for some forty years.",
+      "affirmations": [
+        {
+          "texte": "création DWM à la demande de la marine, étui de 7,65×21 raccourci",
+          "source": "M. Popenker, Modern Firearms, « 9mm Luger / 9x19 Parabellum », https://modernfirearms.net/en/cartridge/9mm-luger-9x19-parabellum/",
+          "page": "—",
+          "citation": "Following this requirement, DWM shortened the case of the original 7.65×21 Luger/Parabellum round to 19mm and loaded it with a 9mm jacketed bullet of truncated cone shape.",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "adoption marine puis armée (P08)",
+          "source": "M. Popenker, Modern Firearms, « 9mm Luger / 9x19 Parabellum », https://modernfirearms.net/en/cartridge/9mm-luger-9x19-parabellum/",
+          "page": "—",
+          "citation": "The ‘Parabellum’ pistol chambered for this cartridge was adopted by the German Navy in 1904. Then by the German Army in 1908 with a modified pistol – P-08 .",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "pistolet réglementaire allemand en 9 mm Parabellum",
+          "source": "War Office, Textbook of Small Arms 1929 (HMSO) — books/libres/textbook_of_small_arms_1929.pdf",
+          "page": "PDF p. 125-126 (pistolets étrangers et tableau)",
+          "citation": "The German service pistol was the Luger- Parabellum",
+          "nature": "primaire"
+        },
+        {
+          "texte": "standard OTAN après 1945, sauf États-Unis",
+          "source": "M. Popenker, Modern Firearms, « 9mm Luger / 9x19 Parabellum », https://modernfirearms.net/en/cartridge/9mm-luger-9x19-parabellum/",
+          "page": "—",
+          "citation": "After World War 2 the 9mm Parabellum was quickly adopted as a standard pistol and submachine gun chambering throughout NATO, with the notable exception of the USA, which tenaciously stuck to its .45 ACP cartridge for some forty more years.",
+          "nature": "secondaire"
+        }
+      ]
+    },
+    "9x21_imi": {
+      "description": "Cartouche créée pour permettre en Italie la vente et la détention par des particuliers de pistolets semi-automatiques conçus pour la 9×19, calibre alors interdit aux particuliers ; IMI (Israel Military Industries) la mit en production sous le nom de 9×21 IMI. Selon les fiches C.I.P., son étui mesure 21,15 mm contre 19,15 mm pour la 9 mm Luger, pour une même pression maximale de 2 350 bar.",
+      "description_en": "Cartridge created to allow private individuals in Italy to buy and own semi-automatic pistols designed for the 9×19, a calibre then forbidden to them; IMI (Israel Military Industries) put it into production as the 9×21 IMI. According to the C.I.P. sheets, its case is 21.15 mm long against 19.15 mm for the 9 mm Luger, with the same maximum pressure of 2,350 bar.",
+      "affirmations": [
+        {
+          "texte": "créée pour le marché civil italien, 9×19 interdite aux particuliers",
+          "source": "Balistica Forense, « 9×21 IMI », 5 avr. 2017, https://www.balisticaforense.it/2017/04/05/9x21-imi/",
+          "page": "—",
+          "citation": "L’avvento della cartuccia cal. 9×21 risale ai primi anni ’80, essa fu ideata per consentire, in Italia, la vendita, la detenzione e l’utilizzo di armi corte semiautomatiche originariamente camerate in cal. 9 parabellum o 9×19 il cui possesso da parte dei privati era ed è tuttora vietato.",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "production par IMI sous le nom 9×21 IMI",
+          "source": "Balistica Forense, « 9×21 IMI », 5 avr. 2017, https://www.balisticaforense.it/2017/04/05/9x21-imi/",
+          "page": "—",
+          "citation": "La IMI mise in produzione la nuova cartuccia denominandola 9×21 IMI con un successo commerciale immediato divenendo la cartuccia più venduta sul mercato Italiano.",
+          "nature": "secondaire"
+        },
+        {
+          "texte": "étui 21,15 mm, Pmax 2 350 bar",
+          "source": "Fiche C.I.P. /var/www/tireur.org/CIP/9x21_imi.pdf",
+          "page": "tableau, « 84-06-14 »",
+          "citation": "L3 = 21.15 ; Pmax = 2350 bar",
+          "nature": "primaire"
+        },
+        {
+          "texte": "étui 19,15 mm, Pmax 2 350 bar (9 mm Luger)",
+          "source": "Fiche C.I.P. /var/www/tireur.org/CIP/9x19_parabellum.pdf",
+          "page": "tableau, « 84-06-14 »",
+          "citation": "L3 = 19.15 ; Pmax = 2350 bar",
+          "nature": "primaire"
+        }
+      ]
     }
   }
 }

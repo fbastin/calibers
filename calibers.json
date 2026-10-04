@@ -2902,11 +2902,11 @@
     "primer_type": "Large Rifle",
     "intro_year": 1894,
     "origin_country": "Suède / Norvège",
-    "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
+    "description": "Cartouche réglementaire de l'armée suédoise, désignée « patron m/94 », tirée dans les fusils Mauser m/96 et m/38 et dans le fusil de tireur d'élite m/41B, dérivé du m/96. Elle fut aussi adoptée par la Norvège. Les chasseurs scandinaves l'emploient sur du gibier allant jusqu'à l'élan, et elle sert aussi en tir de compétition.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null,
-    "description_en": "Rifle cartridge, rimless case head. Supported by the site's interior ballistics estimator."
+    "description_en": "Swedish Army service cartridge, designated \"patron m/94\", fired in the m/96 and m/38 Mauser rifles and in the m/41B sniper rifle derived from the m/96. It was also adopted by Norway. Scandinavian hunters use it on game as large as moose, and it is also used as a match cartridge."
   },
   {
     "id": "68_western",
@@ -2988,11 +2988,11 @@
     "primer_type": "Large Rifle",
     "intro_year": 2017,
     "origin_country": "États-Unis",
-    "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
+    "description": "Étui de 6.5 Creedmoor au collet rétreint à 6 mm, apparu d'abord comme wildcat chez des tireurs de cible qui cherchaient le recul plus faible des balles de 6 mm, plus légères. Hornady l'a ensuite produit en munitions et en étuis, et l'a présenté dans sa gamme de munitions de match.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null,
-    "description_en": "Rifle cartridge, rimless case head. Supported by the site's interior ballistics estimator."
+    "description_en": "A 6.5 Creedmoor case necked down to 6 mm, which first appeared as a wildcat among target shooters seeking the lower recoil of lighter 6 mm bullets. Hornady then produced ammunition and cases for it and introduced it in its match ammunition line."
   },
   {
     "id": "6mm_ppc",
@@ -3160,11 +3160,11 @@
     "primer_type": "Small Pistol",
     "intro_year": 1882,
     "origin_country": "Suisse",
-    "description": "Calibre d'arme de poing, culot à bourrelet.",
+    "description": "Cartouche du revolver d'ordonnance suisse à six coups modèle 1882, destiné aux officiers non montés ; l'arme, du lieutenant-colonel Rudolf Schmidt, reprend le revolver de cavalerie modèle 1878 en le perfectionnant. À l'origine, la cartouche contenait 0,7 g de « poudre suisse n° 1 » et une balle en plomb dur de 7 g enveloppée de papier, à graissage extérieur.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null,
-    "description_en": "Handgun cartridge, rimmed case head."
+    "description_en": "Cartridge of the Swiss six-shot service revolver model 1882, intended for dismounted officers; the revolver, designed by Lieutenant-Colonel Rudolf Schmidt, is an improved version of the model 1878 cavalry revolver. As originally specified, the cartridge held 0.7 g of \"Swiss powder No. 1\" and a 7 g hard-lead bullet wrapped in paper and greased externally."
   },
   {
     "id": "75x54_french",
@@ -3188,11 +3188,11 @@
     "primer_type": "Large Rifle",
     "intro_year": 1929,
     "origin_country": "France",
-    "description": "Calibre d'arme d'épaule, culot sans bourrelet.",
+    "description": "Cartouche militaire française qui remplaça la 7,5×58 modèle 1924 : l'étui de celle-ci fut raccourci de 4 mm après des incidents dus à sa ressemblance avec la 7,92×57 (8 mm Mauser). Elle arma le fusil-mitrailleur 24/29, le fusil à répétition MAS 36 et les fusils semi-automatiques MAS 49 et MAS 49/56.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null,
-    "description_en": "Rifle cartridge, rimless case head."
+    "description_en": "French military cartridge that replaced the 7.5×58 model 1924: the latter's case was shortened by 4 mm after incidents caused by its resemblance to the 7.92×57 (8 mm Mauser). It was used in the model 24/29 light machine gun, the MAS 36 bolt-action rifle and the MAS 49 and MAS 49/56 semi-automatic rifles."
   },
   {
     "id": "75x55_swiss",
@@ -3217,11 +3217,11 @@
     "primer_type": "Large Rifle",
     "intro_year": 1911,
     "origin_country": "Suisse",
-    "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
+    "description": "Cartouche d'ordonnance suisse « GP 11 » (cartouche de fusil 11), fabriquée par les fabriques fédérales de munitions de Thun et d'Altdorf ; sa balle pointue à noyau de plomb et chemise d'acier nickelé a un culot conique. La même munition servait au fusil, au mousqueton, au fusil-mitrailleur et à la mitrailleuse, ainsi qu'au fusil à lunette modèle 1955.",
     "wiki_url": "https://www.tireur.org/wiki/doku.php?id=technique:cartouche_7-5x55",
     "data_note": null,
     "data_note_en": null,
-    "description_en": "Rifle cartridge, rimless case head. Supported by the site's interior ballistics estimator."
+    "description_en": "Swiss service cartridge \"GP 11\" (rifle cartridge 11), made by the federal ammunition factories at Thun and Altdorf; its pointed bullet, with a lead core and a nickel-plated steel jacket, has a tapered base. The same ammunition served the rifle, the carbine, the light machine gun and the machine gun, as well as the model 1955 scoped rifle."
   },
   {
     "id": "762x25_tokarev",
@@ -3245,11 +3245,11 @@
     "primer_type": "Small Pistol",
     "intro_year": null,
     "origin_country": "Union Soviétique",
-    "description": "Calibre d'arme de poing, culot sans bourrelet.",
+    "description": "Cartouche de pistolet soviétique dérivée de la 7,63×25 Mauser, dont elle ne différait à l'origine que par la gorge d'extraction et le logement d'amorce. Adoptée avec le pistolet Tokarev TT, elle servit aussi dans les pistolets-mitrailleurs PPSh-41 et PPS-43. Certaines charges pour pistolet-mitrailleur dépassent la pression de la munition Mauser d'origine et ne conviennent pas aux anciens pistolets Mauser.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null,
-    "description_en": "Handgun cartridge, rimless case head."
+    "description_en": "Soviet pistol cartridge derived from the 7.63×25 Mauser, from which it originally differed only in the extractor groove and the primer pocket. Adopted with the Tokarev TT pistol, it was also used in the PPSh-41 and PPS-43 submachine guns. Some submachine-gun loadings exceed the pressure of the original Mauser round and are unsuitable for older Mauser pistols."
   },
   {
     "id": "762x39_m43",
@@ -3274,11 +3274,11 @@
     "primer_type": "Large Rifle",
     "intro_year": 1949,
     "origin_country": "Union Soviétique",
-    "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
+    "description": "Cartouche intermédiaire soviétique, dont le développement fut lancé pendant la Seconde Guerre mondiale après l'examen du fusil d'assaut allemand MKb.42 et de la carabine américaine M1. Les premières versions avaient un étui de 41 mm ; c'est avec un étui raccourci à 39 mm et une balle à culot effilé qu'elle fut adoptée. Elle arma la carabine SKS, la mitrailleuse légère RPD et le fusil d'assaut Kalachnikov AK.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null,
-    "description_en": "Rifle cartridge, rimless case head. Supported by the site's interior ballistics estimator."
+    "description_en": "Soviet intermediate cartridge whose development began during the Second World War after study of the German MKb.42 assault rifle and the US M1 carbine. Early versions had a 41 mm case; it was adopted with a case shortened to 39 mm and a boat-tailed bullet. It was used in the SKS carbine, the RPD light machine gun and the Kalashnikov AK assault rifle."
   },
   {
     "id": "762x51_nato",
@@ -3305,11 +3305,11 @@
     "primer_type": "Large Rifle",
     "intro_year": null,
     "origin_country": "États-Unis",
-    "description": "Calibre d'arme d'épaule, culot sans bourrelet.",
+    "description": "Cartouche militaire issue des essais américains de cartouches .30-06 raccourcies, adoptée par l'OTAN comme munition standard des fusils et des mitrailleuses ; l'accord de normalisation STANAG 2310 en fixe les spécifications techniques. Le .308 Winchester en est la version civile, lancée par Winchester avant l'adoption de la cartouche par l'armée américaine. Dans l'armée américaine, la munition 7,62 mm « special ball » M118 est celle du fusil de tireur d'élite M24.",
     "wiki_url": "https://www.tireur.org/wiki/doku.php?id=technique:calibres_militaires#nato_et_la_308_winchester",
     "data_note": "Très proche du .308 Winchester, mais cartouches NON strictement interchangeables : le 7.62 OTAN se tire généralement sans risque dans une chambre .308 Win, alors qu'une munition .308 (pression plus élevée, parois d'étui plus fines) tirée dans une chambre militaire 7.62 (headspace plus long) peut provoquer une rupture d'étui. Spécification militaire OTAN, non normalisée C.I.P.",
     "data_note_en": "Very close to the .308 Winchester, but the cartridges are NOT strictly interchangeable: 7.62 NATO can generally be fired safely in a .308 Win chamber, whereas .308 ammunition (higher pressure, thinner case walls) fired in a 7.62 military chamber (longer headspace) can cause a case rupture. NATO military specification, not standardised by C.I.P.",
-    "description_en": "Rifle cartridge, rimless case head."
+    "description_en": "Military cartridge that grew out of US trials of shortened .30-06 cartridges, adopted by NATO as its standard rifle and machine-gun round; the STANAG 2310 standardization agreement sets its technical specifications. The .308 Winchester is its civilian counterpart, introduced by Winchester before the US military adopted the cartridge. In the US Army, the 7.62 mm M118 special ball round is the ammunition of the M24 sniper rifle."
   },
   {
     "id": "762x54r",
@@ -3334,11 +3334,11 @@
     "primer_type": "Large Rifle",
     "intro_year": 1891,
     "origin_country": "Union Soviétique",
-    "description": "Calibre d'arme d'épaule, culot à bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
+    "description": "Cartouche à bourrelet et à étui à épaulement du fusil Mosin-Nagant de la Russie impériale, restée la munition standard des fusils, carabines et fusils semi-automatiques soviétiques comme des mitrailleuses ; une balle pointue légère (Spitzer) fut introduite en 1908. Le fusil de tireur d'élite Dragunov (SVD) la tire aussi, et elle sert encore, après l'ère soviétique, de cartouche de mitrailleuse, dont la PKM.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null,
-    "description_en": "Rifle cartridge, rimmed case head. Supported by the site's interior ballistics estimator."
+    "description_en": "Rimmed, bottlenecked cartridge of the Imperial Russian Mosin-Nagant rifle, which remained the standard round of Soviet rifles, carbines and semi-automatic rifles as well as machine guns; a light pointed (spitzer) bullet was introduced in 1908. The Dragunov sniper rifle (SVD) also fires it, and it remains in use after the Soviet era as a machine-gun cartridge, including in the PKM."
   },
   {
     "id": "763_mauser",
@@ -3362,11 +3362,11 @@
     "primer_type": "Small Pistol",
     "intro_year": null,
     "origin_country": "Allemagne",
-    "description": "Calibre d'arme de poing, culot sans bourrelet.",
+    "description": "Cartouche du pistolet Mauser C96, dérivée de la 7,65 mm Borchardt, celle du pistolet Borchardt de 1893. La 7,62×25 Tokarev soviétique en dérive : les deux cartouches sont distinctes mais de cotes assez proches pour avoir souvent été employées l'une pour l'autre. La C.I.P. fixe pour la 7,63 Mauser une pression maximale (2 250 bar) inférieure à celle de la 7,62×25 Tokarev (2 500 bar).",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null,
-    "description_en": "Handgun cartridge, rimless case head."
+    "description_en": "Cartridge of the Mauser C96 pistol, derived from the 7.65 mm Borchardt, the round of the 1893 Borchardt pistol. The Soviet 7.62×25 Tokarev is derived from it: the two are distinct cartridges, but their dimensions are close enough that they have often been used interchangeably. The C.I.P. sets a lower maximum pressure for the 7.63 Mauser (2,250 bar) than for the 7.62×25 Tokarev (2,500 bar)."
   },
   {
     "id": "765_luger",
@@ -3390,11 +3390,11 @@
     "primer_type": "Small Pistol",
     "intro_year": 1900,
     "origin_country": "Allemagne",
-    "description": "Calibre d'arme de poing, culot sans bourrelet.",
+    "description": "Cartouche mise au point par Georg Luger à partir de la 7,65 mm Borchardt, pour le pistolet Parabellum fabriqué par DWM. La Suisse l'adopta avec ce pistolet comme pistolet d'ordonnance, et elle servit aussi d'arme militaire au Brésil, en Finlande et en Lituanie. La 9×19 Parabellum en dérive : à la demande de la marine allemande, DWM raccourcit l'étui à 19 mm et le chargea d'une balle de 9 mm.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null,
-    "description_en": "Handgun cartridge, rimless case head."
+    "description_en": "Cartridge developed by Georg Luger from the 7.65 mm Borchardt, for the Parabellum pistol made by DWM. Switzerland adopted it with that pistol as its service pistol, and it was also a military round in Brazil, Finland and Lithuania. The 9×19 Parabellum is derived from it: at the request of the German Navy, DWM shortened the case to 19 mm and loaded it with a 9 mm bullet."
   },
   {
     "id": "765_argentined",
@@ -3418,11 +3418,11 @@
     "primer_type": "Large Rifle",
     "intro_year": 1889,
     "origin_country": "Allemagne",
-    "description": "Calibre d'arme d'épaule, culot sans bourrelet.",
+    "description": "Première cartouche militaire à poudre sans fumée de Paul Mauser, adoptée d'abord par la Belgique puis, avec des fusils Mauser, par l'Argentine, la Bolivie, la Colombie, l'Équateur, le Pérou et la Turquie. Son collet est plus court que celui des autres cartouches Mauser.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null,
-    "description_en": "Rifle cartridge, rimless case head."
+    "description_en": "Paul Mauser's first smokeless military cartridge, adopted first by Belgium and then, with Mauser rifles, by Argentina, Bolivia, Colombia, Ecuador, Peru and Turkey. Its neck is shorter than that of other Mauser cartridges."
   },
   {
     "id": "7mm_br_remington",
@@ -3534,11 +3534,11 @@
     "primer_type": "Large Rifle Magnum",
     "intro_year": 1962,
     "origin_country": "États-Unis",
-    "description": "Calibre d'arme d'épaule, culot à ceinture. Pris en charge par l'estimateur de balistique intérieure du site.",
+    "description": "Cartouche magnum de Remington, proposée parmi les calibres magnum de la carabine à verrou Model 700 dès sa première publicité. Selon American Rifleman, dans les trois premières années il se vendit plus de Model 700 dans ce calibre qu'en .270 Win. et en .30-06 réunis, et Remington l'avait reprise d'un wildcat.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null,
-    "description_en": "Rifle cartridge, belted case head. Supported by the site's interior ballistics estimator."
+    "description_en": "Remington magnum cartridge, offered among the magnum chamberings of the Model 700 bolt-action rifle from its first advertisement. According to American Rifleman, in the first three years more Model 700 rifles were sold in this chambering than in .270 Win. and .30-06 combined, and Remington had taken it up from a wildcat."
   },
   {
     "id": "7mm_wsm",
@@ -3622,11 +3622,11 @@
     "primer_type": "Large Rifle",
     "intro_year": 1980,
     "origin_country": "États-Unis",
-    "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
+    "description": "Étui de .308 Winchester au collet rétreint au calibre 7 mm ; d'abord wildcat, la cartouche a été reprise par Remington. Selon Lyman, elle fut conçue pour le tir aux silhouettes métalliques, et elle sert en tir High-Power, à la chasse et en silhouette.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null,
-    "description_en": "Rifle cartridge, rimless case head. Supported by the site's interior ballistics estimator."
+    "description_en": "A .308 Winchester case necked down to 7 mm; originally a wildcat, the cartridge was taken up by Remington. According to Lyman, it was designed for metallic silhouette shooting, and it is used in High-Power competition, hunting and silhouette shooting."
   },
   {
     "id": "7x57_mauser",
@@ -3653,11 +3653,11 @@
     "primer_type": "Large Rifle",
     "intro_year": null,
     "origin_country": "Allemagne",
-    "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
+    "description": "Cartouche militaire de 7 mm des fusils Mauser, adoptée par l'Espagne et par plusieurs autres États, dont le Brésil, le Chili, le Mexique et l'Uruguay. Les troupes espagnoles l'employèrent à Cuba pendant la guerre hispano-américaine de 1898, avec le fusil Mauser modèle 93. Elle est aussi employée à la chasse.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null,
-    "description_en": "Rifle cartridge, rimless case head. Supported by the site's interior ballistics estimator."
+    "description_en": "7 mm military cartridge of Mauser rifles, adopted by Spain and by several other states, including Brazil, Chile, Mexico and Uruguay. Spanish troops used it in Cuba during the Spanish-American War of 1898, with the Model 93 Mauser rifle. It is also used for hunting."
   },
   {
     "id": "7x64_brenneke",
@@ -3684,11 +3684,11 @@
     "primer_type": "Large Rifle",
     "intro_year": 1917,
     "origin_country": "Allemagne",
-    "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
+    "description": "Cartouche de chasse « à haute performance » de la maison Brenneke, fondée à Leipzig par Wilhelm Brenneke. Elle parut en même temps que sa variante à bourrelet 7×65 R, après les 8×64 et 8×65 R de la même maison.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null,
-    "description_en": "Rifle cartridge, rimless case head. Supported by the site's interior ballistics estimator."
+    "description_en": "High-performance hunting cartridge from the Brenneke company, founded in Leipzig by Wilhelm Brenneke. It appeared together with its rimmed variant, the 7×65 R, after the same company's 8×64 and 8×65 R."
   },
   {
     "id": "8_x_57_irs",
@@ -3740,11 +3740,11 @@
     "primer_type": "Small Pistol",
     "intro_year": 1892,
     "origin_country": "France",
-    "description": "Calibre d'arme de poing, culot à bourrelet.",
+    "description": "Cartouche à bourrelet, à balle chemisée de cuivre, du revolver d'ordonnance français modèle 1892. Pendant la Première Guerre mondiale, ce revolver fut en grande partie supplanté dans l'armée française par des pistolets semi-automatiques commerciaux de calibre .32.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null,
-    "description_en": "Handgun cartridge, rimmed case head."
+    "description_en": "Rimmed cartridge, with a copper-jacketed bullet, of the French model 1892 service revolver. During the First World War, this revolver was largely superseded in the French Army by commercial .32-calibre self-loading pistols."
   },
   {
     "id": "8x50r_lebel",
@@ -3768,11 +3768,11 @@
     "primer_type": "Large Rifle",
     "intro_year": 1886,
     "origin_country": "France",
-    "description": "Calibre d'arme d'épaule, culot à bourrelet.",
+    "description": "Cartouche du fusil à répétition Lebel de 8 mm, adopté comme arme de l'infanterie française. Selon le Textbook of Small Arms britannique de 1929, ce fut le premier fusil de petit calibre adopté par une nation et le premier à employer la poudre sans fumée, inventée en 1884 par le chimiste français Vieille.",
     "wiki_url": null,
     "data_note": "Volume d'étui estimé (non publié C.I.P./SAAMI).",
     "data_note_en": "Estimated case capacity (not published by C.I.P./SAAMI).",
-    "description_en": "Rifle cartridge, rimmed case head."
+    "description_en": "Cartridge of the 8 mm Lebel repeating rifle, adopted as the arm of the French infantry. According to the British Textbook of Small Arms of 1929, it was the first small-bore rifle adopted by any nation and the first to use smokeless powder, invented in 1884 by the French chemist Vieille."
   },
   {
     "id": "8x57_is",
@@ -3801,11 +3801,11 @@
     "primer_type": "Large Rifle",
     "intro_year": null,
     "origin_country": "Allemagne",
-    "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
+    "description": "Cartouche militaire allemande issue de celle du fusil de commission modèle 88, et non d'une création de la maison Mauser : sa balle d'origine de .318\" fut ensuite remplacée par une balle de .323\" (variante « S »). Elle arma les fusils allemands Gewehr 98 et Kar 98k. Elle ne doit pas être tirée dans les armes à canon de .318\" (8×57 I).",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null,
-    "description_en": "Rifle cartridge, rimless case head. Supported by the site's interior ballistics estimator."
+    "description_en": "German military cartridge that grew out of the round of the Model 88 Commission rifle, not a Mauser company design: its original .318\" bullet was later replaced by a .323\" bullet (the \"S\" variant). It armed the German Gewehr 98 and Kar 98k rifles. It must not be fired in arms with a .318\" bore (8×57 I)."
   },
   {
     "id": "8x68s",
@@ -3830,11 +3830,11 @@
     "primer_type": "Large Rifle",
     "intro_year": null,
     "origin_country": "Allemagne",
-    "description": "Calibre d'arme d'épaule, culot rétreint. Pris en charge par l'estimateur de balistique intérieure du site.",
+    "description": "Cartouche de chasse conçue par August Schüler avec l'aide du munitionnaire RWS, pour des carabines de chasse sur système Mauser 98 dont le magasin devait être allongé. Le « S » indique le diamètre de balle de .323\".",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null,
-    "description_en": "Rifle cartridge, rebated case head. Supported by the site's interior ballistics estimator."
+    "description_en": "Hunting cartridge designed by August Schüler with the help of the ammunition maker RWS, for sporting rifles on the Mauser 98 action, whose magazine had to be lengthened. The \"S\" denotes the .323\" bullet diameter."
   },
   {
     "id": "9_x_23_winchester",
@@ -3917,11 +3917,11 @@
     "primer_type": "Large Rifle",
     "intro_year": null,
     "origin_country": "Allemagne",
-    "description": "Calibre d'arme d'épaule, culot rétreint. Pris en charge par l'estimateur de balistique intérieure du site.",
+    "description": "Cartouche de chasse créée par l'armurier berlinois Otto Bock, comme munition polyvalente pour les fermiers allemands de l'actuelle Tanzanie ; elle se loge dans la carabine Mauser modèle 98.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null,
-    "description_en": "Rifle cartridge, rebated case head. Supported by the site's interior ballistics estimator."
+    "description_en": "Hunting cartridge created by the Berlin gunsmith Otto Bock as an all-round round for German farmers in what is now Tanzania; it fits the Model 98 Mauser rifle."
   },
   {
     "id": "93x74r",
@@ -3946,11 +3946,11 @@
     "primer_type": "Large Rifle",
     "intro_year": null,
     "origin_country": "Allemagne",
-    "description": "Calibre d'arme d'épaule, culot à bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
+    "description": "Cartouche de chasse à bourrelet d'origine allemande, introduite par la Deutsche Waffen- und Munitionsfabriken (DWM) comme cartouche à poudre sans fumée ; on la tire dans des express doubles et des armes mixtes. Son culot plus large que celui des anciennes cartouches de 9,3 mm à poudre noire empêche de la chambrer dans ces vieilles armes.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null,
-    "description_en": "Rifle cartridge, rimmed case head. Supported by the site's interior ballistics estimator."
+    "description_en": "German rimmed hunting cartridge, introduced by Deutsche Waffen- und Munitionsfabriken (DWM) as a smokeless-powder round; it is fired in double rifles and combination guns. Its base is wider than that of the older black-powder 9.3 mm cartridges, which prevents it from being chambered in those older arms."
   },
   {
     "id": "9x18_makarov",
@@ -3974,11 +3974,11 @@
     "primer_type": "Small Pistol",
     "intro_year": 1951,
     "origin_country": "Union Soviétique",
-    "description": "Calibre d'arme de poing, culot sans bourrelet.",
+    "description": "Cartouche de pistolet militaire soviétique, conçue pour des pistolets à culasse non calée et adoptée avec le pistolet Makarov PM ; elle fut ensuite imposée aux armées du pacte de Varsovie. Malgré son nom, sa balle mesure .363\" (9,2 mm) de diamètre, contre .355\" pour la 9 mm Luger.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null,
-    "description_en": "Handgun cartridge, rimless case head."
+    "description_en": "Soviet military pistol cartridge, designed for blowback pistols and adopted with the Makarov PM pistol; it was later imposed on Warsaw Pact armies. Despite its name, its bullet is .363\" (9.2 mm) in diameter, against .355\" for the 9 mm Luger."
   },
   {
     "id": "9x19_parabellum",
@@ -4005,11 +4005,11 @@
     "primer_type": "Small Pistol",
     "intro_year": null,
     "origin_country": "Allemagne",
-    "description": "Calibre d'arme de poing, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
+    "description": "Cartouche créée par DWM à la demande de la marine allemande, en raccourcissant l'étui de la 7,65×21 Parabellum et en le chargeant d'une balle de 9 mm ; le pistolet Parabellum dans ce calibre fut adopté par la marine puis par l'armée allemande (P08), dont il était le pistolet réglementaire. Après la Seconde Guerre mondiale, elle devint la cartouche standard de pistolet et de pistolet-mitrailleur dans l'OTAN, à l'exception des États-Unis pendant une quarantaine d'années.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null,
-    "description_en": "Handgun cartridge, rimless case head. Supported by the site's interior ballistics estimator."
+    "description_en": "Cartridge created by DWM at the request of the German Navy by shortening the case of the 7.65×21 Parabellum and loading it with a 9 mm bullet; the Parabellum pistol in this calibre was adopted by the Navy and then by the German Army (P08), whose service pistol it was. After the Second World War it became the standard pistol and submachine-gun cartridge in NATO, except for the United States for some forty years."
   },
   {
     "id": "9x21_imi",
@@ -4033,10 +4033,10 @@
     "primer_type": "Small Pistol",
     "intro_year": null,
     "origin_country": "Israël",
-    "description": "Calibre d'arme de poing, culot sans bourrelet.",
+    "description": "Cartouche créée pour permettre en Italie la vente et la détention par des particuliers de pistolets semi-automatiques conçus pour la 9×19, calibre alors interdit aux particuliers ; IMI (Israel Military Industries) la mit en production sous le nom de 9×21 IMI. Selon les fiches C.I.P., son étui mesure 21,15 mm contre 19,15 mm pour la 9 mm Luger, pour une même pression maximale de 2 350 bar.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null,
-    "description_en": "Handgun cartridge, rimless case head."
+    "description_en": "Cartridge created to allow private individuals in Italy to buy and own semi-automatic pistols designed for the 9×19, a calibre then forbidden to them; IMI (Israel Military Industries) put it into production as the 9×21 IMI. According to the C.I.P. sheets, its case is 21.15 mm long against 19.15 mm for the 9 mm Luger, with the same maximum pressure of 2,350 bar."
   }
 ]
