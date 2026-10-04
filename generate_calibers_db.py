@@ -1181,6 +1181,10 @@ def merge_databases():
         else:
             item["origin_country"] = None
         estimateur = item.pop("_estimateur")
+        # Volume d'étui : celui de l'estimateur a sa provenance ; les 28 saisis à la main pour
+        # les cartouches hors estimateur n'en ont aucune (README corrigé le 2026-10-04 : ils ne
+        # viennent pas de zen/grt_databases). Décision du propriétaire : les garder, marqués.
+        item["case_volume_unsourced"] = bool(item.get("case_volume_cm3")) and not estimateur
         if item["id"] in DESC_REF:
             item["description"], item["description_en"] = DESC_REF[item["id"]]
         else:
