@@ -69,6 +69,13 @@
         "Lyman"
       ]
     },
+    "25_acp": {
+      "primer": "Small Pistol",
+      "sources": [
+        "Lovex"
+      ],
+      "note": "section « 6.35 Browning / .25 Auto », S&B 4.4 SP"
+    },
     "270_wsm": {
       "primer": "Large Rifle Magnum",
       "sources": [
