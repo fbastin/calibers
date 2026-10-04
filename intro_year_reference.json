@@ -3,7 +3,7 @@
     "source": "Lyman Reloading Handbook, 48e éd. (2002), commentaire de la cartouche — par défaut ; sinon la source de l'entrée",
     "releve_le": "2026-10-04",
     "definition": "Année de mise sur le marché ou d'adoption militaire ; pour une cartouche issue d'un wildcat, année de standardisation en munition d'usine. Une année de seule mise au point n'est pas retenue (.270 Weatherby : 1943 « developed » ; .45 ACP : datée seulement par le pistolet Colt de 1905).",
-    "portee": "Entrées datées par une source citée mot pour mot (vérifiée sur la page le 2026-10-04) ; « nature » : fabricant, primaire ou secondaire. Écartées faute de source qui date l'événement défini : 7,62 x 25 (date le choix du pistolet), .22 WMR (liste peu fiable), 7,62 x 51 OTAN (1953 Hansard / 1957 FN), 8 x 68 S (introuvable). Lot 1980-2018 : écartées 5,7 x 28 (1990 = présentation publique) et .450 Bushmaster (2007 = présentation au SHOT Show) ; conflits 6,5 Grendel (2003/2005), .416 Barrett (2005 conception/2007), 6,5 x 47 Lapua (2005/2006) ; introuvables 9 x 21 IMI, .50 AE, .408 CheyTac. .40 S&W : Lyman 48e écrit 1992, contredit par la présentation du 17 janv. 1990 et la fiche C.I.P. du 1er févr. 1990."
+    "portee": "Entrées datées par une source citée mot pour mot (vérifiée sur la page le 2026-10-04) ; « nature » : fabricant, primaire ou secondaire. Écartées faute de source qui date l'événement défini : 7,62 x 25 (date le choix du pistolet), .22 WMR (liste peu fiable), 7,62 x 51 OTAN (1953 Hansard / 1957 FN), 8 x 68 S (introuvable). Lot 1980-2018 : écartées 5,7 x 28 (1990 = présentation publique) et .450 Bushmaster (2007 = présentation au SHOT Show) ; conflits 6,5 Grendel (2003/2005), .416 Barrett (2005 conception/2007), 6,5 x 47 Lapua (2005/2006) ; introuvables 9 x 21 IMI, .50 AE, .408 CheyTac. .40 S&W : Lyman 48e écrit 1992, contredit par la présentation du 17 janv. 1990 et la fiche C.I.P. du 1er févr. 1990. Lot 1882-1911 : en attente (sources lues sur e-periodica par le lien destiné aux robots, à valider) 7,5 suisse revolver, 8 x 50 R Lebel, 7,65 Parabellum, 7,5 x 55 suisse ; conflit 8 x 57 IS (1903/1904/1905) ; introuvables 7 x 57, 7,63 Mauser, 9 x 19, 9,3 x 74 R, 9,3 x 62."
   },
   "calibres": {
     "10mm_auto": {
@@ -56,6 +56,14 @@
       "nature": "secondaire",
       "note": "Absent de la frise Winchester. Un membre du forum de la Winchester Arms Collectors Association écrit « late 1930 or early 1931 » (forum, non retenu comme source) : 1931 n'est pas exclu. Whelen (Small Arms Design vol. 2, PDF local) mentionne la mise au point à Springfield Armory sans date de commercialisation."
     },
+    "22_lr": {
+      "annee": 1887,
+      "source": "Savage Arms (propriétaire de la marque Stevens depuis 1920), « From Plinking to Precision: The Evolution of the 22 Long Rifle », https://savagearms.com/blog/post/from-plinking-to-precision-the-evolution-of-the-22-long-rifle",
+      "citation": "In 1887, the J. Stevens Arms and Tool Company introduced the 22 Long Rifle as a result of the merging of the 22 Long’s cartridge casing and with the 22 Extra Long’s heavier 40 grain bullet.",
+      "nature": "fabricant",
+      "page": "(page web)",
+      "note": "Source fabricant mais tardive (blog d'entreprise, sans référence d'époque). Aucun catalogue Stevens de 1887-1888 lu. Phrase vérifiée mot pour mot dans la page récupérée par curl."
+    },
     "243_win": {
       "annee": 1955,
       "source": "Winchester, « Historical Timeline » (winchesterguns.com) 1950-1999, https://www.winchesterguns.com/news/historical-timeline/1950-1999.html",
@@ -71,6 +79,14 @@
       "annee": 1969,
       "source": "Lyman Reloading Handbook, 48e éd. (2002), commentaire de la cartouche",
       "citation": "Remington legitimized it as a factory offering in 1969"
+    },
+    "25_acp": {
+      "annee": 1906,
+      "source": "A. Vanderlinden, « Sorting Out The Littlest Brownings », American Rifleman (NRA), https://www.americanrifleman.org/content/sorting-out-the-littlest-brownings/",
+      "citation": "The small pocket pistol was first patented in 1905 and production started in 1906.",
+      "nature": "secondaire",
+      "page": "(page web)",
+      "note": "1905 = brevet, 1906 = début de production FN (modèle 1906) ; même article : la cartouche n'était connue que sous « its European designation of 6.35 mm » avant le Colt 1908. Pas de catalogue FN 1906 lu."
     },
     "260_rem": {
       "annee": 1997,
@@ -130,10 +146,34 @@
       "citation": "1952.  Winchester introduces the 308 Winchester cartridge that becomes the standard of the North Atlantic Treaty Organization (NATO).",
       "nature": "fabricant"
     },
+    "30_06_springfield": {
+      "annee": 1906,
+      "source": "L. A. La Garde (colonel, Medical Corps, US Army), Gunshot Injuries: How They Are Inflicted, Their Complications and Treatment, New York, William Wood, 1914 (archive.org, id. gunshotinjuriesh00laga)",
+      "citation": "In 1906 a sharp-pointed bullet was adopted and a pyrocellulose powder substituted for the nitroglycerin powder.",
+      "nature": "secondaire",
+      "page": "p. 30-31 (section « The United States or new Springfield rifle »)",
+      "note": "Ouvrage d'époque d'un officier de l'US Army (publication privée). Désignation officielle concordante : Ordnance Department, Description and Rules for the Management of the U.S. Rifle, Caliber .30, Model of 1903 (Ordnance doc. n° 1923, rév. 1909-1914 ; archive.org descriptionrules00unit) : « BALL CARTRIDGE, MODEL OF 1906 ». Rapport annuel du Chief of Ordnance 1906 non retrouvé."
+    },
     "30_30_win": {
       "annee": 1895,
       "source": "Lyman Reloading Handbook, 48e éd. (2002), commentaire de la cartouche",
       "citation": "Winchester introduced the 30 Winchester Center Fire (WCF) cartridge in their new Model 94 lever-action in 1895"
+    },
+    "32_acp": {
+      "annee": 1899,
+      "source": "A. Vanderlinden, « 1899: Year Of The Browning Pistol », American Rifleman (NRA), https://www.americanrifleman.org/content/1899-year-of-the-browning-pistol/",
+      "citation": "While Belgian military trials were gearing up for 1899, FN went ahead and launched the pistol commercially in January 1899.",
+      "nature": "secondaire",
+      "page": "(page web)",
+      "note": "Même article : FN « spent more than a year working on the logistics, including manufacturing the new 7.65 mm Browning cartridge invented by Browning » ; pistolet n° 21 « Made in January 1899, it is the oldest known Browning pistol that was sold commercially ». Écart : le Textbook of Small Arms 1929 (p. imprimée 97) écrit « the Browning pistol, invented by an American but manufactured in Belgium (1898) » — formulation générale, non retenue face au récit daté par numéros de série. Pas de page historique FN lue (fnherstal.com : 404)."
+    },
+    "32_sw_long": {
+      "annee": 1896,
+      "source": "American Rifleman (NRA), « S&W Model I », 29 avr. 2014, https://www.americanrifleman.org/articles/2014/4/29/sw-model-i/",
+      "citation": "It was manufactured from 1896 to 1903, when it was replaced by the Model 1903 […] Smith & Wesson manufactured 19,712 of these revolvers, and they were chambered in .32 S&W Long, a cartridge designed specifically for this revolver.",
+      "nature": "secondaire",
+      "page": "(page web)",
+      "note": "Revue de la NRA. Concorde avec American Rifleman, « Smith & Wesson Hand Ejector: A Look Back » (2010) : « the I-frame .32 H.E. Model of 1896 was the first on the market ». Pas de page historique S&W lue sur ce point."
     },
     "338_lapua": {
       "annee": 1990,
@@ -167,6 +207,22 @@
       "citation": "The .375 H&H Magnum was introduced by English gunmakers Holland & Holland in 1912 as the .375 Belted Rimless Nitro Express.",
       "nature": "secondaire",
       "note": "Page du fabricant (hollandandholland.com, « The Perfect Medium ») derrière un contrôle anti-robot Vercel (HTTP 429 challenge) : abandonnée, non contournée."
+    },
+    "380_acp": {
+      "annee": 1908,
+      "source": "R. Hacker, « I Have This Old Gun: Colt Military 1908 Pocket Hammerless », American Rifleman (NRA), https://www.americanrifleman.org/content/i-have-this-old-gun-colt-military-1908-pocket-hammerless/",
+      "citation": "Then, five years later, Colt brought out a more reliable man-stopper—the seven-round Model 1908 Pocket Hammerless chambered in Browning’s .380 ACP.",
+      "nature": "secondaire",
+      "page": "(page web)",
+      "note": "« five years later » renvoie au Colt 1903 Pocket Hammerless (.32 ACP). American Rifleman, « The .380 ACP: History & Performance » : « by 1908, there was a desire […] to cram more power into a pocket-size pistol » (ne date pas explicitement). Pas de catalogue Colt 1908 lu."
+    },
+    "38_special": {
+      "annee": 1899,
+      "source": "American Rifleman (NRA), « The .38 Special: History & Performance », https://www.americanrifleman.org/content/the-38-special-history-performance/ ; Smith & Wesson, « About us », https://store.smith-wesson.com/company/about-us/",
+      "citation": "Yielding to the demand for more power, Smith & Wesson beefed up and improved its solid-frame revolver it developed into the K-frame in 1899. It was called the Military and Police (M&P) model and was available in .32-20 Winchester Center Fire (WCF) and a new cartridge—designed in 1898—known as the .38 Smith & Wesson Special.",
+      "nature": "secondaire",
+      "page": "(pages web)",
+      "note": "1898 = année de conception ; mise sur le marché avec le revolver M&P de 1899. Page fabricant S&W : « In 1899, Smith & Wesson introduced what would become its most successful revolver, the .38 Military & Police. » (ne nomme pas la cartouche). Point à surveiller : certains auteurs placent les premières livraisons en .38 Special un peu plus tard ; aucune source primaire (catalogue S&W 1899) lue."
     },
     "40_sw": {
       "annee": 1990,
@@ -217,6 +273,14 @@
       "annee": 1873,
       "source": "Lyman Reloading Handbook, 48e éd. (2002), commentaire de la cartouche",
       "citation": "1873 marked the introduction of the 44-40 (44 WCF), the 45-70 Government, and the 45 Colt"
+    },
+    "45_acp": {
+      "annee": 1905,
+      "source": "American Rifleman (NRA), « The Trials of the M1911 », https://www.americanrifleman.org/content/the-trials-of-the-m1911/ ; NRA National Firearms Museum, « Colt Model 1905 45 Automatic Pistol »",
+      "citation": "Colt and Browning even took the next step by designing a .45-cal. “rimless smokeless” cartridge; Colt introduced both the cartridge and a .45 pistol along the lines of the Model 1900/1902 commercially in 1905 as the Model 1905.",
+      "nature": "secondaire",
+      "page": "(pages web)",
+      "note": "Même article : « Production Model 1905s began shipping just two months later, on the day after Christmas » (déc. 1905). Musée NRA : « In 1905, Colt introduced an automatic pistol in cal. .45 Rimless. » Adoption militaire plus tardive (première des deux = 1905) : Army and Navy Journal, 1er avr. 1911 (archive.org, sim_armed-forces-journal_1911-04-01_48_31) cite le bureau d'essais : « recommends that the Colt caliber .45 automatic pistol of the design submitted to the board for test be adopted for use by foot and mounted troops » ; adoption formelle le 29 mars 1911. 1904 (saisi) = développement, non retenu. NB : la cartouche de 1905 est dimensionnellement celle de 1911, chargement différent."
     },
     "45_colt": {
       "annee": 1873,
@@ -279,6 +343,14 @@
       "nature": "fabricant",
       "note": "Annoncé par le fabricant le 18 octobre 2017 parmi les nouveautés du catalogue 2018 (Precision Hunter 143 gr ELD-X, Match 147 gr ELD Match). L'annonce date de fin 2017, la mise en vente de 2018. Table C.I.P. « 6,5 PRC » datée 18-10-17 (/var/www/tireur.org/CIP/65_prc.pdf)."
     },
+    "65x55_swedish": {
+      "annee": 1894,
+      "source": "Swedish Mauser Rifle Manual, traduction (1999) du manuel de l'armée suédoise SoldI Mtrl 1977 — copie locale books/libres/m96_swedish_mauser_rifle_manual_trad_1999.pdf",
+      "citation": "Only live ammunition, cartridge m/94 with m/41 spitzer (torped-) bullet is to be used.",
+      "nature": "primaire",
+      "page": "PDF p. 8, § 11 « Rifle m/41B »",
+      "note": "Année tirée de la désignation officielle (millésime du modèle = année d'adoption, convention militaire) ; aucun texte d'adoption daté lu. Désignation officielle suédoise « patron m/94 » (modèle 1894). Contexte d'époque : Revue militaire suisse, t. 39 (1894), n° 2, p. 126-127 (e-periodica rms-001:1894:39::135-136) — en Norvège, les essais « ont eu pour résultat de recommander l'adoption du Krag-Jurgensen de 6,5 mm., pour l'armée norvégienne » ; P. v. Bruns, Beiträge zur klinischen Chirurgie 19 (1897), p. 429 : le 6,5 mm est déjà adopté par « Norwegen […] und Schweden ». L'année repose sur la désignation, pas sur un texte d'adoption daté."
+    },
     "6mm_creedmoor": {
       "annee": 2017,
       "source": "Hornady, communiqué « Hornady® Announces New Products for 2017 », 28 oct. 2016, https://press.hornady.com/release/2016/10/28/hornady-announces-new-products-for-2017/ ; recoupé par John Barsness, « 6mm Creedmoor », Handloader, déc. 2018, https://www.handloadermagazine.com/6mm-creedmoor",
@@ -300,6 +372,22 @@
       "nature": "secondaire",
       "note": "1943 = début des travaux et millésime de la désignation officielle (« obr. 1943 ») ; premières cartouches (étui de 41 mm) 1943-1944, étui raccourci à 39 mm vers 1947 ; adoption en service avec SKS/RPD/AK en 1949. Même auteur, page cartouche : « Гильза патрона была укорочена до 39 мм, и уже в таком виде этот патрон был принят на вооружение. » Encyclopédie BRE (qui donnerait 1949) derrière anti-robot Qrator : non lue."
     },
+    "762x54r": {
+      "annee": 1891,
+      "source": "Department of the Army, ORD I 7-101 (Soviet rifles and carbines), 1954 — copie locale books/libres/ordi_7-101_soviet_rifles_carbines_1954.pdf",
+      "citation": "The Mosin-Nagant rifle was adopted in 1891 by Imperial Russia.",
+      "nature": "primaire",
+      "page": "PDF p. 9, § 5 « Origin and basic qualities »",
+      "note": "Document officiel américain (rétrospectif) ; il date le fusil, la cartouche 7,62×54R étant celle de ce fusil. ASMZ du 25 févr. 1893 cite déjà le « russischen 7,6 mm Gewehr » comme introduit ou en cours d'introduction."
+    },
+    "765_argentined": {
+      "annee": 1889,
+      "source": "War Office, Textbook of Small Arms 1929 (HMSO) — copie locale books/libres/textbook_of_small_arms_1929.pdf",
+      "citation": "Belgium 1889 7.65",
+      "nature": "primaire",
+      "page": "p. imprimée 12 (PDF p. 25), tableau « Mauser Rifles »",
+      "note": "Ligne du tableau « Mauser Rifles » (colonnes Pattern / Cal.) : la Belgique, modèle 1889, cal. 7,65 mm — premier pays de la liste dans ce calibre (Argentine : « Pattern 1891 .. Cal. 7.65 mm. »). Le tableau date le fusil ; la cartouche est implicite. Publication officielle britannique, pas l'arrêté belge. ASMZ du 25 févr. 1893 (e-periodica asm-003:1893:39::273, p. 61) range « Belgien (7,6 » » parmi les armements « eingeführten oder in der Einführung begriffenen »."
+    },
     "7mm_08_rem": {
       "annee": 1980,
       "source": "John Haviland, « Reloading the 7 mm-08 Rem. », American Rifleman (NRA), 27 août 2010, https://www.americanrifleman.org/content/reloading-the-7-mm-08-rem/",
@@ -320,6 +408,14 @@
       "citation": "1917 Hochleistungspatronen Kal. 7 x 64 und 7 x 65 R",
       "nature": "fabricant",
       "note": "Frise chronologique du fabricant : l'entrée 1917 ne précise pas s'il s'agit de la conception ou de la mise en vente ; aucune source distinguant les deux trouvée."
+    },
+    "8mm_lebel_rev": {
+      "annee": 1892,
+      "source": "Ministère de la Guerre, Règlement sur l'instruction du tir des troupes de cavalerie, Paris, 1894 (archive.org, id. rglementsurlins00guergoog)",
+      "citation": "Cartouche pour revolver modèle 1892.",
+      "nature": "primaire",
+      "page": "chapitre du revolver, nomenclature et munitions",
+      "note": "Année tirée de la désignation officielle (millésime du modèle = année d'adoption, convention militaire) ; aucun texte d'adoption daté lu. Année tirée de la DÉSIGNATION officielle (modèle 1892), en usage dès 1894 dans un règlement ministériel et au Journal militaire officiel de 1894 (« les officiers sont pourvus du revolver modèle 1892 »). Aucun texte d'adoption avec date explicite n'a été lu ; la convention française « modèle AAAA » = année d'adoption est l'hypothèse sous-jacente."
     },
     "9x18_makarov": {
       "annee": 1951,
