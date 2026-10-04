@@ -1,0 +1,7 @@
+{
+  "_provenance": {
+    "definition": "Pays de conception ou de lancement de la cartouche (où et par qui elle a été conçue), distinct du pays d'enregistrement C.I.P. (champ cip_country).",
+    "decision": "2026-10-04, propriétaire : publier les deux champs."
+  },
+  "calibres": {}
+}

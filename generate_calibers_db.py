@@ -46,6 +46,11 @@ with open(os.path.join(os.path.dirname(os.path.abspath(__file__)),
                        "description_reference.json"), encoding="utf-8") as _f:
     DESC_REF = {k: (v["description"], v["description_en"]) for k, v in json.load(_f)["calibres"].items()}
 
+# Pays de CONCEPTION sourcés (country_reference.json, 2026-10-04).
+with open(os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                       "country_reference.json"), encoding="utf-8") as _f:
+    COUNTRY_REF = {k: v["pays"] for k, v in json.load(_f)["calibres"].items()}
+
 # Libellé français du culot, pour la description générée (« de type rimless » mêlait
 # l'anglais au français).
 CULOT_FR = {"Rimless": "sans bourrelet", "Rimmed": "à bourrelet", "Semi-rimmed": "à semi-bourrelet",
@@ -1160,6 +1165,21 @@ def merge_databases():
         # de HAND_CURATED, faites sans source, restent ici comme liste de travail ; trois sur
         # onze confrontées à un guide étaient fausses.
         item["intro_year"] = INTRO_REF.get(item["id"])
+        # Deux pays, deux sens (décision du 2026-10-04) :
+        #  - cip_country : pays qui a ENREGISTRÉ la cartouche à la C.I.P. (relevé sur la fiche) ;
+        #  - origin_country : pays de CONCEPTION, publié seulement s'il est sourcé
+        #    (country_reference.json) ou si la saisie de hand_curated_metadata concorde avec
+        #    l'enregistrement C.I.P. (deux indices indépendants). Une saisie contredite par la
+        #    C.I.P. (10 mm Auto « États-Unis » contre « Suède ») ou sans fiche n'est publiée
+        #    qu'une fois sourcée. Le pays deviné par mots-clés n'est plus publié du tout.
+        item["cip_country"] = CIP_PAYS.get(item["id"])
+        saisi = (hand_curated_metadata.get(item["id"]) or {}).get("origin_country")
+        if item["id"] in COUNTRY_REF:
+            item["origin_country"] = COUNTRY_REF[item["id"]]
+        elif saisi and saisi == item["cip_country"]:
+            item["origin_country"] = saisi
+        else:
+            item["origin_country"] = None
         estimateur = item.pop("_estimateur")
         if item["id"] in DESC_REF:
             item["description"], item["description_en"] = DESC_REF[item["id"]]
