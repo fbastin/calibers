@@ -3,7 +3,7 @@
     "source": "Lyman Reloading Handbook, 48e éd. (2002), commentaire de la cartouche — par défaut ; sinon la source de l'entrée",
     "releve_le": "2026-10-04",
     "definition": "Année de mise sur le marché ou d'adoption militaire ; pour une cartouche issue d'un wildcat, année de standardisation en munition d'usine. Une année de seule mise au point n'est pas retenue (.270 Weatherby : 1943 « developed » ; .45 ACP : datée seulement par le pistolet Colt de 1905).",
-    "portee": "Entrées datées par une source citée mot pour mot (vérifiée sur la page le 2026-10-04) ; « nature » : fabricant, primaire ou secondaire. Écartées faute de source qui date l'événement défini : 7,62 x 25 (date le choix du pistolet), .22 WMR (liste peu fiable), 7,62 x 51 OTAN (1953 Hansard / 1957 FN), 8 x 68 S (introuvable). Lot 1980-2018 : écartées 5,7 x 28 (1990 = présentation publique) et .450 Bushmaster (2007 = présentation au SHOT Show) ; conflits 6,5 Grendel (2003/2005), .416 Barrett (2005 conception/2007), 6,5 x 47 Lapua (2005/2006) ; introuvables 9 x 21 IMI, .50 AE, .408 CheyTac. .40 S&W : Lyman 48e écrit 1992, contredit par la présentation du 17 janv. 1990 et la fiche C.I.P. du 1er févr. 1990. Lot 1882-1911 : en attente (sources lues sur e-periodica par le lien destiné aux robots, à valider) 7,5 suisse revolver, 8 x 50 R Lebel, 7,65 Parabellum, 7,5 x 55 suisse ; conflit 8 x 57 IS (1903/1904/1905) ; introuvables 7 x 57, 7,63 Mauser, 9 x 19, 9,3 x 74 R, 9,3 x 62."
+    "portee": "Entrées datées par une source citée mot pour mot (vérifiée sur la page le 2026-10-04) ; « nature » : fabricant, primaire ou secondaire. Écartées faute de source qui date l'événement défini : 7,62 x 25 (date le choix du pistolet), .22 WMR (liste peu fiable), 7,62 x 51 OTAN (1953 Hansard / 1957 FN), 8 x 68 S (introuvable). Lot 1980-2018 : écartées 5,7 x 28 (1990 = présentation publique) et .450 Bushmaster (2007 = présentation au SHOT Show) ; conflits 6,5 Grendel (2003/2005), .416 Barrett (2005 conception/2007), 6,5 x 47 Lapua (2005/2006) ; introuvables 9 x 21 IMI, .50 AE, .408 CheyTac. .40 S&W : Lyman 48e écrit 1992, contredit par la présentation du 17 janv. 1990 et la fiche C.I.P. du 1er févr. 1990. Lot 1882-1911 : sources e-periodica (ETH-Bibliothek) acceptées le 2026-10-04 pour 7,5 suisse revolver, 8 x 50 R Lebel, 7,65 Parabellum, 7,5 x 55 suisse ; conflit 8 x 57 IS (1903/1904/1905) ; introuvables 7 x 57, 7,63 Mauser, 9 x 19, 9,3 x 74 R, 9,3 x 62."
   },
   "calibres": {
     "10mm_auto": {
@@ -358,12 +358,28 @@
       "nature": "fabricant",
       "note": "La saisie 2007 correspond à l'année d'apparition du wildcat dérivé du 6.5 Creedmoor, pas d'une munition d'usine. Munition d'usine Hornady au catalogue 2017 (annoncée le 28 oct. 2016 ; Precision Hunter ajouté le 26 avr. 2017, https://press.hornady.com/release/2017/04/26/hornady-adds-6mm-creedmoor-to-precision-hunter-line/). Table C.I.P. « 6 mm Creedmoor » datée 19-05-22 (/var/www/tireur.org/CIP/6mm_creedmoor.pdf)."
     },
+    "75_swiss_rev": {
+      "annee": 1882,
+      "source": "« Ordonnance du nouveau revolver suisse pour les officiers non montés, modèle 1882 », Revue militaire suisse, t. 28 (1883), n° 1 — ETH-Bibliothek, e-periodica, DOI 10.5169/seals-347923 (https://www.e-periodica.ch/cntmng?pid=rms-001:1883:28::665)",
+      "citation": "En complément de son arrêté d'adoption du 5 mai 1882, le Conseil fédéral a, en date du 25 novembre dernier, approuvé les détails d'ordonnance y relatifs",
+      "nature": "primaire",
+      "page": "p. 29",
+      "note": "Revue militaire suisse d'époque rapportant l'arrêté fédéral (adoption 5 mai 1882, détails d'ordonnance 25 nov. 1882). Même page : « calibre de 7 mm. 5 ». Citation recopiée du texte OCR en corrigeant les accents mal lus (ö pour é). Le Bundesblatt n'a pas pu être consulté (amtsdruckschriften.bar.admin.ch injoignable) ; swisswaffen.com abandonné (page de contrôle anti-robot)."
+    },
     "75x54_french": {
       "annee": 1929,
       "source": "« Le FM 1924 M 29 », fiche PDF, monsieur-legionnaire.org, https://www.monsieur-legionnaire.org/pdf/F.M.1924-M-29.pdf",
       "citation": "Elle est définitivement adoptée en 1929 sous l’appellation de cartouche de 7,5 X 54 modèle 1929 C.",
       "nature": "secondaire",
       "note": "Source associative, sans référence au texte d'adoption. Aucun document militaire d'époque trouvé en accès libre (archive.org : rien). La cartouche antérieure 7,5×58 mle 1924 C n'est pas la même."
+    },
+    "75x55_swiss": {
+      "annee": 1911,
+      "source": "(1) Meine neue Waffe — Schweizerischer Karabiner Modell 1931 (1937) — copie locale books/libres/k31_meine_neue_waffe_1937.pdf ; (2) Allgemeine schweizerische Militärzeitung, 57 (1911), n° 32, rubrique « Eidgenossenschaft » — e-periodica (https://www.e-periodica.ch/cntmng?pid=asm-003:1901:57::314)",
+      "citation": "(1) « Die Patrone 1911 wird in den staatlichen Munitionsfabriken Thun und Altdorf hergestellt » — (2) « Die Abgabe der Versuchsmunition 1908 für das Privatschießwesen wird vom Fortschreiten der Umbewaffnung der gewehrtragenden Truppen abhängig gemacht »",
+      "nature": "primaire",
+      "page": "(1) PDF p. 16 (p. imprimée 29) ; (2) p. 253",
+      "note": "(1) donne la désignation officielle « Patrone 1911 » (cf. aussi K31/K11 manual 53-101 de 1958 : étiquettes « previously 1911 ») ; (2) montre le réarmement des troupes en cours en juillet 1911 (décision du DMF du 5 juillet 1911). Nuance de E. Heer, « Die Stamm-Gewehre », ASMZ 133 (1967), p. 684 (secondaire) : le Gewehr 1911 et la nouvelle cartouche furent « zur Einführung beschlossen » en 1911, « die bundesrätliche Ordonnanzerklärung folgte aber erst am 10. Januar 1913 ». La munition descend de la « Patrone 08 » d'essai (1908). Si la base entend la cartouche GP 90 (7,5×53,5, 1889/1890), l'année serait autre : à vérifier côté fiche."
     },
     "762x39_m43": {
       "annee": 1949,
@@ -387,6 +403,14 @@
       "nature": "primaire",
       "page": "p. imprimée 12 (PDF p. 25), tableau « Mauser Rifles »",
       "note": "Ligne du tableau « Mauser Rifles » (colonnes Pattern / Cal.) : la Belgique, modèle 1889, cal. 7,65 mm — premier pays de la liste dans ce calibre (Argentine : « Pattern 1891 .. Cal. 7.65 mm. »). Le tableau date le fusil ; la cartouche est implicite. Publication officielle britannique, pas l'arrêté belge. ASMZ du 25 févr. 1893 (e-periodica asm-003:1893:39::273, p. 61) range « Belgien (7,6 » » parmi les armements « eingeführten oder in der Einführung begriffenen »."
+    },
+    "765_luger": {
+      "annee": 1900,
+      "source": "Allgemeine schweizerische Militärzeitung, 46 (1900), n° 46, « Tarif über die Offiziers-Ausrüstung » (Eidg. Kriegsmaterialverwaltung, Berne, 1er nov. 1900) — e-periodica (https://www.e-periodica.ch/cntmng?pid=asm-003:1900:46::432)",
+      "citation": "Pistole, 7,5 mm, Mod. 1900 (ohne Futteral) 62. —",
+      "nature": "primaire",
+      "page": "p. 387",
+      "note": "Tarif officiel de l'administration fédérale du matériel de guerre (prix aux officiers), valable jusqu'à fin 1901 : la pistole d'ordonnance suisse « Mod. 1900 » est en dotation en 1900 (dénommée 7,5 mm par l'administration ; l'ASMZ 47 (1901), n° 15, p. 127-128, précise « Das Kaliber ist 7,65 mm » et parle du « Modell 1900 »). Revue militaire suisse 47 (1902), p. 279 : la commission « en 1900 […] se décida pour le pistolet Borchardt-Lueger et […] recommanda son adoption au Conseil fédéral ». 1898 (saisi) = année de mise au point, non retenue. Vente civile antérieure à 1900 non documentée. Le Bundesratsbeschluss lui-même n'a pas été lu."
     },
     "7mm_08_rem": {
       "annee": 1980,
@@ -416,6 +440,14 @@
       "nature": "primaire",
       "page": "chapitre du revolver, nomenclature et munitions",
       "note": "Année tirée de la désignation officielle (millésime du modèle = année d'adoption, convention militaire) ; aucun texte d'adoption daté lu. Année tirée de la DÉSIGNATION officielle (modèle 1892), en usage dès 1894 dans un règlement ministériel et au Journal militaire officiel de 1894 (« les officiers sont pourvus du revolver modèle 1892 »). Aucun texte d'adoption avec date explicite n'a été lu ; la convention française « modèle AAAA » = année d'adoption est l'hypothèse sous-jacente."
+    },
+    "8x50r_lebel": {
+      "annee": 1886,
+      "source": "H. Faillettaz, « Le fusil Lebel » (travail présenté à la Société des armes spéciales le 4 déc. 1887), Revue militaire suisse, t. 33 (1888) — e-periodica (https://www.e-periodica.ch/cntmng?pid=rms-001:1888:33::283)",
+      "citation": "il fut adopté en automne 1886, comme armement de l'infanterie française.",
+      "nature": "primaire",
+      "page": "p. 218",
+      "note": "Corroboré par R. Günther, Allgemeine Geschichte der Handfeuerwaffen (Leipzig 1909, archive.org, p. 111) : « Portugal (1885) und Frankreich (1886) nahmen zuerst die Seelenweite von 8 mm für die Läufe ihrer neuen Infanteriegewehre an. » et par Ommundsen & Robinson, Rifles and Ammunition (1915), p. 93 : « the French. Lebel, which was adopted in 1886 ». Désignation officielle : fusil modèle 1886. Divergence isolée : Greener, The Gun and its Development (copie locale greener_the_gun_and_its_development.pdf, PDF p. 729) écrit « the adoption of the Lebel repeating rifle by France in 1888 » — contredit par la source d'époque et par la désignation ; non retenu comme conflit. Revue militaire suisse = revue d'officiers d'époque (classée primaire faute de mieux : ce n'est pas le décret lui-même)."
     },
     "9x18_makarov": {
       "annee": 1951,
