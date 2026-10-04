@@ -1,9 +1,11 @@
 {
   "_provenance": {
-    "source": "Guides de rechargement : Lyman Reloading Handbook 48e éd. (« Primer Size »), Western Powders 8e éd. (amorce d'essai : WSR/WLR…), Vihtavuori 2026 (« Primers: ») ; ADI Handloaders Guide 2013 (« Primer: CCI 35 » pour la .50 BMG, amorce propre à ce calibre)",
+    "source": "Guides de rechargement : Lyman Reloading Handbook 48e éd. (« Primer Size »), Western Powders 8e éd. (amorce d'essai : WSR/WLR…), Vihtavuori 2026 (« Primers: ») ; ADI Handloaders Guide 2013 (« Primer: CCI 35 » pour la .50 BMG, amorce propre à ce calibre) ; Hodgdon Annual Manual 2024 (« Case: … Primer: … », compté par bloc de charge dans les limites de la section)",
     "releve_le": "2026-10-04",
-    "regle": "Taille d'amorce corrigée quand les guides s'accordent entre eux et contredisent la base ; mention Magnum seulement si toutes les sources vont dans le même sens. Taille selon l'étui (6 mm Creedmoor : Large chez Western, étuis Hornady ; Small chez Vihtavuori, étuis Lapua) : non tranchée, non relevée.",
-    "portee": "Cartouches relues uniquement ; les autres gardent la valeur du générateur."
+    "regle": "Taille d'amorce corrigée quand les guides s'accordent entre eux et contredisent la base ; mention Magnum seulement si toutes les sources vont dans le même sens. Taille selon l'étui (6 mm Creedmoor : Large chez Western et Hodgdon, étuis Hornady ; Small chez Vihtavuori, étuis Lapua) : valeur majoritaire, exception notée.",
+    "portee": "Cartouches relues uniquement ; les autres gardent la valeur du générateur.",
+    "recoupement_adi": "2026-10-04 : ADI Handloaders Guide 2013 confronté aux relevés ; aucune contradiction de TAILLE là où sa section est univoque (17 cartouches). Sections mêlées par la mise en page sur deux colonnes : non employées.",
+    "recoupement_hodgdon": "2026-10-04 : Hodgdon 2024 confronté à la base ; aucune contradiction de TAILLE avec les relevés (21 cartouches communes) ; 3 tailles devinées contredites et corrigées."
   },
   "calibres": {
     "220_swift": {
@@ -85,6 +87,13 @@
         "Western"
       ]
     },
+    "33806": {
+      "primer": "Large Rifle",
+      "sources": [
+        "ADI"
+      ],
+      "note": "source unique (CCI 200) ; « Magnum » venait de la règle par nom « 338… », l'étui est celui de la .30-06"
+    },
     "357_maximum": {
       "primer": "Small Rifle Magnum",
       "sources": [
@@ -104,12 +113,26 @@
         "Lyman"
       ]
     },
+    "450_bushmaster": {
+      "primer": "Small Rifle",
+      "sources": [
+        "Hodgdon"
+      ],
+      "note": "11 blocs sur 11, étuis Hornady et Starline"
+    },
     "454_casull": {
       "primer": "Small Rifle",
       "sources": [
         "Lyman",
         "VV"
       ]
+    },
+    "458_socom": {
+      "primer": "Large Pistol",
+      "sources": [
+        "Hodgdon"
+      ],
+      "note": "source unique, étuis Starline seuls (13 blocs) ; à revoir si une autre source donne une autre taille"
     },
     "45_acp": {
       "primer": "Large Pistol",
@@ -135,6 +158,13 @@
       "sources": [
         "ADI"
       ]
+    },
+    "57x28_fn": {
+      "primer": "Small Pistol",
+      "sources": [
+        "Hodgdon"
+      ],
+      "note": "source unique : WIN SP dans 5 blocs sur 5 (section « FN 5.7x28mm »)"
     },
     "65_grendel": {
       "primer": "Small Rifle",
@@ -168,11 +198,26 @@
         "VV"
       ]
     },
+    "6mm_creedmoor": {
+      "primer": "Large Rifle",
+      "sources": [
+        "Hodgdon",
+        "Western"
+      ],
+      "note": "étuis Hornady ; Vihtavuori charge des étuis Lapua à petite amorce (Small Rifle)"
+    },
     "7mm_br_remington": {
       "primer": "Small Rifle",
       "sources": [
         "VV"
       ]
+    },
+    "7mm_prc": {
+      "primer": "Large Rifle Magnum",
+      "sources": [
+        "Hodgdon"
+      ],
+      "note": "6 blocs sur 6 en amorce Magnum"
     },
     "7mm_rem_mag": {
       "primer": "Large Rifle Magnum",
@@ -186,6 +231,13 @@
       "sources": [
         "VV"
       ]
+    },
+    "7mm_weatherby_magnum": {
+      "primer": "Large Rifle Magnum",
+      "sources": [
+        "Hodgdon"
+      ],
+      "note": "5 blocs sur 5 en amorce Magnum"
     },
     "7mm_wsm": {
       "primer": "Large Rifle Magnum",
