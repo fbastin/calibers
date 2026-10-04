@@ -1,0 +1,100 @@
+{
+  "_provenance": {
+    "source": "Lyman Reloading Handbook, 48e éd. (2002), commentaire de la cartouche",
+    "releve_le": "2026-10-04",
+    "definition": "Année de mise sur le marché ou d'adoption militaire ; pour une cartouche issue d'un wildcat, année de standardisation en munition d'usine. Une année de seule mise au point n'est pas retenue (.270 Weatherby : 1943 « developed » ; .45 ACP : datée seulement par le pistolet Colt de 1905).",
+    "portee": "Seules les cartouches datées explicitement par Lyman ; les autres années de la base restent des saisies sans source."
+  },
+  "calibres": {
+    "220_swift": {
+      "annee": 1935,
+      "source": "Lyman Reloading Handbook, 48e éd. (2002), commentaire de la cartouche",
+      "citation": "Winchester introduced the 220 Swift in 1935"
+    },
+    "223_rem": {
+      "annee": 1964,
+      "source": "Lyman Reloading Handbook, 48e éd. (2002), commentaire de la cartouche",
+      "citation": "Remington introduced this cartridge to the commercial market in 1964"
+    },
+    "257_roberts": {
+      "annee": 1934,
+      "source": "Lyman Reloading Handbook, 48e éd. (2002), commentaire de la cartouche",
+      "citation": "Remington introduced the 257 Roberts in 1934 as a standardized version of this wildcat"
+    },
+    "25_06_remington": {
+      "annee": 1969,
+      "source": "Lyman Reloading Handbook, 48e éd. (2002), commentaire de la cartouche",
+      "citation": "Remington legitimized it as a factory offering in 1969"
+    },
+    "260_rem": {
+      "annee": 1997,
+      "source": "Lyman Reloading Handbook, 48e éd. (2002), commentaire de la cartouche",
+      "citation": "Remington standardized the 260 as a factory round in 1997"
+    },
+    "270_wsm": {
+      "annee": 2002,
+      "source": "Lyman Reloading Handbook, 48e éd. (2002), commentaire de la cartouche",
+      "citation": "Winchester introduced the 270 WSM in 2002"
+    },
+    "300_savage": {
+      "annee": 1920,
+      "source": "Lyman Reloading Handbook, 48e éd. (2002), commentaire de la cartouche",
+      "citation": "Savage first offered this caliber in their lever action Model 99 beginning in 1920"
+    },
+    "300_wsm": {
+      "annee": 2001,
+      "source": "Lyman Reloading Handbook, 48e éd. (2002), commentaire de la cartouche",
+      "citation": "Winchester launched their Short Magnum line of cartridges with the 300 WSM in 2001"
+    },
+    "303_british": {
+      "annee": 1888,
+      "source": "Lyman Reloading Handbook, 48e éd. (2002), commentaire de la cartouche",
+      "citation": "Great Britain adopted the 303 in 1888"
+    },
+    "30_30_win": {
+      "annee": 1895,
+      "source": "Lyman Reloading Handbook, 48e éd. (2002), commentaire de la cartouche",
+      "citation": "Winchester introduced the 30 Winchester Center Fire (WCF) cartridge in their new Model 94 lever-action in 1895"
+    },
+    "35_remington": {
+      "annee": 1906,
+      "source": "Lyman Reloading Handbook, 48e éd. (2002), commentaire de la cartouche",
+      "citation": "The 35 Remington made its debut in 1906"
+    },
+    "41_rem_mag": {
+      "annee": 1964,
+      "source": "Lyman Reloading Handbook, 48e éd. (2002), commentaire de la cartouche",
+      "citation": "Remington and Smith & Wesson introduced the 41 Magnum in the Model 57 revolver in 1964"
+    },
+    "444_marlin": {
+      "annee": 1964,
+      "source": "Lyman Reloading Handbook, 48e éd. (2002), commentaire de la cartouche",
+      "citation": "since its introduction in 1964"
+    },
+    "44_40_win": {
+      "annee": 1873,
+      "source": "Lyman Reloading Handbook, 48e éd. (2002), commentaire de la cartouche",
+      "citation": "1873 marked the introduction of the 44-40 (44 WCF), the 45-70 Government, and the 45 Colt"
+    },
+    "44_magnum": {
+      "annee": 1955,
+      "source": "Lyman Reloading Handbook, 48e éd. (2002), commentaire de la cartouche",
+      "citation": "His efforts culminated in the introduction of the 44 Remington Magnum in 1955"
+    },
+    "44_special": {
+      "annee": 1907,
+      "source": "Lyman Reloading Handbook, 48e éd. (2002), commentaire de la cartouche",
+      "citation": "The 44 Special came into being in 1907"
+    },
+    "45_70_govt": {
+      "annee": 1873,
+      "source": "Lyman Reloading Handbook, 48e éd. (2002), commentaire de la cartouche",
+      "citation": "1873 marked the introduction of the 44-40 (44 WCF), the 45-70 Government, and the 45 Colt"
+    },
+    "45_colt": {
+      "annee": 1873,
+      "source": "Lyman Reloading Handbook, 48e éd. (2002), commentaire de la cartouche",
+      "citation": "1873 marked the introduction of the 44-40 (44 WCF), the 45-70 Government, and the 45 Colt"
+    }
+  }
+}

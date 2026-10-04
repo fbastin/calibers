@@ -30,6 +30,13 @@ with open(os.path.join(os.path.dirname(os.path.abspath(__file__)),
                        "primer_reference.json"), encoding="utf-8") as _f:
     PRIMER_REF = {k: v["primer"] for k, v in json.load(_f)["calibres"].items()}
 
+# Années d'introduction DATÉES par un guide (intro_year_reference.json, 2026-10-04).
+# Elles priment sur les saisies de HAND_CURATED, faites sans source : trois étaient
+# contredites (.45 Colt 1872, .303 British 1889, .223 Remington 1957, année de conception).
+with open(os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                       "intro_year_reference.json"), encoding="utf-8") as _f:
+    INTRO_REF = {k: v["annee"] for k, v in json.load(_f)["calibres"].items()}
+
 # Libellé français du culot, pour la description générée (« de type rimless » mêlait
 # l'anglais au français).
 CULOT_FR = {"Rimless": "sans bourrelet", "Rimmed": "à bourrelet", "Semi-rimmed": "à semi-bourrelet",
@@ -1133,6 +1140,8 @@ def merge_databases():
     for item in merged_list:
         if item["id"] in PRIMER_REF:
             item["primer_type"] = PRIMER_REF[item["id"]]
+        if item["id"] in INTRO_REF:
+            item["intro_year"] = INTRO_REF[item["id"]]
 
     # Sort merged list alphabetically by name
     merged_list.sort(key=lambda x: x["name"])
