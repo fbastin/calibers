@@ -973,25 +973,25 @@ def merge_databases():
         if cid == "22_lr":
             pass  # les valeurs par défaut ci-dessus SONT la fiche C.I.P. du .22 LR
         elif cid == "22_wmr":
-            rim, base, neck, bullet, case_len, pmax = 7.40, 6.13, 6.10, 5.69, 26.80, 1610
+            rim, base, neck, bullet, case_len, pmax = 7.47, 6.13, 6.10, 5.69, 26.80, 1610
             case_vol = 0.70
         elif cid == "17_hmr":
-            rim, base, shoulder, neck, bullet, case_len, pmax = 7.40, 6.13, 5.70, 4.80, 4.38, 26.80, 1800
+            rim, base, shoulder, neck, bullet, case_len, pmax = 7.47, 6.13, 6.15, 4.90, 4.38, 27.03, 1800
             case_vol = 0.65
         elif cid == "9x21_imi":
             rim, base, neck, bullet, case_len, pmax, category, rim_type, primer = 9.92, 9.90, 9.63, 9.03, 21.15, 2350, "Handgun", "Rimless", "Small Pistol"
             case_vol = 0.62
         elif cid == "763_mauser":
-            rim, base, shoulder, neck, bullet, case_len, pmax, category, rim_type, primer = 9.90, 9.85, 9.60, 8.46, 7.86, 25.15, 2250, "Handgun", "Rimless", "Small Pistol"
+            rim, base, shoulder, neck, bullet, case_len, pmax, category, rim_type, primer = 9.98, 9.85, 9.60, 8.46, 7.86, 25.15, 2250, "Handgun", "Rimless", "Small Pistol"
             case_vol = 0.78
         elif cid == "44_special":
             rim, base, neck, bullet, case_len, pmax, category, rim_type, primer = 13.06, 11.61, 11.61, 10.97, 29.46, 1100, "Handgun", "Rimmed", "Large Pistol"
             case_vol = 1.62
         elif cid == "75_swiss_rev":
-            rim, base, neck, bullet, case_len, pmax, category, rim_type, primer = 9.50, 8.80, 8.40, 7.82, 22.60, 1100, "Handgun", "Rimmed", "Small Pistol"
+            rim, base, neck, bullet, case_len, pmax, category, rim_type, primer = 10.40, 9.00, 8.40, 8.00, 22.80, 1100, "Handgun", "Rimmed", "Small Pistol"
             case_vol = 0.75
         elif cid == "8mm_lebel_rev":
-            rim, base, neck, bullet, case_len, pmax, category, rim_type, primer = 10.40, 9.75, 9.00, 8.35, 27.20, 1150, "Handgun", "Rimmed", "Small Pistol"
+            rim, base, neck, bullet, case_len, pmax, category, rim_type, primer = 10.50, 9.10, 9.00, 8.28, 27.40, 1150, "Handgun", "Rimmed", "Small Pistol"
             case_vol = 0.95
         # --- Cotes ajoutées (CIP/SAAMI via Wikipédia) : cartouches qui héritaient à tort des valeurs .22 LR ---
         elif cid == "9x18_makarov":
@@ -1004,16 +1004,16 @@ def merge_databases():
             rim, base, neck, bullet, case_len, pmax, category, rim_type, primer = 9.98, 9.93, 8.43, 7.85, 21.59, 2350, "Handgun", "Rimless", "Small Pistol"
             case_vol = 0.93
         elif cid == "25_acp":
-            rim, base, neck, bullet, case_len, pmax, category, rim_type, primer = 7.70, 7.10, 7.00, 6.38, 15.60, 1700, "Handgun", "Semi-rimmed", "Small Pistol"
+            rim, base, neck, bullet, case_len, pmax, category, rim_type, primer = 7.70, 7.02, 7.00, 6.38, 15.60, 1700, "Handgun", "Semi-rimmed", "Small Pistol"
             case_vol = 0.30
         elif cid == "32_acp":
-            rim, base, neck, bullet, case_len, pmax, category, rim_type, primer = 9.10, 8.60, 8.55, 7.94, 17.30, 1410, "Handgun", "Semi-rimmed", "Small Pistol"
+            rim, base, neck, bullet, case_len, pmax, category, rim_type, primer = 9.10, 8.60, 8.55, 7.85, 17.20, 1410, "Handgun", "Semi-rimmed", "Small Pistol"
             case_vol = 0.55
         elif cid == "32_sw_long":
-            rim, base, neck, bullet, case_len, pmax, category, rim_type, primer = 9.50, 8.60, 8.60, 7.90, 23.40, 1000, "Handgun", "Rimmed", "Small Pistol"
+            rim, base, neck, bullet, case_len, pmax, category, rim_type, primer = 9.50, 8.60, 8.60, 8.00, 23.40, 1000, "Handgun", "Rimmed", "Small Pistol"
             case_vol = 0.95
         elif cid == "500_sw_mag":
-            rim, base, neck, bullet, case_len, pmax, category, rim_type, primer = 14.10, 13.40, 13.40, 12.70, 41.30, 4100, "Handgun", "Semi-rimmed", "Large Rifle"
+            rim, base, neck, bullet, case_len, pmax, category, rim_type, primer = 14.22, 13.40, 13.40, 12.70, 41.30, 4100, "Handgun", "Semi-rimmed", "Large Rifle"
             case_vol = 3.50
         elif cid == "44_40_win":
             rim, base, shoulder, neck, bullet, case_len, pmax, category, rim_type, primer = 13.30, 12.00, 11.60, 11.30, 10.90, 33.10, 760, "Rifle", "Rimmed", "Large Pistol"
@@ -1046,7 +1046,7 @@ def merge_databases():
             rim, base, shoulder, neck, bullet, case_len, pmax, category, rim_type, primer = 20.40, 20.40, 18.50, 11.60, 10.60, 83.00, 4000, "Rifle", "Rimless", "Large Rifle Magnum"
             case_vol = 13.00
         elif cid == "50_bmg":
-            rim, base, shoulder, neck, bullet, case_len, pmax, category, rim_type, primer = 20.42, 20.42, 18.14, 14.22, 12.65, 99.31, 3700, "Rifle", "Rimless", "Large Rifle Magnum"
+            rim, base, shoulder, neck, bullet, case_len, pmax, category, rim_type, primer = 20.42, 20.42, 18.14, 14.22, 12.98, 99.31, 3700, "Rifle", "Rimless", "Large Rifle Magnum"
             case_vol = 18.97
         elif cid == "46x30_hk":
             rim, base, shoulder, neck, bullet, case_len, pmax, category, rim_type, primer = 8.00, 8.02, 7.75, 5.31, 4.65, 30.50, 4000, "Handgun", "Rimless", "Small Rifle"
