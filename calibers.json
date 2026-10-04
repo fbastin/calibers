@@ -76,7 +76,7 @@
     "primer_type": "Small Rifle",
     "intro_year": null,
     "origin_country": "États-Unis",
-    "description": "Calibre d'arme d'épaule d'origine de type rimless, développé et utilisé principalement en États-Unis. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+    "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null
@@ -158,7 +158,7 @@
     "primer_type": "Small Rifle",
     "intro_year": null,
     "origin_country": "États-Unis",
-    "description": "Calibre d'arme d'épaule d'origine de type rebated, développé et utilisé principalement en États-Unis. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+    "description": "Calibre d'arme d'épaule, culot à culot rétreint. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null
@@ -185,8 +185,8 @@
     "case_volume_cm3": 2.048,
     "primer_type": "Small Rifle",
     "intro_year": null,
-    "origin_country": "Inconnu",
-    "description": "Calibre d'arme d'épaule d'origine de type rimless, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+    "origin_country": "Finlande",
+    "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null
@@ -296,7 +296,7 @@
     "primer_type": "Small Rifle",
     "intro_year": null,
     "origin_country": "États-Unis",
-    "description": "Calibre d'arme d'épaule d'origine de type rimless, développé et utilisé principalement en États-Unis. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+    "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null
@@ -351,7 +351,7 @@
     "primer_type": "Small Rifle",
     "intro_year": null,
     "origin_country": "États-Unis",
-    "description": "Calibre d'arme d'épaule d'origine de type rimless, développé et utilisé principalement en États-Unis. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+    "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null
@@ -406,8 +406,8 @@
     "case_volume_cm3": 3.038,
     "primer_type": "Small Rifle",
     "intro_year": null,
-    "origin_country": "Inconnu",
-    "description": "Calibre d'arme d'épaule d'origine de type rebated, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+    "origin_country": "États-Unis",
+    "description": "Calibre d'arme d'épaule, culot à culot rétreint. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null
@@ -434,7 +434,7 @@
     "primer_type": "Small Rifle",
     "intro_year": null,
     "origin_country": "États-Unis",
-    "description": "Calibre d'arme d'épaule d'origine de type rimless, développé et utilisé principalement en États-Unis. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+    "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null
@@ -461,7 +461,7 @@
     "primer_type": "Small Rifle",
     "intro_year": null,
     "origin_country": "États-Unis",
-    "description": "Calibre d'arme d'épaule d'origine de type belted, développé et utilisé principalement en États-Unis. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+    "description": "Calibre d'arme d'épaule, culot à ceinture. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null
@@ -490,7 +490,7 @@
     "primer_type": "Small Rifle",
     "intro_year": null,
     "origin_country": "Inconnu",
-    "description": "Calibre d'arme d'épaule d'origine de type rimless, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+    "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": "Wildcat non homologué C.I.P. ni normalisé SAAMI : limite reprise du .243 Win. dont il dérive (même étui, épaulement redressé). Valeur indicative.",
     "data_note_en": "Wildcat, neither approved by C.I.P. nor standardised by SAAMI: limit taken from the .243 Win. it derives from (same case, sharper shoulder). Indicative value."
@@ -573,7 +573,7 @@
     "primer_type": "Large Rifle Magnum",
     "intro_year": null,
     "origin_country": "États-Unis",
-    "description": "Calibre d'arme d'épaule d'origine de type rimless, développé et utilisé principalement en États-Unis. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+    "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null
@@ -599,8 +599,8 @@
     "case_volume_cm3": 3.623,
     "primer_type": "Large Rifle",
     "intro_year": null,
-    "origin_country": "Inconnu",
-    "description": "Calibre d'arme d'épaule d'origine de type rimless, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+    "origin_country": "États-Unis",
+    "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null
@@ -628,7 +628,7 @@
     "primer_type": "Large Rifle",
     "intro_year": null,
     "origin_country": "États-Unis",
-    "description": "Calibre d'arme d'épaule d'origine de type belted, développé et utilisé principalement en États-Unis. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+    "description": "Calibre d'arme d'épaule, culot à ceinture. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null
@@ -683,8 +683,8 @@
     "case_volume_cm3": 4.499,
     "primer_type": "Large Rifle",
     "intro_year": null,
-    "origin_country": "Inconnu",
-    "description": "Calibre d'arme d'épaule d'origine de type rebated, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+    "origin_country": "États-Unis",
+    "description": "Calibre d'arme d'épaule, culot à culot rétreint. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null
@@ -711,7 +711,7 @@
     "primer_type": "Large Rifle",
     "intro_year": null,
     "origin_country": "États-Unis",
-    "description": "Calibre d'arme d'épaule d'origine de type belted, développé et utilisé principalement en États-Unis. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+    "description": "Calibre d'arme d'épaule, culot à ceinture. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null
@@ -766,7 +766,7 @@
     "primer_type": "Large Rifle",
     "intro_year": null,
     "origin_country": "États-Unis",
-    "description": "Calibre d'arme d'épaule d'origine de type rimless, développé et utilisé principalement en États-Unis. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+    "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null
@@ -793,7 +793,7 @@
     "primer_type": "Large Rifle",
     "intro_year": null,
     "origin_country": "États-Unis",
-    "description": "Calibre d'arme d'épaule d'origine de type rebated, développé et utilisé principalement en États-Unis. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+    "description": "Calibre d'arme d'épaule, culot à culot rétreint. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null
@@ -819,8 +819,8 @@
     "case_volume_cm3": 1.05,
     "primer_type": "Large Rifle",
     "intro_year": null,
-    "origin_country": "Inconnu",
-    "description": "Calibre d'arme d'épaule d'origine de type rimless, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+    "origin_country": "États-Unis",
+    "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null
@@ -847,7 +847,7 @@
     "primer_type": "Large Rifle",
     "intro_year": null,
     "origin_country": "Allemagne",
-    "description": "Calibre d'arme d'épaule d'origine de type rimmed, développé et utilisé principalement en Allemagne. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+    "description": "Calibre d'arme d'épaule, culot à bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null
@@ -875,7 +875,7 @@
     "primer_type": "Large Rifle",
     "intro_year": null,
     "origin_country": "Inconnu",
-    "description": "Calibre d'arme d'épaule d'origine de type rimless, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+    "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null
@@ -976,7 +976,7 @@
     "bullet_diameter_in": 0.308,
     "case_length_mm": 69.2,
     "rim_diameter_mm": 14.93,
-    "rim_type": "Belted",
+    "rim_type": "Rimless",
     "base_diameter_mm": 14.91,
     "shoulder_diameter_mm": 13.82,
     "neck_diameter_mm": 8.73,
@@ -987,7 +987,7 @@
     "primer_type": "Large Rifle Magnum",
     "intro_year": null,
     "origin_country": "Finlande",
-    "description": "Calibre d'arme d'épaule d'origine de type belted, développé et utilisé principalement en Finlande. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+    "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null
@@ -1003,7 +1003,7 @@
     "bullet_diameter_in": 0.308,
     "case_length_mm": 63.3,
     "rim_diameter_mm": 14.93,
-    "rim_type": "Belted",
+    "rim_type": "Rimless",
     "base_diameter_mm": 14.87,
     "shoulder_diameter_mm": 14.29,
     "neck_diameter_mm": 8.68,
@@ -1013,8 +1013,8 @@
     "case_volume_cm3": 5.75,
     "primer_type": "Large Rifle Magnum",
     "intro_year": null,
-    "origin_country": "Inconnu",
-    "description": "Calibre d'arme d'épaule d'origine de type belted, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+    "origin_country": "Suède",
+    "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null
@@ -1069,8 +1069,8 @@
     "case_volume_cm3": 4.575,
     "primer_type": "Large Rifle Magnum",
     "intro_year": null,
-    "origin_country": "Inconnu",
-    "description": "Calibre d'arme d'épaule d'origine de type rimless, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+    "origin_country": "États-Unis",
+    "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null
@@ -1098,7 +1098,7 @@
     "primer_type": "Large Rifle Magnum",
     "intro_year": null,
     "origin_country": "États-Unis",
-    "description": "Calibre d'arme d'épaule d'origine de type rebated, développé et utilisé principalement en États-Unis. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+    "description": "Calibre d'arme d'épaule, culot à culot rétreint. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null
@@ -1125,7 +1125,7 @@
     "primer_type": "Large Rifle Magnum",
     "intro_year": null,
     "origin_country": "États-Unis",
-    "description": "Calibre d'arme d'épaule d'origine de type rimless, développé et utilisé principalement en États-Unis. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+    "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null
@@ -1152,8 +1152,8 @@
     "case_volume_cm3": 4.597,
     "primer_type": "Large Rifle Magnum",
     "intro_year": null,
-    "origin_country": "Inconnu",
-    "description": "Calibre d'arme d'épaule d'origine de type rebated, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+    "origin_country": "États-Unis",
+    "description": "Calibre d'arme d'épaule, culot à culot rétreint. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null
@@ -1180,7 +1180,7 @@
     "primer_type": "Large Rifle Magnum",
     "intro_year": null,
     "origin_country": "États-Unis",
-    "description": "Calibre d'arme d'épaule d'origine de type belted, développé et utilisé principalement en États-Unis. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+    "description": "Calibre d'arme d'épaule, culot à ceinture. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null
@@ -1263,7 +1263,7 @@
     "primer_type": "Large Rifle",
     "intro_year": null,
     "origin_country": "États-Unis",
-    "description": "Calibre d'arme d'épaule d'origine de type rimmed, développé et utilisé principalement en États-Unis. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+    "description": "Calibre d'arme d'épaule, culot à bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null
@@ -1389,7 +1389,7 @@
     "bullet_diameter_in": 0.339,
     "case_length_mm": 63.3,
     "rim_diameter_mm": 14.93,
-    "rim_type": "Belted",
+    "rim_type": "Rimless",
     "base_diameter_mm": 14.87,
     "shoulder_diameter_mm": 14.5,
     "neck_diameter_mm": 9.4,
@@ -1399,8 +1399,8 @@
     "case_volume_cm3": 6.159,
     "primer_type": "Large Rifle Magnum",
     "intro_year": null,
-    "origin_country": "Inconnu",
-    "description": "Calibre d'arme d'épaule d'origine de type belted, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+    "origin_country": "Suède",
+    "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null
@@ -1428,7 +1428,7 @@
     "primer_type": "Large Rifle Magnum",
     "intro_year": null,
     "origin_country": "États-Unis",
-    "description": "Calibre d'arme d'épaule d'origine de type belted, développé et utilisé principalement en États-Unis. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+    "description": "Calibre d'arme d'épaule, culot à ceinture. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null
@@ -1539,7 +1539,7 @@
     "primer_type": "Large Rifle Magnum",
     "intro_year": null,
     "origin_country": "Inconnu",
-    "description": "Calibre d'arme d'épaule d'origine de type rimless, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+    "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null
@@ -1735,8 +1735,8 @@
     "case_volume_cm3": 6.463,
     "primer_type": "Large Rifle Magnum",
     "intro_year": null,
-    "origin_country": "Inconnu",
-    "description": "Calibre d'arme d'épaule d'origine de type rimless, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+    "origin_country": "Royaume-Uni",
+    "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null
@@ -1845,7 +1845,7 @@
     "primer_type": "Large Rifle",
     "intro_year": null,
     "origin_country": "États-Unis",
-    "description": "Calibre d'arme d'épaule d'origine de type rimmed, développé et utilisé principalement en États-Unis. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+    "description": "Calibre d'arme d'épaule, culot à bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null
@@ -1930,7 +1930,7 @@
     "primer_type": "Large Pistol Magnum",
     "intro_year": null,
     "origin_country": "États-Unis",
-    "description": "Calibre d'arme de poing d'origine de type rimless, développé et utilisé principalement en États-Unis. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+    "description": "Calibre d'arme de poing, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null
@@ -2041,7 +2041,7 @@
     "primer_type": "Large Rifle",
     "intro_year": null,
     "origin_country": "États-Unis",
-    "description": "Calibre d'arme d'épaule d'origine de type rebated, développé et utilisé principalement en États-Unis. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+    "description": "Calibre d'arme d'épaule, culot à culot rétreint. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null
@@ -2207,8 +2207,8 @@
     "case_volume_cm3": 4.786,
     "primer_type": "Large Rifle",
     "intro_year": null,
-    "origin_country": "Inconnu",
-    "description": "Calibre d'arme d'épaule d'origine de type rimmed, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+    "origin_country": "Suisse",
+    "description": "Calibre d'arme d'épaule, culot à bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null
@@ -2263,7 +2263,7 @@
     "primer_type": "Small Rifle",
     "intro_year": null,
     "origin_country": "États-Unis",
-    "description": "Calibre d'arme d'épaule d'origine de type rimmed, développé et utilisé principalement en États-Unis. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+    "description": "Calibre d'arme d'épaule, culot à bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null
@@ -2290,7 +2290,7 @@
     "primer_type": "Large Rifle",
     "intro_year": null,
     "origin_country": "États-Unis",
-    "description": "Calibre d'arme d'épaule d'origine de type rimless, développé et utilisé principalement en États-Unis. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+    "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null
@@ -2318,7 +2318,7 @@
     "primer_type": "Large Rifle Magnum",
     "intro_year": null,
     "origin_country": "Inconnu",
-    "description": "Calibre d'arme d'épaule d'origine de type rimless, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+    "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": "Wildcat non normalisé : absent des tables C.I.P. (Tab I) comme du standard SAAMI Z299.4-2025, vérifié le 2026-08-11. Plafond de TRAVAIL de 65 000 psi, au-dessus des 14 charges maximales mesurées du guide ADI 2013 (59 900 à 63 400 psi) : sur les cartouches que ce guide donne en psi, il développe 200 à 1 600 psi sous la MAP (.308 Win, .223 Rem). Valeur indicative, non normative.",
     "data_note_en": "Non-standardised wildcat: absent from both the C.I.P. tables (Tab I) and the SAAMI Z299.4-2025 standard, checked on 2026-08-11. WORKING ceiling of 65,000 psi, above the 14 maximum loads measured in the 2013 ADI guide (59,900 to 63,400 psi): on the cartridges that guide gives in psi, it runs 200 to 1,600 psi below the MAP (.308 Win, .223 Rem). Indicative value, not normative."
@@ -2345,7 +2345,7 @@
     "primer_type": "Large Rifle",
     "intro_year": null,
     "origin_country": "États-Unis",
-    "description": "Calibre d'arme d'épaule d'origine de type rimless, développé et utilisé principalement en États-Unis. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+    "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null
@@ -2374,8 +2374,8 @@
     "case_volume_cm3": 1.64,
     "primer_type": "Large Pistol",
     "intro_year": null,
-    "origin_country": "Inconnu",
-    "description": "Calibre d'arme de poing d'origine de type rimmed, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+    "origin_country": "États-Unis",
+    "description": "Calibre d'arme de poing, culot à bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null
@@ -2402,8 +2402,8 @@
     "case_volume_cm3": 0.79,
     "primer_type": "Small Pistol",
     "intro_year": null,
-    "origin_country": "Inconnu",
-    "description": "Calibre d'arme de poing d'origine de type semi-rimmed, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+    "origin_country": "États-Unis",
+    "description": "Calibre d'arme de poing, culot à semi-bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null
@@ -2460,7 +2460,7 @@
     "primer_type": "Large Pistol",
     "intro_year": null,
     "origin_country": "États-Unis",
-    "description": "Calibre d'arme de poing d'origine de type rimmed, développé et utilisé principalement en États-Unis. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+    "description": "Calibre d'arme de poing, culot à bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null
@@ -2545,8 +2545,8 @@
     "case_volume_cm3": 1.9,
     "primer_type": "Large Rifle Magnum",
     "intro_year": null,
-    "origin_country": "Inconnu",
-    "description": "Calibre d'arme d'épaule d'origine de type rimmed, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+    "origin_country": "Allemagne",
+    "description": "Calibre d'arme d'épaule, culot à bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null
@@ -2604,8 +2604,8 @@
     "case_volume_cm3": 2.172,
     "primer_type": "Small Rifle",
     "intro_year": null,
-    "origin_country": "Inconnu",
-    "description": "Calibre d'arme d'épaule d'origine de type rimless, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+    "origin_country": "Suède",
+    "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null
@@ -2633,8 +2633,8 @@
     "case_volume_cm3": 2.871,
     "primer_type": "Small Rifle",
     "intro_year": null,
-    "origin_country": "Inconnu",
-    "description": "Calibre d'arme d'épaule d'origine de type rimless, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+    "origin_country": "Suède",
+    "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null
@@ -2743,8 +2743,8 @@
     "case_volume_cm3": 4.485,
     "primer_type": "Large Rifle",
     "intro_year": null,
-    "origin_country": "Inconnu",
-    "description": "Calibre d'arme d'épaule d'origine de type rebated, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+    "origin_country": "Suède",
+    "description": "Calibre d'arme d'épaule, culot à culot rétreint. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null
@@ -2828,8 +2828,8 @@
     "case_volume_cm3": 4.294,
     "primer_type": "Large Rifle",
     "intro_year": null,
-    "origin_country": "Inconnu",
-    "description": "Calibre d'arme d'épaule d'origine de type rebated, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+    "origin_country": "États-Unis",
+    "description": "Calibre d'arme d'épaule, culot à culot rétreint. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null
@@ -2856,8 +2856,8 @@
     "case_volume_cm3": 2.014,
     "primer_type": "Small Rifle",
     "intro_year": null,
-    "origin_country": "Inconnu",
-    "description": "Calibre d'arme d'épaule d'origine de type rimless, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+    "origin_country": "États-Unis",
+    "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null
@@ -2914,8 +2914,8 @@
     "case_volume_cm3": 1.998,
     "primer_type": "Small Rifle",
     "intro_year": null,
-    "origin_country": "Inconnu",
-    "description": "Calibre d'arme d'épaule d'origine de type rimless, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+    "origin_country": "États-Unis",
+    "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null
@@ -2942,7 +2942,7 @@
     "primer_type": "Small Rifle",
     "intro_year": null,
     "origin_country": "États-Unis",
-    "description": "Calibre d'arme d'épaule d'origine de type rimless, développé et utilisé principalement en États-Unis. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+    "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null
@@ -2969,7 +2969,7 @@
     "primer_type": "Small Rifle",
     "intro_year": null,
     "origin_country": "Finlande",
-    "description": "Calibre d'arme d'épaule d'origine de type rimless, développé et utilisé principalement en Finlande. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+    "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": "Wildcat non homologué C.I.P. ni normalisé SAAMI : limite reprise du 6,5 x 47 Lapua dont il dérive (même étui, collet rétreint en 6 mm). Valeur indicative. Le guide Hodgdon AM24 couvre cette cartouche mais en CUP, unité non convertible : il ne permet pas de contrôler cette limite.",
     "data_note_en": "Wildcat, neither approved by C.I.P. nor standardised by SAAMI: limit taken from the 6.5 x 47 Lapua it derives from (same case, neck reduced to 6 mm). Indicative value. The Hodgdon AM24 guide covers this cartridge, but in CUP, a unit that cannot be converted: it cannot be used to check this limit."
@@ -2995,8 +2995,8 @@
     "case_volume_cm3": 3.209,
     "primer_type": "Large Rifle",
     "intro_year": null,
-    "origin_country": "Inconnu",
-    "description": "Calibre d'arme d'épaule d'origine de type rimmed, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+    "origin_country": "Allemagne",
+    "description": "Calibre d'arme d'épaule, culot à bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null
@@ -3023,8 +3023,8 @@
     "case_volume_cm3": 3.743,
     "primer_type": "Large Rifle",
     "intro_year": null,
-    "origin_country": "Inconnu",
-    "description": "Calibre d'arme d'épaule d'origine de type rimmed, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+    "origin_country": "Allemagne",
+    "description": "Calibre d'arme d'épaule, culot à bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null
@@ -3328,7 +3328,7 @@
     "primer_type": "Large Rifle",
     "intro_year": null,
     "origin_country": "États-Unis",
-    "description": "Calibre d'arme d'épaule d'origine de type rimless, développé et utilisé principalement en États-Unis. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+    "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null
@@ -3355,8 +3355,8 @@
     "case_volume_cm3": 4.4,
     "primer_type": "Large Rifle",
     "intro_year": null,
-    "origin_country": "Inconnu",
-    "description": "Calibre d'arme d'épaule d'origine de type rimless, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+    "origin_country": "États-Unis",
+    "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null
@@ -3383,8 +3383,8 @@
     "case_volume_cm3": 6.098,
     "primer_type": "Large Rifle",
     "intro_year": null,
-    "origin_country": "Inconnu",
-    "description": "Calibre d'arme d'épaule d'origine de type rebated, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+    "origin_country": "États-Unis",
+    "description": "Calibre d'arme d'épaule, culot à culot rétreint. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null
@@ -3440,8 +3440,8 @@
     "case_volume_cm3": 4.539,
     "primer_type": "Large Rifle",
     "intro_year": null,
-    "origin_country": "Inconnu",
-    "description": "Calibre d'arme d'épaule d'origine de type rebated, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+    "origin_country": "États-Unis",
+    "description": "Calibre d'arme d'épaule, culot à culot rétreint. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null
@@ -3468,7 +3468,7 @@
     "primer_type": "Large Rifle",
     "intro_year": null,
     "origin_country": "États-Unis",
-    "description": "Calibre d'arme d'épaule d'origine de type belted, développé et utilisé principalement en États-Unis. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+    "description": "Calibre d'arme d'épaule, culot à ceinture. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null
@@ -3583,8 +3583,8 @@
     "case_volume_cm3": 3.557,
     "primer_type": "Large Rifle",
     "intro_year": null,
-    "origin_country": "Inconnu",
-    "description": "Calibre d'arme d'épaule d'origine de type rimmed, développé et utilisé principalement en Inconnu. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+    "origin_country": "Allemagne",
+    "description": "Calibre d'arme d'épaule, culot à bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null
@@ -3725,7 +3725,7 @@
     "primer_type": "Small Pistol",
     "intro_year": null,
     "origin_country": "États-Unis",
-    "description": "Calibre d'arme de poing d'origine de type rimless, développé et utilisé principalement en États-Unis. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+    "description": "Calibre d'arme de poing, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null
@@ -3752,7 +3752,7 @@
     "primer_type": "Large Rifle",
     "intro_year": null,
     "origin_country": "Allemagne",
-    "description": "Calibre d'arme d'épaule d'origine de type rebated, développé et utilisé principalement en Allemagne. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site.",
+    "description": "Calibre d'arme d'épaule, culot à culot rétreint. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null

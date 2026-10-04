@@ -1,0 +1,521 @@
+{
+  "_provenance": {
+    "source": "Fiches C.I.P. (TDCC) de CIP/*.pdf, champ « Pays d'origine » / « Country of Origin »",
+    "releve_le": "2026-10-04, par CIP/releve_pays.py",
+    "portee": "Pays ENREGISTRÉ par la C.I.P., pas toujours celui de la conception (10 mm Auto : Suède ; .50 AE : Israël). Employé par calibers/generate_calibers_db.py pour les seuls calibres sans pays établi à la main."
+  },
+  "calibres": {
+    "103_x_60_r": {
+      "code": "CH",
+      "pays": "Suisse"
+    },
+    "10mm_auto": {
+      "code": "SE",
+      "pays": "Suède"
+    },
+    "17_hmr": {
+      "code": "US",
+      "pays": "États-Unis"
+    },
+    "204_ruger": {
+      "code": "US",
+      "pays": "États-Unis"
+    },
+    "219_zipper": {
+      "code": "US",
+      "pays": "États-Unis"
+    },
+    "220_swift": {
+      "code": "US",
+      "pays": "États-Unis"
+    },
+    "221_remington_fireball": {
+      "code": "US",
+      "pays": "États-Unis"
+    },
+    "222_rem": {
+      "code": "US",
+      "pays": "États-Unis"
+    },
+    "222_rem_mag": {
+      "code": "US",
+      "pays": "États-Unis"
+    },
+    "223_rem": {
+      "code": "US",
+      "pays": "États-Unis"
+    },
+    "223_wssm": {
+      "code": "US",
+      "pays": "États-Unis"
+    },
+    "224_valkyrie": {
+      "code": "US",
+      "pays": "États-Unis"
+    },
+    "22_250_rem": {
+      "code": "US",
+      "pays": "États-Unis"
+    },
+    "22_hornet": {
+      "code": "US",
+      "pays": "États-Unis"
+    },
+    "22_lr": {
+      "code": "US",
+      "pays": "États-Unis"
+    },
+    "22_ppcusa": {
+      "code": "FI",
+      "pays": "Finlande"
+    },
+    "22_wmr": {
+      "code": "US",
+      "pays": "États-Unis"
+    },
+    "240_weatherby_magnum": {
+      "code": "US",
+      "pays": "États-Unis"
+    },
+    "243_win": {
+      "code": "US",
+      "pays": "États-Unis"
+    },
+    "250_savage": {
+      "code": "US",
+      "pays": "États-Unis"
+    },
+    "257_roberts": {
+      "code": "US",
+      "pays": "États-Unis"
+    },
+    "257_wby_mag": {
+      "code": "US",
+      "pays": "États-Unis"
+    },
+    "25_06_remington": {
+      "code": "US",
+      "pays": "États-Unis"
+    },
+    "25_acp": {
+      "code": "BE",
+      "pays": "Belgique"
+    },
+    "260_rem": {
+      "code": "US",
+      "pays": "États-Unis"
+    },
+    "270_weatherby_magnum": {
+      "code": "US",
+      "pays": "États-Unis"
+    },
+    "270_win": {
+      "code": "US",
+      "pays": "États-Unis"
+    },
+    "270_wsm": {
+      "code": "US",
+      "pays": "États-Unis"
+    },
+    "280_remington": {
+      "code": "US",
+      "pays": "États-Unis"
+    },
+    "284_winchester": {
+      "code": "US",
+      "pays": "États-Unis"
+    },
+    "300_blackout": {
+      "code": "US",
+      "pays": "États-Unis"
+    },
+    "300_lapua_magnum": {
+      "code": "FI",
+      "pays": "Finlande"
+    },
+    "300_norma_magnum": {
+      "code": "SE",
+      "pays": "Suède"
+    },
+    "300_prc": {
+      "code": "US",
+      "pays": "États-Unis"
+    },
+    "300_rcm": {
+      "code": "US",
+      "pays": "États-Unis"
+    },
+    "300_rem_ultra_mag": {
+      "code": "US",
+      "pays": "États-Unis"
+    },
+    "300_savage": {
+      "code": "US",
+      "pays": "États-Unis"
+    },
+    "300_weatherby_magnum": {
+      "code": "US",
+      "pays": "États-Unis"
+    },
+    "300_win_mag": {
+      "code": "US",
+      "pays": "États-Unis"
+    },
+    "300_wsm": {
+      "code": "US",
+      "pays": "États-Unis"
+    },
+    "303_british": {
+      "code": "GB",
+      "pays": "Royaume-Uni"
+    },
+    "308_marlin_express": {
+      "code": "US",
+      "pays": "États-Unis"
+    },
+    "308_win": {
+      "code": "US",
+      "pays": "États-Unis"
+    },
+    "30_06_springfield": {
+      "code": "US",
+      "pays": "États-Unis"
+    },
+    "30_30_win": {
+      "code": "US",
+      "pays": "États-Unis"
+    },
+    "30_carbine": {
+      "code": "US",
+      "pays": "États-Unis"
+    },
+    "30_r_blaser": {
+      "code": "DE",
+      "pays": "Allemagne"
+    },
+    "32_acp": {
+      "code": "BE",
+      "pays": "Belgique"
+    },
+    "32_sw_long": {
+      "code": "US",
+      "pays": "États-Unis"
+    },
+    "338_lapua": {
+      "code": "FI",
+      "pays": "Finlande"
+    },
+    "338_norma_mag": {
+      "code": "SE",
+      "pays": "Suède"
+    },
+    "338_win_mag": {
+      "code": "US",
+      "pays": "États-Unis"
+    },
+    "357_magnum": {
+      "code": "US",
+      "pays": "États-Unis"
+    },
+    "357_maximum": {
+      "code": "US",
+      "pays": "États-Unis"
+    },
+    "357_sig": {
+      "code": "US",
+      "pays": "États-Unis"
+    },
+    "35_remington": {
+      "code": "US",
+      "pays": "États-Unis"
+    },
+    "375_hh_mag": {
+      "code": "GB",
+      "pays": "Royaume-Uni"
+    },
+    "380_acp": {
+      "code": "BE",
+      "pays": "Belgique"
+    },
+    "38_special": {
+      "code": "US",
+      "pays": "États-Unis"
+    },
+    "38_super_auto": {
+      "code": "US",
+      "pays": "États-Unis"
+    },
+    "408_cheytac": {
+      "code": "US",
+      "pays": "États-Unis"
+    },
+    "40_sw": {
+      "code": "US",
+      "pays": "États-Unis"
+    },
+    "416_barrett": {
+      "code": "US",
+      "pays": "États-Unis"
+    },
+    "416_rigby": {
+      "code": "GB",
+      "pays": "Royaume-Uni"
+    },
+    "41_rem_mag": {
+      "code": "US",
+      "pays": "États-Unis"
+    },
+    "444_marlin": {
+      "code": "US",
+      "pays": "États-Unis"
+    },
+    "44_40_win": {
+      "code": "US",
+      "pays": "États-Unis"
+    },
+    "44_magnum": {
+      "code": "US",
+      "pays": "États-Unis"
+    },
+    "44_special": {
+      "code": "US",
+      "pays": "États-Unis"
+    },
+    "450_bushmaster": {
+      "code": "US",
+      "pays": "États-Unis"
+    },
+    "454_casull": {
+      "code": "US",
+      "pays": "États-Unis"
+    },
+    "458_socom": {
+      "code": "US",
+      "pays": "États-Unis"
+    },
+    "458_win_mag": {
+      "code": "US",
+      "pays": "États-Unis"
+    },
+    "45_70_govt": {
+      "code": "US",
+      "pays": "États-Unis"
+    },
+    "45_acp": {
+      "code": "US",
+      "pays": "États-Unis"
+    },
+    "45_colt": {
+      "code": "US",
+      "pays": "États-Unis"
+    },
+    "45_winchester_magnum": {
+      "code": "US",
+      "pays": "États-Unis"
+    },
+    "460_sw_mag": {
+      "code": "US",
+      "pays": "États-Unis"
+    },
+    "475_linebaugh": {
+      "code": "US",
+      "pays": "États-Unis"
+    },
+    "500_sw_mag": {
+      "code": "US",
+      "pays": "États-Unis"
+    },
+    "50_ae": {
+      "code": "IL",
+      "pays": "Israël"
+    },
+    "50_bmg": {
+      "code": "US",
+      "pays": "États-Unis"
+    },
+    "545x39_m74": {
+      "code": "SU",
+      "pays": "Union Soviétique"
+    },
+    "56_x_50_r_mag": {
+      "code": "DE",
+      "pays": "Allemagne"
+    },
+    "57x28_fn": {
+      "code": "BE",
+      "pays": "Belgique"
+    },
+    "65284_norma": {
+      "code": "SE",
+      "pays": "Suède"
+    },
+    "65_creedmoor": {
+      "code": "US",
+      "pays": "États-Unis"
+    },
+    "65_grendel": {
+      "code": "US",
+      "pays": "États-Unis"
+    },
+    "65_prc": {
+      "code": "US",
+      "pays": "États-Unis"
+    },
+    "65x47_lapua": {
+      "code": "FI",
+      "pays": "Finlande"
+    },
+    "65x55_swedish": {
+      "code": "SE",
+      "pays": "Suède"
+    },
+    "68_western": {
+      "code": "US",
+      "pays": "États-Unis"
+    },
+    "6_mm_remington": {
+      "code": "US",
+      "pays": "États-Unis"
+    },
+    "6_norma_br": {
+      "code": "SE",
+      "pays": "Suède"
+    },
+    "6_xc": {
+      "code": "SE",
+      "pays": "Suède"
+    },
+    "6mm_arc": {
+      "code": "US",
+      "pays": "États-Unis"
+    },
+    "6mm_creedmoor": {
+      "code": "US",
+      "pays": "États-Unis"
+    },
+    "6mm_ppc": {
+      "code": "US",
+      "pays": "États-Unis"
+    },
+    "75_swiss_rev": {
+      "code": "CH",
+      "pays": "Suisse"
+    },
+    "75x55_swiss": {
+      "code": "CH",
+      "pays": "Suisse"
+    },
+    "762x25_tokarev": {
+      "code": "SU",
+      "pays": "Union Soviétique"
+    },
+    "762x39_m43": {
+      "code": "SU",
+      "pays": "Union Soviétique"
+    },
+    "762x54r": {
+      "code": "SU",
+      "pays": "Union Soviétique"
+    },
+    "763_mauser": {
+      "code": "DE",
+      "pays": "Allemagne"
+    },
+    "765_argentined": {
+      "code": "DE",
+      "pays": "Allemagne"
+    },
+    "765_luger": {
+      "code": "DE",
+      "pays": "Allemagne"
+    },
+    "7_x_57_r": {
+      "code": "DE",
+      "pays": "Allemagne"
+    },
+    "7_x_65_r": {
+      "code": "DE",
+      "pays": "Allemagne"
+    },
+    "7mm_08_rem": {
+      "code": "US",
+      "pays": "États-Unis"
+    },
+    "7mm_br_remington": {
+      "code": "US",
+      "pays": "États-Unis"
+    },
+    "7mm_prc": {
+      "code": "US",
+      "pays": "États-Unis"
+    },
+    "7mm_rem_mag": {
+      "code": "US",
+      "pays": "États-Unis"
+    },
+    "7mm_rum": {
+      "code": "US",
+      "pays": "États-Unis"
+    },
+    "7mm_weatherby_magnum": {
+      "code": "US",
+      "pays": "États-Unis"
+    },
+    "7mm_wsm": {
+      "code": "US",
+      "pays": "États-Unis"
+    },
+    "7x57_mauser": {
+      "code": "DE",
+      "pays": "Allemagne"
+    },
+    "7x64_brenneke": {
+      "code": "DE",
+      "pays": "Allemagne"
+    },
+    "8_x_57_irs": {
+      "code": "DE",
+      "pays": "Allemagne"
+    },
+    "8mm_lebel_rev": {
+      "code": "FR",
+      "pays": "France"
+    },
+    "8x50r_lebel": {
+      "code": "FR",
+      "pays": "France"
+    },
+    "8x57_is": {
+      "code": "DE",
+      "pays": "Allemagne"
+    },
+    "8x68s": {
+      "code": "DE",
+      "pays": "Allemagne"
+    },
+    "93_x_64_brenneke": {
+      "code": "DE",
+      "pays": "Allemagne"
+    },
+    "93x62_mauser": {
+      "code": "DE",
+      "pays": "Allemagne"
+    },
+    "93x74r": {
+      "code": "DE",
+      "pays": "Allemagne"
+    },
+    "9x18_makarov": {
+      "code": "SU",
+      "pays": "Union Soviétique"
+    },
+    "9x19_parabellum": {
+      "code": "DE",
+      "pays": "Allemagne"
+    },
+    "9x21_imi": {
+      "code": "IL",
+      "pays": "Israël"
+    }
+  }
+}

@@ -14,6 +14,19 @@ with open(os.path.join(os.path.dirname(os.path.abspath(__file__)),
                        "cip_pmax_reference.json"), encoding="utf-8") as _f:
     CIP_PMAX = {k: v["pmax_bar"] for k, v in json.load(_f)["calibres"].items()}
 
+# Pays d'origine ENREGISTRÉ par la C.I.P., relevé sur les fiches (CIP/releve_pays.py,
+# 2026-10-04). Il remplace la devinette par mots-clés pour les calibres sans pays saisi à
+# la main ; il ne remplace jamais une saisie historique (la C.I.P. range la 10 mm Auto en
+# Suède, où Norma l'a fabriquée en premier, alors qu'elle a été conçue aux États-Unis).
+with open(os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                       "cip_origin_reference.json"), encoding="utf-8") as _f:
+    CIP_PAYS = {k: v["pays"] for k, v in json.load(_f)["calibres"].items()}
+
+# Libellé français du culot, pour la description générée (« de type rimless » mêlait
+# l'anglais au français).
+CULOT_FR = {"Rimless": "sans bourrelet", "Rimmed": "à bourrelet", "Semi-rimmed": "à semi-bourrelet",
+            "Belted": "à ceinture", "Rebated": "à culot rétreint"}
+
 
 def pressure_fields(cid, sim_val=None, fallback=None):
     """Renvoie (pmax_cip_bar, pmax_saami_bar, max_pressure_bar) pour un calibre.
@@ -660,8 +673,12 @@ def clean_display_name(key):
 # d'extraction. Ces deux-là passent donc par une table nominative, courte et relisible ;
 # tout le reste se déduit des cotes. Clés = libellés exacts de l'estimateur.
 BELTED_KEYS = {
-    "257 Wby. Mag.", "300 Lapua Magnum", "300 Norma Magnum", "300 Win. Mag.",
-    "338 Norma Mag.", "338 Win. Mag.", "375 H&H Mag.", "7 Rem. Mag.",
+    # Retirées le 2026-10-04 : « 300 Lapua Magnum », « 300 Norma Magnum », « 338 Norma
+    # Mag. » n'ont PAS de ceinture. Les fiches C.I.P. le montrent : sur un étui à ceinture,
+    # P1 (pris au-dessus de la ceinture) est inférieur de 0,48 à 0,50 mm au bourrelet R1 ;
+    # sur ces trois-là l'écart est de 0,02 à 0,06 mm, celui d'un étui sans bourrelet.
+    "257 Wby. Mag.", "300 Win. Mag.",
+    "338 Win. Mag.", "375 H&H Mag.", "7 Rem. Mag.",
     # Ajoutées le 2026-08-11 : l'ancienne liste les visait déjà (« 270 wby. », « 458 win. »)
     # mais testait des abréviations que ces clés-ci n'emploient pas ; elles ressortaient
     # « Rimmed », c'est-à-dire pourvues d'un bourrelet qu'elles n'ont pas.
@@ -888,7 +905,7 @@ def merge_databases():
         # Merge properties
         name = hand_curated.get("name", clean_display_name(sim_name))
         intro_year = hand_curated.get("intro_year")
-        country = hand_curated.get("origin_country", guess_country(sim_name))
+        country = hand_curated.get("origin_country") or CIP_PAYS.get(cid) or guess_country(sim_name)
         primer = hand_curated.get("primer_type", guess_primer(category, bullet_dia, case_len))
         
         # Specific overrides for primer types of known big rounds
@@ -900,7 +917,11 @@ def merge_databases():
             
         description = hand_curated.get("description")
         if not description:
-            description = f"Calibre d'arme {'de poing' if category == 'Handgun' else 'd\'épaule'} d'origine de type {rim_type.lower()}, développé et utilisé principalement en {country}. Ce calibre est entièrement pris en charge par le simulateur de balistique intérieure du site."
+            # Description GÉNÉRÉE : elle ne dit que ce que la base établit. L'ancienne
+            # affirmait « développé et utilisé principalement en {pays} » sur un pays deviné,
+            # jusqu'à « … en Inconnu » pour 31 calibres (corrigé le 2026-10-04).
+            culot = CULOT_FR.get(rim_type, rim_type.lower())
+            description = f"Calibre d'arme {'de poing' if category == 'Handgun' else 'd\'épaule'}, culot {culot}. Pris en charge par l'estimateur de balistique intérieure du site."
 
         # Le caveat de pression rédigé en amont (`pmax_note`) était jeté. Il dit précisément
         # ce qu'une valeur vaut quand elle n'est ni C.I.P. ni SAAMI — le .243 Ackley Improved
