@@ -3,9 +3,30 @@
     "source": "Lyman Reloading Handbook, 48e éd. (2002), commentaire de la cartouche — par défaut ; sinon la source de l'entrée",
     "releve_le": "2026-10-04",
     "definition": "Année de mise sur le marché ou d'adoption militaire ; pour une cartouche issue d'un wildcat, année de standardisation en munition d'usine. Une année de seule mise au point n'est pas retenue (.270 Weatherby : 1943 « developed » ; .45 ACP : datée seulement par le pistolet Colt de 1905).",
-    "portee": "Entrées datées par une source citée mot pour mot (vérifiée sur la page le 2026-10-04) ; « nature » : fabricant, primaire ou secondaire. Écartées faute de source qui date l'événement défini : 7,62 x 25 (date le choix du pistolet), .22 WMR (liste peu fiable), 7,62 x 51 OTAN (1953 Hansard / 1957 FN), 8 x 68 S (introuvable)."
+    "portee": "Entrées datées par une source citée mot pour mot (vérifiée sur la page le 2026-10-04) ; « nature » : fabricant, primaire ou secondaire. Écartées faute de source qui date l'événement défini : 7,62 x 25 (date le choix du pistolet), .22 WMR (liste peu fiable), 7,62 x 51 OTAN (1953 Hansard / 1957 FN), 8 x 68 S (introuvable). Lot 1980-2018 : écartées 5,7 x 28 (1990 = présentation publique) et .450 Bushmaster (2007 = présentation au SHOT Show) ; conflits 6,5 Grendel (2003/2005), .416 Barrett (2005 conception/2007), 6,5 x 47 Lapua (2005/2006) ; introuvables 9 x 21 IMI, .50 AE, .408 CheyTac. .40 S&W : Lyman 48e écrit 1992, contredit par la présentation du 17 janv. 1990 et la fiche C.I.P. du 1er févr. 1990."
   },
   "calibres": {
+    "10mm_auto": {
+      "annee": 1983,
+      "source": "« The 10mm Auto: History & Performance of a Potent Pistol Cartridge », American Rifleman (NRA), 8 juil. 2020, https://www.americanrifleman.org/content/the-10mm-auto-history-performance-of-a-potent-pistol-cartridge/ ; recoupé par Brian Pearce, Handloader, https://www.handloadermagazine.com/40-smith-wesson",
+      "citation": "The Bren Ten, chambered for the 10mm Auto cartridge, was introduced in 1983, and Norma of Sweden was contracted to load the ammunition. || Handloader : « introduced the Bren 10 Autoloading Pistol in 1983, with Norma producing a 10mm Auto factory load »",
+      "nature": "secondaire",
+      "note": "Mise sur le marché avec le pistolet Bren Ten (Dornaus & Dixon) et la munition d'usine Norma en 1983. Aucun document Norma d'époque trouvé en ligne. L'auteur de l'article AR (qui dit avoir visité Norma « four years later ») n'est pas lisible dans la page récupérée. Seconde vague : Colt Delta Elite 1987, adoption FBI annoncée en novembre 1989. Table C.I.P. « 10 mm Auto » datée 84-10-03, pays d'origine SE (/var/www/tireur.org/CIP/10mm_auto.pdf), cohérente avec une munition Norma."
+    },
+    "17_hmr": {
+      "annee": 2002,
+      "source": "John Haviland, « 20 Years With The .17 Hornady Magnum Rimfire », American Rifleman (NRA), 10 janv. 2022, https://www.americanrifleman.org/content/20-years-with-the-17-hornady-magnum-rimfire/",
+      "citation": "It’s been 20 years of shooting enjoyment since Hornady introduced its .17 Hornady Magnum Rimfire in 2002.",
+      "nature": "secondaire",
+      "note": "Recoupé par Philip Massaro, American Hunter, 20 févr. 2023 (« Released in 2002, the .17 Hornady Magnum Rimfire »). Aucun communiqué Hornady de 2002 en ligne (press.hornady.com ne remonte pas si loin ; page « Company History » sans mention). Table C.I.P. « 17 HMR » datée 04-09-27 (/var/www/tireur.org/CIP/17_hmr.pdf)."
+    },
+    "204_ruger": {
+      "annee": 2004,
+      "source": "Sturm, Ruger & Co., communiqué « Ruger Announces Five Rifles in New .204 Ruger Cartridge », 6 nov. 2003, https://ruger.com/news/2003-11-06.html",
+      "citation": "Sturm, Ruger is proud to introduce five rifle models for 2004 in an exciting new caliber: the .204 RUGER. [...] These new .204 RUGER models will be available beginning in March 2004.",
+      "nature": "fabricant",
+      "note": "Annonce du fabricant le 6 novembre 2003, mise en vente à partir de mars 2004 (cartouche développée avec Hornady). Recoupé par Dave Campbell, American Rifleman, 28 avr. 2022. Table C.I.P. « 204 Ruger » datée 06-05-16 (/var/www/tireur.org/CIP/204_ruger.pdf)."
+    },
     "220_swift": {
       "annee": 1935,
       "source": "Lyman Reloading Handbook, 48e éd. (2002), commentaire de la cartouche",
@@ -68,6 +89,20 @@
       "source": "Lyman Reloading Handbook, 48e éd. (2002), commentaire de la cartouche",
       "citation": "Winchester introduced the 270 WSM in 2002"
     },
+    "300_blackout": {
+      "annee": 2011,
+      "source": "Richard Mann, « The New Black », Shooting Illustrated (NRA), 16 déc. 2013, https://www.shootingillustrated.com/articles/2013/12/16/the-new-black ; « 300 AAC Blackout Used for 1st Place Win at MultiGun Nationals », AmmoLand, 24 oct. 2011, https://www.ammoland.com/2011/10/300-aac-blackout-cartridge/",
+      "citation": "Mann : « It was approved by SAAMI in 2011 with a maximum average operating pressure of 55,000 psi, the same as the .223 Rem. » || AmmoLand (oct. 2011) : « 300 AAC Blackout was launched by Advanced Armament Corp. and Remington primarily for the military »",
+      "nature": "secondaire",
+      "note": "Événements datés : acceptation SAAMI en 2011 (date du 17 janv. 2011 largement relayée, non lue dans un document SAAMI : le plan du Z299.4-2015 p. 98 ne porte pas de date ; SA Defense Journal écrit « November of 2011 », divergence de mois seulement) et lancement AAC/Remington attesté par un article d'octobre 2011. Développement 2009-2010 (rachat d'AAC par Remington en 2009). Pas de communiqué Remington/AAC d'époque trouvé (300aacblackout.com non consulté). Table C.I.P. datée 15-05-19 (/var/www/tireur.org/CIP/300_blackout.pdf)."
+    },
+    "300_prc": {
+      "annee": 2018,
+      "source": "Hornady, communiqué « Hornady to supply 300 PRC Ammunition to U.S. Department of Defense », 11 déc. 2018, https://press.hornady.com/release/2018/12/11/hornady-to-supply-300-prc-ammunition-to-u.s.-department-of-defense/",
+      "citation": "The 300 Precision Rifle Cartridge (PRC), released by Hornady earlier this year, was tested and selected by the Department of Defense for its extended long range sniper program",
+      "nature": "fabricant",
+      "note": "Communiqué du fabricant daté du 11 décembre 2018 : sortie commerciale en 2018 et contrat DoD la même année. Le 300 PRC figure aussi dans « Hornady® Announces New Products for 2019 » (19 oct. 2018, https://press.hornady.com/release/2018/10/19/hornady-announces-new-products-for-2019/), catalogue de l'année suivante. Table C.I.P. datée 19-05-22 (/var/www/tireur.org/CIP/300_prc.pdf)."
+    },
     "300_savage": {
       "annee": 1920,
       "source": "Lyman Reloading Handbook, 48e éd. (2002), commentaire de la cartouche",
@@ -100,12 +135,26 @@
       "source": "Lyman Reloading Handbook, 48e éd. (2002), commentaire de la cartouche",
       "citation": "Winchester introduced the 30 Winchester Center Fire (WCF) cartridge in their new Model 94 lever-action in 1895"
     },
+    "338_lapua": {
+      "annee": 1990,
+      "source": "Lapua, « The story of .338 Lapua Magnum, part 2 », https://www.lapua.com/the-story-of-338-lapua-magnum-part-2/",
+      "citation": "The first test lot of .338 Lapua Magnum ammunition was produced in 1988, with CIP approval following in 1989. [...] The 259 grain EB431 bullet was introduced commercially with the new cartridge in 1990.",
+      "nature": "fabricant",
+      "note": "La saisie 1989 correspond à l'homologation C.I.P. (table locale /var/www/tireur.org/CIP/338_lapua.pdf datée 89-09-09, pays FI). Selon Lapua, la mise sur le marché de la cartouche date de 1990. Lot d'essai 1988 ; origine .338/416 en 1982 (partie 1 du même récit). Si le site préfère la date d'homologation, 1989 est également sourcé (même phrase) — à trancher selon la définition : mise sur le marché = 1990."
+    },
     "357_magnum": {
       "annee": 1935,
       "source": "Winchester, « Historical Timeline » (winchesterguns.com) 1900-1949, https://www.winchesterguns.com/news/historical-timeline/1900-1949.html",
       "citation": "1935.  Western collaborates with Smith & Wesson to produce the 357 Magnum cartridge.",
       "nature": "fabricant",
       "note": "1934 → 1935. Concorde avec American Rifleman (« Since its introduction in 1935, the Registered Magnum… », This Old Gun: S&W Registered Magnum). Le site S&W n'a pas de page historique récupérable."
+    },
+    "357_sig": {
+      "annee": 1994,
+      "source": "Wiley Clapp, « What's So Great About the .357 SIG? », Shooting Illustrated (NRA), 15 mars 2021, https://www.shootingillustrated.com/content/what-s-so-great-about-the-357-sig/",
+      "citation": "The .357 SIG arrived on the market in 1994. Intended for use in police-service semi-auto pistols, the cartridge was first offered in the SIG P229 handgun.",
+      "nature": "secondaire",
+      "note": "Recoupé par Brian Pearce, Handloader (« The .357 Sig was developed in 1994 by Federal Cartridge and SIG Sauer ») et Wiley Clapp, Shooting Illustrated 2011 (« a viable self-defense and police-service load since 1994 »). Table C.I.P. « 357 SIG » datée 95-03-09 (copie locale /var/www/tireur.org/CIP/357_sig.pdf), cohérente. Aucun communiqué SIG Sauer/Federal d'époque trouvé."
     },
     "35_remington": {
       "annee": 1906,
@@ -118,6 +167,13 @@
       "citation": "The .375 H&H Magnum was introduced by English gunmakers Holland & Holland in 1912 as the .375 Belted Rimless Nitro Express.",
       "nature": "secondaire",
       "note": "Page du fabricant (hollandandholland.com, « The Perfect Medium ») derrière un contrôle anti-robot Vercel (HTTP 429 challenge) : abandonnée, non contournée."
+    },
+    "40_sw": {
+      "annee": 1990,
+      "source": "Wiley Clapp, « The Short, Happy Life Of The .40 Smith & Wesson », American Rifleman (NRA), 22 févr. 2025, https://www.americanrifleman.org/content/the-short-happy-life-of-the-40-smith-wesson/ ; recoupé par Brian Pearce, « 40 Smith & Wesson: Here to Stay! », Handloader, https://www.handloadermagazine.com/40-smith-wesson",
+      "citation": "It was at a swank conference room in Las Vegas on Jan. 17, 1990, and the assembled firearm press was attentive. [...] The pistol was the Model 4006 and the cartridge was the .40 Smith & Wesson. || Handloader : « The 40 S&W was formally introduced January 17, 1990, and was a joint effort between Smith & Wesson (S&W) and Winchester Ammunition »",
+      "nature": "secondaire",
+      "note": "Présentation publique S&W + Winchester le 17 janvier 1990 (Las Vegas, SHOT Show). Le même article AR mentionne un plan SAAMI du .40 S&W « issued by the organization on Feb. 1, 1990 » (image du plan reproduite dans l'article, non consultée séparément). Handloader : Glock a proposé le Glock 22 « one week prior ». Divergence : Lyman Reloading Handbook 48e éd. (2002), notice .40 S&W (carabine Ruger PC4) : « since its introduction in 1992 » — contredit par deux récits datés au jour près et par la date du plan SAAMI ; 1992 semble une erreur de Lyman. Aucun communiqué S&W/Winchester d'époque trouvé en ligne (pas de page historique du fabricant citant l'année). Primaire local : la table C.I.P. « 40 S&W » (/var/www/tireur.org/CIP/40_sw.pdf, p. 1) porte « Date 90-02-01 », soit le 1er février 1990 — même date que le plan SAAMI cité par American Rifleman ; une cartouche normalisée en février 1990 ne peut pas avoir été introduite en 1992."
     },
     "41_rem_mag": {
       "annee": 1964,
@@ -167,6 +223,27 @@
       "source": "Lyman Reloading Handbook, 48e éd. (2002), commentaire de la cartouche",
       "citation": "1873 marked the introduction of the 44-40 (44 WCF), the 45-70 Government, and the 45 Colt"
     },
+    "460_sw_mag": {
+      "annee": 2005,
+      "source": "B. Gil Horman, « Smith & Wesson 460XVR Revolver Review », American Rifleman (NRA), 26 févr. 2020, https://www.americanrifleman.org/content/smith-wesson-460xvr-revolver-review/",
+      "citation": "The X-Frame revolvers chambered for the .460 S&W cartridge first arrived on the market in 2005, just two years after the .500 S&W X-Frames quashed the who's-going-to-build-the-biggest-revolver debate of the new century.",
+      "nature": "secondaire",
+      "note": "Le communiqué du fabricant « Smith & Wesson Unveils New Products; SHOT Show 2005 Provides Backdrop for Launch of Fourteen Products » (https://ir.smith-wesson.com/news-releases/news-release-details/smith-wesson-unveils-new-products-shot-show-2005-provides/) renvoie 403 (Akamai) : non lu, non contourné. Table C.I.P. « 460 S&W Mag » datée 06-05-16 (/var/www/tireur.org/CIP/460_sw_mag.pdf). Un article American Rifleman de 2022 (Dave Campbell) place à tort un revolver .460 au SHOT Show 2003."
+    },
+    "46x30_hk": {
+      "annee": 2001,
+      "source": "« Case Histories: HK 4.6x30mm », Gunmart (article de 2006, mis à jour 19/12/2016), https://www.gunmart.net/ammunition/rifle-ammunition/case-history-hk-4.6x30mm ; recoupé par « The Heckler & Koch MP7: High Speed PDW », Athlon Outdoors, https://athlonoutdoors.com/article/the-heckler-koch-mp7/",
+      "citation": "Introduced in 2001 by Heckler & Koch for use in their all new, MP7 personal defence weapon (PDW) the 4.6 x 30 cartridge was specifically designed to meet CRISAT requirements. || Athlon : « Heckler & Koch launched the MP7 in 2001 in response to NATO’s demand. »",
+      "nature": "secondaire",
+      "note": "La saisie 1999 correspond à la présentation du prototype « PDW » (date relayée par Wikipedia, sans source primaire retrouvée) ; le lancement de l'arme de série MP7 et de sa cartouche est daté 2001 par deux sources secondaires. Pas de page historique Heckler & Koch ni de date d'adoption Bundeswehr trouvées (page bundeswehr.de MP7 consultée : aucune année). Pas de fiche C.I.P. locale pour ce calibre. Fiabilité modérée : à défaut de mieux, 2001."
+    },
+    "500_sw_mag": {
+      "annee": 2003,
+      "source": "Smith & Wesson Holding Corp., communiqué Business Wire « Smith & Wesson Introduces New .50 Caliber Magnum Revolver », Scottsdale, 13 févr. 2003 — original https://ir.smith-wesson.com/news-releases/news-release-details/smith-wesson-introduces-new-50-caliber-magnum-revolver-most (403 Akamai, non contourné) ; texte lu sur la reprise Corrections1 : https://www.corrections1.com/products/firearms/press-releases/smith-wesson-introduces-new-50-caliber-magnum-revolver-drkMcLg8HjkokryT/",
+      "citation": "The legendary 150-year-old handgun maker, Smith & Wesson Corp. , a subsidiary of Smith & Wesson Holding Corporation (AMEX: SWB) today introduced the largest and most powerful production revolver ever made along with eight other new products at the 2003 Shooting, Hunting, Outdoor Trade (SHOT) Show in Orlando, Florida.",
+      "nature": "fabricant",
+      "note": "Communiqué d'époque du fabricant ; la phrase suivante précise « The new 500 Smith & Wesson Magnum(R) revolver is chambered for the new .50 caliber 500 Smith & Wesson Magnum » cartridge. Cartouche conçue avec Cor-Bon. Table C.I.P. datée 04-05-18 (/var/www/tireur.org/CIP/500_sw_mag.pdf). NB : l'article American Rifleman de Dave Campbell (17 févr. 2022) affirme que le revolver .460 S&W a été présenté au même SHOT Show 2003 — contredit par le communiqué S&W de 2005 (voir 460_sw_mag)."
+    },
     "50_bmg": {
       "annee": 1921,
       "source": "Browning, « Browning M2 Machine Gun — Gun That Won the War », https://www.browning.com/news/articles/historical/50-caliber-machine-gun-won-ww2.html",
@@ -188,6 +265,27 @@
       "nature": "fabricant",
       "note": "1980 = standardisation OTAN (SS109). Si la fiche vise la cartouche 5,56×45 en général (.223/M193), l'adoption militaire américaine est antérieure (années 1960) : la fiche doit dire laquelle elle désigne. Le rapport McCoy BRL-MR-3476 (local) ne donne pas de date d'adoption."
     },
+    "65_creedmoor": {
+      "annee": 2007,
+      "source": "Hornady, « The 6.5 Creedmoor — An interview with Hornady’s senior ballistician, Dave Emary », blog The Hole Story, 1er août 2017, https://www.hornady.com/blog/the-6-5-creedmoor-an-interview-with-hornady-s-senior-ballistician-dave-emary ; recoupé par « Tested: Hornady 6.5 Creedmoor », American Rifleman (NRA), 23 août 2017, https://www.americanrifleman.org/content/tested-hornady-6-5-creedmoor/",
+      "citation": "Introduced by Hornady in 2007, the 6.5 Creedmoor was developed by Hornady Senior Ballistics Scientist, Dave Emary and Dennis DeMille, the VP of product development for Creedmoor Sports. || American Rifleman : « in 2007 Hornady officially introduced the 6.5 mm Creedmoor cartridge »",
+      "nature": "fabricant",
+      "note": "La page produit Hornady (https://www.hornady.com/6.5creedmoor) dit « Developed in 2007 » ; le blog du même fabricant dit « Introduced by Hornady in 2007 ». Concept né aux National Matches 2005 (Emary). Des récits non sourcés placent l'annonce au SHOT Show de janvier 2008 : non retrouvé dans une source sérieuse. Table C.I.P. « 6,5 Creedmoor » datée 12-05-30 (/var/www/tireur.org/CIP/65_creedmoor.pdf)."
+    },
+    "65_prc": {
+      "annee": 2018,
+      "source": "Hornady, communiqué « Hornady® Announces New Products for 2018 », 18 oct. 2017, https://press.hornady.com/release/2017/10/18/hornady-announces-new-products-for-2018/",
+      "citation": "6.5 PRC The name says it all! The 6.5 Precision Rifle Cartridge was designed to achieve the highest levels of accuracy, flat trajectory and extended range performance in a sensibly designed compact package.",
+      "nature": "fabricant",
+      "note": "Annoncé par le fabricant le 18 octobre 2017 parmi les nouveautés du catalogue 2018 (Precision Hunter 143 gr ELD-X, Match 147 gr ELD Match). L'annonce date de fin 2017, la mise en vente de 2018. Table C.I.P. « 6,5 PRC » datée 18-10-17 (/var/www/tireur.org/CIP/65_prc.pdf)."
+    },
+    "6mm_creedmoor": {
+      "annee": 2017,
+      "source": "Hornady, communiqué « Hornady® Announces New Products for 2017 », 28 oct. 2016, https://press.hornady.com/release/2016/10/28/hornady-announces-new-products-for-2017/ ; recoupé par John Barsness, « 6mm Creedmoor », Handloader, déc. 2018, https://www.handloadermagazine.com/6mm-creedmoor",
+      "citation": "Match shooters will appreciate the 8 new offerings in this ammunition line, including the 223 Rem magazine length, high BC load, and a new cartridge: the 6mm Creedmoor! || Handloader : « Hornady started producing 6mm Creedmoor ammunition and cases in 2017. »",
+      "nature": "fabricant",
+      "note": "La saisie 2007 correspond à l'année d'apparition du wildcat dérivé du 6.5 Creedmoor, pas d'une munition d'usine. Munition d'usine Hornady au catalogue 2017 (annoncée le 28 oct. 2016 ; Precision Hunter ajouté le 26 avr. 2017, https://press.hornady.com/release/2017/04/26/hornady-adds-6mm-creedmoor-to-precision-hunter-line/). Table C.I.P. « 6 mm Creedmoor » datée 19-05-22 (/var/www/tireur.org/CIP/6mm_creedmoor.pdf)."
+    },
     "75x54_french": {
       "annee": 1929,
       "source": "« Le FM 1924 M 29 », fiche PDF, monsieur-legionnaire.org, https://www.monsieur-legionnaire.org/pdf/F.M.1924-M-29.pdf",
@@ -201,6 +299,13 @@
       "citation": "Carbines and light machine guns were tested separately, and these parts of the program resulted in the adoption of the Simonov SKS carbine and Degtyarov RPD machine gun   in 1949.",
       "nature": "secondaire",
       "note": "1943 = début des travaux et millésime de la désignation officielle (« obr. 1943 ») ; premières cartouches (étui de 41 mm) 1943-1944, étui raccourci à 39 mm vers 1947 ; adoption en service avec SKS/RPD/AK en 1949. Même auteur, page cartouche : « Гильза патрона была укорочена до 39 мм, и уже в таком виде этот патрон был принят на вооружение. » Encyclopédie BRE (qui donnerait 1949) derrière anti-robot Qrator : non lue."
+    },
+    "7mm_08_rem": {
+      "annee": 1980,
+      "source": "John Haviland, « Reloading the 7 mm-08 Rem. », American Rifleman (NRA), 27 août 2010, https://www.americanrifleman.org/content/reloading-the-7-mm-08-rem/",
+      "citation": "The little 7 mm-08 Rem. suffered from magnum envy after it was introduced in 1980.",
+      "nature": "secondaire",
+      "note": "Standardisation par Remington (wildcat 7mm/308 antérieur) en 1980. Recoupé par Philip Massaro, American Hunter, 13 juin 2022 (« if either of those gentlemen were around in 1980 to see the 7mm-08 »). Aucune page historique ni catalogue Remington trouvés en ligne ; l'article Shooting Times (history & performance) renvoie 403 (abandonné). Table C.I.P. « 7 mm - 08 Rem. » datée 84-06-14 (/var/www/tireur.org/CIP/7mm_08_rem.pdf), cohérente."
     },
     "7mm_rem_mag": {
       "annee": 1962,
