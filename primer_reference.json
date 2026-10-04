@@ -5,7 +5,8 @@
     "regle": "Taille d'amorce corrigée quand les guides s'accordent entre eux et contredisent la base ; mention Magnum seulement si toutes les sources vont dans le même sens. Taille selon l'étui (6 mm Creedmoor : Large chez Western et Hodgdon, étuis Hornady ; Small chez Vihtavuori, étuis Lapua) : valeur majoritaire, exception notée.",
     "portee": "Cartouches relues uniquement ; les autres gardent la valeur du générateur.",
     "recoupement_adi": "2026-10-04 : ADI Handloaders Guide 2013 confronté aux relevés ; aucune contradiction de TAILLE là où sa section est univoque (17 cartouches). Sections mêlées par la mise en page sur deux colonnes : non employées.",
-    "recoupement_hodgdon": "2026-10-04 : Hodgdon 2024 confronté à la base ; aucune contradiction de TAILLE avec les relevés (21 cartouches communes) ; 3 tailles devinées contredites et corrigées."
+    "recoupement_hodgdon": "2026-10-04 : Hodgdon 2024 confronté à la base ; aucune contradiction de TAILLE avec les relevés (21 cartouches communes) ; 3 tailles devinées contredites et corrigées.",
+    "confirmations": "2026-10-04 : valeurs publiées confirmées par les guides déjà extraits (statut « confirmé ») ; jusque-là seules les corrections étaient inscrites."
   },
   "calibres": {
     "103_x_60_r": {
@@ -15,12 +16,68 @@
       ],
       "note": "7 lignes sur 7 en LRM"
     },
+    "10mm_auto": {
+      "primer": "Large Pistol",
+      "sources": [
+        "Hodgdon",
+        "Reload Swiss",
+        "Vihtavuori"
+      ],
+      "statut": "confirmé"
+    },
+    "204_ruger": {
+      "primer": "Small Rifle",
+      "sources": [
+        "Hodgdon",
+        "Vihtavuori"
+      ],
+      "statut": "confirmé"
+    },
     "220_swift": {
       "primer": "Large Rifle",
       "sources": [
         "Lyman",
         "Western"
       ]
+    },
+    "221_remington_fireball": {
+      "primer": "Small Rifle",
+      "sources": [
+        "Vihtavuori"
+      ],
+      "statut": "confirmé"
+    },
+    "222_rem": {
+      "primer": "Small Rifle",
+      "sources": [
+        "Hodgdon",
+        "Lovex",
+        "Lyman",
+        "Reload Swiss",
+        "Vihtavuori"
+      ],
+      "note": "taille confirmée ; mention Magnum non unanime dans les sources, valeur publiée conservée",
+      "statut": "confirmé"
+    },
+    "222_rem_mag": {
+      "primer": "Small Rifle",
+      "sources": [
+        "Lyman",
+        "Reload Swiss",
+        "Western"
+      ],
+      "statut": "confirmé"
+    },
+    "223_rem": {
+      "primer": "Small Rifle",
+      "sources": [
+        "Hodgdon",
+        "Lovex",
+        "Lyman",
+        "Reload Swiss",
+        "Western"
+      ],
+      "statut": "confirmé"
     },
     "223_wssm": {
       "primer": "Large Rifle",
@@ -40,6 +97,34 @@
       "sources": [
         "VV"
       ]
+    },
+    "22_hornet": {
+      "primer": "Small Rifle",
+      "sources": [
+        "Hodgdon",
+        "Lovex",
+        "Lyman",
+        "Reload Swiss",
+        "Vihtavuori",
+        "Western"
+      ],
+      "note": "taille confirmée ; mention Magnum non unanime dans les sources, valeur publiée conservée",
+      "statut": "confirmé"
+    },
+    "22_nosler": {
+      "primer": "Small Rifle",
+      "sources": [
+        "Vihtavuori",
+        "Western"
+      ],
+      "statut": "confirmé"
+    },
+    "22_ppcusa": {
+      "primer": "Small Rifle",
+      "sources": [
+        "Lyman"
+      ],
+      "statut": "confirmé"
     },
     "240_weatherby_magnum": {
       "primer": "Large Rifle",
@@ -63,11 +148,29 @@
         "Western"
       ]
     },
+    "257_roberts": {
+      "primer": "Large Rifle",
+      "sources": [
+        "Hodgdon",
+        "Lyman"
+      ],
+      "statut": "confirmé"
+    },
     "257_wby_mag": {
       "primer": "Large Rifle Magnum",
       "sources": [
         "Lyman"
       ]
+    },
+    "25_06_remington": {
+      "primer": "Large Rifle",
+      "sources": [
+        "Hodgdon",
+        "Lyman",
+        "Vihtavuori",
+        "Western"
+      ],
+      "statut": "confirmé"
     },
     "25_acp": {
       "primer": "Small Pistol",
@@ -76,6 +179,36 @@
       ],
       "note": "section « 6.35 Browning / .25 Auto », S&B 4.4 SP"
     },
+    "260_rem": {
+      "primer": "Large Rifle",
+      "sources": [
+        "Hodgdon",
+        "Lyman",
+        "Reload Swiss",
+        "Vihtavuori",
+        "Western"
+      ],
+      "statut": "confirmé"
+    },
+    "270_weatherby_magnum": {
+      "primer": "Large Rifle",
+      "sources": [
+        "Lyman"
+      ],
+      "statut": "confirmé"
+    },
+    "270_win": {
+      "primer": "Large Rifle",
+      "sources": [
+        "Hodgdon",
+        "Lovex",
+        "Lyman",
+        "Reload Swiss",
+        "Vihtavuori",
+        "Western"
+      ],
+      "statut": "confirmé"
+    },
     "270_wsm": {
       "primer": "Large Rifle Magnum",
       "sources": [
@@ -83,17 +216,146 @@
         "VV"
       ]
     },
+    "280_remington": {
+      "primer": "Large Rifle",
+      "sources": [
+        "Lyman",
+        "Reload Swiss",
+        "Vihtavuori"
+      ],
+      "statut": "confirmé"
+    },
+    "284_winchester": {
+      "primer": "Large Rifle",
+      "sources": [
+        "Lyman",
+        "Reload Swiss"
+      ],
+      "statut": "confirmé"
+    },
     "300_blackout": {
       "primer": "Small Rifle",
       "sources": [
         "Western"
       ]
     },
+    "300_lapua_magnum": {
+      "primer": "Large Rifle Magnum",
+      "sources": [
+        "Vihtavuori"
+      ],
+      "statut": "confirmé"
+    },
+    "300_norma_magnum": {
+      "primer": "Large Rifle Magnum",
+      "sources": [
+        "Hodgdon",
+        "Vihtavuori",
+        "Western"
+      ],
+      "statut": "confirmé"
+    },
+    "300_prc": {
+      "primer": "Large Rifle Magnum",
+      "sources": [
+        "Hodgdon",
+        "Reload Swiss"
+      ],
+      "statut": "confirmé"
+    },
+    "300_rem_ultra_mag": {
+      "primer": "Large Rifle Magnum",
+      "sources": [
+        "Hodgdon",
+        "Lyman"
+      ],
+      "statut": "confirmé"
+    },
     "300_savage": {
       "primer": "Large Rifle",
       "sources": [
         "Lyman"
       ]
+    },
+    "300_weatherby_magnum": {
+      "primer": "Large Rifle Magnum",
+      "sources": [
+        "Hodgdon",
+        "Lyman",
+        "Reload Swiss",
+        "Vihtavuori"
+      ],
+      "note": "taille confirmée ; mention Magnum non unanime dans les sources, valeur publiée conservée",
+      "statut": "confirmé"
+    },
+    "300_win_mag": {
+      "primer": "Large Rifle Magnum",
+      "sources": [
+        "Hodgdon",
+        "Lovex",
+        "Lyman",
+        "Reload Swiss",
+        "Vihtavuori",
+        "Western"
+      ],
+      "note": "taille confirmée ; mention Magnum non unanime dans les sources, valeur publiée conservée",
+      "statut": "confirmé"
+    },
+    "300_wsm": {
+      "primer": "Large Rifle Magnum",
+      "sources": [
+        "Hodgdon",
+        "Lyman",
+        "Reload Swiss",
+        "Vihtavuori"
+      ],
+      "note": "taille confirmée ; mention Magnum non unanime dans les sources, valeur publiée conservée",
+      "statut": "confirmé"
+    },
+    "303_british": {
+      "primer": "Large Rifle",
+      "sources": [
+        "Lovex",
+        "Lyman",
+        "Reload Swiss"
+      ],
+      "statut": "confirmé"
+    },
+    "308_win": {
+      "primer": "Large Rifle",
+      "sources": [
+        "Hodgdon",
+        "Lovex",
+        "Lyman",
+        "Reload Swiss",
+        "Vihtavuori"
+      ],
+      "note": "taille : 261 mention(s) sur 263 ; les autres sont des lignes isolées",
+      "statut": "confirmé"
+    },
+    "30_06_springfield": {
+      "primer": "Large Rifle",
+      "sources": [
+        "Hodgdon",
+        "Lovex",
+        "Lyman",
+        "Reload Swiss",
+        "Vihtavuori",
+        "Western"
+      ],
+      "statut": "confirmé"
+    },
+    "30_30_win": {
+      "primer": "Large Rifle",
+      "sources": [
+        "Hodgdon",
+        "Lovex",
+        "Lyman",
+        "Reload Swiss",
+        "Vihtavuori",
+        "Western"
+      ],
+      "statut": "confirmé"
     },
     "30_carbine": {
       "primer": "Small Rifle",
@@ -108,6 +370,22 @@
       ],
       "note": "10 lignes sur 10 en LRM"
     },
+    "32_acp": {
+      "primer": "Small Pistol",
+      "sources": [
+        "Lyman"
+      ],
+      "statut": "confirmé"
+    },
+    "32_sw_long": {
+      "primer": "Small Pistol",
+      "sources": [
+        "Lovex",
+        "Reload Swiss",
+        "Vihtavuori"
+      ],
+      "statut": "confirmé"
+    },
     "33806": {
       "primer": "Large Rifle",
       "sources": [
@@ -115,11 +393,88 @@
       ],
       "note": "source unique (CCI 200) ; « Magnum » venait de la règle par nom « 338… », l'étui est celui de la .30-06"
     },
+    "338_lapua": {
+      "primer": "Large Rifle Magnum",
+      "sources": [
+        "Hodgdon",
+        "Lovex",
+        "Reload Swiss",
+        "Vihtavuori"
+      ],
+      "statut": "confirmé"
+    },
+    "338_win_mag": {
+      "primer": "Large Rifle Magnum",
+      "sources": [
+        "Hodgdon",
+        "Lyman",
+        "Reload Swiss",
+        "Vihtavuori",
+        "Western"
+      ],
+      "statut": "confirmé"
+    },
+    "357_magnum": {
+      "primer": "Small Pistol Magnum",
+      "sources": [
+        "Hodgdon",
+        "Lovex",
+        "Lyman",
+        "Reload Swiss",
+        "Vihtavuori",
+        "Western"
+      ],
+      "note": "taille confirmée ; mention Magnum non unanime dans les sources, valeur publiée conservée",
+      "statut": "confirmé"
+    },
     "357_maximum": {
       "primer": "Small Rifle Magnum",
       "sources": [
         "Western"
       ]
+    },
+    "357_sig": {
+      "primer": "Small Pistol",
+      "sources": [
+        "Hodgdon",
+        "Lovex",
+        "Lyman"
+      ],
+      "statut": "confirmé"
+    },
+    "35_remington": {
+      "primer": "Large Rifle",
+      "sources": [
+        "Lyman",
+        "Western"
+      ],
+      "statut": "confirmé"
+    },
+    "375_hh_mag": {
+      "primer": "Large Rifle Magnum",
+      "sources": [
+        "Hodgdon",
+        "Lyman",
+        "Reload Swiss",
+        "Vihtavuori"
+      ],
+      "statut": "confirmé"
+    },
+    "375_ruger": {
+      "primer": "Large Rifle Magnum",
+      "sources": [
+        "Western"
+      ],
+      "statut": "confirmé"
+    },
+    "380_acp": {
+      "primer": "Small Pistol",
+      "sources": [
+        "Hodgdon",
+        "Lyman",
+        "Reload Swiss"
+      ],
+      "statut": "confirmé"
     },
     "38_special": {
       "primer": "Small Pistol",
@@ -128,11 +483,80 @@
         "VV"
       ]
     },
+    "38_super_auto": {
+      "primer": "Small Pistol",
+      "sources": [
+        "Lyman",
+        "Reload Swiss",
+        "Vihtavuori"
+      ],
+      "statut": "confirmé"
+    },
+    "40_sw": {
+      "primer": "Small Pistol",
+      "sources": [
+        "Hodgdon",
+        "Lovex",
+        "Lyman",
+        "Reload Swiss",
+        "Vihtavuori"
+      ],
+      "note": "taille confirmée ; mention Magnum non unanime dans les sources, valeur publiée conservée",
+      "statut": "confirmé"
+    },
+    "416_rigby": {
+      "primer": "Large Rifle Magnum",
+      "sources": [
+        "Lyman",
+        "Vihtavuori"
+      ],
+      "statut": "confirmé"
+    },
     "41_rem_mag": {
       "primer": "Large Pistol",
       "sources": [
         "Lyman"
       ]
+    },
+    "444_marlin": {
+      "primer": "Large Rifle",
+      "sources": [
+        "Hodgdon",
+        "Lyman",
+        "Reload Swiss",
+        "Vihtavuori"
+      ],
+      "note": "taille : 21 mention(s) sur 22 ; les autres sont des lignes isolées ; taille confirmée ; mention Magnum non unanime dans les sources, valeur publiée conservée",
+      "statut": "confirmé"
+    },
+    "44_40_win": {
+      "primer": "Large Pistol",
+      "sources": [
+        "Hodgdon",
+        "Lyman"
+      ],
+      "statut": "confirmé"
+    },
+    "44_magnum": {
+      "primer": "Large Pistol Magnum",
+      "sources": [
+        "Hodgdon",
+        "Lovex",
+        "Lyman",
+        "Reload Swiss",
+        "Vihtavuori",
+        "Western"
+      ],
+      "note": "taille confirmée ; mention Magnum non unanime dans les sources, valeur publiée conservée",
+      "statut": "confirmé"
+    },
+    "44_special": {
+      "primer": "Large Pistol",
+      "sources": [
+        "Lyman",
+        "Vihtavuori"
+      ],
+      "statut": "confirmé"
     },
     "450_bushmaster": {
       "primer": "Small Rifle",
@@ -156,12 +580,40 @@
       ],
       "note": "CONFLIT : étuis Starline chargés en Large Pistol chez Hodgdon (13 blocs), en Large Rifle chez Reload Swiss (1 ligne)"
     },
+    "458_win_mag": {
+      "primer": "Large Rifle",
+      "sources": [
+        "Reload Swiss"
+      ],
+      "statut": "confirmé"
+    },
+    "45_70_govt": {
+      "primer": "Large Rifle",
+      "sources": [
+        "Hodgdon",
+        "Lovex",
+        "Lyman",
+        "Reload Swiss",
+        "Vihtavuori"
+      ],
+      "statut": "confirmé"
+    },
     "45_acp": {
       "primer": "Large Pistol",
       "sources": [
         "Lyman",
         "VV"
       ]
+    },
+    "45_colt": {
+      "primer": "Large Pistol",
+      "sources": [
+        "Hodgdon",
+        "Lyman",
+        "Reload Swiss",
+        "Vihtavuori"
+      ],
+      "statut": "confirmé"
     },
     "45_winchester_magnum": {
       "primer": "Large Pistol",
@@ -175,11 +627,34 @@
         "VV"
       ]
     },
+    "500_sw_mag": {
+      "primer": "Large Rifle",
+      "sources": [
+        "Hodgdon"
+      ],
+      "note": "taille confirmée ; mention Magnum non unanime dans les sources, valeur publiée conservée",
+      "statut": "confirmé"
+    },
+    "50_ae": {
+      "primer": "Large Pistol",
+      "sources": [
+        "ADI"
+      ],
+      "statut": "confirmé",
+      "note": "ADI : CCI 350 (Large Pistol Magnum) ; taille confirmée, mention Magnum non retenue sur une source unique"
+    },
     "50_bmg": {
       "primer": ".50 BMG (CCI 35)",
       "sources": [
         "ADI"
       ]
+    },
+    "556x45_nato": {
+      "primer": "Small Rifle",
+      "sources": [
+        "Western"
+      ],
+      "statut": "confirmé"
     },
     "56_x_50_r_mag": {
       "primer": "Small Rifle",
@@ -196,6 +671,16 @@
       ],
       "note": "source unique : WIN SP dans 5 blocs sur 5 (section « FN 5.7x28mm »)"
     },
+    "65284_norma": {
+      "primer": "Large Rifle",
+      "sources": [
+        "Hodgdon",
+        "Reload Swiss",
+        "Vihtavuori",
+        "Western"
+      ],
+      "statut": "confirmé"
+    },
     "65_creedmoor": {
       "primer": "Large Rifle",
       "sources": [
@@ -211,12 +696,32 @@
         "VV"
       ]
     },
+    "65_prc": {
+      "primer": "Large Rifle",
+      "sources": [
+        "Hodgdon",
+        "Reload Swiss"
+      ],
+      "note": "taille confirmée ; mention Magnum non unanime dans les sources, valeur publiée conservée",
+      "statut": "confirmé"
+    },
     "65x47_lapua": {
       "primer": "Small Rifle",
       "sources": [
         "VV",
         "Western"
       ]
+    },
+    "65x55_swedish": {
+      "primer": "Large Rifle",
+      "sources": [
+        "Lovex",
+        "Lyman",
+        "Reload Swiss",
+        "Vihtavuori",
+        "Western"
+      ],
+      "statut": "confirmé"
     },
     "68_western": {
       "primer": "Large Rifle Magnum",
@@ -231,11 +736,28 @@
         "VV"
       ]
     },
+    "6_norma_br": {
+      "primer": "Small Rifle",
+      "sources": [
+        "Reload Swiss",
+        "Vihtavuori"
+      ],
+      "statut": "confirmé"
+    },
     "6_xc": {
       "primer": "Large Rifle",
       "sources": [
         "VV"
       ]
+    },
+    "6mm_arc": {
+      "primer": "Small Rifle",
+      "sources": [
+        "Hodgdon",
+        "Reload Swiss",
+        "Vihtavuori"
+      ],
+      "statut": "confirmé"
     },
     "6mm_creedmoor": {
       "primer": "Large Rifle",
@@ -246,12 +768,66 @@
       ],
       "note": "étuis Hornady : Large Rifle (Hodgdon, Western) ; étuis Lapua : Small Rifle (Vihtavuori, Reload Swiss)"
     },
+    "6mm_ppc": {
+      "primer": "Small Rifle",
+      "sources": [
+        "Lyman",
+        "Reload Swiss",
+        "Vihtavuori",
+        "Western"
+      ],
+      "statut": "confirmé"
+    },
+    "6x47_lapua": {
+      "primer": "Small Rifle",
+      "sources": [
+        "Hodgdon"
+      ],
+      "statut": "confirmé"
+    },
     "75x54_french": {
       "primer": "Large Rifle",
       "sources": [
         "Reload Swiss"
       ],
       "note": "une ligne"
+    },
+    "75x55_swiss": {
+      "primer": "Large Rifle",
+      "sources": [
+        "Reload Swiss"
+      ],
+      "statut": "confirmé"
+    },
+    "762x25_tokarev": {
+      "primer": "Small Pistol",
+      "sources": [
+        "Lovex",
+        "Vihtavuori"
+      ],
+      "statut": "confirmé"
+    },
+    "762x39_m43": {
+      "primer": "Large Rifle",
+      "sources": [
+        "Hodgdon",
+        "Lovex",
+        "Lyman",
+        "Reload Swiss",
+        "Vihtavuori",
+        "Western"
+      ],
+      "statut": "confirmé"
+    },
+    "762x54r": {
+      "primer": "Large Rifle",
+      "sources": [
+        "Lovex",
+        "Lyman",
+        "Reload Swiss",
+        "Western"
+      ],
+      "statut": "confirmé"
     },
     "763_mauser": {
       "primer": "Small Pistol",
@@ -274,12 +850,31 @@
       ],
       "note": "section « 7.65 Para », deux lignes"
     },
+    "7_x_57_r": {
+      "primer": "Large Rifle",
+      "sources": [
+        "Lovex",
+        "Reload Swiss",
+        "Vihtavuori"
+      ],
+      "statut": "confirmé"
+    },
     "7_x_65_r": {
       "primer": "Large Rifle",
       "sources": [
         "Reload Swiss",
         "Lovex"
       ]
+    },
+    "7mm_08_rem": {
+      "primer": "Large Rifle",
+      "sources": [
+        "Hodgdon",
+        "Lyman",
+        "Reload Swiss",
+        "Western"
+      ],
+      "statut": "confirmé"
     },
     "7mm_br_remington": {
       "primer": "Small Rifle",
@@ -321,6 +916,41 @@
         "VV"
       ]
     },
+    "7x57_mauser": {
+      "primer": "Large Rifle",
+      "sources": [
+        "Lovex",
+        "Reload Swiss"
+      ],
+      "statut": "confirmé"
+    },
+    "7x64_brenneke": {
+      "primer": "Large Rifle",
+      "sources": [
+        "Lovex",
+        "Reload Swiss",
+        "Vihtavuori"
+      ],
+      "note": "taille : 70 mention(s) sur 71 ; les autres sont des lignes isolées",
+      "statut": "confirmé"
+    },
+    "8_x_57_irs": {
+      "primer": "Large Rifle",
+      "sources": [
+        "Lovex",
+        "Reload Swiss",
+        "Vihtavuori"
+      ],
+      "statut": "confirmé"
+    },
+    "8x57_is": {
+      "primer": "Large Rifle",
+      "sources": [
+        "Lovex",
+        "Reload Swiss"
+      ],
+      "statut": "confirmé"
+    },
     "8x68s": {
       "primer": "Large Rifle",
       "sources": [
@@ -335,12 +965,45 @@
       ],
       "note": "13 lignes sur 13 en LRM"
     },
+    "93x62_mauser": {
+      "primer": "Large Rifle",
+      "sources": [
+        "Hodgdon",
+        "Lovex",
+        "Reload Swiss"
+      ],
+      "note": "taille : 53 mention(s) sur 54 ; les autres sont des lignes isolées",
+      "statut": "confirmé"
+    },
     "93x74r": {
       "primer": "Large Rifle",
       "sources": [
         "Reload Swiss",
         "Lovex"
       ]
+    },
+    "9_x_23_winchester": {
+      "primer": "Small Pistol",
+      "sources": [
+        "Vihtavuori"
+      ],
+      "statut": "confirmé"
+    },
+    "9x18_makarov": {
+      "primer": "Small Pistol",
+      "sources": [
+        "Hodgdon"
+      ],
+      "statut": "confirmé"
+    },
+    "9x19_parabellum": {
+      "primer": "Small Pistol",
+      "sources": [
+        "Hodgdon",
+        "Lyman",
+        "Reload Swiss"
+      ],
+      "statut": "confirmé"
     },
     "9x21_imi": {
       "primer": "Small Pistol",
