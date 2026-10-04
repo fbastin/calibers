@@ -193,9 +193,10 @@
       "primer": "Large Rifle",
       "sources": [
         "Hodgdon",
+        "Lapua (catalogue 2026)",
         "Reload Swiss"
       ],
-      "note": "étuis Hornady : Large Rifle ; étuis Lapua : Small Rifle (Reload Swiss, 43 lignes)"
+      "note": "étuis Hornady : Large Rifle ; Lapua vend les deux versions (catalogue Lapua 2026 : 4PH6011 « Small Rifle Primer », 4PH6013 « Large Rifle Primer ») ; Reload Swiss : 43 lignes Small Rifle (étuis Lapua), 27 Large Rifle"
     },
     "65_grendel": {
       "primer": "Small Rifle",
