@@ -2,7 +2,7 @@
   "_provenance": {
     "source": "Tables C.I.P. (TDCC), listes publiques par type de cartouche",
     "url": "https://bobp.cip-bobp.org/en/tdcc_public",
-    "releve_le": "2026-08-01, complété le 2026-08-02 (7,5 x 55 Suisse, 300 PRC, 257 Weath. Mag.) ; 240 Weath. Mag. ajoute le 2026-08-11 (omis du releve initial) ; 223 WSSM, 270, 300 et 7 mm Weath. Mag., 7 mm PRC et 6 mm ARC ajoutes le 2026-10-01 (omis du releve, fiches presentes dans CIP/ depuis le 2026-06-28)",
+    "releve_le": "2026-08-01, complété le 2026-08-02 (7,5 x 55 Suisse, 300 PRC, 257 Weath. Mag.) ; 240 Weath. Mag. ajoute le 2026-08-11 (omis du releve initial) ; 223 WSSM, 270, 300 et 7 mm Weath. Mag., 7 mm PRC et 6 mm ARC ajoutes le 2026-10-01 (omis du releve, fiches presentes dans CIP/ depuis le 2026-06-28) ; 19 calibres ajoutes le 2026-10-04 (armes de poing, annulaires et militaires absents de l'estimateur, donc hors de CIP/check_pmax.py, et omis du releve ; fiches dans CIP/ depuis le 2026-06-28 ; Pmax et table lues sur chaque fiche, PK = 1,15 x Pmax verifie). Huit valeurs heritees sans provenance differaient de la C.I.P., dont la 6,35 Browning (.25 ACP) a 1700 bar (C.I.P. : 1200)",
     "portee": "Valeurs ponctuelles des seuls calibres presents dans calibers.json : la Pmax et rien d'autre. Aucun document C.I.P. n'est redistribue ; pas d'extraction en masse.",
     "note": "Pmax seule est relevee. P_K et P_E ne sont PAS stockees : elles se deduisent de Pmax par des ratios fixes (P_K = 1,150 x Pmax partout ; P_E = 1,250 x en tables I-III, armes rayees, et 1,300 x en tables IV-V, poing et annulaire), et les stocker reviendrait a recopier la fiche plutot qu'a citer une valeur. Le champ `tab` suffit a retrouver le bon coefficient."
   },
@@ -16,6 +16,11 @@
       "cip_name": "10 mm Auto",
       "tab": "IV",
       "pmax_bar": 2300
+    },
+    "17_hmr": {
+      "cip_name": "17 HMR",
+      "tab": "V",
+      "pmax_bar": 1800
     },
     "204_ruger": {
       "cip_name": "204 Ruger",
@@ -82,6 +87,11 @@
       "tab": "I",
       "pmax_bar": 4050
     },
+    "22_wmr": {
+      "cip_name": "22 Win. Mag. R.F.",
+      "tab": "V",
+      "pmax_bar": 1600
+    },
     "240_weatherby_magnum": {
       "cip_name": "240 Weath. Mag.",
       "tab": "III",
@@ -111,6 +121,11 @@
       "cip_name": "25-06 Rem.",
       "tab": "I",
       "pmax_bar": 4400
+    },
+    "25_acp": {
+      "cip_name": "6,35 Browning",
+      "tab": "IV",
+      "pmax_bar": 1200
     },
     "260_rem": {
       "cip_name": "260 Rem.",
@@ -232,6 +247,11 @@
       "tab": "I",
       "pmax_bar": 4250
     },
+    "32_acp": {
+      "cip_name": "7,65 mm Browning",
+      "tab": "IV",
+      "pmax_bar": 1600
+    },
     "32_sw_long": {
       "cip_name": "32 S&W Long",
       "tab": "IV",
@@ -297,6 +317,11 @@
       "tab": "IV",
       "pmax_bar": 2300
     },
+    "408_cheytac": {
+      "cip_name": "408 Chey Tac",
+      "tab": "I",
+      "pmax_bar": 4400
+    },
     "40_sw": {
       "cip_name": "40 S&W",
       "tab": "IV",
@@ -331,6 +356,11 @@
       "cip_name": "44 Rem. Mag.",
       "tab": "IV",
       "pmax_bar": 2800
+    },
+    "44_special": {
+      "cip_name": "44 S&W Special",
+      "tab": "IV",
+      "pmax_bar": 1000
     },
     "450_bushmaster": {
       "cip_name": "450 Bushmaster",
@@ -397,10 +427,25 @@
       "tab": "IV",
       "pmax_bar": 2300
     },
+    "50_bmg": {
+      "cip_name": "50 Browning",
+      "tab": "I",
+      "pmax_bar": 3700
+    },
+    "545x39_m74": {
+      "cip_name": "5,45 x 39",
+      "tab": "I",
+      "pmax_bar": 3550
+    },
     "56_x_50_r_mag": {
       "cip_name": "5,6 x 50 R Mag.",
       "tab": "II",
       "pmax_bar": 3400
+    },
+    "57x28_fn": {
+      "cip_name": "5,7 x 28",
+      "tab": "I",
+      "pmax_bar": 3450
     },
     "65284_norma": {
       "cip_name": "6,5 - 284 Norma",
@@ -467,10 +512,25 @@
       "tab": "I",
       "pmax_bar": 4050
     },
+    "75_swiss_rev": {
+      "cip_name": "7,5 Ord. Suisse",
+      "tab": "IV",
+      "pmax_bar": 1850
+    },
+    "75x54_french": {
+      "cip_name": "7,5 x 54 MAS",
+      "tab": "I",
+      "pmax_bar": 3800
+    },
     "75x55_swiss": {
       "cip_name": "7,5 x 55 Suisse",
       "tab": "I",
       "pmax_bar": 3800
+    },
+    "762x25_tokarev": {
+      "cip_name": "7,62 x 25 Tokarev",
+      "tab": "IV",
+      "pmax_bar": 2500
     },
     "762x39_m43": {
       "cip_name": "7,62 x 39",
@@ -481,6 +541,21 @@
       "cip_name": "7,62 x 54 R",
       "tab": "II",
       "pmax_bar": 3900
+    },
+    "763_mauser": {
+      "cip_name": "7,63 Mauser",
+      "tab": "IV",
+      "pmax_bar": 2250
+    },
+    "765_argentined": {
+      "cip_name": "7,65 x 53 Arg.",
+      "tab": "I",
+      "pmax_bar": 3900
+    },
+    "765_luger": {
+      "cip_name": "7,65 Parabellum",
+      "tab": "IV",
+      "pmax_bar": 2350
     },
     "7_x_57_r": {
       "cip_name": "7 x 57 R",
@@ -542,6 +617,16 @@
       "tab": "II",
       "pmax_bar": 3300
     },
+    "8mm_lebel_rev": {
+      "cip_name": "8 mm Lebel",
+      "tab": "IV",
+      "pmax_bar": 1250
+    },
+    "8x50r_lebel": {
+      "cip_name": "8 x 50 R",
+      "tab": "II",
+      "pmax_bar": 3550
+    },
     "8x57_is": {
       "cip_name": "8 x 57 IS",
       "tab": "I",
@@ -567,8 +652,18 @@
       "tab": "II",
       "pmax_bar": 3400
     },
+    "9x18_makarov": {
+      "cip_name": "9 x 18",
+      "tab": "IV",
+      "pmax_bar": 1800
+    },
     "9x19_parabellum": {
       "cip_name": "9 mm Luger",
+      "tab": "IV",
+      "pmax_bar": 2350
+    },
+    "9x21_imi": {
+      "cip_name": "9 x 21",
       "tab": "IV",
       "pmax_bar": 2350
     }
