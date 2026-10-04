@@ -1149,8 +1149,13 @@ def merge_databases():
         
     # Amorce relevée dans les guides : prime sur les deux chemins ci-dessus.
     for item in merged_list:
+        # Amorce : relevée (PRIMER_REF) ou rien. Depuis le 2026-10-04, la valeur devinée
+        # n'est plus publiée, comme les années et les descriptions ; l'annulaire n'a pas
+        # d'amorce séparée et garde « Rimfire ».
         if item["id"] in PRIMER_REF:
             item["primer_type"] = PRIMER_REF[item["id"]]
+        elif item["category"] != "Rimfire":
+            item["primer_type"] = None
         # Seules les années SOURCÉES sont publiées (décision du 2026-10-04) : les saisies
         # de HAND_CURATED, faites sans source, restent ici comme liste de travail ; trois sur
         # onze confrontées à un guide étaient fausses.

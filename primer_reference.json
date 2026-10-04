@@ -6,7 +6,8 @@
     "portee": "Cartouches relues uniquement ; les autres gardent la valeur du générateur.",
     "recoupement_adi": "2026-10-04 : ADI Handloaders Guide 2013 confronté aux relevés ; aucune contradiction de TAILLE là où sa section est univoque (17 cartouches). Sections mêlées par la mise en page sur deux colonnes : non employées.",
     "recoupement_hodgdon": "2026-10-04 : Hodgdon 2024 confronté à la base ; aucune contradiction de TAILLE avec les relevés (21 cartouches communes) ; 3 tailles devinées contredites et corrigées.",
-    "confirmations": "2026-10-04 : valeurs publiées confirmées par les guides déjà extraits (statut « confirmé ») ; jusque-là seules les corrections étaient inscrites."
+    "confirmations": "2026-10-04 : valeurs publiées confirmées par les guides déjà extraits (statut « confirmé ») ; jusque-là seules les corrections étaient inscrites.",
+    "non_sources": "Depuis le 2026-10-04, une amorce sans source n'est plus publiée (même règle que les années et les descriptions) : .243 Ackley Improved (publiée « Small Rifle », très douteuse : étui de .243 Win), 4,6 x 30, 5,45 x 39, 8 mm Lebel revolver, 8 x 50 R Lebel — introuvables."
   },
   "calibres": {
     "103_x_60_r": {
@@ -32,6 +33,16 @@
         "Vihtavuori"
       ],
       "statut": "confirmé"
+    },
+    "219_zipper": {
+      "primer": "Large Rifle",
+      "sources": [
+        "Hornady Handbook of Cartridge Reloading (données archivées)",
+        "Sierra Bullets",
+        "Western Powders Handloading Guide 8.0 (Accurate/Ramshot)"
+      ],
+      "statut": "corrigé",
+      "note": "Corrigé (publiée Small Rifle). WLR, Federal 210 et Winchester 8½-120 sont des amorces Large Rifle ; étui de la famille .25-35/30-30 (Sierra : « same cartridge family as the 30-30 Winchester »)."
     },
     "220_swift": {
       "primer": "Large Rifle",
@@ -84,6 +95,17 @@
       "sources": [
         "VV"
       ]
+    },
+    "224_valkyrie": {
+      "primer": "Small Rifle",
+      "sources": [
+        "Sierra Bullets",
+        "Starline Brass",
+        "Vihtavuori Reloading Guide 2026",
+        "Western Powders Handloading Guide 8.0 (Accurate/Ramshot)"
+      ],
+      "statut": "confirmé",
+      "note": "Quatre sources concordantes, étuis Starline et Federal. Dans le texte Western, le titre « 224 VALKYRIE » est décalé par la mise en page ; l'en-tête est attribué par la longueur d'étui 1,600\" (celui à 1,850\" est la 222 Rem Mag)."
     },
     "22_250_rem": {
       "primer": "Large Rifle",
@@ -263,6 +285,14 @@
       ],
       "statut": "confirmé"
     },
+    "300_rcm": {
+      "primer": "Large Rifle Magnum",
+      "sources": [
+        "ADI Handloaders Guide 2013",
+        "Western Powders Handloading Guide 8.0 (Accurate/Ramshot)"
+      ],
+      "statut": "confirmé"
+    },
     "300_rem_ultra_mag": {
       "primer": "Large Rifle Magnum",
       "sources": [
@@ -321,6 +351,14 @@
       ],
       "statut": "confirmé"
     },
+    "308_marlin_express": {
+      "primer": "Large Rifle",
+      "sources": [
+        "ADI Handloaders Guide 2013",
+        "Western Powders Handloading Guide 8.0 (Accurate/Ramshot)"
+      ],
+      "statut": "confirmé"
+    },
     "308_win": {
       "primer": "Large Rifle",
       "sources": [
@@ -370,6 +408,14 @@
       ],
       "note": "10 lignes sur 10 en LRM"
     },
+    "30_t/c": {
+      "primer": "Large Rifle",
+      "sources": [
+        "ADI Handloaders Guide 2013",
+        "Western Powders Handloading Guide 8.0 (Accurate/Ramshot)"
+      ],
+      "statut": "confirmé"
+    },
     "32_acp": {
       "primer": "Small Pistol",
       "sources": [
@@ -400,6 +446,14 @@
         "Lovex",
         "Reload Swiss",
         "Vihtavuori"
+      ],
+      "statut": "confirmé"
+    },
+    "338_norma_mag": {
+      "primer": "Large Rifle Magnum",
+      "sources": [
+        "Reload Swiss Ladedaten-Guide 2025",
+        "Sierra Bullets"
       ],
       "statut": "confirmé"
     },
@@ -492,6 +546,14 @@
       ],
       "statut": "confirmé"
     },
+    "408_cheytac": {
+      "primer": "Large Rifle Magnum",
+      "sources": [
+        "Reload Swiss Ladedaten-Guide 2025"
+      ],
+      "statut": "confirmé",
+      "note": "Taille dépendant de l'étui : dans le même guide Reload Swiss, les étuis Horneber sont chargés avec des amorces non standard « Grillmayer 6,5 » (l. 6552, 6555, 6561, 6567), « XLR Muron » (l. 6558) et « Ginex 6,53 » (l. 6570) — amorces d'environ 6,5 mm, plus grosses qu'une Large Rifle. Valeur publiée juste pour les étuis Jamison/Peterson ; le préciser. Peterson (fiche produit) : boutique Ecwid en JavaScript, API 403, pas lue. Hodgdon RDC : Cloudflare 403."
+    },
     "40_sw": {
       "primer": "Small Pistol",
       "sources": [
@@ -503,6 +565,15 @@
       ],
       "note": "taille confirmée ; mention Magnum non unanime dans les sources, valeur publiée conservée",
       "statut": "confirmé"
+    },
+    "416_barrett": {
+      "primer": ".50 BMG (CCI 35)",
+      "sources": [
+        "CCI",
+        "Hornady Handbook of Cartridge Reloading (données archivées)"
+      ],
+      "statut": "corrigé",
+      "note": "Corrigé : ce n'est PAS une Large Rifle Magnum mais l'amorce de .50 BMG (étui dérivé de la .50 BMG raccourcie, Hornady : « Designed in 2005 by necking down and shortening a 50 BMG »). La page Barrett citée par WebSearch (CCI #35) n'a pas été récupérée ni vérifiée."
     },
     "416_rigby": {
       "primer": "Large Rifle Magnum",
@@ -578,7 +649,8 @@
         "Hodgdon",
         "Reload Swiss"
       ],
-      "note": "CONFLIT : étuis Starline chargés en Large Pistol chez Hodgdon (13 blocs), en Large Rifle chez Reload Swiss (1 ligne)"
+      "note": "CONFLIT : étuis Starline chargés en Large Pistol chez Hodgdon (13 blocs), en Large Rifle chez Reload Swiss (1 ligne)",
+      "statut": "conflit"
     },
     "458_win_mag": {
       "primer": "Large Rifle",
@@ -626,6 +698,17 @@
       "sources": [
         "VV"
       ]
+    },
+    "475_linebaugh": {
+      "primer": "Large Pistol / Large Rifle",
+      "sources": [
+        "Western 8.0",
+        "ADI 2013",
+        "Hornady",
+        "Starline"
+      ],
+      "statut": "conflit",
+      "note": "CONFLIT : Large Pistol chez Western (WIN WLP, étuis Starline) et ADI (Winchester LP, étuis Hornady) ; Large Rifle chez Hornady (WLR, étuis Hornady) et sur la fiche d'étuis Starline #4750 (« Large Rifle Primer »)"
     },
     "500_sw_mag": {
       "primer": "Large Rifle",
@@ -785,6 +868,14 @@
       ],
       "statut": "confirmé"
     },
+    "75_swiss_rev": {
+      "primer": "Small Pistol",
+      "sources": [
+        "Reload Swiss Ladedaten-Guide 2025"
+      ],
+      "statut": "confirmé",
+      "note": "Reload Swiss teste dans un revolver d'ordonnance 1929, qui tire la même cartouche 7,5 mm de revolver que le modèle 1882 (identité des cartouches non sourcée ici, à vérifier si besoin). Une seule source."
+    },
     "75x54_french": {
       "primer": "Large Rifle",
       "sources": [
@@ -818,6 +909,15 @@
         "Western"
       ],
       "statut": "confirmé"
+    },
+    "762x51_nato": {
+      "primer": "Large Rifle",
+      "sources": [
+        "Lyman Reloading Handbook 48e éd. (2002)",
+        "Sierra Bullets"
+      ],
+      "statut": "confirmé",
+      "note": "Sources civiles traitant 7,62 NATO et .308 Win ensemble. Aucun document militaire consulté : les étuis militaires de certains pays ont pu être amorcés Berdan ; non vérifié."
     },
     "762x54r": {
       "primer": "Large Rifle",
