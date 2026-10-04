@@ -1,7 +1,1246 @@
 {
   "_provenance": {
     "definition": "Pays de conception ou de lancement de la cartouche (où et par qui elle a été conçue), distinct du pays d'enregistrement C.I.P. (champ cip_country).",
-    "decision": "2026-10-04, propriétaire : publier les deux champs."
+    "decision": "2026-10-04, propriétaire : publier les deux champs.",
+    "regle_wildcats": "Wildcat standardisé : pays du concepteur quand une source le donne (.22 PPC-USA), sinon pays de l'entreprise qui l'a standardisé et lancé (6,5-284 Norma), noté dans l'entrée."
   },
-  "calibres": {}
+  "calibres": {
+    "10mm_auto": {
+      "pays": "États-Unis",
+      "concepteur": "Michael Dixon (Dornaus & Dixon, Huntington Beach, Californie), munition chargée par Norma",
+      "sources": [
+        {
+          "source": "« Nine Lives of the 10 mm Auto », American Rifleman (NRA), https://www.americanrifleman.org/articles/2018/7/18/nine-lives-of-the-10-mm-auto (page web, récupéré par curl le 2026-10-04)",
+          "citation": "Dixon, who had a background in the aerospace industry, took the lead, designing the new pistol’s cartridge.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "« The 10 mm Auto: History & Performance », American Rifleman (NRA), https://www.americanrifleman.org/content/the-10-mm-auto-history-performance/ (page web, récupéré par curl le 2026-10-04)",
+          "citation": "Dornaus & Dixon incorporated in 1981, and a year later, it opened its manufacturing plant in Huntington Beach, Calif.",
+          "nature": "secondaire"
+        }
+      ],
+      "note": "Norma (Suède) n'a fait que charger la munition d'usine (d'où le pays C.I.P. Suède)."
+    },
+    "219_zipper": {
+      "pays": "États-Unis",
+      "concepteur": "Winchester (Model 64)",
+      "sources": [
+        {
+          "source": "P. Meitin, « Modern Bullets From The .219 Zipper », loaddata.com (Wolfe Publishing), 17 août 2021, https://loaddata.com/Article/BenchTopics/Modern-Bullets-From-The-219-Zipper/707 (page web, récupéré par curl le 2026-10-04)",
+          "citation": "The Zipper first appeared in 1937, a Winchester creation chambered in the five-shot, 26-inch tubed Model 64 lever-action rifle.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "Winchester Repeating Arms, « Historical Timeline 1950-1999 » (page d'entreprise), https://www.winchesterguns.com/news/historical-timeline/1950-1999.html (page web, récupéré par curl le 2026-10-04)",
+          "citation": "The new firearms factory for making Winchester brand firearms in New Haven, Connecticut opens with great fanfare",
+          "nature": "fabricant"
+        }
+      ]
+    },
+    "221_remington_fireball": {
+      "pays": "États-Unis",
+      "concepteur": "Remington (pour le pistolet XP-100)",
+      "sources": [
+        {
+          "source": "« The .221 Remington Fireball Fits », American Rifleman (NRA), https://www.americanrifleman.org/content/the-221-remington-fireball-fits/ (page web, récupéré par curl le 2026-10-04)",
+          "citation": "This short cartridge was initially chambered in Remington’s XP-100 bolt-action single-shot handgun in 1963.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "« A Look Back at the Remington XP-100 Pistol », American Rifleman (NRA), https://www.americanrifleman.org/content/a-look-back-at-the-remington-xp-100-pistol/ (page web, récupéré par curl le 2026-10-04)",
+          "citation": "They named the new cartridge the .221 Remington Fireball, acknowledging with some irony the fireball that exited the barrel.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "« RemArms: America's Oldest Gunmaker », American Rifleman (NRA), https://www.americanrifleman.org/content/remarms-america-s-oldest-gunmaker/ (page web, récupéré par curl le 2026-10-04)",
+          "citation": "a relatively unknown group of businessmen purchased the Remington firearm assets—including the famed Ilion, NY, factory.",
+          "nature": "secondaire"
+        }
+      ]
+    },
+    "222_rem_mag": {
+      "pays": "États-Unis",
+      "concepteur": "Remington, à partir de la cartouche expérimentale militaire américaine T65",
+      "sources": [
+        {
+          "source": "« .222 Remington Magnum », Handloader, https://www.handloadermagazine.com/222-remington-magnum (page web, récupéré par curl le 2026-10-04)",
+          "citation": "Remington knew a good cartridge when it saw it and in 1958 added it to the company’s line-up as the .222",
+          "nature": "secondaire"
+        },
+        {
+          "source": "« .222 Remington Magnum », Handloader, https://www.handloadermagazine.com/222-remington-magnum (page web, récupéré par curl le 2026-10-04)",
+          "citation": "Next was an experimental round labeled “T65.” It was simply the .222 Remington stretched from 1.70 inches to 1.85 inches with most dimensions identical and shoulder angle remaining",
+          "nature": "secondaire"
+        },
+        {
+          "source": "« RemArms: America's Oldest Gunmaker », American Rifleman (NRA), https://www.americanrifleman.org/content/remarms-america-s-oldest-gunmaker/ (page web, récupéré par curl le 2026-10-04)",
+          "citation": "a relatively unknown group of businessmen purchased the Remington firearm assets—including the famed Ilion, NY, factory.",
+          "nature": "secondaire"
+        }
+      ],
+      "note": "Dans la page, la phrase de Remington est coupée par une légende de photo (« Sierra 55-grain Blitz bullets shot well from the Sako Vixen. ») avant « Remington Magnum » : citation arrêtée avant la coupure."
+    },
+    "223_wssm": {
+      "pays": "États-Unis",
+      "concepteur": "Winchester",
+      "sources": [
+        {
+          "source": "« A Century and a Half of Winchester Ammo », American Hunter (NRA), https://www.americanhunter.org/content/a-century-and-a-half-of-winchester-ammo/ (page web, récupéré par curl le 2026-10-04)",
+          "citation": "In 2002 they introduced the Winchester Super Short Magnums with the .223 WSSM and .243 WSSM, while the .25 WSSM followed in 2004.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "Winchester Repeating Arms, « Historical Timeline 2000-present » (page d'entreprise), https://www.winchesterguns.com/news/historical-timeline/2000-present.html (page web, récupéré par curl le 2026-10-04)",
+          "citation": "Building on the “shorter is better” concept, the Winchester Super Short Magnums (WSSM) are unveiled.",
+          "nature": "fabricant"
+        },
+        {
+          "source": "Winchester Repeating Arms, « Historical Timeline 1950-1999 » (page d'entreprise), https://www.winchesterguns.com/news/historical-timeline/1950-1999.html (page web, récupéré par curl le 2026-10-04)",
+          "citation": "The new firearms factory for making Winchester brand firearms in New Haven, Connecticut opens with great fanfare",
+          "nature": "fabricant"
+        }
+      ],
+      "note": "La chronologie Winchester range les WSSM sous 2003, American Hunter sous 2002 : sans effet sur le pays."
+    },
+    "224_valkyrie": {
+      "pays": "États-Unis",
+      "concepteur": "Federal Premium (Anoka, Minnesota)",
+      "sources": [
+        {
+          "source": "« Tested: Inside The .224 Valkyrie », American Rifleman (NRA), https://www.americanrifleman.org/content/tested-inside-the-224-valkyrie/ (page web, récupéré par curl le 2026-10-04)",
+          "citation": "In developing the .224 Valkyrie , Federal used the 6.8 mm SPC/.30 Rem. case as the foundation.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "« Tested: Inside The .224 Valkyrie », American Rifleman (NRA), https://www.americanrifleman.org/content/tested-inside-the-224-valkyrie/ (page web, récupéré par curl le 2026-10-04)",
+          "citation": "Federal decided a new cartridge was needed.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "Federal Ammunition, « The 1920s: From Bankruptcy To Boom » (page d'entreprise), https://www.federalpremium.com/the-federal-story/backruptcy-to-boom.html (page web, récupéré par curl le 2026-10-04)",
+          "citation": "They secured funding from several businessmen to establish the new ammunition plant on 31 acres of land in Anoka, Minn.",
+          "nature": "fabricant"
+        }
+      ]
+    },
+    "22_creedmoor": {
+      "pays": "États-Unis",
+      "concepteur": "Dave/Derrick Ratcliff/Ratliff (Horizon Firearms, Texas), wildcat de 2013 ; munition d'usine Hornady",
+      "sources": [
+        {
+          "source": "« Ammo: All The Creeds », Shooting Illustrated (NRA), https://www.shootingillustrated.com/content/ammo-all-the-creeds/ (page web, récupéré par curl le 2026-10-04)",
+          "citation": "Dave Ratcliff, of Horizon Firearms in Texas, built the first 22 Creedmoor in 2013.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "Horizon Firearms, « 22 Creedmoor History » (page d'entreprise), https://horizonfirearms.com/hot-calibers/22-creedmoor/history (page web, récupéré par curl le 2026-10-04)",
+          "citation": "Derrick Ratliff, founder of Horizon Firearms and the original pioneer of the 22 Creedmoor, began the journey with the wildcat cartridge in 2013.",
+          "nature": "fabricant"
+        },
+        {
+          "source": "Hornady, communiqué « Hornady Announces New Products for 2018 » (17 oct. 2017), https://press.hornady.com/release/2017/10/18/hornady-announces-new-products-for-2018/ (page web, récupéré par curl le 2026-10-04)",
+          "citation": "Founded in 1949, Hornady ® Manufacturing Company is a family owned business headquartered in Grand Island, Nebraska.",
+          "nature": "fabricant"
+        }
+      ],
+      "note": "Wildcat texan reprise en munition d'usine par Hornady (Nebraska) : les deux étapes sont américaines. Le prénom et l'orthographe du concepteur diffèrent entre les deux sources (« Dave Ratcliff » chez Shooting Illustrated, « Derrick Ratliff » chez Horizon Firearms) ; seul le pays compte ici. La citation Horizon est prise après un titre collé (« The Journey of the »)."
+    },
+    "22_nosler": {
+      "pays": "États-Unis",
+      "concepteur": "Nosler (Oregon)",
+      "sources": [
+        {
+          "source": "« Introducing the New 22 Nosler », Shooting Illustrated (NRA), https://www.shootingillustrated.com/articles/2017/1/16/introducing-the-new-22-nosler/ (page web, récupéré par curl le 2026-10-04)",
+          "citation": "The new addition to Nosler’s cartridge family delivers 30 percent more energy and is nearly 300 fps faster than a 223 Remington/5.56 NATO round.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "P. Massaro, « Meet the 22 Nosler », American Hunter (NRA), https://www.americanhunter.org/content/meet-the-22-nosler/ (page web, récupéré par curl le 2026-10-04)",
+          "citation": "The smaller of the new releases is Nosler’s first deviation from the .404 Jeffery-based series, and is a completely new case design, having no parent cartridge.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "Nosler, « History » (page d'entreprise), https://nosler.com/nosler-history (page web, récupéré par curl le 2026-10-04)",
+          "citation": "Nosler began construction on a new headquarters and expanded production facility at its current Redmond, Oregon campus to increase capacity.",
+          "nature": "fabricant"
+        }
+      ]
+    },
+    "22_ppcusa": {
+      "pays": "États-Unis",
+      "concepteur": "Wildcat de L. Palmisano et F. Pindell (1974) ; version commerciale lancée par Sako (Finlande) fin 1987",
+      "sources": [
+        {
+          "source": "Gun Digest Editors, « Ammo Brief: .22 PPC-USA » (extrait de Cartridges of the World), Gun Digest, 3 oct. 2024, https://gundigest.com/gear-ammo/ammunition/22-ppc-usa (page web, récupéré par curl le 2026-10-04)",
+          "citation": "Although originally a wildcat, Sako of Finland introduced commercial rifles and ammunition late in 1987.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "Gun Digest Editors, « Ammo Brief: .22 PPC-USA » (extrait de Cartridges of the World), Gun Digest, 3 oct. 2024, https://gundigest.com/gear-ammo/ammunition/22-ppc-usa (page web, récupéré par curl le 2026-10-04)",
+          "citation": "The .22 PPC-USA was developed in 1974 by Dr. Louis Palmisano and Ferris Pindell, primarily for use as a benchrest cartridge.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "Gun Digest Editors, « Ammo Brief: .22 PPC-USA » (extrait de Cartridges of the World), Gun Digest, 3 oct. 2024, https://gundigest.com/gear-ammo/ammunition/22-ppc-usa (page web, récupéré par curl le 2026-10-04)",
+          "citation": "Because the .22 PPC-USA is an American development, it’s listed here as a current American rifle cartridge, with the “-USA” appended, rather than as a European cartridge.",
+          "nature": "secondaire"
+        }
+      ],
+      "note": "Pays de CONCEPTION : la source la qualifie d'« American development » (Ferris Pindell, Lou Palmisano) ; Sako (Finlande) en a lancé la version commerciale en 1987. Règle des wildcats standardisés appliquée : pays de l'entreprise qui a fait de la cartouche un produit commercial (Sako, Finlande, 1987 ; cohérent avec l'enregistrement C.I.P. finlandais). À NOTER : la même source qualifie la .22 PPC-USA d'« American development » (conception américaine du wildcat). Si le propriétaire préfère le pays du concepteur, la valeur serait États-Unis. La source ne dit pas explicitement que Sako a déposé la fiche C.I.P."
+    },
+    "240_weatherby_magnum": {
+      "pays": "États-Unis",
+      "concepteur": "Weatherby (Californie)",
+      "sources": [
+        {
+          "source": "Lyman Reloading Handbook, 48e éd. (2002), commentaire « Comments: » de la cartouche (texte local gtxt/Lyman Reloading Handbook .txt)",
+          "citation": "Weatherby introduced their 240 Magnum in 1968 as the fastest of the 6mm/243 bore size available in factory form.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "Weatherby, « Origins » (page d'entreprise), https://weatherby.com/company/origins/ (page web, récupéré par curl le 2026-10-04)",
+          "citation": "The smell of rich leather and gun oil greeted every customer stepping into Weatherby’s Sporting Goods in California, where the legend began.",
+          "nature": "fabricant"
+        }
+      ]
+    },
+    "250_savage": {
+      "pays": "États-Unis",
+      "concepteur": "Charles Newton, pour Savage (Model 99, 1915)",
+      "sources": [
+        {
+          "source": "« Behind the Bullet: The .250-3000 Savage », American Hunter (NRA), https://www.americanhunter.org/content/behind-the-bullet-the-250-3000-savage/ (page web, récupéré par curl le 2026-10-04)",
+          "citation": "Charles Newton is credited with the design of the .250-3000 Savage, shortening the .30-06 Springfield case to fit in the rotary magazine of the Model 99, and ultimately using a light-for-caliber bullet to achieve a new velocity standard.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "« Behind the Bullet: The .250-3000 Savage », American Hunter (NRA), https://www.americanhunter.org/content/behind-the-bullet-the-250-3000-savage/ (page web, récupéré par curl le 2026-10-04)",
+          "citation": "When the .250-3000 Savage came onto the market in 1915, the Boxer-primed centerfire rifle cartridge wasn’t 50 years old, and the universal acceptance of smokeless powder was a relatively new thing.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "Savage Arms, « About Us » (page d'entreprise, chronologie), https://savagearms.com/content/about-us (page web, récupéré par curl le 2026-10-04)",
+          "citation": "Savage Repeating Arms Co. is formed in Utica, New York.",
+          "nature": "fabricant"
+        }
+      ],
+      "note": "La source ne situe pas Charles Newton lui-même ; le pays retenu est celui de Savage, qui l'a lancée (Utica, New York, d'après la chronologie Savage)."
+    },
+    "257_roberts": {
+      "pays": "États-Unis",
+      "concepteur": "Wildcat de N. H. (Ned) Roberts ; standardisée par Remington (1934)",
+      "sources": [
+        {
+          "source": "Lyman Reloading Handbook, 48e éd. (2002), commentaire « Comments: » de la cartouche (texte local gtxt/Lyman Reloading Handbook .txt)",
+          "citation": "Remington introduced the 257 Roberts in 1934 as a standardized version of this wildcat.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "« RemArms: America's Oldest Gunmaker », American Rifleman (NRA), https://www.americanrifleman.org/content/remarms-america-s-oldest-gunmaker/ (page web, récupéré par curl le 2026-10-04)",
+          "citation": "a relatively unknown group of businessmen purchased the Remington firearm assets—including the famed Ilion, NY, factory.",
+          "nature": "secondaire"
+        }
+      ],
+      "note": "Wildcat standardisé : pays de Remington."
+    },
+    "257_wby_mag": {
+      "pays": "États-Unis",
+      "concepteur": "Roy Weatherby (Californie)",
+      "sources": [
+        {
+          "source": "Lyman Reloading Handbook, 48e éd. (2002), commentaire « Comments: » de la cartouche (texte local gtxt/Lyman Reloading Handbook .txt)",
+          "citation": "It is one of the original Weatherby cartridges developed around 1944 based on the 300 H&H case.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "Weatherby, « Origins » (page d'entreprise), https://weatherby.com/company/origins/ (page web, récupéré par curl le 2026-10-04)",
+          "citation": "The smell of rich leather and gun oil greeted every customer stepping into Weatherby’s Sporting Goods in California, where the legend began.",
+          "nature": "fabricant"
+        }
+      ],
+      "note": "Le magasin Weatherby ouvre en 1945 ; la source situe l'entreprise en Californie dès l'origine."
+    },
+    "25_06_remington": {
+      "pays": "États-Unis",
+      "concepteur": "Wildcat (A. O. Niedner, Dowagiac, Michigan, années 1920) ; standardisée par Remington (1969)",
+      "sources": [
+        {
+          "source": "Lyman Reloading Handbook, 48e éd. (2002), commentaire « Comments: » de la cartouche (texte local gtxt/Lyman Reloading Handbook .txt)",
+          "citation": "Remington legitimized it as a factory offering in 1969",
+          "nature": "secondaire"
+        },
+        {
+          "source": "L. Simpson, « Wildcat Cartridges That Went Legit », American Rifleman (NRA), https://www.americanrifleman.org/content/wildcat-cartridges-that-went-legit/ (page web, récupéré par curl le 2026-10-04)",
+          "citation": "During the 1920s a number of people necked down the .30-'06 Sprg. case for 0.257-inch bullets, but the name most often associated with doing so has, for many years, been Adolph Niedner, the owner of Niedner Rifle Corp. of Dowagiac, Mich.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "« RemArms: America's Oldest Gunmaker », American Rifleman (NRA), https://www.americanrifleman.org/content/remarms-america-s-oldest-gunmaker/ (page web, récupéré par curl le 2026-10-04)",
+          "citation": "a relatively unknown group of businessmen purchased the Remington firearm assets—including the famed Ilion, NY, factory.",
+          "nature": "secondaire"
+        }
+      ],
+      "note": "Wildcat et standardisation américains."
+    },
+    "25_acp": {
+      "pays": "Belgique",
+      "concepteur": "John M. Browning (américain), production et lancement par FN (Herstal, Belgique) en 1906 ; Colt (États-Unis) suit en 1908",
+      "sources": [
+        {
+          "source": "A. Vanderlinden, « Sorting Out The Littlest Brownings », American Rifleman (NRA), https://www.americanrifleman.org/content/sorting-out-the-littlest-brownings/ (page web, récupéré par curl le 2026-10-04)",
+          "citation": "Fabrique Nationale d’Armes de Guerre in Herstal, Belgium , did not hesitate to put the small Model 1905 on the market, expanding on the successes of the FN Browning Model 1899 and 1900 pistols.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "A. Vanderlinden, « Sorting Out The Littlest Brownings », American Rifleman (NRA), https://www.americanrifleman.org/content/sorting-out-the-littlest-brownings/ (page web, récupéré par curl le 2026-10-04)",
+          "citation": "The small pocket pistol was first patented in 1905 and production started in 1906.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "A. Vanderlinden, « Sorting Out The Littlest Brownings », American Rifleman (NRA), https://www.americanrifleman.org/content/sorting-out-the-littlest-brownings/ (page web, récupéré par curl le 2026-10-04)",
+          "citation": "Prior to that year, the cartridge was only known by its European designation of 6.35 mm, however once Colt’s got the model to market, the cartridge became known as the .25 ACP (Automatic Colt Pistol).",
+          "nature": "secondaire"
+        }
+      ],
+      "note": "Concepteur américain (Browning), mais première production et premier lancement par FN en Belgique (1906), deux ans avant le Colt Model N (1908) : selon la consigne, on retient le pays de première production/lancement. Note : l'ordre exact « Prior to that year » renvoie à 1908 dans l'article."
+    },
+    "270_weatherby_magnum": {
+      "pays": "États-Unis",
+      "concepteur": "Roy Weatherby",
+      "sources": [
+        {
+          "source": "Lyman Reloading Handbook, 48e éd. (2002), commentaire « Comments: » de la cartouche (texte local gtxt/Lyman Reloading Handbook .txt)",
+          "citation": "Roy Weatherby developed his 270 Magnum as the first in his long and distinguished line of high velocity rifle cartridges in 1943.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "Weatherby, « Origins » (page d'entreprise), https://weatherby.com/company/origins/ (page web, récupéré par curl le 2026-10-04)",
+          "citation": "The smell of rich leather and gun oil greeted every customer stepping into Weatherby’s Sporting Goods in California, where the legend began.",
+          "nature": "fabricant"
+        }
+      ]
+    },
+    "270_wsm": {
+      "pays": "États-Unis",
+      "concepteur": "U.S. Repeating Arms / Winchester",
+      "sources": [
+        {
+          "source": "Lyman Reloading Handbook, 48e éd. (2002), commentaire « Comments: » de la cartouche (texte local gtxt/Lyman Reloading Handbook .txt)",
+          "citation": "U.S. Repeating Arms/Winchester introduced the 270 WSM in 2002",
+          "nature": "secondaire"
+        },
+        {
+          "source": "« The .270 Winchester Short Magnum: History & Performance », American Rifleman (NRA), https://www.americanrifleman.org/content/the-270-winchester-short-magnum-history-performance/ (page web, récupéré par curl le 2026-10-04)",
+          "citation": "Winchester immediately began developing other WSM cartridges, beginning with the .270-cal. and 7 mm WSM cartridges.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "Winchester Repeating Arms, « Historical Timeline 1950-1999 » (page d'entreprise), https://www.winchesterguns.com/news/historical-timeline/1950-1999.html (page web, récupéré par curl le 2026-10-04)",
+          "citation": "The new firearms factory for making Winchester brand firearms in New Haven, Connecticut opens with great fanfare",
+          "nature": "fabricant"
+        }
+      ]
+    },
+    "280_remington": {
+      "pays": "États-Unis",
+      "concepteur": "Remington",
+      "sources": [
+        {
+          "source": "Lyman Reloading Handbook, 48e éd. (2002), commentaire « Comments: » de la cartouche (texte local gtxt/Lyman Reloading Handbook .txt)",
+          "citation": "This cartridge started life as the 280 Remington.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "« Behind the Bullet: .280 Remington », American Hunter (NRA), https://www.americanhunter.org/content/behind-the-bullet-280-remington/ (page web, récupéré par curl le 2026-10-04)",
+          "citation": "Remington’s 1957 release of the .280 Rem. saw the ’06 case launching 7mm bullets—made famous on the back of the stellar reputation of the 7x57 Mauser—providing plenty of energy for almost all the common species, in a package that had a wee bit less recoil than its father does.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "« RemArms: America's Oldest Gunmaker », American Rifleman (NRA), https://www.americanrifleman.org/content/remarms-america-s-oldest-gunmaker/ (page web, récupéré par curl le 2026-10-04)",
+          "citation": "a relatively unknown group of businessmen purchased the Remington firearm assets—including the famed Ilion, NY, factory.",
+          "nature": "secondaire"
+        }
+      ]
+    },
+    "284_winchester": {
+      "pays": "États-Unis",
+      "concepteur": "Winchester",
+      "sources": [
+        {
+          "source": "Lyman Reloading Handbook, 48e éd. (2002), commentaire « Comments: » de la cartouche (texte local gtxt/Lyman Reloading Handbook .txt)",
+          "citation": "Winchester introduced the cartridge in 1963 in their Models 88 and 100 rifles",
+          "nature": "secondaire"
+        },
+        {
+          "source": "Winchester Repeating Arms, « Historical Timeline 1950-1999 » (page d'entreprise), https://www.winchesterguns.com/news/historical-timeline/1950-1999.html (page web, récupéré par curl le 2026-10-04)",
+          "citation": "The new firearms factory for making Winchester brand firearms in New Haven, Connecticut opens with great fanfare",
+          "nature": "fabricant"
+        }
+      ]
+    },
+    "300_norma_magnum": {
+      "pays": "Suède",
+      "concepteur": "Norma (dérivée de sa .338 Norma Magnum)",
+      "sources": [
+        {
+          "source": "« The .300 Norma Magnum: History & Performance », American Rifleman (NRA), https://www.americanrifleman.org/content/the-300-norma-magnum-history-performance/ (page web, récupéré par curl le 2026-10-04)",
+          "citation": "It was several years later, in 2012, Norma went to task modifying its .338-cal. cartridge.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "Norma, « History of Norma Ammunition Since 1902 » (page d'entreprise), https://www.norma-ammunition.com/about-norma/history (page web, récupéré par curl le 2026-10-04)",
+          "citation": "Founded in 1902 in Åmotfors, Sweden, Norma grew out of a strong industrial tradition supported by skilled craftsmanship and hydropower.",
+          "nature": "fabricant"
+        }
+      ]
+    },
+    "300_rcm": {
+      "pays": "États-Unis",
+      "concepteur": "Ruger et Hornady",
+      "sources": [
+        {
+          "source": "B. Pearce, « 300 Ruger Compact Magnum », Handloader, https://www.handloadermagazine.com/300-ruger-compact-magnum (page web, récupéré par curl le 2026-10-04)",
+          "citation": "The 300 RCM was jointly developed by Ruger and Hornady manufacturing and designed specifically for the Ruger M77 Hawkeye rifle.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "Hornady, communiqué « Hornady Announces New Products for 2018 » (17 oct. 2017), https://press.hornady.com/release/2017/10/18/hornady-announces-new-products-for-2018/ (page web, récupéré par curl le 2026-10-04)",
+          "citation": "Founded in 1949, Hornady ® Manufacturing Company is a family owned business headquartered in Grand Island, Nebraska.",
+          "nature": "fabricant"
+        }
+      ],
+      "note": "Conception conjointe de deux entreprises américaines ; seule Hornady est située par une source (Ruger : non cité, sans effet sur le pays)."
+    },
+    "300_rem_ultra_mag": {
+      "pays": "États-Unis",
+      "concepteur": "Remington",
+      "sources": [
+        {
+          "source": "Lyman Reloading Handbook, 48e éd. (2002), commentaire « Comments: » de la cartouche (texte local gtxt/Lyman Reloading Handbook .txt)",
+          "citation": "Remington launched the Ultra Mag family with this, their first 30 caliber magnum in 1999.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "« RemArms: America's Oldest Gunmaker », American Rifleman (NRA), https://www.americanrifleman.org/content/remarms-america-s-oldest-gunmaker/ (page web, récupéré par curl le 2026-10-04)",
+          "citation": "a relatively unknown group of businessmen purchased the Remington firearm assets—including the famed Ilion, NY, factory.",
+          "nature": "secondaire"
+        }
+      ]
+    },
+    "300_savage": {
+      "pays": "États-Unis",
+      "concepteur": "Savage",
+      "sources": [
+        {
+          "source": "Lyman Reloading Handbook, 48e éd. (2002), commentaire « Comments: » de la cartouche (texte local gtxt/Lyman Reloading Handbook .txt)",
+          "citation": "Savage first offered this caliber in their lever action Model 99 beginning in 1920.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "Savage Arms, « About Us » (page d'entreprise, chronologie), https://savagearms.com/content/about-us (page web, récupéré par curl le 2026-10-04)",
+          "citation": "Savage Repeating Arms Co. is formed in Utica, New York.",
+          "nature": "fabricant"
+        }
+      ]
+    },
+    "300_weatherby_magnum": {
+      "pays": "États-Unis",
+      "concepteur": "Roy Weatherby",
+      "sources": [
+        {
+          "source": "Lyman Reloading Handbook, 48e éd. (2002), commentaire « Comments: » de la cartouche (texte local gtxt/Lyman Reloading Handbook .txt)",
+          "citation": "Roy Weatherby based this 300 Magnum on a blown out 300 Holland and Holland case featuring the famous double radius shoulder in 1943.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "Weatherby, « Origins » (page d'entreprise), https://weatherby.com/company/origins/ (page web, récupéré par curl le 2026-10-04)",
+          "citation": "The smell of rich leather and gun oil greeted every customer stepping into Weatherby’s Sporting Goods in California, where the legend began.",
+          "nature": "fabricant"
+        }
+      ]
+    },
+    "300_wsm": {
+      "pays": "États-Unis",
+      "concepteur": "Winchester",
+      "sources": [
+        {
+          "source": "Lyman Reloading Handbook, 48e éd. (2002), commentaire « Comments: » de la cartouche (texte local gtxt/Lyman Reloading Handbook .txt)",
+          "citation": "Winchester launched their Short Magnum line of cartridges with the 300 WSM in 2001.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "Winchester Repeating Arms, « Historical Timeline 2000-present » (page d'entreprise), https://www.winchesterguns.com/news/historical-timeline/2000-present.html (page web, récupéré par curl le 2026-10-04)",
+          "citation": "The 300 WSM (Winchester Short Magnum) cartridge is introduced, offering long-action magnum performance in a short-action rifle.",
+          "nature": "fabricant"
+        },
+        {
+          "source": "Winchester Repeating Arms, « Historical Timeline 1950-1999 » (page d'entreprise), https://www.winchesterguns.com/news/historical-timeline/1950-1999.html (page web, récupéré par curl le 2026-10-04)",
+          "citation": "The new firearms factory for making Winchester brand firearms in New Haven, Connecticut opens with great fanfare",
+          "nature": "fabricant"
+        }
+      ]
+    },
+    "308_marlin_express": {
+      "pays": "États-Unis",
+      "concepteur": "Hornady (avec Marlin)",
+      "sources": [
+        {
+          "source": "« Marlin 336XLR », American Hunter (NRA), https://www.americanhunter.org/content/marlin-336xlr/ (page web, récupéré par curl le 2026-10-04)",
+          "citation": "The .308 Marlin is a brand new cartridge co-designed and manufactured by Hornady (see page 48) that looks and behaves like the .308 Win.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "Hornady, communiqué « Hornady Announces New Products for 2018 » (17 oct. 2017), https://press.hornady.com/release/2017/10/18/hornady-announces-new-products-for-2018/ (page web, récupéré par curl le 2026-10-04)",
+          "citation": "Founded in 1949, Hornady ® Manufacturing Company is a family owned business headquartered in Grand Island, Nebraska.",
+          "nature": "fabricant"
+        },
+        {
+          "source": "« Marlin Celebrates 150th Anniversary », American Rifleman (NRA), https://www.americanrifleman.org/content/marlin-celebrates-150th-anniversary/ (page web, récupéré par curl le 2026-10-04)",
+          "citation": "The North Haven, CN, factory wasn’t complete at the time, and gun manufacturing began there in 1872.",
+          "nature": "secondaire"
+        }
+      ],
+      "note": "« co-designed » : l'autre concepteur (Marlin) est implicite dans la source ; Marlin est aussi américaine."
+    },
+    "30_carbine": {
+      "pays": "États-Unis",
+      "concepteur": "Winchester, à la demande de l'armée américaine (carabine M1)",
+      "sources": [
+        {
+          "source": "« The .30 Carbine: History & Performance », American Rifleman (NRA), https://www.americanrifleman.org/content/the-30-carbine-history-performance/ (page web, récupéré par curl le 2026-10-04)",
+          "citation": "Simultaneously, Winchester began development of a cartridge to fit this need.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "« The .30 Carbine: History & Performance », American Rifleman (NRA), https://www.americanrifleman.org/content/the-30-carbine-history-performance/ (page web, récupéré par curl le 2026-10-04)",
+          "citation": "Winchester turned the rim down to the case diameter, making it we now call rimless, and lengthened the case to 1.28\".",
+          "nature": "secondaire"
+        },
+        {
+          "source": "Lyman Reloading Handbook, 48e éd. (2002), commentaire « Comments: » de la cartouche (texte local gtxt/Lyman Reloading Handbook .txt)",
+          "citation": "The United States Army developed the Ml Carbine just prior to the outbreak of World War Two.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "Winchester Repeating Arms, « Historical Timeline 1950-1999 » (page d'entreprise), https://www.winchesterguns.com/news/historical-timeline/1950-1999.html (page web, récupéré par curl le 2026-10-04)",
+          "citation": "The new firearms factory for making Winchester brand firearms in New Haven, Connecticut opens with great fanfare",
+          "nature": "fabricant"
+        }
+      ],
+      "note": "« Ml » = coquille OCR du Lyman pour « M1 »."
+    },
+    "30_r_blaser": {
+      "pays": "Allemagne",
+      "concepteur": "Blaser et RWS (Dynamit Nobel)",
+      "sources": [
+        {
+          "source": "C. Hawks, « The .30R Blaser Rifle Cartridge », chuckhawks.com, https://chuckhawks.com/30-R_blaser.htm (page web, récupéré par curl le 2026-10-04)",
+          "citation": "German ammunition giant RWS collaborated with Blaser in the design and 1990 introduction of the .30R Blaser rifle cartridge.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "R. Spomer, « A Potent, Rimmed .30 Caliber Cartridge Does Exist! », ronspomeroutdoors.com, https://www.ronspomeroutdoors.com/blog/a-potent-rimmed-30-caliber-cartridge-you-may-like-to-hear-that-it-does-exist (page web, récupéré par curl le 2026-10-04)",
+          "citation": "Developed by gun manufacturer Blaser and ammo company Ruag Ammotec in 1991, the rimmed pill’s design is built around versatility.",
+          "nature": "secondaire"
+        }
+      ],
+      "note": "Deux sites d'auteurs (Chuck Hawks, Ron Spomer), secondaires. Ils divergent sur l'année (1990/1991) et le partenaire (RWS/Ruag Ammotec — anachronique, Ruag n'ayant repris RWS qu'ensuite) ; la page de Blaser n'a pas été trouvée. Seule Chuck Hawks situe explicitement le partenaire en Allemagne ; le siège de Blaser n'est pas cité."
+    },
+    "30_t/c": {
+      "pays": "États-Unis",
+      "concepteur": "Hornady et Thompson/Center",
+      "sources": [
+        {
+          "source": "« Tested: Hornady 6.5 Creedmoor », American Rifleman (NRA), https://www.americanrifleman.org/content/tested-hornady-6-5-creedmoor/ (page web, récupéré par curl le 2026-10-04)",
+          "citation": "A joint venture between Hornady and Thompson/Center , the .30 T/C took advantage of a short, fat cartridge case—a profile known to burn propellant more efficiently, and thus improve performance, compared to tall, skinny cartridges.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "Hornady, communiqué « Hornady Announces New Products for 2018 » (17 oct. 2017), https://press.hornady.com/release/2017/10/18/hornady-announces-new-products-for-2018/ (page web, récupéré par curl le 2026-10-04)",
+          "citation": "Founded in 1949, Hornady ® Manufacturing Company is a family owned business headquartered in Grand Island, Nebraska.",
+          "nature": "fabricant"
+        },
+        {
+          "source": "« Thompson/Center Arms Acquired By Former Owner », American Rifleman (NRA), https://www.americanrifleman.org/content/thompson-center-arms-acquired-by-former-owner/ (page web, récupéré par curl le 2026-10-04)",
+          "citation": "Then, in March 1997, a five-alarm fire destroyed three of the company’s buildings in Rochester, N.H.—where the firm was based.",
+          "nature": "secondaire"
+        }
+      ]
+    },
+    "338_norma_mag": {
+      "pays": "Suède",
+      "concepteur": "Jimmy (Jimmie) Sloan, pour un projet lancé par Norma",
+      "sources": [
+        {
+          "source": "« The .300 Norma Magnum: History & Performance », American Rifleman (NRA), https://www.americanrifleman.org/content/the-300-norma-magnum-history-performance/ (page web, récupéré par curl le 2026-10-04)",
+          "citation": "By 2009, long-range sniping was enjoying more popularity, and Norma decided to give itself a .33-cal. facelift.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "« The .300 Norma Magnum: History & Performance », American Rifleman (NRA), https://www.americanrifleman.org/content/the-300-norma-magnum-history-performance/ (page web, récupéré par curl le 2026-10-04)",
+          "citation": "Long-range shooting competitor Jimmy Sloan designed a cartridge that would shoot the .338-cal., 300-grain Sierra MatchKing bullet in a Remington long-action receiver with the bullet seated out as far as possible so as to not impinge on powder capacity.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "Norma, « History of Norma Ammunition Since 1902 » (page d'entreprise), https://www.norma-ammunition.com/about-norma/history (page web, récupéré par curl le 2026-10-04)",
+          "citation": "Founded in 1902 in Åmotfors, Sweden, Norma grew out of a strong industrial tradition supported by skilled craftsmanship and hydropower.",
+          "nature": "fabricant"
+        }
+      ],
+      "note": "Projet Norma, dessin de Jimmy Sloan (tireur à longue distance) : la source ne situe pas Sloan. Pays retenu : celui de Norma, qui l'a lancée et standardisée."
+    },
+    "338_win_mag": {
+      "pays": "États-Unis",
+      "concepteur": "Winchester",
+      "sources": [
+        {
+          "source": "Winchester Repeating Arms, « Historical Timeline 1950-1999 » (page d'entreprise), https://www.winchesterguns.com/news/historical-timeline/1950-1999.html (page web, récupéré par curl le 2026-10-04)",
+          "citation": "The 264 Winchester Magnum and 338 Winchester Magnum cartridges are introduced.",
+          "nature": "fabricant"
+        },
+        {
+          "source": "« A Century and a Half of Winchester Ammo », American Hunter (NRA), https://www.americanhunter.org/content/a-century-and-a-half-of-winchester-ammo/ (page web, récupéré par curl le 2026-10-04)",
+          "citation": "1958: .264 Winchester Magnum & .338 Winchester Magnum.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "Winchester Repeating Arms, « Historical Timeline 1950-1999 » (page d'entreprise), https://www.winchesterguns.com/news/historical-timeline/1950-1999.html (page web, récupéré par curl le 2026-10-04)",
+          "citation": "The new firearms factory for making Winchester brand firearms in New Haven, Connecticut opens with great fanfare",
+          "nature": "fabricant"
+        }
+      ],
+      "note": "Désaccord sur l'année (1960 chronologie Winchester, 1958 American Hunter), sans effet sur le pays."
+    },
+    "357_maximum": {
+      "pays": "États-Unis",
+      "concepteur": "Elgin Gates (.357 SuperMag) ; production Remington, revolver Ruger",
+      "sources": [
+        {
+          "source": "« The .357 Maximum: Too Hot to Handle », American Rifleman (NRA), https://www.americanrifleman.org/content/the-357-maximum-too-hot-to-handle/ (page web, récupéré par curl le 2026-10-04)",
+          "citation": "Originally conceived by the late Elgin Gates and called the .357 SuperMag, the new round was very straightforward.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "« .357 Remington Maximum », Handloader, https://www.handloadermagazine.com/357-remington-maximum (page web, récupéré par curl le 2026-10-04)",
+          "citation": "Remington and Ruger eventually coordinated to bring out a commercial version, with Remington making the ammunition and Ruger introducing a larger version of its Blackhawk revolver.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "« RemArms: America's Oldest Gunmaker », American Rifleman (NRA), https://www.americanrifleman.org/content/remarms-america-s-oldest-gunmaker/ (page web, récupéré par curl le 2026-10-04)",
+          "citation": "a relatively unknown group of businessmen purchased the Remington firearm assets—including the famed Ilion, NY, factory.",
+          "nature": "secondaire"
+        }
+      ],
+      "note": "Gates n'est pas situé par les sources ; la version commerciale est de Remington (et Ruger)."
+    },
+    "357_sig": {
+      "pays": "États-Unis",
+      "concepteur": "SIG Arms (filiale américaine, New Hampshire) et Federal Cartridge",
+      "sources": [
+        {
+          "source": "« .357 SIG », Shooting Illustrated (NRA), https://www.shootingillustrated.com/content/357-sig/ (page web, récupéré par curl le 2026-10-04)",
+          "citation": "The .357 SIG cartridge was conceived at what was then SIG Arms in New Hampshire and developed jointly with Federal.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "Lyman Reloading Handbook, 48e éd. (2002), commentaire « Comments: » de la cartouche (texte local gtxt/Lyman Reloading Handbook .txt)",
+          "citation": "The 357 SIG resulted from a joint effort between SIG Arms and Federal Cartridge to produce 357 Magnum level ballistics in a mid-size semiautomatic pistol.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "« .357 Sig », Handloader, https://www.handloadermagazine.com/357-sig (page web, récupéré par curl le 2026-10-04)",
+          "citation": "Its development was the direct result of requests from a U.S. government law enforcement agency that wanted a cartridge designed specifically for auto-loading pistols that would duplicate .357 Magnum revolver ballistics when loaded with 125-grain jacketed bullets.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "Federal Ammunition, « The 1920s: From Bankruptcy To Boom » (page d'entreprise), https://www.federalpremium.com/the-federal-story/backruptcy-to-boom.html (page web, récupéré par curl le 2026-10-04)",
+          "citation": "They secured funding from several businessmen to establish the new ammunition plant on 31 acres of land in Anoka, Minn.",
+          "nature": "fabricant"
+        }
+      ],
+      "note": "Wiley Clapp (American Rifleman, « 9x23 mm & .357 Sig ») qualifie SIG de « Swiss-German-American firm » ; Handloader écrit « SIG Sauer ». La conception est située au New Hampshire par Shooting Illustrated, avec Federal (Minnesota), à la demande d'une agence américaine."
+    },
+    "35_remington": {
+      "pays": "États-Unis",
+      "concepteur": "Remington (Model 8)",
+      "sources": [
+        {
+          "source": "« Behind the Bullet: .35 Remington », American Hunter (NRA), https://www.americanhunter.org/content/behind-the-bullet-35-remington/ (page web, récupéré par curl le 2026-10-04)",
+          "citation": "It was released in 1906, as one of a quartet of rimless cartridges from Remington—including the .25 Remington, .30 Remington and .32 Remington—designed for use in the Model 8 autoloading rifle.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "« RemArms: America's Oldest Gunmaker », American Rifleman (NRA), https://www.americanrifleman.org/content/remarms-america-s-oldest-gunmaker/ (page web, récupéré par curl le 2026-10-04)",
+          "citation": "a relatively unknown group of businessmen purchased the Remington firearm assets—including the famed Ilion, NY, factory.",
+          "nature": "secondaire"
+        }
+      ]
+    },
+    "375_ruger": {
+      "pays": "États-Unis",
+      "concepteur": "Hornady et Ruger",
+      "sources": [
+        {
+          "source": "« Behind the Bullet: .375 Ruger », American Hunter (NRA), https://www.americanhunter.org/content/behind-the-bullet-375-ruger/ (page web, récupéré par curl le 2026-10-04)",
+          "citation": "The engineers at Hornady and Ruger teamed up in 2007 to produce a cartridge case with no parent; the .375 Ruger is a unique design.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "Hornady, communiqué « Hornady Announces New Products for 2018 » (17 oct. 2017), https://press.hornady.com/release/2017/10/18/hornady-announces-new-products-for-2018/ (page web, récupéré par curl le 2026-10-04)",
+          "citation": "Founded in 1949, Hornady ® Manufacturing Company is a family owned business headquartered in Grand Island, Nebraska.",
+          "nature": "fabricant"
+        }
+      ]
+    },
+    "380_acp": {
+      "pays": "États-Unis",
+      "concepteur": "John M. Browning, pour le Colt Pocket Hammerless 1908 (Colt, Hartford) ; FN suit en 1910",
+      "sources": [
+        {
+          "source": "D. Campbell, « The .380 ACP: History & Performance », American Rifleman (NRA), https://www.americanrifleman.org/content/the-380-acp-history-performance/ (page web, récupéré par curl le 2026-10-04)",
+          "citation": "So Browning elected to remove the offending rim and make a case that was truly rimless.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "D. Campbell, « The .380 ACP: History & Performance », American Rifleman (NRA), https://www.americanrifleman.org/content/the-380-acp-history-performance/ (page web, récupéré par curl le 2026-10-04)",
+          "citation": "For the Colt Pocket Automatic Pistol, it was a case that was too long, and the semi-rim stood too proudly to function in that pistol’s magazines.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "R. Hacker, « I Have This Old Gun: Colt Military 1908 Pocket Hammerless », American Rifleman (NRA), https://www.americanrifleman.org/content/i-have-this-old-gun-colt-military-1908-pocket-hammerless/ (page web, récupéré par curl le 2026-10-04)",
+          "citation": "Then, five years later, Colt brought out a more reliable man-stopper—the seven-round Model 1908 Pocket Hammerless chambered in Browning’s .380 ACP.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "D. Campbell, « The .380 ACP: History & Performance », American Rifleman (NRA), https://www.americanrifleman.org/content/the-380-acp-history-performance/ (page web, récupéré par curl le 2026-10-04)",
+          "citation": "This popular design from FN came chambered for either .380 ACP or .32 ACP and enjoyed a production run from 1910 to 1983.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "NRA National Firearms Museum, « Colt Model 1908 Hammerless 25 Caliber Automatic Pistol » (notice de collection), https://www.nramuseum.org/guns/the-galleries/world-war-i-and-firearms-innovation/case-36-great-inventors/colt-model-1908-hammerless-25-caliber-automatic-pistol.aspx (page web, récupéré par curl le 2026-10-04)",
+          "citation": "In the summer of 1896, Browning traveled to Colt's Manufacturing Company in Hartford, Connecticut with four patented semi-automatic pistols of his design.",
+          "nature": "secondaire"
+        }
+      ],
+      "note": "Conçue par Browning pour un pistolet Colt et lancée par Colt en 1908 ; le pistolet FN Model 1910 vient après. Pays de premier lancement : États-Unis (≠ pays C.I.P. Belgique)."
+    },
+    "38_super_auto": {
+      "pays": "États-Unis",
+      "concepteur": "Colt",
+      "sources": [
+        {
+          "source": "« The Super .38 », American Rifleman (NRA), https://www.americanrifleman.org/content/the-super-38/ (page web, récupéré par curl le 2026-10-04)",
+          "citation": "Colt answered the problem with their Super .38 auto on the good old model 1911 design.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "« The Super .38 », American Rifleman (NRA), https://www.americanrifleman.org/content/the-super-38/ (page web, récupéré par curl le 2026-10-04)",
+          "citation": "The cartridge was first released in 1929, which means its research and development took place through the late ’20s; and the criminals of that era were all Capones or Capone-wannabes.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "NRA National Firearms Museum, « Colt Model 1908 Hammerless 25 Caliber Automatic Pistol » (notice de collection), https://www.nramuseum.org/guns/the-galleries/world-war-i-and-firearms-innovation/case-36-great-inventors/colt-model-1908-hammerless-25-caliber-automatic-pistol.aspx (page web, récupéré par curl le 2026-10-04)",
+          "citation": "In the summer of 1896, Browning traveled to Colt's Manufacturing Company in Hartford, Connecticut with four patented semi-automatic pistols of his design.",
+          "nature": "secondaire"
+        }
+      ],
+      "note": "La première citation est une citation d'Elmer Keith (Sixguns) reproduite dans l'article."
+    },
+    "416_rigby": {
+      "pays": "Royaume-Uni",
+      "concepteur": "John Rigby & Co. (Londres), sur boîtier Mauser",
+      "sources": [
+        {
+          "source": "John Rigby & Co., « History » (page d'entreprise), https://www.johnrigbyandco.com/history (page web, récupéré par curl le 2026-10-04)",
+          "citation": "With other makers already producing larger bore magazine rifles on the standard length Mauser action, Rigby and Mauser collaborated to produce what is perhaps the firms’ most famous calibre: the .416 Rigby.",
+          "nature": "fabricant"
+        },
+        {
+          "source": "John Rigby & Co., « History » (page d'entreprise), https://www.johnrigbyandco.com/history (page web, récupéré par curl le 2026-10-04)",
+          "citation": "Rigby’s Dublin office at 24 Suffolk Street closed and the firm’s entire operation moved to London, where it remained until the 1990s at various addresses.",
+          "nature": "fabricant"
+        }
+      ],
+      "note": "À SIGNALER : la page Rigby parle d'une collaboration « Rigby and Mauser » pour produire la .416 Rigby (Rigby était alors agent de Mauser, Allemagne). Le calibre porte le nom de Rigby, est rangé sous « 1911/1912 The famous .416 Rigby is developed and the first rifle sold » dans sa chronologie, et la firme est à Londres depuis 1897. Royaume-Uni retenu ; « Royaume-Uni / Allemagne » se défendrait si l'on lit la collaboration comme une conception conjointe."
+    },
+    "444_marlin": {
+      "pays": "États-Unis",
+      "concepteur": "Thomas Robinson et Arthur Burns (Marlin), munition chargée par Remington",
+      "sources": [
+        {
+          "source": "L. Simpson, « Loading Bench: The Marlin Model 444 & Its Cartridge », American Rifleman (NRA), https://www.americanrifleman.org/content/loading-bench-the-marlin-model-444-its-cartridge/ (page web, récupéré par curl le 2026-10-04)",
+          "citation": "The .444 Marlin was a brainchild of Marlin employees Thomas Robinson and Arthur Burns.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "« Marlin Celebrates 150th Anniversary », American Rifleman (NRA), https://www.americanrifleman.org/content/marlin-celebrates-150th-anniversary/ (page web, récupéré par curl le 2026-10-04)",
+          "citation": "The North Haven, CN, factory wasn’t complete at the time, and gun manufacturing began there in 1872.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "« RemArms: America's Oldest Gunmaker », American Rifleman (NRA), https://www.americanrifleman.org/content/remarms-america-s-oldest-gunmaker/ (page web, récupéré par curl le 2026-10-04)",
+          "citation": "a relatively unknown group of businessmen purchased the Remington firearm assets—including the famed Ilion, NY, factory.",
+          "nature": "secondaire"
+        }
+      ]
+    },
+    "458_socom": {
+      "pays": "États-Unis",
+      "concepteur": "Marty ter Weeme (Teppo Jutsu LLC)",
+      "sources": [
+        {
+          "source": "Teppo Jutsu LLC, « 458 FAQ » (page d'entreprise), https://www.teppojutsu.com/458faq.html (page web, récupéré par curl le 2026-10-04)",
+          "citation": "The .458 SOCOM was developed by Marty ter Weeme, founder of Teppo Jutsu LLC in 2000.",
+          "nature": "fabricant"
+        },
+        {
+          "source": "Teppo Jutsu LLC, « 458 FAQ » (page d'entreprise), https://www.teppojutsu.com/458faq.html (page web, récupéré par curl le 2026-10-04)",
+          "citation": "After the design was completed, Tony Rumore of Tromix Corp in Broken Arrow, OK was contacted to build the first prototype.",
+          "nature": "fabricant"
+        },
+        {
+          "source": "« Ammo: .458 SOCOM », Shooting Illustrated (NRA), https://www.shootingillustrated.com/content/ammo-458-socom/ (page web, récupéré par curl le 2026-10-04)",
+          "citation": "The story goes that Marty ter Weeme, founder of Teppo Jutsu LLC, and a member of the U.S.",
+          "nature": "secondaire"
+        }
+      ],
+      "note": "Aucune page ne donne l'adresse de Teppo Jutsu ; le pays repose sur le développement documenté : prototype chez Tromix (Broken Arrow, Oklahoma), munition d'usine confiée à Southern Ballistic Research (Brunswick, Géorgie), d'après la FAQ Teppo Jutsu. Dans Shooting Illustrated, la phrase continue « Special Operations world were discussing… » (coupée ici par le découpage en phrases)."
+    },
+    "45_winchester_magnum": {
+      "pays": "États-Unis",
+      "concepteur": "Winchester, pour le pistolet Wildey",
+      "sources": [
+        {
+          "source": "« The LAR Grizzly: Magnum Power In An Upsized 1911 », American Rifleman (NRA), https://www.americanrifleman.org/content/the-lar-grizzly-magnum-power-in-an-upsized-1911/ (page web, récupéré par curl le 2026-10-04)",
+          "citation": "Wildey promoters were able to persuade Winchester to build special 9mm Winchester Magnum and .45 Winchester Magnum ammo.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "« Magnum Autos », American Rifleman (NRA), https://www.americanrifleman.org/content/magnum-autos/ (page web, récupéré par curl le 2026-10-04)",
+          "citation": "Using special ammo made by Winchester in 9 mm and .45, the Wildey was a powerful pistol that was plagued with technical and production problems.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "Winchester Repeating Arms, « Historical Timeline 1950-1999 » (page d'entreprise), https://www.winchesterguns.com/news/historical-timeline/1950-1999.html (page web, récupéré par curl le 2026-10-04)",
+          "citation": "The new firearms factory for making Winchester brand firearms in New Haven, Connecticut opens with great fanfare",
+          "nature": "fabricant"
+        }
+      ],
+      "note": "Le promoteur (Wildey) n'est pas situé par les sources ; Winchester, qui a conçu et produit la munition, l'est."
+    },
+    "46x30_hk": {
+      "pays": "Allemagne",
+      "concepteur": "Heckler & Koch (Oberndorf am Neckar)",
+      "sources": [
+        {
+          "source": "« Case Histories: HK 4.6x30mm », Gunmart, https://www.gunmart.net/ammunition/rifle-ammunition/case-history-hk-4.6x30mm (page web, récupéré par curl le 2026-10-04)",
+          "citation": "Introduced in 2001 by Heckler & Koch for use in their all new, MP7 personal defence weapon (PDW) the 4.6 x 30 cartridge was specifically designed to meet CRISAT requirements.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "Heckler & Koch, « Our company » (page d'entreprise), https://www.heckler-koch.com/en/Company/Heckler%20-%20Koch/Our%20company (page web, récupéré par curl le 2026-10-04)",
+          "citation": "As an internationally positioned group of companies based in Oberndorf am Neckar, we make a significant contribution to the protection of freedom and democracy worldwide with our subsidiaries in the USA, France and Great Britain.",
+          "nature": "fabricant"
+        },
+        {
+          "source": "Heckler & Koch, « Our company » (page d'entreprise), https://www.heckler-koch.com/en/Company/Heckler%20-%20Koch/Our%20company (page web, récupéré par curl le 2026-10-04)",
+          "citation": "For more than 75 years, Heckler & Koch as a medium-sized company has stood for innovation, reliability and perfection in craftsmanship with firm roots in Germany.",
+          "nature": "fabricant"
+        }
+      ]
+    },
+    "475_linebaugh": {
+      "pays": "États-Unis",
+      "concepteur": "John Linebaugh (Wyoming), avec Hamilton Bowen",
+      "sources": [
+        {
+          "source": "« In Memoriam: John Linebaugh—1955-2023 », American Rifleman (NRA), https://www.americanrifleman.org/content/in-memoriam-john-linebaugh-1955-2023/ (page web, récupéré par curl le 2026-10-04)",
+          "citation": "John Linebaugh, inventor of the .500 and .475 Linebaugh cartridges and custom pistolsmith, died March 19 at his home in Clark, Wyo.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "« 475 Linebaugh (Pet Loads) », Handloader, https://www.handloadermagazine.com/475-linebaugh-pet-loads (page web, récupéré par curl le 2026-10-04)",
+          "citation": "In 1983, I was contacted by a mostly unknown sixgun smith named John Linebaugh who lived about 40 miles north of Cody, Wyoming.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "« 475 Linebaugh (Pet Loads) », Handloader, https://www.handloadermagazine.com/475-linebaugh-pet-loads (page web, récupéré par curl le 2026-10-04)",
+          "citation": "The first guns, again based on the Ruger New Model Blackhawk Bisley, were offered to customers in 1988, and soon, several other gunsmiths began building custom 475 Linebaugh five-shot revolvers, including Hamilton Bowen of Bowen Classic Arms that more or less codeveloped that cartridge with Linebaugh.",
+          "nature": "secondaire"
+        }
+      ]
+    },
+    "556x45_nato": {
+      "pays": "États-Unis",
+      "concepteur": "Concepteurs américains (Armalite : E. Stoner ; R. Hutton), sur cahier des charges de l'armée américaine ; munition SS109 standard OTAN conçue par FN Herstal (Belgique)",
+      "sources": [
+        {
+          "source": "« Behind the Bullet: .223 Remington », American Hunter (NRA), https://www.americanhunter.org/content/behind-the-bullet-223-remington/ (page web, récupéré par curl le 2026-10-04)",
+          "citation": "Military adopted the 5.56mm ball cartridge M193 in 1963, a product of the combined efforts of Armalite’s Eugene Stoner and Robert Hutton, the technical editor of Guns & Ammo magazine.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "« Behind the Bullet: .223 Remington », American Hunter (NRA), https://www.americanhunter.org/content/behind-the-bullet-223-remington/ (page web, récupéré par curl le 2026-10-04)",
+          "citation": "Engineered to meet a very specific set of criteria laid out by the U.S. Army, the cartridge is based on the .222 Remington—released in 1950—elongated to hold more powder in order to generate the necessary velocity required by the Army.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "« .222 Remington Magnum », Handloader, https://www.handloadermagazine.com/222-remington-magnum (page web, récupéré par curl le 2026-10-04)",
+          "citation": "U.S. weapons designers decided to do the Soviets one better.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "Lyman Reloading Handbook, 48e éd. (2002), commentaire « Comments: » de la cartouche (texte local gtxt/Lyman Reloading Handbook .txt)",
+          "citation": "Remington introduced this cartridge to the commercial market in 1964 soon after its adoption by the U.S. Army as the 5.56 NATO.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "FN Herstal, « 5.56x45mm NATO », https://fnherstal.com/en/defence/ammunition/556x45mm/ — citation reprise de calibers/description_reference.json (vérifiée lors de la passe des descriptions)",
+          "citation": "FN Herstal is the original designer of the military 5.56x45mm SS109 cartridge, which was adopted by NATO as the second official standardized calibre in 1980.",
+          "nature": "fabricant"
+        }
+      ],
+      "note": "Étui et cartouche d'origine américains (M193, 1963) ; la munition SS109 retenue comme standard OTAN en 1980 est belge (FN Herstal). Si la fiche visait la munition SS109 plutôt que la cartouche, la réponse serait Belgique. La citation FN est reprise de description_reference.json (déjà vérifiée), non re-téléchargée ici."
+    },
+    "56_x_50_r_mag": {
+      "pays": "Allemagne",
+      "concepteur": "Günter Frères (DWM) et Friedrich Heym",
+      "sources": [
+        {
+          "source": "« Case Histories: 5.66x50 Magnum », Gunmart, https://www.gunmart.net/ammunition/rifle-ammunition/case-histories-5.66x50-magnum (page web, récupéré par curl le 2026-10-04)",
+          "citation": "And that qualifies the DWM 5.6 x 50mm Magnum, the subject of this month’s investigation.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "« Case Histories: 5.66x50 Magnum », Gunmart, https://www.gunmart.net/ammunition/rifle-ammunition/case-histories-5.66x50-magnum (page web, récupéré par curl le 2026-10-04)",
+          "citation": "Grampa was a Remington Although German, this cartridge can trace its’ parentage to an American favourite, the .222 Remington, aka the Triple Two.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "« Case Histories: 5.66x50 Magnum », Gunmart, https://www.gunmart.net/ammunition/rifle-ammunition/case-histories-5.66x50-magnum (page web, récupéré par curl le 2026-10-04)",
+          "citation": "Not that this iteration took the hunting World by storm, being mainly chambered in shotgun/rifle drillings and sporting rifles by Heym… Frederick Heym being the co-designer with Gunter Freres of Deutsche Waffen und Munitionsfabriken (DWM).",
+          "nature": "secondaire"
+        }
+      ],
+      "note": "« Grampa was a Remington » est un intertitre collé à la phrase dans le texte récupéré. La source (Gunmart) décrit la lignée 5,6 × 47 R → 5,6 × 50 R Magnum (1968) puis la version sans bourrelet ; elle qualifie la cartouche d'allemande."
+    },
+    "65284_norma": {
+      "pays": "Suède",
+      "concepteur": "Wildcat sur étui .284 Winchester ; standardisé par Norma (C.I.P. 1999)",
+      "sources": [
+        {
+          "source": "« 6.5-284 Norma (Pet Loads) », Handloader, https://www.handloadermagazine.com/6-5-284-norma-pet-loads (page web, récupéré par curl le 2026-10-04)",
+          "citation": "Due to its huge popularity in Europe and the U.S., in 1999 the Swedish firm Norma introduced the 6.5-284 Norma as a standard cartridge to Commission Internationale Permanente (C.I.P.), more commonly known as the Permanent International Commission for the Proof of Small Arms.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "« Behind the Bullet: 6.5-284 Norma », American Hunter (NRA), https://www.americanhunter.org/content/behind-the-bullet-6-5-284-norma/ (page web, récupéré par curl le 2026-10-04)",
+          "citation": "The Swedish firm of Norma saw the brilliance of this design, with its 35˚shoulder and very slight tapered body, giving it a legitimate name in 2001; the 6.5-284 Norma came onto the scene as a SAAMI-recognized cartridge.",
+          "nature": "secondaire"
+        }
+      ],
+      "note": "Wildcat standardisé : pays de Norma (Suède). Le wildcat d'origine, sur étui Winchester, n'a pas de concepteur nommé dans les sources."
+    },
+    "68_western": {
+      "pays": "États-Unis",
+      "concepteur": "Winchester avec Browning Ammunition",
+      "sources": [
+        {
+          "source": "« 6.8 mm Western: Winchester Charges Ahead », American Rifleman (NRA), https://www.americanrifleman.org/articles/2021/1/15/68-mm-western-winchester-charges-ahead (page web, récupéré par curl le 2026-10-04)",
+          "citation": "Winchester, in joint collaboration with Browning Ammunition, began the 6.8 mm Western project in early 2018 with the goal of improved long-range performance in mind, targeting a G1 BC of no less than 0.600, and company engineers quickly discovered that even the most aerodynamic 150-gr. .277 bullets on the market couldn’t get them there.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "Winchester Repeating Arms, « Historical Timeline 1950-1999 » (page d'entreprise), https://www.winchesterguns.com/news/historical-timeline/1950-1999.html (page web, récupéré par curl le 2026-10-04)",
+          "citation": "The new firearms factory for making Winchester brand firearms in New Haven, Connecticut opens with great fanfare",
+          "nature": "fabricant"
+        }
+      ],
+      "note": "Browning Ammunition n'est pas située par une source ; Winchester l'est (la source de localisation est la chronologie Winchester Repeating Arms ; la munition est de Winchester Ammunition/Olin)."
+    },
+    "6_mm_remington": {
+      "pays": "États-Unis",
+      "concepteur": "Remington (Mike Walker), d'après le wildcat .243 Rock Chucker de Fred Huntington",
+      "sources": [
+        {
+          "source": "« Behind the Bullet: 6mm Remington », American Hunter (NRA), https://www.americanhunter.org/content/behind-the-bullet-6mm-remington/ (page web, récupéré par curl le 2026-10-04)",
+          "citation": "In 1955, Remington announced their .244 Remington; looking at the genealogy, it was Remington’s .257 Roberts necked down to hold .243-inch-diameter bullets, with the .257 Roberts itself being a necked-down 7x57mm Mauser.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "« Behind the Bullet: 6mm Remington », American Hunter (NRA), https://www.americanhunter.org/content/behind-the-bullet-6mm-remington/ (page web, récupéré par curl le 2026-10-04)",
+          "citation": "The concept for the .244 Remington came from Fred Huntington’s .243 Rock Chucker wildcat (the same necked down .257 Roberts) which was then brought to the masses by Remington’s Mike Walker.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "« Loading Bench: 6 mm Remington », American Rifleman (NRA), https://www.americanrifleman.org/content/loading-bench-6-mm-remington/ (page web, récupéré par curl le 2026-10-04)",
+          "citation": "Stumbling Start The 6 mm Rem. originated as the .244 Rem. in 1955.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "« RemArms: America's Oldest Gunmaker », American Rifleman (NRA), https://www.americanrifleman.org/content/remarms-america-s-oldest-gunmaker/ (page web, récupéré par curl le 2026-10-04)",
+          "citation": "a relatively unknown group of businessmen purchased the Remington firearm assets—including the famed Ilion, NY, factory.",
+          "nature": "secondaire"
+        }
+      ],
+      "note": "« Stumbling Start » est un intertitre collé à la phrase."
+    },
+    "6mm_arc": {
+      "pays": "États-Unis",
+      "concepteur": "Hornady, à la demande du Département de la Défense américain",
+      "sources": [
+        {
+          "source": "« Review: Hornady 6mm ARC », American Rifleman (NRA), https://www.americanrifleman.org/content/review-hornady-6mm-arc/ (page web, récupéré par curl le 2026-10-04)",
+          "citation": "Hornady was tasked with developing a cartridge that could fit in an AR-15/M4’s magazine-constrained, 2.260\" maximum cartridge overall length, be effective beyond 1,000 yds. from an 18\" barrel and allow a magazine capacity comparable to the M4—yet exhibit significant weight reduction compared to the 7.62 mm NATO.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "Hornady, communiqué « Hornady Announces New Products for 2018 » (17 oct. 2017), https://press.hornady.com/release/2017/10/18/hornady-announces-new-products-for-2018/ (page web, récupéré par curl le 2026-10-04)",
+          "citation": "Founded in 1949, Hornady ® Manufacturing Company is a family owned business headquartered in Grand Island, Nebraska.",
+          "nature": "fabricant"
+        }
+      ]
+    },
+    "6mm_ppc": {
+      "pays": "États-Unis",
+      "concepteur": "Ferris Pindell et Louis Palmisano (wildcat de banc, 1974) ; étuis Sako",
+      "sources": [
+        {
+          "source": "J. W. Treakle, « Rifleman Q&A: 6 mm PPC Handloading Dangers? », American Rifleman (NRA), https://www.americanrifleman.org/content/rifleman-q-a-6-mm-ppc-handloading-dangers/ (page web, récupéré par curl le 2026-10-04)",
+          "citation": "The 6 mm PPC was developed by Lou Palmisano and Ferris Pindell, hence the name.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "Lyman Reloading Handbook, 48e éd. (2002), commentaire « Comments: » de la cartouche (texte local gtxt/Lyman Reloading Handbook .txt)",
+          "citation": "Its originators, Ferris Pindell and Dr. Louis Palmisano were the first of many bench rest shooters to so prove.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "Gun Digest Editors, « Ammo Brief: .22 PPC-USA » (extrait de Cartridges of the World), Gun Digest, 3 oct. 2024, https://gundigest.com/gear-ammo/ammunition/22-ppc-usa (page web, récupéré par curl le 2026-10-04)",
+          "citation": "Because the .22 PPC-USA is an American development, it’s listed here as a current American rifle cartridge, with the “-USA” appended, rather than as a European cartridge.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "Gun Digest Editors, « Ammo Brief: .22 PPC-USA » (extrait de Cartridges of the World), Gun Digest, 3 oct. 2024, https://gundigest.com/gear-ammo/ammunition/22-ppc-usa (page web, récupéré par curl le 2026-10-04)",
+          "citation": "The Wichita Engineering and Supply Co. made the first rifles for both the .22 and 6mm PPC cartridges.",
+          "nature": "secondaire"
+        }
+      ],
+      "note": "Pays établi INDIRECTEMENT : la mention « American development » porte sur la .22 PPC-USA, jumelle de la 6 mm PPC (mêmes concepteurs ; Lyman : « The 22 PPC is the necked down version of the 6 mm PPC »). Sako n'a fourni que les étuis d'origine. À revoir si une source directe apparaît."
+    },
+    "75x54_french": {
+      "pays": "France",
+      "concepteur": "État-major et manufactures d'État français",
+      "sources": [
+        {
+          "source": "« Le FM 1924 M 29 », fiche PDF, monsieur-legionnaire.org, https://www.monsieur-legionnaire.org/pdf/F.M.1924-M-29.pdf (PDF récupéré par curl le 2026-10-04, p. 1, « Historique »)",
+          "citation": "L’état major lance alors l’étude d’une nouvelle cartouche et au début des années 1920 la cartouche de 7,5 X 58 est créée et dans le même temps est lancée une étude pour l’adoption d’un nouveau fusil mitrailleur.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "« Le FM 1924 M 29 », fiche PDF, monsieur-legionnaire.org, https://www.monsieur-legionnaire.org/pdf/F.M.1924-M-29.pdf (PDF récupéré par curl le 2026-10-04, p. 1, « Historique »)",
+          "citation": "Mais suite à des incidents, notamment relatif à la cartouche de 7,92 X 57 (dite 8 mm Mauser) ayant une trop grosse ressemblance, la cartouche est modifiée par un raccourcissement de l’étui de 4 mm.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "« Le FM 1924 M 29 », fiche PDF, monsieur-legionnaire.org, https://www.monsieur-legionnaire.org/pdf/F.M.1924-M-29.pdf (PDF récupéré par curl le 2026-10-04, p. 1, « Historique »)",
+          "citation": "Elle est définitivement adoptée en 1929 sous l’appellation de cartouche de 7,5 X 54 modèle 1929 C.",
+          "nature": "secondaire"
+        }
+      ],
+      "note": "Source associative (monsieur-legionnaire.org), sans renvoi au texte d'adoption ; « l'état major » s'entend de l'armée française (contexte : remplacement de la cartouche Lebel). Aucun document militaire d'époque lu."
+    },
+    "762x51_nato": {
+      "pays": "États-Unis",
+      "concepteur": "Armée américaine (essais de .30-06 raccourcies) ; version civile .308 Winchester",
+      "sources": [
+        {
+          "source": "D. Zhou, « NATO Small Arms Ammunition Standardization », Policy Brief vol. 4 n° 3, Centre for International and Defence Policy, Queen's University, 2018, https://www.queensu.ca/cidp/sites/cidpwww/files/uploaded_files/4-3%20Sum2018_PB_Zhou_web.pdf (copie locale zhou.pdf, p. 1)",
+          "citation": "After a meeting convened by US, British and French leaders in 1953, NATO agreed to standardize the US-developed 7.62x51mm caliber as its standard rifle and machine gun ammunition, primarily due to perceptions of the crucial role of the US in the alliance.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "Lyman Reloading Handbook, 48e éd. (2002), section de la cartouche, « Comments: » — citation reprise de calibers/description_reference.json (vérifiée lors de la passe des descriptions)",
+          "citation": "It is the end result of the U.S. military's experiment with shortened 3006 cartridges during the late 1940s.",
+          "nature": "secondaire"
+        }
+      ]
+    },
+    "7_x_65_r": {
+      "pays": "Allemagne",
+      "concepteur": "Wilhelm Brenneke (1917)",
+      "sources": [
+        {
+          "source": "BRENNEKE, « Company History » (page d'entreprise), https://www.brenneke-ammunition.de/en/company/brenneke/company-history (page web, récupéré par curl le 2026-10-04)",
+          "citation": "1917 High performance cartridges cal. 7 x 64 and 7 x 65 R",
+          "nature": "fabricant"
+        },
+        {
+          "source": "BRENNEKE, « Company History » (page d'entreprise), https://www.brenneke-ammunition.de/en/company/brenneke/company-history (page web, récupéré par curl le 2026-10-04)",
+          "citation": "Company founded by Wilhelm Brenneke on April 1st, 1895 in Leipzig.",
+          "nature": "fabricant"
+        },
+        {
+          "source": "BRENNEKE, « Company History » (page d'entreprise), https://www.brenneke-ammunition.de/en/company/brenneke/company-history (page web, récupéré par curl le 2026-10-04)",
+          "citation": "We are known for true innovative drive made in Germany.",
+          "nature": "fabricant"
+        }
+      ],
+      "note": "Entreprise fondée à Leipzig en 1895, installée à Berlin-Ouest en 1951 puis à Langenhagen (même page)."
+    },
+    "7mm_br_remington": {
+      "pays": "États-Unis",
+      "concepteur": "Remington (pistolet XP-100 Silhouette)",
+      "sources": [
+        {
+          "source": "« Remington's Radical XP-100 », American Hunter (NRA), https://www.americanhunter.org/articles/2014/5/19/remingtons-radical-xp-100 (page web, récupéré par curl le 2026-10-04)",
+          "citation": "Recognizing the .221 Fireball cartridge was underpowered for hunting big game and for reliably knocking down steel targets at the longer ranges of silhouette matches, Remington introduced the XP-100 Silhouette Target Pistol , chambered for 7mm BR, in 1980.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "« A Look Back at the Remington XP-100 Pistol », American Rifleman (NRA), https://www.americanrifleman.org/content/a-look-back-at-the-remington-xp-100-pistol/ (page web, récupéré par curl le 2026-10-04)",
+          "citation": "It retained the Zytel stock but featured a 14 1/2\" barrel chambered in a new 7 mm Benchrest (BR) cartridge, a round based upon the .308 Win. shortened, modified and necked to 7 mm.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "« RemArms: America's Oldest Gunmaker », American Rifleman (NRA), https://www.americanrifleman.org/content/remarms-america-s-oldest-gunmaker/ (page web, récupéré par curl le 2026-10-04)",
+          "citation": "a relatively unknown group of businessmen purchased the Remington firearm assets—including the famed Ilion, NY, factory.",
+          "nature": "secondaire"
+        }
+      ]
+    },
+    "7mm_prc": {
+      "pays": "États-Unis",
+      "concepteur": "Hornady",
+      "sources": [
+        {
+          "source": "« Undeniable: Hornady's 7 mm Precision Rifle Cartridge », American Rifleman (NRA), https://www.americanrifleman.org/content/undeniable-hornady-s-7-mm-precision-rifle-cartridge/ (page web, récupéré par curl le 2026-10-04)",
+          "citation": "Hornady’s approach somewhat reversed the order, according to what I learned from Joe Thielen, Jayden Quinlan and Seth Swerczek, part of the team that created the new cartridge.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "« Undeniable: Hornady's 7 mm Precision Rifle Cartridge », American Rifleman (NRA), https://www.americanrifleman.org/content/undeniable-hornady-s-7-mm-precision-rifle-cartridge/ (page web, récupéré par curl le 2026-10-04)",
+          "citation": "Hornady is slowly but steadily growing its family of Precision Rifle Cartridges, starting with the 6.5 mm PRC in 2018 (l.), adding the .300 PRC in 2021 (r.) and now splitting the difference with the 7 mm PRC (center).",
+          "nature": "secondaire"
+        },
+        {
+          "source": "Hornady, communiqué « Hornady Announces New Products for 2018 » (17 oct. 2017), https://press.hornady.com/release/2017/10/18/hornady-announces-new-products-for-2018/ (page web, récupéré par curl le 2026-10-04)",
+          "citation": "Founded in 1949, Hornady ® Manufacturing Company is a family owned business headquartered in Grand Island, Nebraska.",
+          "nature": "fabricant"
+        }
+      ]
+    },
+    "7mm_rum": {
+      "pays": "États-Unis",
+      "concepteur": "Remington",
+      "sources": [
+        {
+          "source": "Lyman Reloading Handbook, 48e éd. (2002), commentaire « Comments: » de la cartouche (texte local gtxt/Lyman Reloading Handbook .txt)",
+          "citation": "Remington introduced the 7mm Ultra Mag in 2001 as the smallest caliber in the non-belted Ultra Mag family of cartridges.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "« RemArms: America's Oldest Gunmaker », American Rifleman (NRA), https://www.americanrifleman.org/content/remarms-america-s-oldest-gunmaker/ (page web, récupéré par curl le 2026-10-04)",
+          "citation": "a relatively unknown group of businessmen purchased the Remington firearm assets—including the famed Ilion, NY, factory.",
+          "nature": "secondaire"
+        }
+      ]
+    },
+    "7mm_weatherby_magnum": {
+      "pays": "États-Unis",
+      "concepteur": "Roy Weatherby",
+      "sources": [
+        {
+          "source": "Lyman Reloading Handbook, 48e éd. (2002), commentaire « Comments: » de la cartouche (texte local gtxt/Lyman Reloading Handbook .txt)",
+          "citation": "This is one of Roy Weatherby's original cartridges developed in 1943. The 7mm shares the double-radius shoulder and 300 H&H parent case of its siblings, the 270 and 300 Weatherby Magnums.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "Weatherby, « Origins » (page d'entreprise), https://weatherby.com/company/origins/ (page web, récupéré par curl le 2026-10-04)",
+          "citation": "The smell of rich leather and gun oil greeted every customer stepping into Weatherby’s Sporting Goods in California, where the legend began.",
+          "nature": "fabricant"
+        }
+      ]
+    },
+    "7mm_wsm": {
+      "pays": "États-Unis",
+      "concepteur": "Winchester",
+      "sources": [
+        {
+          "source": "Lyman Reloading Handbook, 48e éd. (2002), commentaire « Comments: » de la cartouche (texte local gtxt/Lyman Reloading Handbook .txt)",
+          "citation": "The 7mm WSM is Winchester's first development in the .284\" bore size since their 284 nearly forty years ago.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "Winchester Repeating Arms, « Historical Timeline 1950-1999 » (page d'entreprise), https://www.winchesterguns.com/news/historical-timeline/1950-1999.html (page web, récupéré par curl le 2026-10-04)",
+          "citation": "The new firearms factory for making Winchester brand firearms in New Haven, Connecticut opens with great fanfare",
+          "nature": "fabricant"
+        }
+      ]
+    },
+    "93_x_64_brenneke": {
+      "pays": "Allemagne",
+      "concepteur": "Wilhelm Brenneke (1927)",
+      "sources": [
+        {
+          "source": "BRENNEKE, « Company History » (page d'entreprise), https://www.brenneke-ammunition.de/en/company/brenneke/company-history (page web, récupéré par curl le 2026-10-04)",
+          "citation": "1927 Big game cartridge 9,3 x 64",
+          "nature": "fabricant"
+        },
+        {
+          "source": "G. Sengel, « Cartridge Board - 9.3X64mm Brenneke », Handloader, juin 2018, https://www.handloadermagazine.com/cartridge-board-7 (page web, récupéré par curl le 2026-10-04)",
+          "citation": "The cartridge became known as the 9.3x64mm Brenneke.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "G. Sengel, « Cartridge Board - 9.3X64mm Brenneke », Handloader, juin 2018, https://www.handloadermagazine.com/cartridge-board-7 (page web, récupéré par curl le 2026-10-04)",
+          "citation": "Wilhelm Brenneke was born in 1865 in Prussia, then part of the German Empire.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "BRENNEKE, « Company History » (page d'entreprise), https://www.brenneke-ammunition.de/en/company/brenneke/company-history (page web, récupéré par curl le 2026-10-04)",
+          "citation": "Company founded by Wilhelm Brenneke on April 1st, 1895 in Leipzig.",
+          "nature": "fabricant"
+        },
+        {
+          "source": "BRENNEKE, « Company History » (page d'entreprise), https://www.brenneke-ammunition.de/en/company/brenneke/company-history (page web, récupéré par curl le 2026-10-04)",
+          "citation": "We are known for true innovative drive made in Germany.",
+          "nature": "fabricant"
+        }
+      ]
+    },
+    "9_x_23_winchester": {
+      "pays": "États-Unis",
+      "concepteur": "Winchester Ammunition, avec Colt (pistolet 1911 pour l'IPSC)",
+      "sources": [
+        {
+          "source": "W. Clapp, « 9x23 mm & .357 Sig », American Rifleman (NRA), https://www.americanrifleman.org/content/9x23-mm-357-sig/ (page web, récupéré par curl le 2026-10-04)",
+          "citation": "Colt and Winchester Ammunition wanted a gun for the IPSC circuit.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "W. Clapp, « Nines From Neverland », American Rifleman (NRA), https://www.americanrifleman.org/articles/2015/7/13/nines-from-neverland (page web, récupéré par curl le 2026-10-04)",
+          "citation": "The 9x23 mm Winchester was given a European-sounding designation to clearly identify the round, which was some 4 millimeters longer than the Luger.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "W. Clapp, « Nines From Neverland », American Rifleman (NRA), https://www.americanrifleman.org/articles/2015/7/13/nines-from-neverland (page web, récupéré par curl le 2026-10-04)",
+          "citation": "Introduced with a special version of the 1911 pistol by Colt, the 9x23 had several close cousins among the high-speed competition cartridges.",
+          "nature": "secondaire"
+        },
+        {
+          "source": "Winchester Repeating Arms, « Historical Timeline 1950-1999 » (page d'entreprise), https://www.winchesterguns.com/news/historical-timeline/1950-1999.html (page web, récupéré par curl le 2026-10-04)",
+          "citation": "The new firearms factory for making Winchester brand firearms in New Haven, Connecticut opens with great fanfare",
+          "nature": "fabricant"
+        },
+        {
+          "source": "NRA National Firearms Museum, « Colt Model 1908 Hammerless 25 Caliber Automatic Pistol » (notice de collection), https://www.nramuseum.org/guns/the-galleries/world-war-i-and-firearms-innovation/case-36-great-inventors/colt-model-1908-hammerless-25-caliber-automatic-pistol.aspx (page web, récupéré par curl le 2026-10-04)",
+          "citation": "In the summer of 1896, Browning traveled to Colt's Manufacturing Company in Hartford, Connecticut with four patented semi-automatic pistols of his design.",
+          "nature": "secondaire"
+        }
+      ],
+      "note": "« European-sounding designation » : le nom métrique ne reflète pas une origine européenne."
+    }
+  }
 }

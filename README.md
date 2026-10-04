@@ -53,5 +53,6 @@ The script will read the raw simulator inputs from the parent project, process t
 ## Licenses & Sources
 
 *   Physical dimensions and safety pressures are cross-referenced with official **C.I.P.** and **SAAMI** technical sheets.
-*   Internal case volumes and secondary dimensions are sourced from the CC0 **zen/grt_databases** dataset (originating from the *Gordon's Reloading Tool* community).
+*   Internal case volumes of the cartridges covered by the interior-ballistics estimator come from its own data (`reloading/tireur_reloaded/data/calibers.json`). The volumes of the other 28 cartridges were entered by hand **without a recorded source**: they do *not* come from the CC0 **zen/grt_databases** dataset, which covers only one of them (5.45×39, 28.30 gr H₂O there vs 1.75 cm³ = 27.0 gr here). Checked on 2026-10-04.
+*   Primer types, introduction years, design countries and descriptions are published only from sourced records (`primer_reference.json`, `intro_year_reference.json`, `country_reference.json`, `description_reference.json`); the C.I.P. registering country comes from the C.I.P. sheets (`cip_origin_reference.json`). `scripts/check_calibers.py` enforces this before every database write.
 *   The source code in this repository is distributed under the MIT license.
