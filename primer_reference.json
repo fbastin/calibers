@@ -1,6 +1,6 @@
 {
   "_provenance": {
-    "source": "Guides de rechargement : Lyman Reloading Handbook 48e éd. (« Primer Size »), Western Powders 8e éd. (amorce d'essai : WSR/WLR…), Vihtavuori 2026 (« Primers: ») ; ADI Handloaders Guide 2013 (« Primer: CCI 35 » pour la .50 BMG, amorce propre à ce calibre) ; Hodgdon Annual Manual 2024 (« Case: … Primer: … », compté par bloc de charge dans les limites de la section)",
+    "source": "Guides de rechargement : Lyman Reloading Handbook 48e éd. (« Primer Size »), Western Powders 8e éd. (amorce d'essai : WSR/WLR…), Vihtavuori 2026 (« Primers: ») ; ADI Handloaders Guide 2013 (« Primer: CCI 35 » pour la .50 BMG, amorce propre à ce calibre) ; Hodgdon Annual Manual 2024 (« Case: … Primer: … », compté par bloc de charge dans les limites de la section) ; Reload Swiss Ladedaten-Guide 2025 (colonne « Zündhütchen / Primer », par ligne de charge) ; Lovex (« Primer: » par section)",
     "releve_le": "2026-10-04",
     "regle": "Taille d'amorce corrigée quand les guides s'accordent entre eux et contredisent la base ; mention Magnum seulement si toutes les sources vont dans le même sens. Taille selon l'étui (6 mm Creedmoor : Large chez Western et Hodgdon, étuis Hornady ; Small chez Vihtavuori, étuis Lapua) : valeur majoritaire, exception notée.",
     "portee": "Cartouches relues uniquement ; les autres gardent la valeur du générateur.",
@@ -8,6 +8,13 @@
     "recoupement_hodgdon": "2026-10-04 : Hodgdon 2024 confronté à la base ; aucune contradiction de TAILLE avec les relevés (21 cartouches communes) ; 3 tailles devinées contredites et corrigées."
   },
   "calibres": {
+    "103_x_60_r": {
+      "primer": "Large Rifle Magnum",
+      "sources": [
+        "Reload Swiss"
+      ],
+      "note": "7 lignes sur 7 en LRM"
+    },
     "220_swift": {
       "primer": "Large Rifle",
       "sources": [
@@ -87,6 +94,13 @@
         "Western"
       ]
     },
+    "30_r_blaser": {
+      "primer": "Large Rifle Magnum",
+      "sources": [
+        "Reload Swiss"
+      ],
+      "note": "10 lignes sur 10 en LRM"
+    },
     "33806": {
       "primer": "Large Rifle",
       "sources": [
@@ -128,11 +142,12 @@
       ]
     },
     "458_socom": {
-      "primer": "Large Pistol",
+      "primer": "Large Pistol / Large Rifle",
       "sources": [
-        "Hodgdon"
+        "Hodgdon",
+        "Reload Swiss"
       ],
-      "note": "source unique, étuis Starline seuls (13 blocs) ; à revoir si une autre source donne une autre taille"
+      "note": "CONFLIT : étuis Starline chargés en Large Pistol chez Hodgdon (13 blocs), en Large Rifle chez Reload Swiss (1 ligne)"
     },
     "45_acp": {
       "primer": "Large Pistol",
@@ -159,12 +174,28 @@
         "ADI"
       ]
     },
+    "56_x_50_r_mag": {
+      "primer": "Small Rifle",
+      "sources": [
+        "Reload Swiss",
+        "Lovex"
+      ],
+      "note": "Reload Swiss : 8 lignes SR, 1 LR ; Lovex : S&B 4.4 SPM (petite amorce de pistolet Magnum)"
+    },
     "57x28_fn": {
       "primer": "Small Pistol",
       "sources": [
         "Hodgdon"
       ],
       "note": "source unique : WIN SP dans 5 blocs sur 5 (section « FN 5.7x28mm »)"
+    },
+    "65_creedmoor": {
+      "primer": "Large Rifle",
+      "sources": [
+        "Hodgdon",
+        "Reload Swiss"
+      ],
+      "note": "étuis Hornady : Large Rifle ; étuis Lapua : Small Rifle (Reload Swiss, 43 lignes)"
     },
     "65_grendel": {
       "primer": "Small Rifle",
@@ -202,9 +233,45 @@
       "primer": "Large Rifle",
       "sources": [
         "Hodgdon",
+        "Reload Swiss",
         "Western"
       ],
-      "note": "étuis Hornady ; Vihtavuori charge des étuis Lapua à petite amorce (Small Rifle)"
+      "note": "étuis Hornady : Large Rifle (Hodgdon, Western) ; étuis Lapua : Small Rifle (Vihtavuori, Reload Swiss)"
+    },
+    "75x54_french": {
+      "primer": "Large Rifle",
+      "sources": [
+        "Reload Swiss"
+      ],
+      "note": "une ligne"
+    },
+    "763_mauser": {
+      "primer": "Small Pistol",
+      "sources": [
+        "Reload Swiss"
+      ],
+      "note": "une ligne"
+    },
+    "765_argentined": {
+      "primer": "Large Rifle",
+      "sources": [
+        "Reload Swiss"
+      ],
+      "note": "une ligne"
+    },
+    "765_luger": {
+      "primer": "Small Pistol",
+      "sources": [
+        "Reload Swiss"
+      ],
+      "note": "section « 7.65 Para », deux lignes"
+    },
+    "7_x_65_r": {
+      "primer": "Large Rifle",
+      "sources": [
+        "Reload Swiss",
+        "Lovex"
+      ]
     },
     "7mm_br_remington": {
       "primer": "Small Rifle",
@@ -244,6 +311,34 @@
       "sources": [
         "Lyman",
         "VV"
+      ]
+    },
+    "8x68s": {
+      "primer": "Large Rifle",
+      "sources": [
+        "Reload Swiss"
+      ],
+      "note": "Reload Swiss : 12 lignes en LRM, 2 en LR — mention Magnum non retenue faute d'unanimité"
+    },
+    "93_x_64_brenneke": {
+      "primer": "Large Rifle Magnum",
+      "sources": [
+        "Reload Swiss"
+      ],
+      "note": "13 lignes sur 13 en LRM"
+    },
+    "93x74r": {
+      "primer": "Large Rifle",
+      "sources": [
+        "Reload Swiss",
+        "Lovex"
+      ]
+    },
+    "9x21_imi": {
+      "primer": "Small Pistol",
+      "sources": [
+        "Reload Swiss",
+        "Lovex"
       ]
     }
   }
