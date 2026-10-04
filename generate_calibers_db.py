@@ -1140,8 +1140,10 @@ def merge_databases():
     for item in merged_list:
         if item["id"] in PRIMER_REF:
             item["primer_type"] = PRIMER_REF[item["id"]]
-        if item["id"] in INTRO_REF:
-            item["intro_year"] = INTRO_REF[item["id"]]
+        # Seules les années SOURCÉES sont publiées (décision du 2026-10-04) : les saisies
+        # de HAND_CURATED, faites sans source, restent ici comme liste de travail ; trois sur
+        # onze confrontées à un guide étaient fausses.
+        item["intro_year"] = INTRO_REF.get(item["id"])
 
     # Sort merged list alphabetically by name
     merged_list.sort(key=lambda x: x["name"])
