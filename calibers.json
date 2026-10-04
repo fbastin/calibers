@@ -21,11 +21,11 @@
     "primer_type": "Rimfire",
     "intro_year": 2002,
     "origin_country": "États-Unis",
-    "description": "Cartouche à percussion annulaire.",
+    "description": "Cartouche à percussion annulaire de Hornady, fabriquée à partir d'étuis de .22 WMR dont le collet est rétreint au calibre .17. Sa pression moyenne maximale (26 000 psi) étant voisine de celle de la .22 WMR (24 000 psi), les armes prévues pour la .22 WMR ont pu être chambrées pour elle.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null,
-    "description_en": "Rimfire cartridge."
+    "description_en": "Hornady rimfire cartridge, made from .22 WMR cases necked down to .17 caliber. Because its maximum average pressure (26,000 psi) is close to that of the .22 WMR (24,000 psi), guns designed for the .22 WMR could readily be chambered for it."
   },
   {
     "id": "204_ruger",
@@ -50,11 +50,11 @@
     "primer_type": "Small Rifle",
     "intro_year": 2004,
     "origin_country": "États-Unis",
-    "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
+    "description": "Cartouche de calibre .20 développée conjointement par Sturm, Ruger et Hornady pour la chasse aux nuisibles et le tir sur cible. Elle reprend le culot et la longueur hors tout de la .223 Remington avec une balle de calibre .20.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null,
-    "description_en": "Rifle cartridge, rimless case head. Supported by the site's interior ballistics estimator."
+    "description_en": ".20-caliber cartridge jointly developed by Sturm, Ruger and Hornady for varmint hunting and target shooting. It shares the case head and overall length of the .223 Remington, with a .20-caliber bullet."
   },
   {
     "id": "22_creedmoor",
@@ -107,11 +107,11 @@
     "primer_type": "Small Rifle",
     "intro_year": 1930,
     "origin_country": "États-Unis",
-    "description": "Calibre d'arme d'épaule, culot à bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
+    "description": "Version à haute pression de la .22 WCF, ancienne cartouche à poudre noire, mise au point lors d'essais à l'arsenal de Springfield dans les années 1920. Les armes antérieures à la Seconde Guerre mondiale ont en général un diamètre à fond de rayures de .223\", contre .224\" pour la production actuelle.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null,
-    "description_en": "Rifle cartridge, rimmed case head. Supported by the site's interior ballistics estimator."
+    "description_en": "High-pressure version of the .22 WCF, an old black-powder cartridge, developed during experiments at Springfield Armory in the 1920s. Rifles made before the Second World War generally have a .223\" groove diameter, against .224\" in current production."
   },
   {
     "id": "22_lr",
@@ -135,11 +135,11 @@
     "primer_type": "Rimfire",
     "intro_year": 1887,
     "origin_country": "États-Unis",
-    "description": "Cartouche à percussion annulaire.",
+    "description": "Cartouche à percussion annulaire créée par la J. Stevens Arms and Tool Company en associant l'étui de la .22 Long à la balle de 40 grains de la .22 Extra Long. Elle est la seule munition admise par l'ISSF pour la carabine 50 m et pour les pistolets 50 m et 25 m à percussion annulaire, et sert aussi au tir de loisir, à la petite chasse et à l'initiation.",
     "wiki_url": null,
     "data_note": "Volume d'étui estimé (non publié C.I.P./SAAMI). Cotes et pressions relevées sur la fiche C.I.P. TAB. V « 22 Long Rifle » (révision 2024-05-14) : L3 = 15,57, L6 = 25,40, R1 = 7,06, P1 = 5,74, G1 = 5,72 mm ; Pmax 1700, PK 1955, PE 2210 bar. Canon de référence C.I.P. : âme 5,38 / fond de rayure 5,58 mm, 6 rayures, pas de 406 mm (1:16\").",
     "data_note_en": "Estimated case capacity (not published by C.I.P./SAAMI). Dimensions and pressures taken from the C.I.P. TAB. V sheet “22 Long Rifle” (revision 2024-05-14): L3 = 15.57, L6 = 25.40, R1 = 7.06, P1 = 5.74, G1 = 5.72 mm; Pmax 1700, PK 1955, PE 2210 bar. C.I.P. reference barrel: bore 5.38 / groove 5.58 mm, 6 grooves, 406 mm twist (1:16\").",
-    "description_en": "Rimfire cartridge."
+    "description_en": "Rimfire cartridge created by the J. Stevens Arms and Tool Company by combining the .22 Long case with the 40-grain bullet of the .22 Extra Long. It is the only ammunition allowed by the ISSF for 50m rifle and for 50m and 25m rimfire pistol, and is also used for recreational shooting, small game hunting and teaching beginners."
   },
   {
     "id": "22_nosler",
@@ -220,11 +220,11 @@
     "primer_type": "Rimfire",
     "intro_year": null,
     "origin_country": "États-Unis",
-    "description": "Cartouche à percussion annulaire.",
+    "description": "Cartouche à percussion annulaire de Winchester, version allongée de l'ancienne .22 WRF (Winchester Rimfire), et non de la .22 LR : son étui est plus large que celui de la .22 LR, qu'il n'est pas sûr de tirer dans une chambre de .22 WMR. Une arme chambrée en .22 WMR peut tirer les deux cartouches plus courtes .22 WRF et .22 Remington Special.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null,
-    "description_en": "Rimfire cartridge."
+    "description_en": "Winchester rimfire cartridge, a lengthened version of the old .22 WRF (Winchester Rimfire), not of the .22 LR: its case body is wider than the .22 LR's, which is not safe to fire in a .22 WMR chamber. A gun chambered for .22 WMR can fire the two shorter cartridges, the .22 WRF and .22 Remington Special."
   },
   {
     "id": "22_250_rem",
@@ -249,11 +249,11 @@
     "primer_type": "Large Rifle",
     "intro_year": 1965,
     "origin_country": "États-Unis",
-    "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
+    "description": "Issue de l'étui de .250 Savage (.250-3000) rétreint au calibre .22 par plusieurs expérimentateurs, dont J. E. Gebby (« .22 Varminter »), elle est restée une cartouche hors normes (wildcat) pendant 28 ans avant que Remington ne la standardise et la propose dans sa carabine Model 700. Elle est destinée au petit gibier et aux nuisibles.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null,
-    "description_en": "Rifle cartridge, rimless case head. Supported by the site's interior ballistics estimator."
+    "description_en": "Developed from the .250 Savage (.250-3000) case necked down to .22 caliber by several experimenters, including J. E. Gebby (\".22 Varminter\"), it remained a wildcat for 28 years before Remington standardized it and offered it in its Model 700 rifle. It is intended for small game and varmints."
   },
   {
     "id": "220_swift",
@@ -278,11 +278,11 @@
     "primer_type": "Large Rifle",
     "intro_year": 1935,
     "origin_country": "États-Unis",
-    "description": "Calibre d'arme d'épaule, culot à semi-bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
+    "description": "Cartouche de chasse aux nuisibles à haute vitesse lancée par Winchester ; son étui est celui de la 6 mm Lee Navy rétreint pour des balles de .224\". Les premiers canons s'usaient vite : Whelen estimait leur durée de précision à environ 1 000 coups, portée vers 2 000 avec un acier plus résistant à l'érosion adopté ensuite par Winchester.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null,
-    "description_en": "Rifle cartridge, semi-rimmed case head. Supported by the site's interior ballistics estimator."
+    "description_en": "High-velocity varmint cartridge introduced by Winchester; its case is the 6mm Lee Navy necked down to .224\" bullets. Early barrels wore quickly: Whelen put their accuracy life at about 1,000 rounds, raised to about 2,000 with a more erosion-resistant steel later adopted by Winchester."
   },
   {
     "id": "221_remington_fireball",
@@ -335,11 +335,11 @@
     "primer_type": "Small Rifle",
     "intro_year": 1950,
     "origin_country": "États-Unis",
-    "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
+    "description": "Cartouche lancée par Remington comme une conception entièrement nouvelle, sans étui parent. Elle a supplanté la 219 Zipper et la Wasp en tir de benchrest avant d'y être dépassée par la famille PPC, et a servi de base notamment à la .222 Remington Magnum, à la .223 Remington, à la .221 Fireball et à la .17 Remington.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null,
-    "description_en": "Rifle cartridge, rimless case head. Supported by the site's interior ballistics estimator."
+    "description_en": "Cartridge introduced by Remington as an entirely new design with no parent case. It displaced the 219 Zipper and Wasp in benchrest shooting before being overtaken there by the PPC family, and it served as the basis of, among others, the .222 Remington Magnum, .223 Remington, .221 Fireball and .17 Remington."
   },
   {
     "id": "222_rem_mag",
@@ -392,11 +392,11 @@
     "primer_type": "Small Rifle",
     "intro_year": 1964,
     "origin_country": "États-Unis",
-    "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
+    "description": "Version civile de la cartouche militaire 5,56 OTAN : Remington l'a mise sur le marché commercial peu après l'adoption de celle-ci par l'armée américaine. Proche de la .222 Remington Magnum, plus ancienne, elle s'en distingue par un étui plus court et un épaulement reculé ; elle sert à la chasse aux nuisibles, au tir sur cible et dans les forces de l'ordre.",
     "wiki_url": "https://www.tireur.org/wiki/doku.php?id=technique:calibres_militaires#nato_et_le_223_remington",
     "data_note": "Voir aussi la variante militaire distincte 5.56×45mm NATO (cotes extérieures identiques, mais chambre à leade plus long et pression supérieure). Une chambre .223 Rem n'est pas prévue pour la munition 5.56 OTAN.",
     "data_note_en": "See also the distinct military variant, 5.56×45mm NATO (identical external dimensions, but a chamber with a longer leade and a higher pressure). A .223 Rem chamber is not intended for 5.56 NATO ammunition.",
-    "description_en": "Rifle cartridge, rimless case head. Supported by the site's interior ballistics estimator."
+    "description_en": "Civilian version of the 5.56 NATO military cartridge: Remington brought it to the commercial market soon after the U.S. Army adopted the 5.56. Close to the older .222 Remington Magnum, it differs by a shorter case and a shoulder set further back; it is used for varmint hunting, target shooting and by law enforcement."
   },
   {
     "id": "223_wssm",
@@ -536,11 +536,11 @@
     "primer_type": "Large Rifle",
     "intro_year": 1955,
     "origin_country": "États-Unis",
-    "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
+    "description": "L'une des premières cartouches tirées de l'étui de .308 Winchester / 7,62 OTAN, dont le collet est rétreint au calibre 6 mm (.243\"). Son pas de rayure d'un tour en 10 pouces lui permet de tirer des balles assez lourdes pour le gibier de la taille du chevreuil, en plus des nuisibles, contrairement à la .244 Remington contemporaine (1 tour en 12 pouces).",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null,
-    "description_en": "Rifle cartridge, rimless case head. Supported by the site's interior ballistics estimator."
+    "description_en": "One of the first cartridges derived from the .308 Winchester / 7.62 NATO case, necked down to 6mm (.243\"). Its 1-in-10-inch twist lets it fire bullets heavy enough for deer-sized game as well as varmints, unlike the contemporary .244 Remington (1 in 12 inches)."
   },
   {
     "id": "25_acp",
@@ -564,11 +564,11 @@
     "primer_type": "Small Pistol",
     "intro_year": 1906,
     "origin_country": "Belgique / États-Unis",
-    "description": "Calibre d'arme de poing, culot à semi-bourrelet.",
+    "description": "Cartouche des pistolets de poche dérivés d'un prototype de John M. Browning : connue en Europe sous la désignation 6,35 mm (pistolet FN modèle 1905/1906), elle a pris le nom de .25 ACP (Automatic Colt Pistol) quand Colt a lancé son Model N en 1908. L'appellation « Vest Pocket » de ces pistolets désigne la petite poche du gilet de costume où ils se portaient.",
     "wiki_url": null,
     "data_note": "Volume d'étui estimé (non publié C.I.P./SAAMI).",
     "data_note_en": "Estimated case capacity (not published by C.I.P./SAAMI).",
-    "description_en": "Handgun cartridge, semi-rimmed case head."
+    "description_en": "Cartridge of the pocket pistols derived from a John M. Browning prototype: known in Europe as the 6.35 mm (FN Model 1905/1906 pistol), it took the name .25 ACP (Automatic Colt Pistol) when Colt launched its Model N in 1908. The \"Vest Pocket\" name of these pistols refers to the small pocket of a suit vest in which they were carried."
   },
   {
     "id": "250_savage",
@@ -679,11 +679,11 @@
     "primer_type": "Large Rifle",
     "intro_year": 1997,
     "origin_country": "États-Unis",
-    "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
+    "description": "Cartouche de 6,5 mm sur étui de .308 Winchester, standardisée par Remington comme munition d'usine après des années d'usage de divers wildcats 6,5 mm sur cet étui, notamment en tir High-Power. Balistiquement proche de la 6,5 × 55 suédoise, elle peut être chargée à des pressions plus élevées, faute d'armes anciennes et plus faibles chambrées pour elle.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null,
-    "description_en": "Rifle cartridge, rimless case head. Supported by the site's interior ballistics estimator."
+    "description_en": "6.5mm cartridge on the .308 Winchester case, standardized by Remington as a factory round after years of use of various 6.5mm wildcats on that case, notably in High-Power shooting. Ballistically similar to the 6.5x55 Swedish, it can be loaded to higher pressures since no older, weaker actions are chambered for it."
   },
   {
     "id": "270_wsm",
@@ -765,11 +765,11 @@
     "primer_type": "Large Rifle",
     "intro_year": 1925,
     "origin_country": "États-Unis",
-    "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
+    "description": "Cartouche lancée par Winchester avec sa carabine à verrou Model 54. C'est pour l'essentiel une .30-06 au collet rétreint, avec de légères différences de cotes, tirant une balle de .277\" de diamètre alors inédite.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null,
-    "description_en": "Rifle cartridge, rimless case head. Supported by the site's interior ballistics estimator."
+    "description_en": "Cartridge introduced by Winchester with its Model 54 bolt-action rifle. It is essentially a necked-down .30-06 with minor dimensional changes, firing a .277\"-diameter bullet that was then entirely new."
   },
   {
     "id": "280_remington",
@@ -935,11 +935,11 @@
     "primer_type": "Large Rifle",
     "intro_year": 1906,
     "origin_country": "États-Unis",
-    "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
+    "description": "Évolution de l'éphémère .30-03 du fusil Springfield M1903 : à la suite de l'adoption d'une balle pointue par l'armée allemande, l'armée américaine en a raccourci l'étui et adopté une balle pointue (cartouche à balle modèle 1906). Elle a servi dans les M1903 et M1 Garand, dans les deux guerres mondiales et en Corée, et a servi de base à de nombreuses cartouches.",
     "wiki_url": "https://www.tireur.org/wiki/doku.php?id=technique:cartouche_30_06",
     "data_note": null,
     "data_note_en": null,
-    "description_en": "Rifle cartridge, rimless case head. Supported by the site's interior ballistics estimator."
+    "description_en": "Developed from the short-lived .30-03 of the M1903 Springfield rifle: after the German army adopted a pointed bullet, the U.S. military shortened the case and adopted a pointed bullet (Ball Cartridge, Model of 1906). It served in the M1903 and M1 Garand rifles, in both World Wars and Korea, and has been the basis of many cartridges."
   },
   {
     "id": "30_30_win",
@@ -964,11 +964,11 @@
     "primer_type": "Large Rifle",
     "intro_year": 1895,
     "origin_country": "États-Unis",
-    "description": "Calibre d'arme d'épaule, culot à bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
+    "description": "Lancée par Winchester sous le nom de .30 Winchester Center Fire (WCF) avec sa carabine à levier Model 94 ; selon Lyman, c'est la première cartouche de sport chargée exclusivement à la poudre sans fumée. La plupart des armes qui la tirent ont un magasin tubulaire, qui impose des balles à pointe plate ou arrondie, serties.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null,
-    "description_en": "Rifle cartridge, rimmed case head. Supported by the site's interior ballistics estimator."
+    "description_en": "Introduced by Winchester as the .30 Winchester Center Fire (WCF) with its Model 94 lever-action rifle; according to Lyman, it was the first sporting cartridge loaded exclusively with smokeless powder. Most guns chambered for it have tubular magazines, which require blunt or flat-nosed, crimped bullets."
   },
   {
     "id": "300_blackout",
@@ -994,11 +994,11 @@
     "primer_type": "Small Rifle",
     "intro_year": 2011,
     "origin_country": "États-Unis",
-    "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
+    "description": "Version normalisée par la SAAMI du wildcat .300 Whisper, construit sur l'étui de .221 Remington Fireball, de même diamètre de culot que la .223 Rem / 5,56 OTAN. AAC et Remington l'ont lancée, d'abord pour un usage militaire, afin de tirer des balles de calibre .30 depuis une carabine de type M4/AR-15 avec ses chargeurs standard, avec des charges supersoniques visant la balistique de la 7,62 × 39 et des charges subsoniques destinées aux armes munies d'un silencieux.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null,
-    "description_en": "Rifle cartridge, rimless case head. Supported by the site's interior ballistics estimator."
+    "description_en": "SAAMI-standardized version of the .300 Whisper wildcat, built on the .221 Remington Fireball case, which has the same rim diameter as the .223 Rem / 5.56 NATO. AAC and Remington launched it, primarily for military use, to fire .30-caliber bullets from an M4/AR-15-type carbine with standard magazines, with supersonic loads aimed at 7.62x39 ballistics and subsonic loads intended for suppressed guns."
   },
   {
     "id": "300_lapua_magnum",
@@ -1079,11 +1079,11 @@
     "primer_type": "Large Rifle Magnum",
     "intro_year": 2018,
     "origin_country": "États-Unis",
-    "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
+    "description": "Cartouche magnum de calibre .30 conçue par Hornady à partir de l'étui de .375 Ruger pour lancer à longue distance des balles longues, lourdes pour leur calibre et aérodynamiques. Le département de la Défense des États-Unis l'a retenue pour son programme de tir de précision à très longue portée, après des essais au-delà de 2 000 yards.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null,
-    "description_en": "Rifle cartridge, rimless case head. Supported by the site's interior ballistics estimator."
+    "description_en": ".30-caliber magnum cartridge designed by Hornady from the .375 Ruger case to launch long, heavy-for-caliber, aerodynamic bullets over long distances. The U.S. Department of Defense selected it for its extended long range sniper program after testing beyond 2,000 yards."
   },
   {
     "id": "300_rcm",
@@ -1251,11 +1251,11 @@
     "primer_type": "Large Rifle Magnum",
     "intro_year": 1963,
     "origin_country": "États-Unis",
-    "description": "Calibre d'arme d'épaule, culot à ceinture. Pris en charge par l'estimateur de balistique intérieure du site.",
+    "description": "Cartouche magnum lancée par Winchester pour combler l'écart de performances entre ses .264 et .338 Winchester Magnum ; elle tient dans une carcasse de longueur standard, alors que la .300 H&H Magnum, aux performances comparables, exige une carcasse magnum. Dans les forces armées américaines, sa munition de tireur d'élite MK248 Mod 0, mise en service par l'US Navy en 1994, équipe le fusil XM2010.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null,
-    "description_en": "Rifle cartridge, belted case head. Supported by the site's interior ballistics estimator."
+    "description_en": "Magnum cartridge introduced by Winchester to fill the performance gap between its .264 and .338 Winchester Magnums; it fits a standard-length action, whereas the .300 H&H Magnum, of comparable performance, requires a magnum-length action. In the U.S. armed forces, its MK248 Mod 0 sniper round, fielded by the U.S. Navy in 1994, is used with the XM2010 rifle."
   },
   {
     "id": "303_british",
@@ -1280,11 +1280,11 @@
     "primer_type": "Large Rifle",
     "intro_year": 1888,
     "origin_country": "Royaume-Uni",
-    "description": "Calibre d'arme d'épaule, culot à bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
+    "description": "Cartouche réglementaire britannique de calibre .303, recommandée en 1888 avec un fusil à magasin à culasse Lee et rayures Metford ; elle était d'abord chargée de 70 grains de poudre noire comprimée sous une balle de 215 grains chemisée, puis de cordite à partir de 1892. Sa version Mk VII à balle pointue de 174 grains a servi dans les fusils Lee-Enfield (dont le SMLE) jusqu'à son remplacement par la 7,62 OTAN.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null,
-    "description_en": "Rifle cartridge, rimmed case head. Supported by the site's interior ballistics estimator."
+    "description_en": "British service cartridge of .303 calibre, recommended in 1888 with a magazine rifle having the Lee breech action and Metford rifling; it was first loaded with 70 grains of compressed black powder behind a 215-grain jacketed bullet, then with cordite from 1892. Its Mk VII version with a 174-grain pointed bullet served in Lee-Enfield rifles (including the SMLE) until replaced by the 7.62 NATO."
   },
   {
     "id": "308_marlin_express",
@@ -1337,11 +1337,11 @@
     "primer_type": "Large Rifle",
     "intro_year": 1952,
     "origin_country": "États-Unis",
-    "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
+    "description": "Version civile de la 7,62 OTAN, aboutissement des essais de l'armée américaine sur des .30-06 raccourcies à la fin des années 1940 ; Winchester l'a commercialisée plusieurs années avant l'adoption de la 7,62 par l'armée américaine. Sa longueur hors tout (2,810\") lui permet de fonctionner dans les carcasses courtes, et elle a donné naissance à toute une famille de cartouches.",
     "wiki_url": "https://www.tireur.org/wiki/doku.php?id=technique:calibres_militaires#nato_et_la_308_winchester",
     "data_note": "Voir aussi la variante militaire distincte 7.62×51mm NATO (cotes proches, spécifications différentes). Tirer une munition .308 Win dans une chambre militaire 7.62 OTAN (headspace plus long) peut provoquer une rupture d'étui.",
     "data_note_en": "See also the distinct military variant, 7.62×51mm NATO (similar dimensions, different specifications). Firing .308 Win ammunition in a 7.62 NATO military chamber (longer headspace) can cause a case rupture.",
-    "description_en": "Rifle cartridge, rimless case head. Supported by the site's interior ballistics estimator."
+    "description_en": "Civilian counterpart of the 7.62 NATO, the outcome of U.S. Army experiments with shortened .30-06 cartridges in the late 1940s; Winchester marketed it several years before the U.S. military adopted the 7.62. Its 2.810\" overall length lets it function in short actions, and it has spawned a whole family of cartridges."
   },
   {
     "id": "32_acp",
@@ -1365,11 +1365,11 @@
     "primer_type": "Small Pistol",
     "intro_year": 1899,
     "origin_country": "Belgique",
-    "description": "Calibre d'arme de poing, culot à semi-bourrelet.",
+    "description": "Cartouche de 7,65 mm inventée par John M. Browning et fabriquée par la FN pour son premier pistolet (1899), dont la version modèle 1900 fut adoptée par l'armée belge ; elle prit aux États-Unis le nom de .32 ACP quand Colt l'introduisit en 1903. Pendant la Première Guerre mondiale, des pistolets de ce calibre servirent en complément des armes réglementaires : Mauser, Walther, Dreyse et Frommer côté allemand, pistolets espagnols et FN Browning côté français.",
     "wiki_url": null,
     "data_note": "Volume d'étui estimé (non publié C.I.P./SAAMI).",
     "data_note_en": "Estimated case capacity (not published by C.I.P./SAAMI).",
-    "description_en": "Handgun cartridge, semi-rimmed case head."
+    "description_en": "7.65 mm cartridge invented by John M. Browning and manufactured by FN for its first pistol (1899), whose Model 1900 version was adopted by the Belgian army; in the United States it took the name .32 ACP when Colt introduced it in 1903. During the First World War, pistols in this calibre supplemented service arms: Mauser, Walther, Dreyse and Frommer on the German side, Spanish pistols and FN Brownings on the French side."
   },
   {
     "id": "32_sw_long",
@@ -1393,11 +1393,11 @@
     "primer_type": "Small Pistol",
     "intro_year": 1896,
     "origin_country": "États-Unis",
-    "description": "Calibre d'arme de poing, culot à bourrelet.",
+    "description": "Cartouche de revolver conçue par Smith & Wesson pour son premier revolver à barillet basculant (.32 Hand Ejector, dit Model I) ; elle est dimensionnellement identique à la .32 Colt New Police. Selon Lyman, elle s'est fait une place chez les tireurs sur cible européens ; son calibre entre dans la plage 7,62 à 9,65 mm admise par l'ISSF au pistolet percussion centrale 25 m.",
     "wiki_url": null,
     "data_note": "Volume d'étui estimé (non publié C.I.P./SAAMI).",
     "data_note_en": "Estimated case capacity (not published by C.I.P./SAAMI).",
-    "description_en": "Handgun cartridge, rimmed case head."
+    "description_en": "Revolver cartridge designed by Smith & Wesson for its first swing-out-cylinder revolver (the .32 Hand Ejector, or Model I); it is dimensionally identical to the .32 Colt New Police. According to Lyman it has found a following among European target shooters; its calibre falls within the 7.62 to 9.65 mm range allowed by the ISSF for 25m centre-fire pistol."
   },
   {
     "id": "338_lapua",
@@ -1422,11 +1422,11 @@
     "primer_type": "Large Rifle Magnum",
     "intro_year": 1990,
     "origin_country": "Finlande",
-    "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
+    "description": "Issue du projet .338/416 (8,58 × 71), lancé pour l'armée américaine sur un étui de .416 Rigby rétreint — officiellement pour un fusil de cible à 1 000 yards, plus probablement, selon Lapua, pour un fusil de tireur d'élite portant à 1 500 m. Après que l'armée américaine eut choisi une autre voie, Lapua en a modifié les cotes et renforcé l'étui pour des pressions plus élevées ; la cartouche a ensuite été adoptée par de nombreuses armées occidentales, avec notamment des fusils d'Accuracy International et de Sako.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null,
-    "description_en": "Rifle cartridge, rimless case head. Supported by the site's interior ballistics estimator."
+    "description_en": "Developed from the .338/416 (8.58x71) project, started for the U.S. military on a necked-down .416 Rigby case — officially for a 1,000-yard target rifle, more likely, according to Lapua, for a 1,500 m sniper rifle. After the U.S. military went in a different direction, Lapua modified its dimensions and strengthened the case for higher pressures; the cartridge was then adopted by many Western armies, notably with rifles from Accuracy International and Sako."
   },
   {
     "id": "338_norma_mag",
@@ -1508,11 +1508,11 @@
     "primer_type": "Small Pistol Magnum",
     "intro_year": 1935,
     "origin_country": "États-Unis",
-    "description": "Calibre d'arme de poing, culot à bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
+    "description": "Cartouche de revolver produite par Western en collaboration avec Smith & Wesson, sur un étui de .38 Special allongé. Lyman avertit qu'une charge de .357 Magnum placée dans un étui de .38 Special produit une pression très dangereuse.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null,
-    "description_en": "Handgun cartridge, rimmed case head. Supported by the site's interior ballistics estimator."
+    "description_en": "Revolver cartridge produced by Western in collaboration with Smith & Wesson, on a lengthened .38 Special case. Lyman warns that a .357 Magnum charge loaded in a .38 Special case produces very dangerous pressure."
   },
   {
     "id": "357_sig",
@@ -1537,11 +1537,11 @@
     "primer_type": "Small Pistol",
     "intro_year": 1994,
     "origin_country": "Suisse / États-Unis",
-    "description": "Calibre d'arme de poing, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
+    "description": "Cartouche de pistolet issue d'un travail commun de SIG Arms et de Federal Cartridge pour obtenir dans un pistolet semi-automatique de taille moyenne la balistique de la .357 Magnum. C'est en substance une .40 S&W rétreinte pour des balles de 9 mm (.355\"), mais son étui est plus long d'environ .020\" : on ne la forme pas à partir d'étuis de .40 S&W. Destinée aux pistolets de service de police, elle a d'abord été proposée dans le SIG P229.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null,
-    "description_en": "Handgun cartridge, rimless case head. Supported by the site's interior ballistics estimator."
+    "description_en": "Pistol cartridge resulting from a joint effort by SIG Arms and Federal Cartridge to obtain .357 Magnum ballistics in a mid-size semi-automatic pistol. It is essentially a .40 S&W necked down to 9mm (.355\") bullets, but its case is about .020\" longer, so it is not formed from .40 S&W brass. Intended for police service pistols, it was first offered in the SIG P229."
   },
   {
     "id": "375_hh_mag",
@@ -1566,11 +1566,11 @@
     "primer_type": "Large Rifle Magnum",
     "intro_year": 1912,
     "origin_country": "Royaume-Uni",
-    "description": "Calibre d'arme d'épaule, culot à ceinture. Pris en charge par l'estimateur de balistique intérieure du site.",
+    "description": "Cartouche lancée par Holland & Holland sous le nom de .375 Belted Rimless Nitro Express, en réponse au succès de la 9,3 × 62 Mauser en Afrique et en Inde ; c'est l'une des premières à ceinture, celle-ci servant d'appui (headspace) à un étui très conique. Elle a donné la .300 H&H et, avec elle, servi de base à presque toutes les magnums à ceinture courantes ; plusieurs pays africains ont fixé à .375 le calibre minimal légal pour la chasse des animaux dangereux à peau épaisse.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null,
-    "description_en": "Rifle cartridge, belted case head. Supported by the site's interior ballistics estimator."
+    "description_en": "Cartridge introduced by Holland & Holland as the .375 Belted Rimless Nitro Express, in response to the success of the 9.3x62 Mauser in Africa and India; it was one of the first belted cartridges, the belt providing headspace for a sharply tapered case. It gave rise to the .300 H&H and, with it, served as the basis for almost every popular belted magnum; several African countries set .375 as the minimum legal calibre for hunting thick-skinned dangerous game."
   },
   {
     "id": "375_ruger",
@@ -2316,11 +2316,11 @@
     "primer_type": "Large Pistol",
     "intro_year": 1983,
     "origin_country": "États-Unis",
-    "description": "Calibre d'arme de poing, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
+    "description": "Cartouche de pistolet lancée avec le pistolet Bren Ten de Dornaus & Dixon, dont la munition était chargée par Norma ; son étui descend d'un étui de .30 Remington raccourci. En novembre 1989, le FBI l'adopta avec un chargement à vitesse réduite, dont les performances furent ensuite reproduites dans un étui raccourci : la .40 S&W.",
     "wiki_url": null,
     "data_note": null,
     "data_note_en": null,
-    "description_en": "Handgun cartridge, rimless case head. Supported by the site's interior ballistics estimator."
+    "description_en": "Pistol cartridge launched with the Dornaus & Dixon Bren Ten pistol, with ammunition loaded by Norma; its case descends from a shortened .30 Remington case. In November 1989 the FBI adopted it with a reduced-velocity load, whose performance was then duplicated in a shortened case: the .40 S&W."
   },
   {
     "id": "219_zipper",
