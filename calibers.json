@@ -2193,8 +2193,8 @@
       "10.3 x 60 R"
     ],
     "category": "Rifle",
-    "bullet_diameter_mm": 10.3,
-    "bullet_diameter_in": 0.406,
+    "bullet_diameter_mm": 10.54,
+    "bullet_diameter_in": 0.415,
     "case_length_mm": 60.8,
     "rim_diameter_mm": 15.7,
     "rim_type": "Rimmed",
@@ -3146,8 +3146,8 @@
       "7.62×39mm"
     ],
     "category": "Rifle",
-    "bullet_diameter_mm": 7.85,
-    "bullet_diameter_in": 0.309,
+    "bullet_diameter_mm": 7.9,
+    "bullet_diameter_in": 0.311,
     "case_length_mm": 38.7,
     "rim_diameter_mm": 11.35,
     "rim_type": "Rimless",
