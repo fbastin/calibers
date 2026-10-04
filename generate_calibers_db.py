@@ -37,10 +37,19 @@ with open(os.path.join(os.path.dirname(os.path.abspath(__file__)),
                        "intro_year_reference.json"), encoding="utf-8") as _f:
     INTRO_REF = {k: v["annee"] for k, v in json.load(_f)["calibres"].items()}
 
+# Descriptions RÉÉCRITES et sourcées (description_reference.json). Décision du 2026-10-04 :
+# les 79 descriptions de hand_curated_metadata, rédigées de mémoire, ne sont plus publiées
+# (erreurs nettes : « gilets de protection » pour la .25 ACP, « Pistolet Sport » pour la
+# .32 S&W Long, « balle à calotte de papier » pour la .303) ; elles restent ici comme
+# liste de travail, et la fiche affiche la description générée en attendant.
+with open(os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                       "description_reference.json"), encoding="utf-8") as _f:
+    DESC_REF = {k: (v["description"], v["description_en"]) for k, v in json.load(_f)["calibres"].items()}
+
 # Libellé français du culot, pour la description générée (« de type rimless » mêlait
 # l'anglais au français).
 CULOT_FR = {"Rimless": "sans bourrelet", "Rimmed": "à bourrelet", "Semi-rimmed": "à semi-bourrelet",
-            "Belted": "à ceinture", "Rebated": "à culot rétreint"}
+            "Belted": "à ceinture", "Rebated": "rétreint"}
 
 
 def pressure_fields(cid, sim_val=None, fallback=None):
@@ -982,6 +991,7 @@ def merge_databases():
                     break
             continue
             
+        item["_estimateur"] = True
         merged_list.append(item)
         processed_ids.add(cid)
         
@@ -1133,6 +1143,7 @@ def merge_databases():
             "data_note_en": data_note_en([ESTIMATED_NOTES[cid]] if cid in ESTIMATED_NOTES else [])
         }
         
+        item["_estimateur"] = False
         merged_list.append(item)
         processed_ids.add(cid)
         
@@ -1144,6 +1155,21 @@ def merge_databases():
         # de HAND_CURATED, faites sans source, restent ici comme liste de travail ; trois sur
         # onze confrontées à un guide étaient fausses.
         item["intro_year"] = INTRO_REF.get(item["id"])
+        estimateur = item.pop("_estimateur")
+        if item["id"] in DESC_REF:
+            item["description"], item["description_en"] = DESC_REF[item["id"]]
+        else:
+            culot = CULOT_FR.get(item["rim_type"], item["rim_type"].lower())
+            arme = "de poing" if item["category"] == "Handgun" else (
+                "à percussion annulaire" if item["category"] == "Rimfire" else "d'épaule")
+            item["description"] = (f"Calibre d'arme {arme}, culot {culot}." if item["category"] != "Rimfire"
+                                   else "Cartouche à percussion annulaire.") + (
+                " Pris en charge par l'estimateur de balistique intérieure du site." if estimateur else "")
+            rim_en = {"Rimless": "rimless", "Rimmed": "rimmed", "Semi-rimmed": "semi-rimmed",
+                      "Belted": "belted", "Rebated": "rebated"}.get(item["rim_type"], item["rim_type"].lower())
+            item["description_en"] = (f"{'Handgun' if item['category'] == 'Handgun' else 'Rifle'} cartridge, {rim_en} case head."
+                                      if item["category"] != "Rimfire" else "Rimfire cartridge.") + (
+                " Supported by the site's interior ballistics estimator." if estimateur else "")
 
     # Sort merged list alphabetically by name
     merged_list.sort(key=lambda x: x["name"])

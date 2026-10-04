@@ -21,10 +21,11 @@
     "primer_type": "Rimfire",
     "intro_year": 2002,
     "origin_country": "États-Unis",
-    "description": "Obtenu en rétreignant un étui de .22 WMR au calibre .17. Vitesse de sortie exceptionnelle pour un calibre à percussion annulaire (plus de 770 m/s).",
+    "description": "Cartouche à percussion annulaire.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rimfire cartridge."
   },
   {
     "id": "204_ruger",
@@ -49,10 +50,11 @@
     "primer_type": "Small Rifle",
     "intro_year": 2004,
     "origin_country": "États-Unis",
-    "description": "Développé en partenariat avec Hornady et Ruger. Un calibre 'varmint' (petite nuisible) tirant à très haute vélocité (1280 m/s) à trajectoire ultra-tendue.",
+    "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, rimless case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "22_creedmoor",
@@ -79,7 +81,8 @@
     "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, rimless case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "22_hornet",
@@ -104,10 +107,11 @@
     "primer_type": "Small Rifle",
     "intro_year": 1930,
     "origin_country": "États-Unis",
-    "description": "Un des plus petits calibres de carabine de chasse à percussion centrale. Idéal pour les renards et le tir nuisible silencieux à 100-150m.",
+    "description": "Calibre d'arme d'épaule, culot à bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, rimmed case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "22_lr",
@@ -131,10 +135,11 @@
     "primer_type": "Rimfire",
     "intro_year": 1887,
     "origin_country": "États-Unis",
-    "description": "Le calibre à percussion annulaire le plus populaire au monde. Utilisé pour le tir de loisir, la compétition (pistolet et carabine à 50m) et l'initiation.",
+    "description": "Cartouche à percussion annulaire.",
     "wiki_url": null,
     "data_note": "Volume d'étui estimé (non publié C.I.P./SAAMI). Cotes et pressions relevées sur la fiche C.I.P. TAB. V « 22 Long Rifle » (révision 2024-05-14) : L3 = 15,57, L6 = 25,40, R1 = 7,06, P1 = 5,74, G1 = 5,72 mm ; Pmax 1700, PK 1955, PE 2210 bar. Canon de référence C.I.P. : âme 5,38 / fond de rayure 5,58 mm, 6 rayures, pas de 406 mm (1:16\").",
-    "data_note_en": "Estimated case capacity (not published by C.I.P./SAAMI). Dimensions and pressures taken from the C.I.P. TAB. V sheet “22 Long Rifle” (revision 2024-05-14): L3 = 15.57, L6 = 25.40, R1 = 7.06, P1 = 5.74, G1 = 5.72 mm; Pmax 1700, PK 1955, PE 2210 bar. C.I.P. reference barrel: bore 5.38 / groove 5.58 mm, 6 grooves, 406 mm twist (1:16\")."
+    "data_note_en": "Estimated case capacity (not published by C.I.P./SAAMI). Dimensions and pressures taken from the C.I.P. TAB. V sheet “22 Long Rifle” (revision 2024-05-14): L3 = 15.57, L6 = 25.40, R1 = 7.06, P1 = 5.74, G1 = 5.72 mm; Pmax 1700, PK 1955, PE 2210 bar. C.I.P. reference barrel: bore 5.38 / groove 5.58 mm, 6 grooves, 406 mm twist (1:16\").",
+    "description_en": "Rimfire cartridge."
   },
   {
     "id": "22_nosler",
@@ -158,10 +163,11 @@
     "primer_type": "Small Rifle",
     "intro_year": null,
     "origin_country": "États-Unis",
-    "description": "Calibre d'arme d'épaule, culot à culot rétreint. Pris en charge par l'estimateur de balistique intérieure du site.",
+    "description": "Calibre d'arme d'épaule, culot rétreint. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, rebated case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "22_ppcusa",
@@ -189,7 +195,8 @@
     "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, rimless case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "22_wmr",
@@ -213,10 +220,11 @@
     "primer_type": "Rimfire",
     "intro_year": null,
     "origin_country": "États-Unis",
-    "description": "Une version allongée et plus puissante du .22 LR, offrant une trajectoire plus tendue et une plus grande portée pour la petite chasse ou le tir récréatif.",
+    "description": "Cartouche à percussion annulaire.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rimfire cartridge."
   },
   {
     "id": "22_250_rem",
@@ -241,10 +249,11 @@
     "primer_type": "Large Rifle",
     "intro_year": 1965,
     "origin_country": "États-Unis",
-    "description": "Calibre de chasse varmint ultra-rapide capable de dépasser les 1200 m/s avec un projectile léger. Très apprécié pour le tir de régulation.",
+    "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, rimless case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "220_swift",
@@ -269,10 +278,11 @@
     "primer_type": "Large Rifle",
     "intro_year": 1935,
     "origin_country": "États-Unis",
-    "description": "Calibre pionnier de la très haute vélocité (dépassant 1200 m/s). Réputé exigeant pour les canons.",
+    "description": "Calibre d'arme d'épaule, culot à semi-bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, semi-rimmed case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "221_remington_fireball",
@@ -299,7 +309,8 @@
     "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, rimless case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "222_rem",
@@ -324,10 +335,11 @@
     "primer_type": "Small Rifle",
     "intro_year": 1950,
     "origin_country": "États-Unis",
-    "description": "Calibre mythique de Benchrest et de chasse légendaire pour sa précision. Très populaire en France en raison des anciennes législations sur les calibres militaires.",
+    "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, rimless case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "222_rem_mag",
@@ -354,7 +366,8 @@
     "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, rimless case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "223_rem",
@@ -379,10 +392,11 @@
     "primer_type": "Small Rifle",
     "intro_year": 1964,
     "origin_country": "États-Unis",
-    "description": "Dérivé du .222 Rem, il a servi de base au standard militaire de l'OTAN (5.56x45mm). Universellement répandu dans les fusils de type AR-15.",
+    "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": "https://www.tireur.org/wiki/doku.php?id=technique:calibres_militaires#nato_et_le_223_remington",
     "data_note": "Voir aussi la variante militaire distincte 5.56×45mm NATO (cotes extérieures identiques, mais chambre à leade plus long et pression supérieure). Une chambre .223 Rem n'est pas prévue pour la munition 5.56 OTAN.",
-    "data_note_en": "See also the distinct military variant, 5.56×45mm NATO (identical external dimensions, but a chamber with a longer leade and a higher pressure). A .223 Rem chamber is not intended for 5.56 NATO ammunition."
+    "data_note_en": "See also the distinct military variant, 5.56×45mm NATO (identical external dimensions, but a chamber with a longer leade and a higher pressure). A .223 Rem chamber is not intended for 5.56 NATO ammunition.",
+    "description_en": "Rifle cartridge, rimless case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "223_wssm",
@@ -407,10 +421,11 @@
     "primer_type": "Large Rifle",
     "intro_year": null,
     "origin_country": "États-Unis",
-    "description": "Calibre d'arme d'épaule, culot à culot rétreint. Pris en charge par l'estimateur de balistique intérieure du site.",
+    "description": "Calibre d'arme d'épaule, culot rétreint. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, rebated case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "224_valkyrie",
@@ -437,7 +452,8 @@
     "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, rimless case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "240_weatherby_magnum",
@@ -464,7 +480,8 @@
     "description": "Calibre d'arme d'épaule, culot à ceinture. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, belted case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "243_ackley_improved",
@@ -493,7 +510,8 @@
     "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": "Wildcat non homologué C.I.P. ni normalisé SAAMI : limite reprise du .243 Win. dont il dérive (même étui, épaulement redressé). Valeur indicative.",
-    "data_note_en": "Wildcat, neither approved by C.I.P. nor standardised by SAAMI: limit taken from the .243 Win. it derives from (same case, sharper shoulder). Indicative value."
+    "data_note_en": "Wildcat, neither approved by C.I.P. nor standardised by SAAMI: limit taken from the .243 Win. it derives from (same case, sharper shoulder). Indicative value.",
+    "description_en": "Rifle cartridge, rimless case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "243_win",
@@ -518,10 +536,11 @@
     "primer_type": "Large Rifle",
     "intro_year": 1955,
     "origin_country": "États-Unis",
-    "description": "Créé en rétreignant le collet de la douille du .308 Win. Très polyvalent pour le chevreuil, le renard et le tir de précision.",
+    "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, rimless case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "25_acp",
@@ -545,10 +564,11 @@
     "primer_type": "Small Pistol",
     "intro_year": 1906,
     "origin_country": "Belgique / États-Unis",
-    "description": "Conçu par John Browning pour les pistolets de poche ultra-compacts (gilets de protection). Très faible recul.",
+    "description": "Calibre d'arme de poing, culot à semi-bourrelet.",
     "wiki_url": null,
     "data_note": "Volume d'étui estimé (non publié C.I.P./SAAMI).",
-    "data_note_en": "Estimated case capacity (not published by C.I.P./SAAMI)."
+    "data_note_en": "Estimated case capacity (not published by C.I.P./SAAMI).",
+    "description_en": "Handgun cartridge, semi-rimmed case head."
   },
   {
     "id": "250_savage",
@@ -576,7 +596,8 @@
     "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, rimless case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "257_roberts",
@@ -603,7 +624,8 @@
     "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, rimless case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "257_wby_mag",
@@ -631,7 +653,8 @@
     "description": "Calibre d'arme d'épaule, culot à ceinture. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, belted case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "260_rem",
@@ -656,10 +679,11 @@
     "primer_type": "Large Rifle",
     "intro_year": 1997,
     "origin_country": "États-Unis",
-    "description": "Un étui de .308 Winchester rétreint en 6.5mm. Offre des performances très similaires au 6.5 Creedmoor.",
+    "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, rimless case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "270_wsm",
@@ -684,10 +708,11 @@
     "primer_type": "Large Rifle Magnum",
     "intro_year": 2002,
     "origin_country": "États-Unis",
-    "description": "Calibre d'arme d'épaule, culot à culot rétreint. Pris en charge par l'estimateur de balistique intérieure du site.",
+    "description": "Calibre d'arme d'épaule, culot rétreint. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, rebated case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "270_weatherby_magnum",
@@ -714,7 +739,8 @@
     "description": "Calibre d'arme d'épaule, culot à ceinture. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, belted case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "270_win",
@@ -739,10 +765,11 @@
     "primer_type": "Large Rifle",
     "intro_year": 1925,
     "origin_country": "États-Unis",
-    "description": "Obtenu en rétreignant le collet du .30-06. Une munition légendaire de grande chasse à tir très tendu (grand gibier, plaine et montagne).",
+    "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, rimless case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "280_remington",
@@ -769,7 +796,8 @@
     "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, rimless case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "284_winchester",
@@ -793,10 +821,11 @@
     "primer_type": "Large Rifle",
     "intro_year": null,
     "origin_country": "États-Unis",
-    "description": "Calibre d'arme d'épaule, culot à culot rétreint. Pris en charge par l'estimateur de balistique intérieure du site.",
+    "description": "Calibre d'arme d'épaule, culot rétreint. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, rebated case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "30_carbine",
@@ -823,7 +852,8 @@
     "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, rimless case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "30_r_blaser",
@@ -850,7 +880,8 @@
     "description": "Calibre d'arme d'épaule, culot à bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, rimmed case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "30_t/c",
@@ -878,7 +909,8 @@
     "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, rimless case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "30_06_springfield",
@@ -903,10 +935,11 @@
     "primer_type": "Large Rifle",
     "intro_year": 1906,
     "origin_country": "États-Unis",
-    "description": "Calibre militaire des deux guerres mondiales (M1 Garand, Springfield 1903). Devenu l'une des munitions de chasse les plus utilisées au monde.",
+    "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": "https://www.tireur.org/wiki/doku.php?id=technique:cartouche_30_06",
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, rimless case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "30_30_win",
@@ -931,10 +964,11 @@
     "primer_type": "Large Rifle",
     "intro_year": 1895,
     "origin_country": "États-Unis",
-    "description": "Calibre emblématique des carabines de cow-boy à levier de sous-garde (Winchester 94, Marlin 336). Portée pratique limitée mais recul modéré.",
+    "description": "Calibre d'arme d'épaule, culot à bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, rimmed case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "300_blackout",
@@ -960,10 +994,11 @@
     "primer_type": "Small Rifle",
     "intro_year": 2011,
     "origin_country": "États-Unis",
-    "description": "Développé pour offrir des performances similaires au 7.62x39mm dans une carcasse d'AR-15 standard, excellent comportement en chargement subsonique avec modérateur de son.",
+    "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, rimless case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "300_lapua_magnum",
@@ -990,7 +1025,8 @@
     "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, rimless case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "300_norma_magnum",
@@ -1017,7 +1053,8 @@
     "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, rimless case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "300_prc",
@@ -1042,10 +1079,11 @@
     "primer_type": "Large Rifle Magnum",
     "intro_year": 2018,
     "origin_country": "États-Unis",
-    "description": "Calibre magnum moderne sans ceinture de feu (beltless) optimisé pour loger des balles très longues à coefficient balistique très élevé pour le tir ELR.",
+    "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, rimless case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "300_rcm",
@@ -1073,7 +1111,8 @@
     "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, rimless case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "300_rem_ultra_mag",
@@ -1098,10 +1137,11 @@
     "primer_type": "Large Rifle Magnum",
     "intro_year": null,
     "origin_country": "États-Unis",
-    "description": "Calibre d'arme d'épaule, culot à culot rétreint. Pris en charge par l'estimateur de balistique intérieure du site.",
+    "description": "Calibre d'arme d'épaule, culot rétreint. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, rebated case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "300_savage",
@@ -1128,7 +1168,8 @@
     "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, rimless case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "300_wsm",
@@ -1153,10 +1194,11 @@
     "primer_type": "Large Rifle Magnum",
     "intro_year": 2001,
     "origin_country": "États-Unis",
-    "description": "Calibre d'arme d'épaule, culot à culot rétreint. Pris en charge par l'estimateur de balistique intérieure du site.",
+    "description": "Calibre d'arme d'épaule, culot rétreint. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, rebated case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "300_weatherby_magnum",
@@ -1183,7 +1225,8 @@
     "description": "Calibre d'arme d'épaule, culot à ceinture. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, belted case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "300_win_mag",
@@ -1208,10 +1251,11 @@
     "primer_type": "Large Rifle Magnum",
     "intro_year": 1963,
     "origin_country": "États-Unis",
-    "description": "Très populaire pour le tir d'élite longue distance (militaires et forces de l'ordre) ainsi que pour la chasse au très gros gibier.",
+    "description": "Calibre d'arme d'épaule, culot à ceinture. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, belted case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "303_british",
@@ -1236,10 +1280,11 @@
     "primer_type": "Large Rifle",
     "intro_year": 1888,
     "origin_country": "Royaume-Uni",
-    "description": "Calibre militaire du Lee-Enfield de l'Empire britannique. À l'origine conçu pour la poudre noire avec une balle à calotte de papier.",
+    "description": "Calibre d'arme d'épaule, culot à bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, rimmed case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "308_marlin_express",
@@ -1266,7 +1311,8 @@
     "description": "Calibre d'arme d'épaule, culot à bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, rimmed case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "308_win",
@@ -1291,10 +1337,11 @@
     "primer_type": "Large Rifle",
     "intro_year": 1952,
     "origin_country": "États-Unis",
-    "description": "Standard militaire de fait (7.62x51). Calibre universel de précision pour fusils à verrou ou semi-automatiques, réputé stable et tolérant.",
+    "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": "https://www.tireur.org/wiki/doku.php?id=technique:calibres_militaires#nato_et_la_308_winchester",
     "data_note": "Voir aussi la variante militaire distincte 7.62×51mm NATO (cotes proches, spécifications différentes). Tirer une munition .308 Win dans une chambre militaire 7.62 OTAN (headspace plus long) peut provoquer une rupture d'étui.",
-    "data_note_en": "See also the distinct military variant, 7.62×51mm NATO (similar dimensions, different specifications). Firing .308 Win ammunition in a 7.62 NATO military chamber (longer headspace) can cause a case rupture."
+    "data_note_en": "See also the distinct military variant, 7.62×51mm NATO (similar dimensions, different specifications). Firing .308 Win ammunition in a 7.62 NATO military chamber (longer headspace) can cause a case rupture.",
+    "description_en": "Rifle cartridge, rimless case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "32_acp",
@@ -1318,10 +1365,11 @@
     "primer_type": "Small Pistol",
     "intro_year": 1899,
     "origin_country": "Belgique",
-    "description": "Calibre mythique de John Browning ayant équipé d'innombrables pistolets policiers et militaires européens au XXe siècle (ex: Walther PP/PPK, Ruby).",
+    "description": "Calibre d'arme de poing, culot à semi-bourrelet.",
     "wiki_url": null,
     "data_note": "Volume d'étui estimé (non publié C.I.P./SAAMI).",
-    "data_note_en": "Estimated case capacity (not published by C.I.P./SAAMI)."
+    "data_note_en": "Estimated case capacity (not published by C.I.P./SAAMI).",
+    "description_en": "Handgun cartridge, semi-rimmed case head."
   },
   {
     "id": "32_sw_long",
@@ -1345,10 +1393,11 @@
     "primer_type": "Small Pistol",
     "intro_year": 1896,
     "origin_country": "États-Unis",
-    "description": "Calibre réputé pour sa précision extrême à courte distance. Très prisé dans les épreuves de tir de précision ISSF à 25 mètres (Pistolet Sport).",
+    "description": "Calibre d'arme de poing, culot à bourrelet.",
     "wiki_url": null,
     "data_note": "Volume d'étui estimé (non publié C.I.P./SAAMI).",
-    "data_note_en": "Estimated case capacity (not published by C.I.P./SAAMI)."
+    "data_note_en": "Estimated case capacity (not published by C.I.P./SAAMI).",
+    "description_en": "Handgun cartridge, rimmed case head."
   },
   {
     "id": "338_lapua",
@@ -1373,10 +1422,11 @@
     "primer_type": "Large Rifle Magnum",
     "intro_year": 1990,
     "origin_country": "Finlande",
-    "description": "Conçu spécifiquement pour le tir de précision militaire longue distance (jusqu'à 1500m+) afin de se situer entre le 7.62 NATO et le .50 BMG.",
+    "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, rimless case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "338_norma_mag",
@@ -1403,7 +1453,8 @@
     "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, rimless case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "338_win_mag",
@@ -1431,7 +1482,8 @@
     "description": "Calibre d'arme d'épaule, culot à ceinture. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, belted case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "357_magnum",
@@ -1456,10 +1508,11 @@
     "primer_type": "Small Pistol Magnum",
     "intro_year": 1935,
     "origin_country": "États-Unis",
-    "description": "Créé en allongeant la douille du .38 Special pour supporter de très fortes pressions. Un grand classique pour revolvers de défense et de sport.",
+    "description": "Calibre d'arme de poing, culot à bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Handgun cartridge, rimmed case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "357_sig",
@@ -1484,10 +1537,11 @@
     "primer_type": "Small Pistol",
     "intro_year": 1994,
     "origin_country": "Suisse / États-Unis",
-    "description": "Créé en rétreignant un étui de .40 S&W pour y loger une balle de 9mm. Conçu pour reproduire la balistique du .357 Mag dans un pistolet semi-automatique.",
+    "description": "Calibre d'arme de poing, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Handgun cartridge, rimless case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "375_hh_mag",
@@ -1512,10 +1566,11 @@
     "primer_type": "Large Rifle Magnum",
     "intro_year": 1912,
     "origin_country": "Royaume-Uni",
-    "description": "La référence absolue pour le safari africain. Considéré comme le calibre minimum légal pour la chasse aux « Big Five » (les 5 grands fauves) dans de nombreux pays.",
+    "description": "Calibre d'arme d'épaule, culot à ceinture. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, belted case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "375_ruger",
@@ -1542,7 +1597,8 @@
     "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, rimless case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "38_special",
@@ -1567,10 +1623,11 @@
     "primer_type": "Small Pistol",
     "intro_year": 1899,
     "origin_country": "États-Unis",
-    "description": "Le calibre de revolver le plus populaire au monde, réputé pour sa précision exceptionnelle et son recul modéré.",
+    "description": "Calibre d'arme de poing, culot à bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Handgun cartridge, rimmed case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "380_acp",
@@ -1598,10 +1655,11 @@
     "primer_type": "Small Pistol",
     "intro_year": 1908,
     "origin_country": "États-Unis",
-    "description": "Conçu pour les pistolets semi-automatiques compacts à culasse non calée (blowback). Populaire pour la défense personnelle.",
+    "description": "Calibre d'arme de poing, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Handgun cartridge, rimless case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "40_sw",
@@ -1626,10 +1684,11 @@
     "primer_type": "Small Pistol",
     "intro_year": 1990,
     "origin_country": "États-Unis",
-    "description": "Compromis entre le 9mm Parabellum et le .45 ACP, conçu à la demande du FBI après la fusillade de Miami.",
+    "description": "Calibre d'arme de poing, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Handgun cartridge, rimless case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "408_cheytac",
@@ -1653,10 +1712,11 @@
     "primer_type": "Large Rifle Magnum",
     "intro_year": null,
     "origin_country": "États-Unis",
-    "description": "Conçu pour combler le vide entre le .338 Lapua et le .50 BMG. Détient de nombreux records mondiaux de tir à très longue distance (ELR).",
+    "description": "Calibre d'arme d'épaule, culot sans bourrelet.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, rimless case head."
   },
   {
     "id": "41_rem_mag",
@@ -1682,10 +1742,11 @@
     "primer_type": "Large Pistol",
     "intro_year": 1964,
     "origin_country": "États-Unis",
-    "description": "Calibre intermédiaire de revolver destiné à combler le fossé entre le .357 Magnum et le .44 Magnum pour le maintien de l'ordre.",
+    "description": "Calibre d'arme de poing, culot à bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Handgun cartridge, rimmed case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "416_barrett",
@@ -1709,10 +1770,11 @@
     "primer_type": "Large Rifle Magnum",
     "intro_year": null,
     "origin_country": "États-Unis",
-    "description": "Développé en modifiant un étui de .50 BMG. Conçu pour le tir à ultra-longue distance, avec un vol supersonique au-delà de 2000 mètres.",
+    "description": "Calibre d'arme d'épaule, culot sans bourrelet.",
     "wiki_url": null,
     "data_note": "Pression maximale indicative (cartouche non normalisée C.I.P.).",
-    "data_note_en": "Indicative maximum pressure (cartridge not standardised by C.I.P.)."
+    "data_note_en": "Indicative maximum pressure (cartridge not standardised by C.I.P.).",
+    "description_en": "Rifle cartridge, rimless case head."
   },
   {
     "id": "416_rigby",
@@ -1739,7 +1801,8 @@
     "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, rimless case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "44_magnum",
@@ -1764,10 +1827,11 @@
     "primer_type": "Large Pistol Magnum",
     "intro_year": 1955,
     "origin_country": "États-Unis",
-    "description": "Popularisé par le film 'L'Inspecteur Harry'. Calibre mythique pour la chasse de gros gigier à l'arme de poing et la silhouette métallique.",
+    "description": "Calibre d'arme de poing, culot à bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Handgun cartridge, rimmed case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "44_special",
@@ -1791,10 +1855,11 @@
     "primer_type": "Large Pistol",
     "intro_year": 1907,
     "origin_country": "États-Unis",
-    "description": "Grand frère historique du .44 Magnum. Réputé pour sa douceur et sa précision dans les revolvers compacts.",
+    "description": "Calibre d'arme de poing, culot à bourrelet.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Handgun cartridge, rimmed case head."
   },
   {
     "id": "44_40_win",
@@ -1818,10 +1883,11 @@
     "primer_type": "Large Pistol",
     "intro_year": 1873,
     "origin_country": "États-Unis",
-    "description": "Premier calibre polyvalent moderne permettant d'utiliser les mêmes cartouches dans sa carabine Winchester 1873 et son revolver Colt Frontier.",
+    "description": "Calibre d'arme d'épaule, culot à bourrelet.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, rimmed case head."
   },
   {
     "id": "444_marlin",
@@ -1848,7 +1914,8 @@
     "description": "Calibre d'arme d'épaule, culot à bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, rimmed case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "45_acp",
@@ -1875,10 +1942,11 @@
     "primer_type": "Large Pistol",
     "intro_year": 1905,
     "origin_country": "États-Unis",
-    "description": "Développé par John Browning pour le célèbre pistolet Colt M1911. Calibre lourd et lent doté d'un excellent pouvoir d'arrêt.",
+    "description": "Calibre d'arme de poing, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Handgun cartridge, rimless case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "45_colt",
@@ -1903,10 +1971,11 @@
     "primer_type": "Large Pistol",
     "intro_year": 1873,
     "origin_country": "États-Unis",
-    "description": "Calibre historique du revolver Colt Single Action Army (Peacemaker) à l'époque de la conquête de l'Ouest. Très populaire en Cowboy Action Shooting.",
+    "description": "Calibre d'arme de poing, culot à bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Handgun cartridge, rimmed case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "45_winchester_magnum",
@@ -1933,7 +2002,8 @@
     "description": "Calibre d'arme de poing, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Handgun cartridge, rimless case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "45_70_govt",
@@ -1959,10 +2029,11 @@
     "primer_type": "Large Rifle",
     "intro_year": 1873,
     "origin_country": "États-Unis",
-    "description": "Munition de l'armée américaine à la fin du XIXe siècle. Très prisée dans les carabines modernes à levier de sous-garde pour la chasse en sous-bois.",
+    "description": "Calibre d'arme d'épaule, culot à bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, rimmed case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "450_bushmaster",
@@ -1986,10 +2057,11 @@
     "primer_type": "Small Rifle",
     "intro_year": null,
     "origin_country": "États-Unis",
-    "description": "Conçu pour le concept de 'gros calibre' (Thumper) dans la plateforme AR-15, tirant des balles de .452\" à courte distance pour la chasse en battue.",
+    "description": "Calibre d'arme d'épaule, culot rétreint.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, rebated case head."
   },
   {
     "id": "454_casull",
@@ -2014,10 +2086,11 @@
     "primer_type": "Small Rifle",
     "intro_year": 1983,
     "origin_country": "États-Unis",
-    "description": "Développé par Dick Casull. Version sur-vitaminée du .45 Colt conçue pour résister à d'immenses pressions, destinée à la chasse aux grands fauves.",
+    "description": "Calibre d'arme de poing, culot à bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Handgun cartridge, rimmed case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "458_socom",
@@ -2041,10 +2114,11 @@
     "primer_type": "Large Pistol / Large Rifle",
     "intro_year": null,
     "origin_country": "États-Unis",
-    "description": "Calibre d'arme d'épaule, culot à culot rétreint. Pris en charge par l'estimateur de balistique intérieure du site.",
+    "description": "Calibre d'arme d'épaule, culot rétreint. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, rebated case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "458_win_mag",
@@ -2069,10 +2143,11 @@
     "primer_type": "Large Rifle",
     "intro_year": 1956,
     "origin_country": "États-Unis",
-    "description": "Créé pour remplacer les coûteux calibres anglais de double Express en safari. Calibre lourd et puissant pour éléphants et buffles.",
+    "description": "Calibre d'arme d'épaule, culot à ceinture. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, belted case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "460_sw_mag",
@@ -2098,10 +2173,11 @@
     "primer_type": "Large Rifle",
     "intro_year": 2005,
     "origin_country": "États-Unis",
-    "description": "Le calibre de revolver à percussion centrale de série le plus rapide du monde. Développé pour la chasse à longue distance.",
+    "description": "Calibre d'arme de poing, culot à bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Handgun cartridge, rimmed case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "50_ae",
@@ -2127,10 +2203,11 @@
     "primer_type": "Large Pistol",
     "intro_year": null,
     "origin_country": "États-Unis",
-    "description": "Munition reine du pistolet semi-automatique Desert Eagle. Diamètre de culot réduit (identique au .44 Mag) pour faciliter la conversion d'armes.",
+    "description": "Calibre d'arme de poing, culot rétreint. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Handgun cartridge, rebated case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "50_bmg",
@@ -2154,10 +2231,11 @@
     "primer_type": ".50 BMG (CCI 35)",
     "intro_year": 1921,
     "origin_country": "États-Unis",
-    "description": "Munition lourde de mitrailleuse lourde (M2 Browning) et de fusil de précision à très longue portée antimatériel (ex: Barrett M82).",
+    "description": "Calibre d'arme d'épaule, culot sans bourrelet.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, rimless case head."
   },
   {
     "id": "500_sw_mag",
@@ -2181,10 +2259,11 @@
     "primer_type": "Large Rifle",
     "intro_year": 2003,
     "origin_country": "États-Unis",
-    "description": "Conçu par Smith & Wesson pour son revolver géant à carcasse X. L'une des munitions d'arme de poing de série les plus énergétiques.",
+    "description": "Calibre d'arme de poing, culot à semi-bourrelet.",
     "wiki_url": null,
     "data_note": "Volume d'étui estimé (non publié C.I.P./SAAMI).",
-    "data_note_en": "Estimated case capacity (not published by C.I.P./SAAMI)."
+    "data_note_en": "Estimated case capacity (not published by C.I.P./SAAMI).",
+    "description_en": "Handgun cartridge, semi-rimmed case head."
   },
   {
     "id": "103_x_60_r",
@@ -2211,7 +2290,8 @@
     "description": "Calibre d'arme d'épaule, culot à bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, rimmed case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "10mm_auto",
@@ -2236,10 +2316,11 @@
     "primer_type": "Large Pistol",
     "intro_year": 1983,
     "origin_country": "États-Unis",
-    "description": "Calibre d'arme de poing très puissant à trajectoire tendue, initialement adopté par le FBI avant d'être jugé trop puissant pour un usage généralisé.",
+    "description": "Calibre d'arme de poing, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Handgun cartridge, rimless case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "219_zipper",
@@ -2266,7 +2347,8 @@
     "description": "Calibre d'arme d'épaule, culot à bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, rimmed case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "25_06_remington",
@@ -2293,7 +2375,8 @@
     "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, rimless case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "33806",
@@ -2321,7 +2404,8 @@
     "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": "Wildcat non normalisé : absent des tables C.I.P. (Tab I) comme du standard SAAMI Z299.4-2025, vérifié le 2026-08-11. Plafond de TRAVAIL de 65 000 psi, au-dessus des 14 charges maximales mesurées du guide ADI 2013 (59 900 à 63 400 psi) : sur les cartouches que ce guide donne en psi, il développe 200 à 1 600 psi sous la MAP (.308 Win, .223 Rem). Valeur indicative, non normative.",
-    "data_note_en": "Non-standardised wildcat: absent from both the C.I.P. tables (Tab I) and the SAAMI Z299.4-2025 standard, checked on 2026-08-11. WORKING ceiling of 65,000 psi, above the 14 maximum loads measured in the 2013 ADI guide (59,900 to 63,400 psi): on the cartridges that guide gives in psi, it runs 200 to 1,600 psi below the MAP (.308 Win, .223 Rem). Indicative value, not normative."
+    "data_note_en": "Non-standardised wildcat: absent from both the C.I.P. tables (Tab I) and the SAAMI Z299.4-2025 standard, checked on 2026-08-11. WORKING ceiling of 65,000 psi, above the 14 maximum loads measured in the 2013 ADI guide (59,900 to 63,400 psi): on the cartridges that guide gives in psi, it runs 200 to 1,600 psi below the MAP (.308 Win, .223 Rem). Indicative value, not normative.",
+    "description_en": "Rifle cartridge, rimless case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "35_remington",
@@ -2348,7 +2432,8 @@
     "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, rimless case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "357_maximum",
@@ -2378,7 +2463,8 @@
     "description": "Calibre d'arme de poing, culot à bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Handgun cartridge, rimmed case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "38_super_auto",
@@ -2406,7 +2492,8 @@
     "description": "Calibre d'arme de poing, culot à semi-bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Handgun cartridge, semi-rimmed case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "46x30_hk",
@@ -2433,10 +2520,11 @@
     "primer_type": "Small Rifle",
     "intro_year": 2001,
     "origin_country": "Allemagne",
-    "description": "Cartouche de très petit calibre à haute vitesse conçue par Heckler & Koch pour l'arme de défense individuelle MP7. Projectile léger optimisé pour la perforation des gilets pare-balles souples, avec recul et masse réduits. Concurrente directe du 5.7×28 mm FN.",
+    "description": "Calibre d'arme de poing, culot sans bourrelet.",
     "wiki_url": "https://www.tireur.org/wiki/doku.php?id=technique:calibres_militaires#hk",
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Handgun cartridge, rimless case head."
   },
   {
     "id": "475_linebaugh",
@@ -2463,7 +2551,8 @@
     "description": "Calibre d'arme de poing, culot à bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Handgun cartridge, rimmed case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "545x39_m74",
@@ -2487,10 +2576,11 @@
     "primer_type": "Small Rifle",
     "intro_year": 1974,
     "origin_country": "Union Soviétique",
-    "description": "Réponse soviétique au 5.56 NATO. Utilisé dans le fusil d'assaut AK-74, réputé pour sa flèche très tendue et son recul quasi-inexistant.",
+    "description": "Calibre d'arme d'épaule, culot sans bourrelet.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, rimless case head."
   },
   {
     "id": "556x45_nato",
@@ -2519,10 +2609,11 @@
     "primer_type": "Small Rifle",
     "intro_year": 1980,
     "origin_country": "Belgique",
-    "description": "Standard OTAN (STANAG 4172) dérivé du .223 Remington, adopté avec le projectile SS109/M855 à noyau d'acier. Cotes extérieures identiques au .223, mais chambre à cône de forcement (leade) plus long et chargement à plus haute pression. Munition de service des fusils d'assaut de l'OTAN (M16, HK416, etc.).",
+    "description": "Calibre d'arme d'épaule, culot sans bourrelet.",
     "wiki_url": "https://www.tireur.org/wiki/doku.php?id=technique:calibres_militaires#nato_et_le_223_remington",
     "data_note": "Cotes extérieures identiques au .223 Remington, mais cartouches NON strictement interchangeables : une munition 5.56 OTAN tirée dans une chambre .223 Rem peut générer une surpression dangereuse. L'inverse (.223 Rem dans une chambre 5.56/OTAN) est généralement sans risque. Spécification militaire OTAN, non normalisée C.I.P.",
-    "data_note_en": "Same external dimensions as the .223 Remington, but the cartridges are NOT strictly interchangeable: 5.56 NATO ammunition fired in a .223 Rem chamber can generate dangerous overpressure. The reverse (.223 Rem in a 5.56/NATO chamber) is generally safe. NATO military specification, not standardised by C.I.P."
+    "data_note_en": "Same external dimensions as the .223 Remington, but the cartridges are NOT strictly interchangeable: 5.56 NATO ammunition fired in a .223 Rem chamber can generate dangerous overpressure. The reverse (.223 Rem in a 5.56/NATO chamber) is generally safe. NATO military specification, not standardised by C.I.P.",
+    "description_en": "Rifle cartridge, rimless case head."
   },
   {
     "id": "56_x_50_r_mag",
@@ -2549,7 +2640,8 @@
     "description": "Calibre d'arme d'épaule, culot à bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, rimmed case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "57x28_fn",
@@ -2573,10 +2665,11 @@
     "primer_type": "Small Pistol",
     "intro_year": null,
     "origin_country": "Belgique",
-    "description": "Conçu par la FN Herstal pour remplacer le 9mm dans les rôles de défense individuelle (P90 et Five-seveN). Projectile léger ultra-rapide.",
+    "description": "Calibre d'arme de poing, culot rétreint.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Handgun cartridge, rebated case head."
   },
   {
     "id": "6_norma_br",
@@ -2608,7 +2701,8 @@
     "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, rimless case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "6_xc",
@@ -2637,7 +2731,8 @@
     "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, rimless case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "65_creedmoor",
@@ -2661,10 +2756,11 @@
     "primer_type": "Large Rifle",
     "intro_year": 2007,
     "origin_country": "États-Unis",
-    "description": "Calibre moderne développé par Hornady. Standard de fait pour le tir à longue distance (TLD) à faible recul, optimisé pour les culasses courtes d'action standard.",
+    "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, rimless case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "65_grendel",
@@ -2689,10 +2785,11 @@
     "primer_type": "Small Rifle",
     "intro_year": null,
     "origin_country": "États-Unis",
-    "description": "Développé pour maximiser les performances à moyenne et longue distance de la plateforme AR-15 en remplaçant la munition 5.56 NATO.",
+    "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, rimless case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "65_prc",
@@ -2716,10 +2813,11 @@
     "primer_type": "Large Rifle",
     "intro_year": 2018,
     "origin_country": "États-Unis",
-    "description": "Version 'Magnum' moderne du 6.5 Creedmoor conçue par Hornady. Offre environ 80 m/s de vitesse supplémentaire pour le tir à longue distance et la chasse.",
+    "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, rimless case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "65284_norma",
@@ -2744,10 +2842,11 @@
     "primer_type": "Large Rifle",
     "intro_year": null,
     "origin_country": "Suède",
-    "description": "Calibre d'arme d'épaule, culot à culot rétreint. Pris en charge par l'estimateur de balistique intérieure du site.",
+    "description": "Calibre d'arme d'épaule, culot rétreint. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, rebated case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "65x47_lapua",
@@ -2772,10 +2871,11 @@
     "primer_type": "Small Rifle",
     "intro_year": null,
     "origin_country": "Finlande",
-    "description": "Développé spécifiquement par Lapua pour la compétition de tir de précision à 300m. Exceptionnellement régulier.",
+    "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, rimless case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "65x55_swedish",
@@ -2802,10 +2902,11 @@
     "primer_type": "Large Rifle",
     "intro_year": 1894,
     "origin_country": "Suède / Norvège",
-    "description": "Calibre militaire historique scandinave (Mauser suédois), légendaire pour sa précision, son recul doux et la grande densité de section de ses projectiles.",
+    "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, rimless case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "68_western",
@@ -2829,10 +2930,11 @@
     "primer_type": "Large Rifle Magnum",
     "intro_year": null,
     "origin_country": "États-Unis",
-    "description": "Calibre d'arme d'épaule, culot à culot rétreint. Pris en charge par l'estimateur de balistique intérieure du site.",
+    "description": "Calibre d'arme d'épaule, culot rétreint. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, rebated case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "6mm_arc",
@@ -2860,7 +2962,8 @@
     "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, rimless case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "6mm_creedmoor",
@@ -2885,10 +2988,11 @@
     "primer_type": "Large Rifle",
     "intro_year": 2017,
     "origin_country": "États-Unis",
-    "description": "Version de compétition issue du 6.5 Creedmoor, optimisée pour le tir à très longue distance avec un recul encore plus modéré.",
+    "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, rimless case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "6mm_ppc",
@@ -2918,7 +3022,8 @@
     "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, rimless case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "6_mm_remington",
@@ -2945,7 +3050,8 @@
     "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, rimless case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "6x47_lapua",
@@ -2972,7 +3078,8 @@
     "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": "Wildcat non homologué C.I.P. ni normalisé SAAMI : limite reprise du 6,5 x 47 Lapua dont il dérive (même étui, collet rétreint en 6 mm). Valeur indicative. Le guide Hodgdon AM24 couvre cette cartouche mais en CUP, unité non convertible : il ne permet pas de contrôler cette limite.",
-    "data_note_en": "Wildcat, neither approved by C.I.P. nor standardised by SAAMI: limit taken from the 6.5 x 47 Lapua it derives from (same case, neck reduced to 6 mm). Indicative value. The Hodgdon AM24 guide covers this cartridge, but in CUP, a unit that cannot be converted: it cannot be used to check this limit."
+    "data_note_en": "Wildcat, neither approved by C.I.P. nor standardised by SAAMI: limit taken from the 6.5 x 47 Lapua it derives from (same case, neck reduced to 6 mm). Indicative value. The Hodgdon AM24 guide covers this cartridge, but in CUP, a unit that cannot be converted: it cannot be used to check this limit.",
+    "description_en": "Rifle cartridge, rimless case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "7_x_57_r",
@@ -2999,7 +3106,8 @@
     "description": "Calibre d'arme d'épaule, culot à bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, rimmed case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "7_x_65_r",
@@ -3027,7 +3135,8 @@
     "description": "Calibre d'arme d'épaule, culot à bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, rimmed case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "75_swiss_rev",
@@ -3051,10 +3160,11 @@
     "primer_type": "Small Pistol",
     "intro_year": 1882,
     "origin_country": "Suisse",
-    "description": "Munition de service du revolver d'ordonnance suisse Modèle 1882. Chargée à l'origine à la poudre noire puis à la poudre sans fumée.",
+    "description": "Calibre d'arme de poing, culot à bourrelet.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Handgun cartridge, rimmed case head."
   },
   {
     "id": "75x54_french",
@@ -3078,10 +3188,11 @@
     "primer_type": "Large Rifle",
     "intro_year": 1929,
     "origin_country": "France",
-    "description": "Calibre de service français pour les fusils MAS 36, MAS 49/56 et fusils-mitrailleurs 24/29.",
+    "description": "Calibre d'arme d'épaule, culot sans bourrelet.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, rimless case head."
   },
   {
     "id": "75x55_swiss",
@@ -3106,10 +3217,11 @@
     "primer_type": "Large Rifle",
     "intro_year": 1911,
     "origin_country": "Suisse",
-    "description": "Munition militaire d'ordonnance suisse (GP11) utilisée dans le K31. Exceptionnelle régularité de fabrication d'origine.",
+    "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": "https://www.tireur.org/wiki/doku.php?id=technique:cartouche_7-5x55",
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, rimless case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "762x25_tokarev",
@@ -3133,10 +3245,11 @@
     "primer_type": "Small Pistol",
     "intro_year": null,
     "origin_country": "Union Soviétique",
-    "description": "Calibre à douille bouteille ultra-rapide utilisé dans les pistolets TT-33 et pistolets-mitrailleurs (PPSh-41). Forte capacité de perforation.",
+    "description": "Calibre d'arme de poing, culot sans bourrelet.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Handgun cartridge, rimless case head."
   },
   {
     "id": "762x39_m43",
@@ -3161,10 +3274,11 @@
     "primer_type": "Large Rifle",
     "intro_year": 1949,
     "origin_country": "Union Soviétique",
-    "description": "Calibre de l'AK-47 et de la SKS. Conçu pour le combat à moyenne portée. Munition économique et rustique.",
+    "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, rimless case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "762x51_nato",
@@ -3191,10 +3305,11 @@
     "primer_type": "Large Rifle",
     "intro_year": null,
     "origin_country": "États-Unis",
-    "description": "Standard OTAN (STANAG 2310) dérivé du .308 Winchester, adopté en 1954 pour le fusil M14 et la mitrailleuse M60. Cotes proches du .308 mais spécifications militaires (mesure de pression EPVAT, parois d'étui plus épaisses). Munition de service de nombreux fusils d'appui et de précision de l'OTAN.",
+    "description": "Calibre d'arme d'épaule, culot sans bourrelet.",
     "wiki_url": "https://www.tireur.org/wiki/doku.php?id=technique:calibres_militaires#nato_et_la_308_winchester",
     "data_note": "Très proche du .308 Winchester, mais cartouches NON strictement interchangeables : le 7.62 OTAN se tire généralement sans risque dans une chambre .308 Win, alors qu'une munition .308 (pression plus élevée, parois d'étui plus fines) tirée dans une chambre militaire 7.62 (headspace plus long) peut provoquer une rupture d'étui. Spécification militaire OTAN, non normalisée C.I.P.",
-    "data_note_en": "Very close to the .308 Winchester, but the cartridges are NOT strictly interchangeable: 7.62 NATO can generally be fired safely in a .308 Win chamber, whereas .308 ammunition (higher pressure, thinner case walls) fired in a 7.62 military chamber (longer headspace) can cause a case rupture. NATO military specification, not standardised by C.I.P."
+    "data_note_en": "Very close to the .308 Winchester, but the cartridges are NOT strictly interchangeable: 7.62 NATO can generally be fired safely in a .308 Win chamber, whereas .308 ammunition (higher pressure, thinner case walls) fired in a 7.62 military chamber (longer headspace) can cause a case rupture. NATO military specification, not standardised by C.I.P.",
+    "description_en": "Rifle cartridge, rimless case head."
   },
   {
     "id": "762x54r",
@@ -3219,10 +3334,11 @@
     "primer_type": "Large Rifle",
     "intro_year": 1891,
     "origin_country": "Union Soviétique",
-    "description": "Le plus ancien calibre militaire toujours en service actif dans le monde (Dragunov SVD, PKM, Mosin-Nagant). Puissant et doté d'un gros bourrelet.",
+    "description": "Calibre d'arme d'épaule, culot à bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, rimmed case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "763_mauser",
@@ -3246,10 +3362,11 @@
     "primer_type": "Small Pistol",
     "intro_year": null,
     "origin_country": "Allemagne",
-    "description": "Munition d'origine du pistolet Mauser C96. Très proche du Tokarev mais avec une pression de fonctionnement légèrement inférieure.",
+    "description": "Calibre d'arme de poing, culot sans bourrelet.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Handgun cartridge, rimless case head."
   },
   {
     "id": "765_luger",
@@ -3273,10 +3390,11 @@
     "primer_type": "Small Pistol",
     "intro_year": 1900,
     "origin_country": "Allemagne",
-    "description": "Prédécesseur du 9x19mm Parabellum. Utilisé notamment dans le pistolet Luger original et adopté par l'armée suisse.",
+    "description": "Calibre d'arme de poing, culot sans bourrelet.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Handgun cartridge, rimless case head."
   },
   {
     "id": "765_argentined",
@@ -3300,10 +3418,11 @@
     "primer_type": "Large Rifle",
     "intro_year": 1889,
     "origin_country": "Allemagne",
-    "description": "Calibre militaire historique conçu par Mauser pour la Belgique et l'Argentine. Très proche balistiquement du .303 British ou du 7.62x54R.",
+    "description": "Calibre d'arme d'épaule, culot sans bourrelet.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, rimless case head."
   },
   {
     "id": "7mm_br_remington",
@@ -3331,7 +3450,8 @@
     "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, rimless case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "7mm_prc",
@@ -3359,7 +3479,8 @@
     "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, rimless case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "7mm_rum",
@@ -3384,10 +3505,11 @@
     "primer_type": "Large Rifle Magnum",
     "intro_year": null,
     "origin_country": "États-Unis",
-    "description": "Calibre d'arme d'épaule, culot à culot rétreint. Pris en charge par l'estimateur de balistique intérieure du site.",
+    "description": "Calibre d'arme d'épaule, culot rétreint. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, rebated case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "7mm_rem_mag",
@@ -3412,10 +3534,11 @@
     "primer_type": "Large Rifle Magnum",
     "intro_year": 1962,
     "origin_country": "États-Unis",
-    "description": "Une des munitions magnum de grande chasse les plus populaires au monde, réputée pour sa vitesse et son énergie résiduelle à longue distance.",
+    "description": "Calibre d'arme d'épaule, culot à ceinture. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, belted case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "7mm_wsm",
@@ -3441,10 +3564,11 @@
     "primer_type": "Large Rifle Magnum",
     "intro_year": null,
     "origin_country": "États-Unis",
-    "description": "Calibre d'arme d'épaule, culot à culot rétreint. Pris en charge par l'estimateur de balistique intérieure du site.",
+    "description": "Calibre d'arme d'épaule, culot rétreint. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, rebated case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "7mm_weatherby_magnum",
@@ -3471,7 +3595,8 @@
     "description": "Calibre d'arme d'épaule, culot à ceinture. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, belted case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "7mm_08_rem",
@@ -3497,10 +3622,11 @@
     "primer_type": "Large Rifle",
     "intro_year": 1980,
     "origin_country": "États-Unis",
-    "description": "Douille de .308 rétreinte en 7mm. Offre un excellent équilibre entre le recul modéré et une excellente efficacité à la chasse et en TLD.",
+    "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, rimless case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "7x57_mauser",
@@ -3527,10 +3653,11 @@
     "primer_type": "Large Rifle",
     "intro_year": null,
     "origin_country": "Allemagne",
-    "description": "Calibre militaire historique adopté par l'Espagne et plusieurs pays d'Amérique du Sud. Réputé pour son recul confortable et sa pénétration élevée.",
+    "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, rimless case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "7x64_brenneke",
@@ -3557,10 +3684,11 @@
     "primer_type": "Large Rifle",
     "intro_year": 1917,
     "origin_country": "Allemagne",
-    "description": "Une des munitions de chasse au grand gibier les plus populaires d'Europe centrale et de France, conçue par Wilhelm Brenneke.",
+    "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, rimless case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "8_x_57_irs",
@@ -3587,7 +3715,8 @@
     "description": "Calibre d'arme d'épaule, culot à bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, rimmed case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "8mm_lebel_rev",
@@ -3611,10 +3740,11 @@
     "primer_type": "Small Pistol",
     "intro_year": 1892,
     "origin_country": "France",
-    "description": "Conçue pour le Revolver Modèle 1892 français d'ordonnance. Munition de service de l'armée française durant la Grande Guerre.",
+    "description": "Calibre d'arme de poing, culot à bourrelet.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Handgun cartridge, rimmed case head."
   },
   {
     "id": "8x50r_lebel",
@@ -3638,10 +3768,11 @@
     "primer_type": "Large Rifle",
     "intro_year": 1886,
     "origin_country": "France",
-    "description": "La toute première cartouche militaire chargée de poudre sans fumée (poudre B) de l'histoire, adoptée pour le fusil Lebel Mle 1886.",
+    "description": "Calibre d'arme d'épaule, culot à bourrelet.",
     "wiki_url": null,
     "data_note": "Volume d'étui estimé (non publié C.I.P./SAAMI).",
-    "data_note_en": "Estimated case capacity (not published by C.I.P./SAAMI)."
+    "data_note_en": "Estimated case capacity (not published by C.I.P./SAAMI).",
+    "description_en": "Rifle cartridge, rimmed case head."
   },
   {
     "id": "8x57_is",
@@ -3670,10 +3801,11 @@
     "primer_type": "Large Rifle",
     "intro_year": null,
     "origin_country": "Allemagne",
-    "description": "Calibre militaire légendaire du Mauser 98k. Attention : ne pas confondre avec le 8x57 I (diamètre de balle de .318\").",
+    "description": "Calibre d'arme d'épaule, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, rimless case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "8x68s",
@@ -3698,10 +3830,11 @@
     "primer_type": "Large Rifle",
     "intro_year": null,
     "origin_country": "Allemagne",
-    "description": "L'un des calibres de chasse de 8mm les plus performants, souvent appelé 'Magnum sans ceinture de feu allemand'. Conçu pour les chasses de montagne et de plaine de gros gibier.",
+    "description": "Calibre d'arme d'épaule, culot rétreint. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, rebated case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "9_x_23_winchester",
@@ -3728,7 +3861,8 @@
     "description": "Calibre d'arme de poing, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Handgun cartridge, rimless case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "93_x_64_brenneke",
@@ -3752,10 +3886,11 @@
     "primer_type": "Large Rifle Magnum",
     "intro_year": null,
     "origin_country": "Allemagne",
-    "description": "Calibre d'arme d'épaule, culot à culot rétreint. Pris en charge par l'estimateur de balistique intérieure du site.",
+    "description": "Calibre d'arme d'épaule, culot rétreint. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, rebated case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "93x62_mauser",
@@ -3782,10 +3917,11 @@
     "primer_type": "Large Rifle",
     "intro_year": null,
     "origin_country": "Allemagne",
-    "description": "Conçue par Otto Bock pour les colons européens en Afrique. Une munition formidable pour la chasse en battue du sanglier et des grands cervidés.",
+    "description": "Calibre d'arme d'épaule, culot rétreint. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, rebated case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "93x74r",
@@ -3810,10 +3946,11 @@
     "primer_type": "Large Rifle",
     "intro_year": null,
     "origin_country": "Allemagne",
-    "description": "Version à bourrelet pour carabines express (canons basculants) du calibre 9.3mm. Calibre roi de la battue de grand gibier en France.",
+    "description": "Calibre d'arme d'épaule, culot à bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Rifle cartridge, rimmed case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "9x18_makarov",
@@ -3837,10 +3974,11 @@
     "primer_type": "Small Pistol",
     "intro_year": 1951,
     "origin_country": "Union Soviétique",
-    "description": "Calibre militaire soviétique standard pour le pistolet Makarov. Le projectile est légèrement plus large que le 9mm occidental.",
+    "description": "Calibre d'arme de poing, culot sans bourrelet.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Handgun cartridge, rimless case head."
   },
   {
     "id": "9x19_parabellum",
@@ -3867,10 +4005,11 @@
     "primer_type": "Small Pistol",
     "intro_year": null,
     "origin_country": "Allemagne",
-    "description": "Le calibre d'arme de poing le plus répandu au monde. Standard de l'OTAN pour les pistolets et pistolets-mitrailleurs.",
+    "description": "Calibre d'arme de poing, culot sans bourrelet. Pris en charge par l'estimateur de balistique intérieure du site.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Handgun cartridge, rimless case head. Supported by the site's interior ballistics estimator."
   },
   {
     "id": "9x21_imi",
@@ -3894,9 +4033,10 @@
     "primer_type": "Small Pistol",
     "intro_year": null,
     "origin_country": "Israël",
-    "description": "Développé par Israel Military Industries (IMI) pour contourner les législations interdisant le 9x19mm militaire dans certains pays européens (ex. Italie).",
+    "description": "Calibre d'arme de poing, culot sans bourrelet.",
     "wiki_url": null,
     "data_note": null,
-    "data_note_en": null
+    "data_note_en": null,
+    "description_en": "Handgun cartridge, rimless case head."
   }
 ]
