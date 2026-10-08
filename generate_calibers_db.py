@@ -797,7 +797,11 @@ WIKI_LINKS = {
     "762x51_nato": _MIL + "#nato_et_la_308_winchester",
     "46x30_hk": _MIL + "#hk",
     "223_rem": _MIL + "#nato_et_le_223_remington",
-    "308_win": _MIL + "#nato_et_la_308_winchester",
+    # La .308 a sa page depuis 2026-08 : elle prime sur la section de calibres_militaires.
+    "308_win": "https://www.tireur.org/wiki/doku.php?id=technique:308_winchester",
+    "22_lr": "https://www.tireur.org/wiki/doku.php?id=technique:cartouche_22_long_rifle",
+    "222_rem": "https://www.tireur.org/wiki/doku.php?id=technique:cartouche_222_remington",
+    "65x55_swedish": "https://www.tireur.org/wiki/doku.php?id=technique:cartouche_6_5x55",
 }
 
 # Valeurs non vérifiées (estimées) — affichées comme telles dans la fiche.
