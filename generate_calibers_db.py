@@ -51,7 +51,9 @@ with open(os.path.join(os.path.dirname(os.path.abspath(__file__)),
 # balle). Calculé ici, pas recopié.
 with open(os.path.join(os.path.dirname(os.path.abspath(__file__)),
                        "case_volume_reference.json"), encoding="utf-8") as _f:
-    VOLUME_REF = {k: round(v["capacite_eau_gr"] / 15.4324 * v["facteur_utile"], 3)
+    VOLUME_REF = {k: round(v["volume_utile_cm3"] if "volume_utile_cm3" in v
+                           else v["volume_utile_gr"] / 15.4324 if "volume_utile_gr" in v
+                           else v["capacite_eau_gr"] / 15.4324 * v["facteur_utile"], 3)
                   for k, v in json.load(_f)["calibres"].items()}
 
 # Pays de CONCEPTION sourcés (country_reference.json, 2026-10-04).

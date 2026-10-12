@@ -1,0 +1,611 @@
+{
+  "_provenance": {
+    "source": "Peterson Cartridge, « Ballistician Testing Data », https://petersoncartridge.com/ballistician-testing-data",
+    "colonne": "Average Internal Volume (Grains of H20)",
+    "releve_le": "2026-10-12",
+    "methode": "Tableau HTML lu tel quel (curl) ; par calibre tel que Peterson le nomme : médiane, minimum et maximum des moyennes de lot, nombre de lots, premières et dernières dates d'inspection. Valeurs de fabricant citées ; le tableau n'est pas redistribué.",
+    "definition": "Volume intérieur moyen du lot, en grains d'eau ; ni le niveau de remplissage ni l'état de l'étui (neuf, a priori) ne sont précisés."
+  },
+  "calibres": {
+    "22 ARC (SRP)": {
+      "lots": 3,
+      "mediane_gr": 33.7,
+      "min_gr": 33.4,
+      "max_gr": 33.9,
+      "premier": "07/17/2025",
+      "dernier": "09/10/2026"
+    },
+    "22 Creedmoor": {
+      "lots": 21,
+      "mediane_gr": 49.7,
+      "min_gr": 48.6,
+      "max_gr": 49.9,
+      "premier": "03/04/2020",
+      "dernier": "07/01/2026"
+    },
+    "22 Creedmoor (SRP)": {
+      "lots": 7,
+      "mediane_gr": 49.8,
+      "min_gr": 49.3,
+      "max_gr": 50.1,
+      "premier": "07/02/2020",
+      "dernier": "07/01/2026"
+    },
+    "22-250 Remington": {
+      "lots": 2,
+      "mediane_gr": 44.95,
+      "min_gr": 44.9,
+      "max_gr": 45.0,
+      "premier": "03/09/2026",
+      "dernier": "03/09/2026"
+    },
+    "22-250 Remington (SRP)": {
+      "lots": 1,
+      "mediane_gr": 44.9,
+      "min_gr": 44.9,
+      "max_gr": 44.9,
+      "premier": "05/14/2026",
+      "dernier": "05/14/2026"
+    },
+    "243 Winchester": {
+      "lots": 3,
+      "mediane_gr": 53.5,
+      "min_gr": 52.8,
+      "max_gr": 53.8,
+      "premier": "10/18/2023",
+      "dernier": "09/24/2024"
+    },
+    "243 Winchester (SRP)": {
+      "lots": 2,
+      "mediane_gr": 53.12,
+      "min_gr": 52.75,
+      "max_gr": 53.5,
+      "premier": "12/05/2019",
+      "dernier": "10/08/2025"
+    },
+    "25 Creedmoor": {
+      "lots": 7,
+      "mediane_gr": 50.5,
+      "min_gr": 49.8,
+      "max_gr": 50.9,
+      "premier": "10/29/2019",
+      "dernier": "09/24/2026"
+    },
+    "25 Creedmoor (SRP)": {
+      "lots": 5,
+      "mediane_gr": 50.5,
+      "min_gr": 49.4,
+      "max_gr": 51.3,
+      "premier": "10/06/2020",
+      "dernier": "08/24/2026"
+    },
+    "25 Weatherby RPM": {
+      "lots": 4,
+      "mediane_gr": 72.8,
+      "min_gr": 72.6,
+      "max_gr": 73.0,
+      "premier": "04/06/2026",
+      "dernier": "04/16/2026"
+    },
+    "257 Weatherby Magnum": {
+      "lots": 4,
+      "mediane_gr": 81.4,
+      "min_gr": 81.0,
+      "max_gr": 81.8,
+      "premier": "11/30/2021",
+      "dernier": "07/25/2025"
+    },
+    "26 Nosler": {
+      "lots": 8,
+      "mediane_gr": 98.0,
+      "min_gr": 97.5,
+      "max_gr": 98.4,
+      "premier": "08/31/2020",
+      "dernier": "11/21/2025"
+    },
+    "260 Remington": {
+      "lots": 22,
+      "mediane_gr": 53.95,
+      "min_gr": 52.5,
+      "max_gr": 54.3,
+      "premier": "04/20/2021",
+      "dernier": "12/04/2025"
+    },
+    "260 Remington (SRP)": {
+      "lots": 5,
+      "mediane_gr": 53.2,
+      "min_gr": 52.91,
+      "max_gr": 54.2,
+      "premier": "06/13/2019",
+      "dernier": "02/28/2024"
+    },
+    "27 Nosler": {
+      "lots": 1,
+      "mediane_gr": 95.9,
+      "min_gr": 95.9,
+      "max_gr": 95.9,
+      "premier": "01/26/2023",
+      "dernier": "01/26/2023"
+    },
+    "270 WSM (Winchester Short Magnum)": {
+      "lots": 5,
+      "mediane_gr": 78.8,
+      "min_gr": 78.6,
+      "max_gr": 79.1,
+      "premier": "01/19/2026",
+      "dernier": "05/12/2026"
+    },
+    "270 Weatherby Magnum": {
+      "lots": 5,
+      "mediane_gr": 82.2,
+      "min_gr": 82.1,
+      "max_gr": 82.6,
+      "premier": "12/20/2021",
+      "dernier": "08/05/2024"
+    },
+    "270 Winchester": {
+      "lots": 11,
+      "mediane_gr": 66.7,
+      "min_gr": 66.3,
+      "max_gr": 67.2,
+      "premier": "07/27/2020",
+      "dernier": "07/14/2025"
+    },
+    "28 Nosler": {
+      "lots": 8,
+      "mediane_gr": 98.55,
+      "min_gr": 97.8,
+      "max_gr": 99.3,
+      "premier": "08/19/2020",
+      "dernier": "11/21/2025"
+    },
+    "280 Ackley Improved": {
+      "lots": 14,
+      "mediane_gr": 70.65,
+      "min_gr": 70.5,
+      "max_gr": 71.4,
+      "premier": "07/09/2020",
+      "dernier": "09/28/2026"
+    },
+    "280 Remington": {
+      "lots": 2,
+      "mediane_gr": 68.15,
+      "min_gr": 68.0,
+      "max_gr": 68.3,
+      "premier": "06/11/2020",
+      "dernier": "07/10/2025"
+    },
+    "284 Winchester": {
+      "lots": 9,
+      "mediane_gr": 65.0,
+      "min_gr": 64.8,
+      "max_gr": 65.8,
+      "premier": "01/20/2020",
+      "dernier": "08/17/2026"
+    },
+    "30 Nosler": {
+      "lots": 5,
+      "mediane_gr": 97.2,
+      "min_gr": 96.4,
+      "max_gr": 97.4,
+      "premier": "04/26/2021",
+      "dernier": "10/01/2025"
+    },
+    "30-06 Springfield": {
+      "lots": 9,
+      "mediane_gr": 67.2,
+      "min_gr": 66.8,
+      "max_gr": 67.6,
+      "premier": "07/21/2020",
+      "dernier": "07/15/2025"
+    },
+    "300 Norma Magnum": {
+      "lots": 14,
+      "mediane_gr": 103.95,
+      "min_gr": 103.4,
+      "max_gr": 104.4,
+      "premier": "08/13/2019",
+      "dernier": "07/27/2026"
+    },
+    "300 PRC": {
+      "lots": 10,
+      "mediane_gr": 94.7,
+      "min_gr": 93.6,
+      "max_gr": 96.1,
+      "premier": "01/05/2021",
+      "dernier": "06/30/2026"
+    },
+    "300 RUM (Remington Ultra Magnum)": {
+      "lots": 2,
+      "mediane_gr": 110.95,
+      "min_gr": 110.8,
+      "max_gr": 111.1,
+      "premier": "12/20/2022",
+      "dernier": "04/09/2024"
+    },
+    "300 WSM (Winchester Short Magnum)": {
+      "lots": 3,
+      "mediane_gr": 79.5,
+      "min_gr": 79.3,
+      "max_gr": 79.5,
+      "premier": "01/12/2026",
+      "dernier": "06/30/2026"
+    },
+    "300 Weatherby Magnum": {
+      "lots": 8,
+      "mediane_gr": 95.85,
+      "min_gr": 95.3,
+      "max_gr": 96.4,
+      "premier": "04/15/2021",
+      "dernier": "01/02/2024"
+    },
+    "300 Winchester Magnum": {
+      "lots": 33,
+      "mediane_gr": 88.8,
+      "min_gr": 88.2,
+      "max_gr": 89.6,
+      "premier": "08/04/2020",
+      "dernier": "08/05/2025"
+    },
+    "300 Winchester Magnum - Long": {
+      "lots": 9,
+      "mediane_gr": 89.1,
+      "min_gr": 88.9,
+      "max_gr": 89.7,
+      "premier": "08/20/2020",
+      "dernier": "08/11/2025"
+    },
+    "308 Winchester": {
+      "lots": 30,
+      "mediane_gr": 54.05,
+      "min_gr": 53.67,
+      "max_gr": 54.7,
+      "premier": "12/12/2019",
+      "dernier": "05/06/2025"
+    },
+    "308 Winchester (SRP)": {
+      "lots": 13,
+      "mediane_gr": 54.2,
+      "min_gr": 53.6,
+      "max_gr": 54.5,
+      "premier": "11/20/2019",
+      "dernier": "05/08/2025"
+    },
+    "33 Nosler": {
+      "lots": 4,
+      "mediane_gr": 93.95,
+      "min_gr": 93.5,
+      "max_gr": 94.2,
+      "premier": "05/06/2021",
+      "dernier": "09/26/2025"
+    },
+    "33 XC": {
+      "lots": 5,
+      "mediane_gr": 141.2,
+      "min_gr": 141.0,
+      "max_gr": 141.5,
+      "premier": "03/04/2024",
+      "dernier": "07/15/2025"
+    },
+    "338 EnABELR": {
+      "lots": 2,
+      "mediane_gr": 154.2,
+      "min_gr": 154.1,
+      "max_gr": 154.3,
+      "premier": "01/28/2021",
+      "dernier": "01/28/2021"
+    },
+    "338 Lapua Magnum": {
+      "lots": 69,
+      "mediane_gr": 114.8,
+      "min_gr": 113.5,
+      "max_gr": 116.4,
+      "premier": "07/23/2019",
+      "dernier": "08/11/2026"
+    },
+    "338 Norma Magnum": {
+      "lots": 10,
+      "mediane_gr": 106.15,
+      "min_gr": 105.6,
+      "max_gr": 106.8,
+      "premier": "08/19/2019",
+      "dernier": "07/23/2025"
+    },
+    "338 Weatherby RPM": {
+      "lots": 5,
+      "mediane_gr": 82.1,
+      "min_gr": 81.8,
+      "max_gr": 82.6,
+      "premier": "05/18/2022",
+      "dernier": "07/18/2025"
+    },
+    "338 Winchester Magnum": {
+      "lots": 1,
+      "mediane_gr": 84.2,
+      "min_gr": 84.2,
+      "max_gr": 84.2,
+      "premier": "01/29/2026",
+      "dernier": "01/29/2026"
+    },
+    "338 Winchester Magnum - Long": {
+      "lots": 1,
+      "mediane_gr": 84.8,
+      "min_gr": 84.8,
+      "max_gr": 84.8,
+      "premier": "02/04/2026",
+      "dernier": "02/04/2026"
+    },
+    "33XC": {
+      "lots": 6,
+      "mediane_gr": 138.3,
+      "min_gr": 137.5,
+      "max_gr": 140.8,
+      "premier": "08/12/2019",
+      "dernier": "10/02/2023"
+    },
+    "340 Weatherby Magnum": {
+      "lots": 6,
+      "mediane_gr": 98.3,
+      "min_gr": 98.0,
+      "max_gr": 98.8,
+      "premier": "06/22/2022",
+      "dernier": "02/24/2025"
+    },
+    "375 CheyTac (9.5x77)": {
+      "lots": 39,
+      "mediane_gr": 159.6,
+      "min_gr": 59.4,
+      "max_gr": 160.9,
+      "premier": "07/10/2019",
+      "dernier": "09/22/2026"
+    },
+    "375 EnABELR": {
+      "lots": 16,
+      "mediane_gr": 155.6,
+      "min_gr": 154.9,
+      "max_gr": 156.4,
+      "premier": "06/25/2019",
+      "dernier": "01/28/2025"
+    },
+    "37XC": {
+      "lots": 5,
+      "mediane_gr": 141.0,
+      "min_gr": 137.5,
+      "max_gr": 141.3,
+      "premier": "01/21/2021",
+      "dernier": "10/09/2023"
+    },
+    "400 Legend (SRP)": {
+      "lots": 2,
+      "mediane_gr": 43.95,
+      "min_gr": 43.9,
+      "max_gr": 44.0,
+      "premier": "08/11/2025",
+      "dernier": "08/12/2025"
+    },
+    "408 CheyTac (10.36x77)": {
+      "lots": 21,
+      "mediane_gr": 161.7,
+      "min_gr": 161.4,
+      "max_gr": 162.7,
+      "premier": "07/15/2019",
+      "dernier": "04/29/2026"
+    },
+    "6.5 Creedmoor": {
+      "lots": 45,
+      "mediane_gr": 50.2,
+      "min_gr": 49.7,
+      "max_gr": 51.2,
+      "premier": "09/11/2019",
+      "dernier": "07/17/2026"
+    },
+    "6.5 Creedmoor (SRP)": {
+      "lots": 18,
+      "mediane_gr": 50.52,
+      "min_gr": 50.0,
+      "max_gr": 51.4,
+      "premier": "09/03/2019",
+      "dernier": "07/28/2026"
+    },
+    "6.5 PRC": {
+      "lots": 27,
+      "mediane_gr": 67.2,
+      "min_gr": 66.2,
+      "max_gr": 68.0,
+      "premier": "06/16/2021",
+      "dernier": "07/17/2026"
+    },
+    "6.5 Weatherby RPM": {
+      "lots": 4,
+      "mediane_gr": 79.65,
+      "min_gr": 79.5,
+      "max_gr": 80.2,
+      "premier": "05/12/2022",
+      "dernier": "06/10/2025"
+    },
+    "6.5-284 Norma": {
+      "lots": 16,
+      "mediane_gr": 64.4,
+      "min_gr": 63.7,
+      "max_gr": 65.7,
+      "premier": "07/13/2020",
+      "dernier": "07/27/2026"
+    },
+    "6.5-300 Weatherby Magnum": {
+      "lots": 11,
+      "mediane_gr": 94.0,
+      "min_gr": 93.5,
+      "max_gr": 94.8,
+      "premier": "08/18/2020",
+      "dernier": "09/09/2024"
+    },
+    "6.5x47 Lapua (SRP)": {
+      "lots": 6,
+      "mediane_gr": 47.55,
+      "min_gr": 47.2,
+      "max_gr": 47.8,
+      "premier": "09/29/2020",
+      "dernier": "05/29/2025"
+    },
+    "6.8 Western": {
+      "lots": 6,
+      "mediane_gr": 73.85,
+      "min_gr": 73.7,
+      "max_gr": 73.9,
+      "premier": "02/16/2026",
+      "dernier": "06/09/2026"
+    },
+    "6XC": {
+      "lots": 11,
+      "mediane_gr": 48.1,
+      "min_gr": 47.7,
+      "max_gr": 48.5,
+      "premier": "10/03/2019",
+      "dernier": "08/21/2024"
+    },
+    "6XC (SRP)": {
+      "lots": 10,
+      "mediane_gr": 48.55,
+      "min_gr": 47.79,
+      "max_gr": 48.8,
+      "premier": "10/21/2019",
+      "dernier": "06/12/2025"
+    },
+    "6mm ARC (SRP)": {
+      "lots": 3,
+      "mediane_gr": 32.8,
+      "min_gr": 32.8,
+      "max_gr": 33.1,
+      "premier": "10/01/2024",
+      "dernier": "09/24/2026"
+    },
+    "6mm BR Norma (SRP)": {
+      "lots": 14,
+      "mediane_gr": 37.35,
+      "min_gr": 36.2,
+      "max_gr": 38.1,
+      "premier": "08/27/2019",
+      "dernier": "11/25/2024"
+    },
+    "6mm Creedmoor": {
+      "lots": 12,
+      "mediane_gr": 49.5,
+      "min_gr": 49.09,
+      "max_gr": 49.9,
+      "premier": "10/22/2019",
+      "dernier": "03/24/2025"
+    },
+    "6mm Creedmoor (SRP)": {
+      "lots": 8,
+      "mediane_gr": 49.95,
+      "min_gr": 49.6,
+      "max_gr": 50.7,
+      "premier": "12/10/2020",
+      "dernier": "10/30/2025"
+    },
+    "6mm Dasher (SRP)": {
+      "lots": 13,
+      "mediane_gr": 40.0,
+      "min_gr": 37.8,
+      "max_gr": 40.6,
+      "premier": "08/06/2020",
+      "dernier": "02/26/2026"
+    },
+    "6mm GT (SRP)": {
+      "lots": 5,
+      "mediane_gr": 42.8,
+      "min_gr": 42.8,
+      "max_gr": 43.2,
+      "premier": "10/29/2024",
+      "dernier": "04/21/2026"
+    },
+    "6x47 Lapua (SRP)": {
+      "lots": 7,
+      "mediane_gr": 46.9,
+      "min_gr": 46.2,
+      "max_gr": 48.8,
+      "premier": "10/28/2019",
+      "dernier": "04/26/2026"
+    },
+    "7.62x54R": {
+      "lots": 9,
+      "mediane_gr": 60.1,
+      "min_gr": 54.2,
+      "max_gr": 60.9,
+      "premier": "08/22/2019",
+      "dernier": "08/09/2021"
+    },
+    "7mm BR Remington (SRP)": {
+      "lots": 5,
+      "mediane_gr": 38.3,
+      "min_gr": 37.3,
+      "max_gr": 39.0,
+      "premier": "02/26/2020",
+      "dernier": "01/28/2026"
+    },
+    "7mm PRC": {
+      "lots": 31,
+      "mediane_gr": 80.1,
+      "min_gr": 79.1,
+      "max_gr": 81.0,
+      "premier": "03/06/2023",
+      "dernier": "09/22/2026"
+    },
+    "7mm RUM (Remington Ultra Magnum)": {
+      "lots": 2,
+      "mediane_gr": 109.8,
+      "min_gr": 109.7,
+      "max_gr": 109.9,
+      "premier": "12/13/2022",
+      "dernier": "04/16/2024"
+    },
+    "7mm Remington Magnum": {
+      "lots": 17,
+      "mediane_gr": 82.7,
+      "min_gr": 81.8,
+      "max_gr": 83.2,
+      "premier": "09/02/2020",
+      "dernier": "11/06/2025"
+    },
+    "7mm Remington Magnum - Long": {
+      "lots": 3,
+      "mediane_gr": 83.3,
+      "min_gr": 83.1,
+      "max_gr": 83.3,
+      "premier": "12/29/2022",
+      "dernier": "01/27/2025"
+    },
+    "7mm STW (Shooting Times Westerner)": {
+      "lots": 1,
+      "mediane_gr": 97.4,
+      "min_gr": 97.4,
+      "max_gr": 97.4,
+      "premier": "02/16/2026",
+      "dernier": "02/16/2026"
+    },
+    "7mm STW - Long (Shooting Times Westerner)": {
+      "lots": 2,
+      "mediane_gr": 97.25,
+      "min_gr": 97.2,
+      "max_gr": 97.3,
+      "premier": "02/24/2026",
+      "dernier": "02/25/2026"
+    },
+    "7mm Weatherby Magnum": {
+      "lots": 5,
+      "mediane_gr": 82.3,
+      "min_gr": 82.1,
+      "max_gr": 83.5,
+      "premier": "12/16/2021",
+      "dernier": "06/25/2024"
+    },
+    "7mm-08 Remington": {
+      "lots": 2,
+      "mediane_gr": 53.55,
+      "min_gr": 53.4,
+      "max_gr": 53.7,
+      "premier": "11/27/2023",
+      "dernier": "05/01/2025"
+    }
+  }
+}

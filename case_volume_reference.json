@@ -1,16 +1,91 @@
 {
   "_provenance": {
-    "definition": "Volume utile sous la balle (cm³), la grandeur des volumes que la base tient de l'estimateur de balistique intérieure : capacité en eau publiée ÷ 15,4324 gr/cm³ × facteur de volume utile, la convention de reloading/tireur_reloaded/data/calibers.json pour les capacités publiées (carabine 0,87). Le générateur calcule le volume ; il n'est pas recopié ici.",
+    "definition": "Volume utile sous la balle (cm³), la grandeur des volumes que la base tient de l'estimateur de balistique intérieure. Trois formes : un volume utile publié tel quel, en cm³ (« volume_utile_cm3 ») ou en grains d'eau (« volume_utile_gr » ÷ 15,4324) ; ou une capacité en eau publiée, jusqu'à la bouche, multipliée par le facteur de volume utile (« capacite_eau_gr » ÷ 15,4324 × « facteur_utile »). Le générateur calcule le volume ; il n'est pas recopié ici.",
+    "facteur_utile": "0,90 pour un étui de carabine : médiane, sur les 21 cartouches dont le volume de l'estimateur vient des remplissages Reload Swiss, du rapport de ce volume à la capacité en eau mesurée par Peterson (0,783 à 0,952) ; calibers/facteur_utile.py, peterson_capacity_reference.json, 2026-10-12. L'estimateur écrivait « ~0,87 » sans source. Aucun facteur n'est calibré pour une arme de poing : seules des capacités utiles publiées y entrent.",
     "releve_le": "2026-10-12",
-    "portee": "Cartouches hors de l'estimateur dont une capacité en eau publiée a été lue. Les autres volumes saisis à la main restent marqués « non sourcé » : treize sont exactement la capacité en eau de l'infobox Wikipédia (sans référence), d'autres ne correspondent à rien de retrouvé (.44 Special 1,62 cm³ contre 33,5 gr chez Wikipédia ; 9 x 21 IMI 0,62 contre 1,01), relevé du 2026-10-12."
+    "portee": "Une valeur n'entre que publiée par un fabricant, un livre ou un manuel de rechargement, ou mesurée et décrite par une rédaction ; jamais une infobox Wikipédia (non sourcée), une base GRT ou QuickLOAD, ni une mesure de forum. Restent marqués « non sourcé » seize volumes saisis à la main : sept égaux à la capacité de l'infobox Wikipédia (.416 Barrett, .44-40, .450 Bushmaster, 5,45 × 39, 5,7 × 28, 7,5 × 54, 7,65 × 53), les autres sans correspondance retrouvée. Recherche du 2026-10-12 consignée sur la fiche verification:technique:longueur_canon_vitesse.",
+    "lee": "Lee, p. 711 : « At the lower left of the drawing space you will find the useful case capacity in cubic centimeters. It is easy to compare this number to the “Volume CC” in the starting loads and judge how full the case will be. » Volume offert à la poudre, ni balle ni longueur hors tout précisées."
   },
   "calibres": {
     "50_bmg": {
       "capacite_eau_gr": 290,
-      "facteur_utile": 0.87,
+      "facteur_utile": 0.9,
       "source": "P. Meitin, « Loading the Big .50 », Handloader 57 (numéro de décembre-janvier 2022), https://www.handloadermagazine.com/loading-the-big-50",
       "citation": "The average .50 BMG case holds 290 grains of water",
-      "note": "Valeur ronde d'une seule source, pour un étui « moyen », sans marque ni méthode ; aucune autre capacité publiée trouvée le 2026-10-12 (fiche C.I.P. sans volume, guides du site sans charge de .50). Les 18,97 cm³ saisis auparavant étaient les 292,8 gr de l'infobox Wikipédia, sans référence."
+      "nature": "capacité en eau (magazine)",
+      "note": "Valeur ronde d'une seule source, pour un étui « moyen », sans marque ni méthode. Les 18,97 cm³ saisis auparavant étaient les 292,8 gr de l'infobox Wikipédia, sans référence."
+    },
+    "408_cheytac": {
+      "capacite_eau_gr": 161.7,
+      "facteur_utile": 0.9,
+      "source": "Peterson Cartridge, « Ballistician Testing Data », https://petersoncartridge.com/ballistician-testing-data (relevé le 2026-10-12)",
+      "citation": "Average Internal Volume (Grains of H20) : 161,4 à 162,7 sur 21 lots de « 408 CheyTac (10.36x77) », 2019 à 2026 ; médiane 161,7",
+      "nature": "capacité en eau (fabricant d'étuis)",
+      "note": "Les 10,32 cm³ saisis auparavant étaient les 159,3 gr de l'infobox Wikipédia."
+    },
+    "556x45_nato": {
+      "capacite_eau_gr": 30.3,
+      "facteur_utile": 0.9,
+      "source": "AccurateShooter.com, « Federal Lake City .223 Brass on Sale », Daily Bulletin, 19 janvier 2008, https://bulletin.accurateshooter.com/2008/01/federal-lake-city-223-brass-on-sale/",
+      "citation": "tableau « .223 Rem Case Weight vs. Capacity » : Lake City 06 30.6, WCC99 30.5, Lake City 04 30.4, IMG (Guatemalan) 30.1, Radway Arsenal 30.0, FNM 93-1 29.8 (gr d'eau) ; médiane des six marquages militaires 30,3",
+      "nature": "capacité en eau (mesure de la rédaction)",
+      "note": "Étuis tirés, recalibrés et recoupés à 1,750 po, remplis d'eau distillée jusqu'à la bouche (note du tableau, guide de la .223 de la même rédaction). Les 1,85 cm³ saisis auparavant étaient ceux de l'infobox Wikipédia."
+    },
+    "25_acp": {
+      "volume_utile_cm3": 0.29,
+      "source": "R. Lee, Modern Reloading, 2e éd., Lee Precision, 2003 (réimpression de 2009), p. 284, « 25 AUTOMATIC »",
+      "citation": "Useful case capacity 0.29 cc",
+      "nature": "capacité utile publiée (livre de rechargement)"
+    },
+    "32_acp": {
+      "volume_utile_cm3": 0.45,
+      "source": "R. Lee, Modern Reloading, 2e éd., Lee Precision, 2003 (réimpression de 2009), p. 489, « 32 AUTO »",
+      "citation": "Useful case capacity 0.45 cc",
+      "nature": "capacité utile publiée (livre de rechargement)"
+    },
+    "32_sw_long": {
+      "volume_utile_cm3": 0.78,
+      "source": "R. Lee, Modern Reloading, 2e éd., Lee Precision, 2003 (réimpression de 2009), p. 491, « 32 SMITH & WESSON LONG »",
+      "citation": "Useful case capacity 0.78 cc",
+      "nature": "capacité utile publiée (livre de rechargement)"
+    },
+    "44_special": {
+      "volume_utile_cm3": 1.68,
+      "source": "R. Lee, Modern Reloading, 2e éd., Lee Precision, 2003 (réimpression de 2009), p. 640, « 44 SPECIAL »",
+      "citation": "Useful case capacity 1.68 cc",
+      "nature": "capacité utile publiée (livre de rechargement)",
+      "note": "Nosler (guide en ligne, version 9.0, 2020) donne 21,8 et 22,5 gr d'eau, balle de 240 et de 200 gr enfoncée à la longueur hors tout maximale SAAMI, étuis Remington."
+    },
+    "762x25_tokarev": {
+      "volume_utile_cm3": 0.87,
+      "source": "R. Lee, Modern Reloading, 2e éd., Lee Precision, 2003 (réimpression de 2009), p. 404, « 7.62mm TOKAREV »",
+      "citation": "Useful case capacity 0.87 cc",
+      "nature": "capacité utile publiée (livre de rechargement)"
+    },
+    "763_mauser": {
+      "volume_utile_cm3": 0.86,
+      "source": "R. Lee, Modern Reloading, 2e éd., Lee Precision, 2003 (réimpression de 2009), p. 403, « 30 MAUSER »",
+      "citation": "Useful case capacity 0.86 cc",
+      "nature": "capacité utile publiée (livre de rechargement)"
+    },
+    "765_luger": {
+      "volume_utile_cm3": 0.71,
+      "source": "R. Lee, Modern Reloading, 2e éd., Lee Precision, 2003 (réimpression de 2009), p. 402, « 30 LUGER »",
+      "citation": "Useful case capacity 0.71 cc",
+      "nature": "capacité utile publiée (livre de rechargement)"
+    },
+    "9x18_makarov": {
+      "volume_utile_cm3": 0.53,
+      "source": "R. Lee, Modern Reloading, 2e éd., Lee Precision, 2003 (réimpression de 2009), p. 596, « 9x18 MAKAROV »",
+      "citation": "Useful case capacity 0.53 cc",
+      "nature": "capacité utile publiée (livre de rechargement)"
+    },
+    "22_lr": {
+      "volume_utile_gr": 4.4,
+      "source": "G. Kolbe, A Ballistics Handbook, Newcastleton, Pisces Press, 2000, chap. 6 « .22LR Rimfire Ballistics », section « Internal Ballistics » (p. 601 ou 602 : page non confirmée)",
+      "citation": "a capacity of 4.4 grains of water with the bullet seated. (4.9 grains of water with no bullet.) ; chap. 9 : « A Case Volume of 4.4 grains with a Powder Charge of 1.2 grains »",
+      "nature": "volume sous la balle publié (livre de balistique)",
+      "note": "Lu dans les extraits de la recherche plein texte de l'Internet Archive (ballisticshandbo0000geof, en prêt contrôlé), pas sur la page entière. Les 0,36 cm³ saisis auparavant (5,6 gr) dépassaient même l'étui vide de Kolbe (4,9 gr)."
     }
   }
 }
