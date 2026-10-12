@@ -46,6 +46,14 @@ with open(os.path.join(os.path.dirname(os.path.abspath(__file__)),
                        "description_reference.json"), encoding="utf-8") as _f:
     DESC_REF = {k: (v["description"], v["description_en"]) for k, v in json.load(_f)["calibres"].items()}
 
+# Volumes d'étui SOURCÉS hors estimateur (case_volume_reference.json, 2026-10-12) : capacité en
+# eau publiée × facteur de volume utile, la grandeur des volumes de l'estimateur (volume sous la
+# balle). Calculé ici, pas recopié.
+with open(os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                       "case_volume_reference.json"), encoding="utf-8") as _f:
+    VOLUME_REF = {k: round(v["capacite_eau_gr"] / 15.4324 * v["facteur_utile"], 3)
+                  for k, v in json.load(_f)["calibres"].items()}
+
 # Pays de CONCEPTION sourcés (country_reference.json, 2026-10-04).
 with open(os.path.join(os.path.dirname(os.path.abspath(__file__)),
                        "country_reference.json"), encoding="utf-8") as _f:
@@ -1106,7 +1114,7 @@ def merge_databases():
             case_vol = 13.00
         elif cid == "50_bmg":
             rim, base, shoulder, neck, bullet, case_len, pmax, category, rim_type, primer = 20.42, 20.42, 18.14, 14.22, 12.98, 99.31, 3700, "Rifle", "Rimless", "Large Rifle Magnum"
-            case_vol = 18.97
+            case_vol = None   # case_volume_reference.json (18,97 = Wikipédia, sans référence)
         elif cid == "46x30_hk":
             rim, base, shoulder, neck, bullet, case_len, pmax, category, rim_type, primer = 8.00, 8.02, 7.75, 5.31, 4.65, 30.50, 4000, "Handgun", "Rimless", "Small Rifle"
             case_vol = 0.87
@@ -1190,7 +1198,11 @@ def merge_databases():
         # Volume d'étui : celui de l'estimateur a sa provenance ; les 28 saisis à la main pour
         # les cartouches hors estimateur n'en ont aucune (README corrigé le 2026-10-04 : ils ne
         # viennent pas de zen/grt_databases). Décision du propriétaire : les garder, marqués.
-        item["case_volume_unsourced"] = bool(item.get("case_volume_cm3")) and not estimateur
+        # Depuis le 2026-10-12, un volume publié (case_volume_reference.json) les remplace.
+        if not estimateur and item["id"] in VOLUME_REF:
+            item["case_volume_cm3"] = VOLUME_REF[item["id"]]
+        item["case_volume_unsourced"] = (bool(item.get("case_volume_cm3")) and not estimateur
+                                         and item["id"] not in VOLUME_REF)
         if item["id"] in DESC_REF:
             item["description"], item["description_en"] = DESC_REF[item["id"]]
         else:

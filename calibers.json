@@ -2381,7 +2381,7 @@
     "max_pressure_bar": 3700,
     "pmax_cip_bar": 3700,
     "pmax_saami_bar": null,
-    "case_volume_cm3": 18.97,
+    "case_volume_cm3": 16.349,
     "primer_type": ".50 BMG (CCI 35)",
     "intro_year": 1921,
     "origin_country": "États-Unis",
@@ -2390,7 +2390,7 @@
     "data_note": null,
     "data_note_en": null,
     "cip_country": "États-Unis",
-    "case_volume_unsourced": true,
+    "case_volume_unsourced": false,
     "description_en": "A cartridge born of a U.S. Ordnance request for a heavy armor-piercing round: Winchester was contracted to design it, Frankford Arsenal then took over, and John Browning designed the gun, which became the M1921 and then the M2 machine gun. It is also fired in shoulder rifles such as the semi-automatic Barrett M82A1, adopted by the U.S. Marine Corps."
   },
   {

@@ -1,0 +1,16 @@
+{
+  "_provenance": {
+    "definition": "Volume utile sous la balle (cm³), la grandeur des volumes que la base tient de l'estimateur de balistique intérieure : capacité en eau publiée ÷ 15,4324 gr/cm³ × facteur de volume utile, la convention de reloading/tireur_reloaded/data/calibers.json pour les capacités publiées (carabine 0,87). Le générateur calcule le volume ; il n'est pas recopié ici.",
+    "releve_le": "2026-10-12",
+    "portee": "Cartouches hors de l'estimateur dont une capacité en eau publiée a été lue. Les autres volumes saisis à la main restent marqués « non sourcé » : treize sont exactement la capacité en eau de l'infobox Wikipédia (sans référence), d'autres ne correspondent à rien de retrouvé (.44 Special 1,62 cm³ contre 33,5 gr chez Wikipédia ; 9 x 21 IMI 0,62 contre 1,01), relevé du 2026-10-12."
+  },
+  "calibres": {
+    "50_bmg": {
+      "capacite_eau_gr": 290,
+      "facteur_utile": 0.87,
+      "source": "P. Meitin, « Loading the Big .50 », Handloader 57 (numéro de décembre-janvier 2022), https://www.handloadermagazine.com/loading-the-big-50",
+      "citation": "The average .50 BMG case holds 290 grains of water",
+      "note": "Valeur ronde d'une seule source, pour un étui « moyen », sans marque ni méthode ; aucune autre capacité publiée trouvée le 2026-10-12 (fiche C.I.P. sans volume, guides du site sans charge de .50). Les 18,97 cm³ saisis auparavant étaient les 292,8 gr de l'infobox Wikipédia, sans référence."
+    }
+  }
+}
