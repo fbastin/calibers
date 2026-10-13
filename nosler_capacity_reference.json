@@ -3,7 +3,7 @@
     "source": "Nosler, données de rechargement en ligne, https://www.nosler.com/load-data/caliber-and-cartridge-data.html : une fiche PDF par cartouche et par balle.",
     "champ": "« CASE HOLDS: x Gr. WATER » : capacité en eau de l'étui Nosler, balle EN PLACE à la longueur d'essai de la fiche (elle baisse quand la balle s'alourdit et s'enfonce : .300 AAC Blackout 19,2 gr sous 110 gr, 13,1 gr sous 220 gr). C'est la grandeur du « volume utile » de l'estimateur.",
     "releve_le": "2026-10-13",
-    "methode": "Pages des cartouches de la base lues par script (1 s entre requêtes ; robots.txt vide), fiches lues en texte (pdftotext) : CASE HOLDS, masse de balle de l'en-tête, longueur d'essai, étui, canon. Médiane par cartouche. Valeurs de fabricant citées ; les fiches ne sont pas redistribuées.",
+    "methode": "Pages des cartouches de la base lues par scripts/nosler_fiches.py du sous-module de l'estimateur (reloading/tireur_reloaded ; 1 s entre requêtes ; robots.txt vide), fiches lues en texte (pdftotext) : CASE HOLDS, masse de balle de l'en-tête, longueur d'essai, étui, canon. Médiane par cartouche. Valeurs de fabricant citées ; les fiches ne sont pas redistribuées. Second relevé le même jour : neuf pages manquées par l'appariement des noms (270 WSM, 300 PRC, 300 RCM, 300 RUM, 300 WSM, 375 H&H, 7mm PRC, 7mm RUM, 7mm WSM), 333 fiches, 76 cartouches.",
     "usage": "Remplacement d'un volume de la base quand il s'écarte de plus de 10 % de la médiane ET que le remplissage médian des charges maximales publiées des autres fabricants devient plausible avec la valeur Nosler (scripts/remplissage_publie.py du sous-module de l'estimateur, 2026-10-13)."
   },
   "calibres": {
@@ -1005,6 +1005,64 @@
         }
       ]
     },
+    "270-winchester-short-magnum-wsm": {
+      "cle_estimateur": "270 WSM",
+      "fiches": 6,
+      "mediane_gr": 72.65,
+      "min_gr": 71.8,
+      "max_gr": 74.5,
+      "mediane_cm3": 4.708,
+      "detail": [
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/270-WSM-110gr-version-9-0.pdf",
+          "balle_gr": 110,
+          "case_holds_gr": 74.5,
+          "oacl_essai": "2.760",
+          "etui": "Nosler",
+          "canon": "24\" Wiseman"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/270-WSM-130gr-version-9-0.pdf",
+          "balle_gr": 130,
+          "case_holds_gr": 73.0,
+          "oacl_essai": "2.850",
+          "etui": "Nosler",
+          "canon": "24\" Wiseman"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/270-WSM-140gr-version-9-0.pdf",
+          "balle_gr": 140,
+          "case_holds_gr": 72.4,
+          "oacl_essai": "2.850",
+          "etui": "Nosler",
+          "canon": "24 Wiseman"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/270-WSM-140gr-version-9-0_1.pdf",
+          "balle_gr": 140,
+          "case_holds_gr": 72.4,
+          "oacl_essai": "2.850",
+          "etui": "Nosler",
+          "canon": "24 Wiseman"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/270-WSM-150gr-version-9-0.pdf",
+          "balle_gr": 150,
+          "case_holds_gr": 71.8,
+          "oacl_essai": "2.850",
+          "etui": "Nosler",
+          "canon": "24\" Wiseman"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/270-WSM-160gr-version-9-0.pdf",
+          "balle_gr": 160,
+          "case_holds_gr": 72.9,
+          "oacl_essai": "2.850",
+          "etui": "Nosler",
+          "canon": "24\" Wiseman"
+        }
+      ]
+    },
     "280-remington": {
       "cle_estimateur": "280 Remington",
       "fiches": 6,
@@ -1297,6 +1355,172 @@
         }
       ]
     },
+    "300-prc-precision-rifle-cartridge": {
+      "cle_estimateur": "300 PRC",
+      "fiches": 2,
+      "mediane_gr": 87.5,
+      "min_gr": 87.0,
+      "max_gr": 88.0,
+      "mediane_cm3": 5.67,
+      "detail": [
+        {
+          "pdf": "https://www.nosler.com/media/300-PRC-210gr-version-9-0.pdf",
+          "balle_gr": 210,
+          "case_holds_gr": 88.0,
+          "oacl_essai": "3.650",
+          "etui": "Hornady",
+          "canon": "24\" Shilen"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/300-PRC-220gr-version-9-0.pdf",
+          "balle_gr": 220,
+          "case_holds_gr": 87.0,
+          "oacl_essai": "3.545",
+          "etui": "Hornady",
+          "canon": "24\" Shilen"
+        }
+      ]
+    },
+    "300-remington-ultra-magnum-rum": {
+      "cle_estimateur": "300 Rem. Ultra Mag.",
+      "fiches": 8,
+      "mediane_gr": 104.55,
+      "min_gr": 100.0,
+      "max_gr": 110.0,
+      "mediane_cm3": 6.775,
+      "detail": [
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/300-RUM-150gr-version-9-0.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 107.7,
+          "oacl_essai": "3.580",
+          "etui": "Nosler",
+          "canon": "26\" Wiseman"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/300-RUM-165gr-version-9-0.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 105.2,
+          "oacl_essai": "3.580",
+          "etui": "Nosler",
+          "canon": "26\" Wiseman"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/300-RUM-180gr-version-9-0.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 104.7,
+          "oacl_essai": "3.580",
+          "etui": "Nosler",
+          "canon": "24\" H-S Prec."
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/300-RUM-125gr-version-9-0.pdf",
+          "balle_gr": 125,
+          "case_holds_gr": 110.0,
+          "oacl_essai": "3.600",
+          "etui": "Nosler",
+          "canon": "26\" Wiseman"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/300-RUM-190gr-version-9-0.pdf",
+          "balle_gr": 190,
+          "case_holds_gr": 104.4,
+          "oacl_essai": "3.600",
+          "etui": "Nosler",
+          "canon": "24\" H-S Prec."
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/300-RUM-200gr-version-9-0.pdf",
+          "balle_gr": 200,
+          "case_holds_gr": 102.8,
+          "oacl_essai": "3.580",
+          "etui": "Nosler",
+          "canon": "24\" H-S Prec."
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/300-RUM-210gr-version-9-0.pdf",
+          "balle_gr": 210,
+          "case_holds_gr": 100.0,
+          "oacl_essai": "3.600",
+          "etui": "Nosler",
+          "canon": "24\" H-S Prec."
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/300-RUM-220gr-version-9-0.pdf",
+          "balle_gr": 220,
+          "case_holds_gr": 100.2,
+          "oacl_essai": "3.580",
+          "etui": "Nosler",
+          "canon": "24\" H-S Prec."
+        }
+      ]
+    },
+    "300-ruger-compact-magnum-rcm": {
+      "cle_estimateur": "300 RCM",
+      "fiches": 7,
+      "mediane_gr": 61.5,
+      "min_gr": 58.7,
+      "max_gr": 66.7,
+      "mediane_cm3": 3.985,
+      "detail": [
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/300-RCM-150gr-version-9-0.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 65.0,
+          "oacl_essai": "2.800",
+          "etui": "Hornady",
+          "canon": "24\" Pac-Nor"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/300-RCM-165gr-version-9-0.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 62.8,
+          "oacl_essai": "2.820",
+          "etui": "Hornady",
+          "canon": "24\" Pac-Nor"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/300-RCM-180gr-version-9-0.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 61.4,
+          "oacl_essai": "2.760",
+          "etui": "Hornady",
+          "canon": "24\" Pac-Nor"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/300-RCM-125gr-version-9-0.pdf",
+          "balle_gr": 125,
+          "case_holds_gr": 66.7,
+          "oacl_essai": "2.800",
+          "etui": "Hornady",
+          "canon": "24\" Pac-Nor"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/300-RCM-190gr-version-9-0.pdf",
+          "balle_gr": 190,
+          "case_holds_gr": 61.5,
+          "oacl_essai": "2.810",
+          "etui": "Hornady",
+          "canon": "24\" Pac-Nor"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/300-RCM-200gr-version-9-0.pdf",
+          "balle_gr": 200,
+          "case_holds_gr": 60.3,
+          "oacl_essai": "2.820",
+          "etui": "Hornady",
+          "canon": "24\" Pac-Nor"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/300-RCM-220gr-version-9-0.pdf",
+          "balle_gr": 220,
+          "case_holds_gr": 58.7,
+          "oacl_essai": "2.830",
+          "etui": "Hornady",
+          "canon": "24\" Pac-Nor"
+        }
+      ]
+    },
     "300-savage": {
       "cle_estimateur": "300 Savage",
       "fiches": 4,
@@ -1484,6 +1708,80 @@
           "oacl_essai": "3.340",
           "etui": "Nosler",
           "canon": "24\" Lilja"
+        }
+      ]
+    },
+    "300-winchester-short-magnum-wsm": {
+      "cle_estimateur": "300 WSM",
+      "fiches": 8,
+      "mediane_gr": 70.9,
+      "min_gr": 66.1,
+      "max_gr": 76.0,
+      "mediane_cm3": 4.594,
+      "detail": [
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/300-WSM-150gr-version-9-0.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 75.1,
+          "oacl_essai": "2.830",
+          "etui": "Nosler",
+          "canon": "26\" Wiseman"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/300-WSM-165gr-version-9-0.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 74.0,
+          "oacl_essai": "2.830",
+          "etui": "Nosler",
+          "canon": "26\" Wiseman"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/300-WSM-180gr-version-9-0.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 71.3,
+          "oacl_essai": "2.840",
+          "etui": "Nosler",
+          "canon": "24\" H-S Prec."
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/300-WSM-125gr-version-9-0.pdf",
+          "balle_gr": 125,
+          "case_holds_gr": 76.0,
+          "oacl_essai": "2.835",
+          "etui": "Nosler",
+          "canon": "26\" Wiseman"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/300-WSM-190gr-version-9-0.pdf",
+          "balle_gr": 190,
+          "case_holds_gr": 70.5,
+          "oacl_essai": "2.860",
+          "etui": "Nosler",
+          "canon": "24\" H-S Prec."
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/300-WSM-200gr-version-9-0.pdf",
+          "balle_gr": 200,
+          "case_holds_gr": 68.5,
+          "oacl_essai": "2.830",
+          "etui": "Nosler",
+          "canon": "24\" Wiseman"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/300-WSM-210gr-version-9-0.pdf",
+          "balle_gr": 210,
+          "case_holds_gr": 66.1,
+          "oacl_essai": "2.860",
+          "etui": "Nosler",
+          "canon": "24\" Wiseman"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/300-WSM-220gr-version-9-0.pdf",
+          "balle_gr": 220,
+          "case_holds_gr": 68.7,
+          "oacl_essai": "2.850",
+          "etui": "Nosler",
+          "canon": "26\" Wiseman"
         }
       ]
     },
@@ -1788,6 +2086,32 @@
           "oacl_essai": "1.120",
           "etui": "Federal",
           "canon": "3.9\" Sig"
+        }
+      ]
+    },
+    "375-holland-holland-magnum": {
+      "cle_estimateur": "375 H&H Mag.",
+      "fiches": 2,
+      "mediane_gr": 80.95,
+      "min_gr": 78.5,
+      "max_gr": 83.4,
+      "mediane_cm3": 5.245,
+      "detail": [
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/375-H_H-260gr-version-9-0.pdf",
+          "balle_gr": 260,
+          "case_holds_gr": 83.4,
+          "oacl_essai": "3.575",
+          "etui": "Nosler",
+          "canon": "24\" Lilja"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/375-H_H-300gr-version-9-0.pdf",
+          "balle_gr": 300,
+          "case_holds_gr": 78.5,
+          "oacl_essai": "3.575",
+          "etui": "Nosler",
+          "canon": "24\" Lilja"
         }
       ]
     },
@@ -2697,6 +3021,32 @@
         }
       ]
     },
+    "7mm-prc": {
+      "cle_estimateur": "7mm PRC",
+      "fiches": 2,
+      "mediane_gr": 74.95,
+      "min_gr": 74.5,
+      "max_gr": 75.4,
+      "mediane_cm3": 4.857,
+      "detail": [
+        {
+          "pdf": "https://www.nosler.com/media/binaryanvil/media_library/7mm_PRC_175gr.pdf",
+          "balle_gr": 175,
+          "case_holds_gr": 74.5,
+          "oacl_essai": "3.320",
+          "etui": "Nosler",
+          "canon": "24\" Shilen"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/7mm-PRC-185gr-version-9-0.pdf",
+          "balle_gr": 185,
+          "case_holds_gr": 75.4,
+          "oacl_essai": "3.320",
+          "etui": "Hornady",
+          "canon": "24\" ?"
+        }
+      ]
+    },
     "7mm-remington-magnum": {
       "cle_estimateur": "7 Rem. Mag.",
       "fiches": 7,
@@ -2763,6 +3113,72 @@
         }
       ]
     },
+    "7mm-remington-ultra-magnum-rum": {
+      "cle_estimateur": "7mm RUM",
+      "fiches": 7,
+      "mediane_gr": 104.8,
+      "min_gr": 98.2,
+      "max_gr": 108.1,
+      "mediane_cm3": 6.791,
+      "detail": [
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/7mm-RUM-120gr-version-9-0.pdf",
+          "balle_gr": 120,
+          "case_holds_gr": 108.1,
+          "oacl_essai": "3.570",
+          "etui": "Nosler",
+          "canon": "26\" Wiseman"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/7mm-RUM-140gr-version-9-0.pdf",
+          "balle_gr": 140,
+          "case_holds_gr": 105.8,
+          "oacl_essai": "3.570",
+          "etui": "Nosler",
+          "canon": "26\" Wiseman"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/7mm-RUM-150gr-version-9-0.pdf",
+          "balle_gr": 150,
+          "case_holds_gr": 105.4,
+          "oacl_essai": "3.570",
+          "etui": "Nosler",
+          "canon": "26\" Wiseman"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/7mm-RUM-160gr-version-9-0.pdf",
+          "balle_gr": 160,
+          "case_holds_gr": 103.9,
+          "oacl_essai": "3.570",
+          "etui": "Nosler",
+          "canon": "26\" Wiseman"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/7mm-RUM-168gr-version-9-0.pdf",
+          "balle_gr": 168,
+          "case_holds_gr": 104.8,
+          "oacl_essai": "3.570",
+          "etui": "Nosler",
+          "canon": "24\" H-S Prec."
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/7mm-RUM-175gr-version-9-0.pdf",
+          "balle_gr": 175,
+          "case_holds_gr": 98.2,
+          "oacl_essai": "3.570",
+          "etui": "Nosler",
+          "canon": "26\" Wiseman"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/7mm-RUM-185gr-version-9-0.pdf",
+          "balle_gr": 185,
+          "case_holds_gr": 99.0,
+          "oacl_essai": "3.570",
+          "etui": "Nosler",
+          "canon": "24\" Wiseman"
+        }
+      ]
+    },
     "7mm-weatherby-magnum": {
       "cle_estimateur": "7mm Weatherby Magnum",
       "fiches": 7,
@@ -2826,6 +3242,64 @@
           "oacl_essai": "3.360",
           "etui": "Norma",
           "canon": "24\" Lilja"
+        }
+      ]
+    },
+    "7mm-winchester-short-magnum-wsm": {
+      "cle_estimateur": "7mm WSM",
+      "fiches": 6,
+      "mediane_gr": 73.9,
+      "min_gr": 72.1,
+      "max_gr": 76.8,
+      "mediane_cm3": 4.789,
+      "detail": [
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/7mm-WSM-120gr-version-9-0.pdf",
+          "balle_gr": 120,
+          "case_holds_gr": 76.8,
+          "oacl_essai": "2.850",
+          "etui": "Winchester",
+          "canon": "24\" Wiseman"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/7mm-WSM-140gr-version-9-0.pdf",
+          "balle_gr": 140,
+          "case_holds_gr": 74.5,
+          "oacl_essai": "2.850",
+          "etui": "Winchester",
+          "canon": "24\" Wiseman"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/7mm-WSM-150gr-version-9-0.pdf",
+          "balle_gr": 150,
+          "case_holds_gr": 73.5,
+          "oacl_essai": "2.850",
+          "etui": "Winchester",
+          "canon": "24\" Wiseman"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/7mm-WSM-160gr-version-9-0.pdf",
+          "balle_gr": 160,
+          "case_holds_gr": 74.3,
+          "oacl_essai": "2.850",
+          "etui": "Winchester",
+          "canon": "24\" Wiseman"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/7mm-WSM-168gr-version-9-0.pdf",
+          "balle_gr": 168,
+          "case_holds_gr": 72.5,
+          "oacl_essai": "2.825",
+          "etui": "Winchester",
+          "canon": "24\" Wiseman"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/7mm-WSM-175gr-version-9-0.pdf",
+          "balle_gr": 175,
+          "case_holds_gr": 72.1,
+          "oacl_essai": "2.850",
+          "etui": "Winchester",
+          "canon": "24\" Wiseman"
         }
       ]
     },
