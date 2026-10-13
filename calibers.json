@@ -1750,6 +1750,7 @@
       "380 Auto",
       "380 ACP",
       "9mm Kurz",
+      "9 mm Browning court / .380 Auto",
       "9 mm Browning court",
       ".380 ACP"
     ],
@@ -2959,6 +2960,7 @@
     "name": "6.5 Grendel",
     "aliases": [
       "6.5 Grendel AR-15",
+      "6,5 mm Grendel",
       "6.5 Grendel"
     ],
     "category": "Rifle",
@@ -3083,6 +3085,7 @@
     "aliases": [
       "6.5 x 55mm Swedish Mauser",
       "6.5x55 Swedish",
+      "6,5 x 55 SE / 6,5 x 55 SKAN",
       "6.5 x 55 SE",
       "6.5×55mm Swedish"
     ],
