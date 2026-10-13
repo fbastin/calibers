@@ -1,0 +1,2971 @@
+{
+  "_provenance": {
+    "source": "Nosler, données de rechargement en ligne, https://www.nosler.com/load-data/caliber-and-cartridge-data.html : une fiche PDF par cartouche et par balle.",
+    "champ": "« CASE HOLDS: x Gr. WATER » : capacité en eau de l'étui Nosler, balle EN PLACE à la longueur d'essai de la fiche (elle baisse quand la balle s'alourdit et s'enfonce : .300 AAC Blackout 19,2 gr sous 110 gr, 13,1 gr sous 220 gr). C'est la grandeur du « volume utile » de l'estimateur.",
+    "releve_le": "2026-10-13",
+    "methode": "Pages des cartouches de la base lues par script (1 s entre requêtes ; robots.txt vide), fiches lues en texte (pdftotext) : CASE HOLDS, masse de balle de l'en-tête, longueur d'essai, étui, canon. Médiane par cartouche. Valeurs de fabricant citées ; les fiches ne sont pas redistribuées.",
+    "usage": "Remplacement d'un volume de la base quand il s'écarte de plus de 10 % de la médiane ET que le remplissage médian des charges maximales publiées des autres fabricants devient plausible avec la valeur Nosler (scripts/remplissage_publie.py du sous-module de l'estimateur, 2026-10-13)."
+  },
+  "calibres": {
+    "10mm-auto": {
+      "cle_estimateur": "10 mm Auto",
+      "fiches": 4,
+      "mediane_gr": 14.6,
+      "min_gr": 13.5,
+      "max_gr": 17.3,
+      "mediane_cm3": 0.946,
+      "detail": [
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/10mm-Auto-135gr-version-9-0.pdf",
+          "balle_gr": 135,
+          "case_holds_gr": 17.3,
+          "oacl_essai": "1.260",
+          "etui": "Winchester",
+          "canon": "6\" Omega"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/10mm-Auto-150gr-version-9-0.pdf",
+          "balle_gr": 150,
+          "case_holds_gr": 15.1,
+          "oacl_essai": "1.260",
+          "etui": "Winchester",
+          "canon": "6\" Omega"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/10mm-Auto-180gr-version-9-0.pdf",
+          "balle_gr": 180,
+          "case_holds_gr": 14.1,
+          "oacl_essai": "1.260",
+          "etui": "Winchester",
+          "canon": "6\" Omega"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/10mm-Auto-200gr-version-9-0.pdf",
+          "balle_gr": 200,
+          "case_holds_gr": 13.5,
+          "oacl_essai": "1.260",
+          "etui": "Winchester",
+          "canon": "6\" Omega"
+        }
+      ]
+    },
+    "204-ruger": {
+      "cle_estimateur": "204 Ruger",
+      "fiches": 2,
+      "mediane_gr": 30.25,
+      "min_gr": 29.9,
+      "max_gr": 30.6,
+      "mediane_cm3": 1.96,
+      "detail": [
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/204-Ruger-32gr-version-9-0.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 30.6,
+          "oacl_essai": "2.250",
+          "etui": "Nosler",
+          "canon": "26\" Pac-Nor"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/204-Ruger-40gr-version-9-0.pdf",
+          "balle_gr": 40,
+          "case_holds_gr": 29.9,
+          "oacl_essai": "2.250",
+          "etui": "Nosler",
+          "canon": "26\" Pac-Nor"
+        }
+      ]
+    },
+    "22-250-remington": {
+      "cle_estimateur": "22-250 Rem.",
+      "fiches": 10,
+      "mediane_gr": 42.0,
+      "min_gr": 40.1,
+      "max_gr": 43.0,
+      "mediane_cm3": 2.722,
+      "detail": [
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/22-250-Rem-34gr-version-9-0.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 40.9,
+          "oacl_essai": "2.350",
+          "etui": "Nosler",
+          "canon": "24\" Lilja"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/22-250-Rem-50gr-version-9-0.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 42.6,
+          "oacl_essai": "2.350",
+          "etui": "Nosler",
+          "canon": "24\" Lilja"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/22-250-Rem-60gr-FT-version-9-0.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 41.0,
+          "oacl_essai": "2.350",
+          "etui": "Nosler",
+          "canon": "24\" Wiseman"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/22-250-Rem-70gr-version-9-0.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 41.3,
+          "oacl_essai": "2.600",
+          "etui": "Nosler",
+          "canon": "24\" Wiseman"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/22-250-Rem-77gr-version-9-0.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 42.1,
+          "oacl_essai": "2.600",
+          "etui": "Nosler",
+          "canon": "24\" Wiseman"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/22-250-Rem-40gr-FT-version-9-0.pdf",
+          "balle_gr": 40,
+          "case_holds_gr": 43.0,
+          "oacl_essai": "2.350",
+          "etui": "Nosler",
+          "canon": "24\" Wiseman"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/22-250-Rem-40gr-version-9-0.pdf",
+          "balle_gr": 40,
+          "case_holds_gr": 43.0,
+          "oacl_essai": "2.350",
+          "etui": "Nosler",
+          "canon": "24\" Lilja"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/22-250-Rem-55gr-version-9-0.pdf",
+          "balle_gr": 55,
+          "case_holds_gr": 42.4,
+          "oacl_essai": "2.350",
+          "etui": "Nosler",
+          "canon": "24\" Lilja"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/22-250-Rem-64gr-version-9-0.pdf",
+          "balle_gr": 64,
+          "case_holds_gr": 41.9,
+          "oacl_essai": "2.330",
+          "etui": "Nosler",
+          "canon": "24\" H-S Prec."
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/22-250-Rem-85gr-FT-version-9-0.pdf",
+          "balle_gr": 85,
+          "case_holds_gr": 40.1,
+          "oacl_essai": "2.600",
+          "etui": "Nosler",
+          "canon": "24\" Wiseman"
+        }
+      ]
+    },
+    "22-hornet": {
+      "cle_estimateur": "22 Hornet",
+      "fiches": 2,
+      "mediane_gr": 12.9,
+      "min_gr": 11.6,
+      "max_gr": 14.2,
+      "mediane_cm3": 0.836,
+      "detail": [
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/22-Hornet-34gr-version-9-0.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 14.2,
+          "oacl_essai": "1.705",
+          "etui": "Remington",
+          "canon": "22\" Lilja"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/22-Hornet-40gr-version-9-0.pdf",
+          "balle_gr": 40,
+          "case_holds_gr": 11.6,
+          "oacl_essai": "1.845",
+          "etui": "Remington",
+          "canon": "22\" Lilja"
+        }
+      ]
+    },
+    "22-nosler": {
+      "cle_estimateur": "22 Nosler",
+      "fiches": 8,
+      "mediane_gr": 33.5,
+      "min_gr": 30.7,
+      "max_gr": 35.9,
+      "mediane_cm3": 2.171,
+      "detail": [
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/22-Nosler-50gr-version-9-0.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 33.7,
+          "oacl_essai": "2.260",
+          "etui": "Nosler",
+          "canon": "24\" H-S Prec."
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/22-Nosler-60gr-version-9-0.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 35.2,
+          "oacl_essai": "2.260",
+          "etui": "Nosler",
+          "canon": "24\" H-S Prec."
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/22-Nosler-70gr-version-9-0.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 33.3,
+          "oacl_essai": "2.260",
+          "etui": "Nosler",
+          "canon": "24\" H-S Prec."
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/22-Nosler-40gr-version-9-0.pdf",
+          "balle_gr": 40,
+          "case_holds_gr": 35.9,
+          "oacl_essai": "2.260",
+          "etui": "Nosler",
+          "canon": "24\" H-S Prec."
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/22-Nosler-55gr-version-9-0.pdf",
+          "balle_gr": 55,
+          "case_holds_gr": 34.7,
+          "oacl_essai": "2.260",
+          "etui": "Nosler",
+          "canon": "24\" H-S Prec."
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/22-Nosler-64gr-version-9-0.pdf",
+          "balle_gr": 64,
+          "case_holds_gr": 33.2,
+          "oacl_essai": "2.175",
+          "etui": "Nosler",
+          "canon": "24\" H-S Prec."
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/22-Nosler-77gr-version-9-0.pdf",
+          "balle_gr": 77,
+          "case_holds_gr": 30.8,
+          "oacl_essai": "2.260",
+          "etui": "Nosler",
+          "canon": "24\" H-S Prec."
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/22-Nosler-85gr-version-9-0.pdf",
+          "balle_gr": 85,
+          "case_holds_gr": 30.7,
+          "oacl_essai": "2.260",
+          "etui": "Nosler",
+          "canon": "24\" H-S Prec."
+        }
+      ]
+    },
+    "220-swift": {
+      "cle_estimateur": "220 Swift",
+      "fiches": 5,
+      "mediane_gr": 46.8,
+      "min_gr": 46.3,
+      "max_gr": 48.0,
+      "mediane_cm3": 3.033,
+      "detail": [
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/220-Swift-34gr-version-9-0.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 46.3,
+          "oacl_essai": "2.530",
+          "etui": "Winchester",
+          "canon": "26\" H-S Prec."
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/220-Swift-50gr-version-9-0.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 46.8,
+          "oacl_essai": "2.640",
+          "etui": "Winchester",
+          "canon": "26\" H-S Prec."
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/220-Swift-60gr-version-9-0.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 47.0,
+          "oacl_essai": "2.680",
+          "etui": "Winchester",
+          "canon": "26\" H-S Prec."
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/220-Swift-40gr-version-9-0.pdf",
+          "balle_gr": 40,
+          "case_holds_gr": 48.0,
+          "oacl_essai": "2.670",
+          "etui": "Winchester",
+          "canon": "26\" H-S Prec."
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/220-Swift-55gr-version-9-0.pdf",
+          "balle_gr": 55,
+          "case_holds_gr": 46.4,
+          "oacl_essai": "2.670",
+          "etui": "Winchester",
+          "canon": "26\" H-S Prec."
+        }
+      ]
+    },
+    "221-remington-fireball": {
+      "cle_estimateur": "221 Remington Fireball",
+      "fiches": 4,
+      "mediane_gr": 19.75,
+      "min_gr": 19.4,
+      "max_gr": 20.0,
+      "mediane_cm3": 1.28,
+      "detail": [
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/221-Fireball-34gr-version-9-0.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 19.9,
+          "oacl_essai": "1.720",
+          "etui": "Remington",
+          "canon": "22\" Lilja"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/221-Fireball-50gr-version-9-0.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 19.6,
+          "oacl_essai": "1.830",
+          "etui": "Remington",
+          "canon": "22\" Lilja"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/221-Fireball-40gr-version-9-0.pdf",
+          "balle_gr": 40,
+          "case_holds_gr": 20.0,
+          "oacl_essai": "1.830",
+          "etui": "Remington",
+          "canon": "22\" Lilja"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/221-Fireball-55gr-version-9-0.pdf",
+          "balle_gr": 55,
+          "case_holds_gr": 19.4,
+          "oacl_essai": "1.830",
+          "etui": "Remington",
+          "canon": "22\" Lilja"
+        }
+      ]
+    },
+    "222-remington": {
+      "cle_estimateur": "222 Rem.",
+      "fiches": 4,
+      "mediane_gr": 24.75,
+      "min_gr": 23.6,
+      "max_gr": 25.8,
+      "mediane_cm3": 1.604,
+      "detail": [
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/222-Rem-34gr-version-9-0.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 23.6,
+          "oacl_essai": "2.020",
+          "etui": "Remington",
+          "canon": "20\" Lilja"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/222-Rem-50gr-version-9-0.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 25.1,
+          "oacl_essai": "2.130",
+          "etui": "Remington",
+          "canon": "20\" Lilja"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/222-Rem-40gr-version-9-0.pdf",
+          "balle_gr": 40,
+          "case_holds_gr": 25.8,
+          "oacl_essai": "2.130",
+          "etui": "Remington",
+          "canon": "20\" Lilja"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/222-Rem-55gr-version-9-0.pdf",
+          "balle_gr": 55,
+          "case_holds_gr": 24.4,
+          "oacl_essai": "2.130",
+          "etui": "Remington",
+          "canon": "20\" Lilja"
+        }
+      ]
+    },
+    "222-remington-magnum": {
+      "cle_estimateur": "222 Rem. Mag.",
+      "fiches": 4,
+      "mediane_gr": 29.6,
+      "min_gr": 28.6,
+      "max_gr": 30.5,
+      "mediane_cm3": 1.918,
+      "detail": [
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/222-Rem-Mag-34gr-version-9-0.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 30.5,
+          "oacl_essai": "2.170",
+          "etui": "Remington",
+          "canon": "24\" Lilja"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/222-Rem-Mag-50gr-version-9-0.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 28.7,
+          "oacl_essai": "2.280",
+          "etui": "Remington",
+          "canon": "24\" Lilja"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/222-Rem-Mag-40gr-version-9-0.pdf",
+          "balle_gr": 40,
+          "case_holds_gr": 30.5,
+          "oacl_essai": "2.280",
+          "etui": "Remington",
+          "canon": "24\" Lilja"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/222-Rem-Mag-55gr-version-9-0.pdf",
+          "balle_gr": 55,
+          "case_holds_gr": 28.6,
+          "oacl_essai": "2.280",
+          "etui": "Remington",
+          "canon": "24\" Lilja"
+        }
+      ]
+    },
+    "223-remington": {
+      "cle_estimateur": "223 Rem.",
+      "fiches": 9,
+      "mediane_gr": 27.5,
+      "min_gr": 24.7,
+      "max_gr": 29.2,
+      "mediane_cm3": 1.782,
+      "detail": [
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/223-Rem-34gr-version-9-0.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 28.2,
+          "oacl_essai": "2.080",
+          "etui": "Nosler",
+          "canon": "24\" Lilja"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/223-Rem-50gr-version-9-0.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 27.5,
+          "oacl_essai": "2.260",
+          "etui": "Nosler",
+          "canon": "24\" Lilja"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/223-Rem-60gr-version-9-0.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 27.6,
+          "oacl_essai": "2.260",
+          "etui": "Nosler",
+          "canon": "26\" Pac-Nor"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/223-Rem-70gr-version-9-0.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 27.5,
+          "oacl_essai": "2.260",
+          "etui": "Nosler",
+          "canon": "20\" Pac-Nor"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/223-Rem-77gr-version-9-0.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 26.5,
+          "oacl_essai": "2.260",
+          "etui": "Nosler",
+          "canon": "20\" Pac-Nor"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/223-Rem-40gr-version-9-0.pdf",
+          "balle_gr": 40,
+          "case_holds_gr": 29.2,
+          "oacl_essai": "2.260",
+          "etui": "Nosler",
+          "canon": "24\" Lilja"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/223-Rem-55gr-version-9-0.pdf",
+          "balle_gr": 55,
+          "case_holds_gr": 27.4,
+          "oacl_essai": "2.260",
+          "etui": "Nosler",
+          "canon": "24\" Lilja"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/223-Rem-64gr-version-9-0.pdf",
+          "balle_gr": 64,
+          "case_holds_gr": 27.0,
+          "oacl_essai": "2.175",
+          "etui": "Nosler",
+          "canon": "24\" H-S Prec."
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/223-Rem-85gr-version-9-0_new.pdf",
+          "balle_gr": 85,
+          "case_holds_gr": 24.7,
+          "oacl_essai": "2.260",
+          "etui": "Nosler",
+          "canon": "24\" PAC-NOR"
+        }
+      ]
+    },
+    "240-weatherby-magnum": {
+      "cle_estimateur": "240 Weatherby Magnum",
+      "fiches": 5,
+      "mediane_gr": 60.4,
+      "min_gr": 58.8,
+      "max_gr": 63.5,
+      "mediane_cm3": 3.914,
+      "detail": [
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/240-Wby-90gr-version-9-0.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 60.4,
+          "oacl_essai": "3.060",
+          "etui": "Weatherby",
+          "canon": "24\" Lilja"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/240-Wby-95gr-version-9-0.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 58.8,
+          "oacl_essai": "3.060",
+          "etui": "Weatherby",
+          "canon": "24\" Lilja"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/240-Wby-55gr-version-9-0.pdf",
+          "balle_gr": 55,
+          "case_holds_gr": 63.5,
+          "oacl_essai": "3.060",
+          "etui": "Weatherby",
+          "canon": "24\" Lilja"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/240-Wby-70gr-version-9-0.pdf",
+          "balle_gr": 70,
+          "case_holds_gr": 61.4,
+          "oacl_essai": "3.060",
+          "etui": "Weatherby",
+          "canon": "24\" Lilja"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/240-Wby-80gr-version-9-0.pdf",
+          "balle_gr": 80,
+          "case_holds_gr": 60.1,
+          "oacl_essai": "3.060",
+          "etui": "Weatherby",
+          "canon": "24\" Lilja"
+        }
+      ]
+    },
+    "243-winchester": {
+      "cle_estimateur": "243 Win.",
+      "fiches": 6,
+      "mediane_gr": 51.15,
+      "min_gr": 48.0,
+      "max_gr": 53.9,
+      "mediane_cm3": 3.314,
+      "detail": [
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/243-Win-105gr-version-9-0.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 48.0,
+          "oacl_essai": "2.710",
+          "etui": "Nosler",
+          "canon": "24\" H-S Prec."
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/243-Win-90gr-version-9-0.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 52.8,
+          "oacl_essai": "2.680",
+          "etui": "Nosler",
+          "canon": "24\" Lilja"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/243-Win-95gr-version-9-0.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 50.0,
+          "oacl_essai": "2.680",
+          "etui": "Nosler",
+          "canon": "24\" Lilja"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/243-Win-55gr-version-9-0.pdf",
+          "balle_gr": 55,
+          "case_holds_gr": 53.9,
+          "oacl_essai": "2.610",
+          "etui": "Nosler",
+          "canon": "24\" Lilja"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/243-Win-70gr-version-9-0.pdf",
+          "balle_gr": 70,
+          "case_holds_gr": 50.8,
+          "oacl_essai": "2.680",
+          "etui": "Nosler",
+          "canon": "24\" Lilja"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/243-Win-80gr-version-9-0.pdf",
+          "balle_gr": 80,
+          "case_holds_gr": 51.5,
+          "oacl_essai": "2.680",
+          "etui": "Nosler",
+          "canon": "24\" Lilja"
+        }
+      ]
+    },
+    "25-06-remington": {
+      "cle_estimateur": "25-06 Remington",
+      "fiches": 5,
+      "mediane_gr": 63.5,
+      "min_gr": 63.3,
+      "max_gr": 65.8,
+      "mediane_cm3": 4.115,
+      "detail": [
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/25-06-Rem-85gr-version-9-0.pdf",
+          "balle_gr": 85,
+          "case_holds_gr": 65.8,
+          "oacl_essai": "3.200",
+          "etui": "Nosler",
+          "canon": "24\" Wiseman"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/25-06-Rem-100gr-version-9-0.pdf",
+          "balle_gr": 100,
+          "case_holds_gr": 64.2,
+          "oacl_essai": "3.200",
+          "etui": "Nosler",
+          "canon": "24\" Wiseman"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/25-06-Rem-110gr-version-9-0.pdf",
+          "balle_gr": 110,
+          "case_holds_gr": 63.3,
+          "oacl_essai": "3.200",
+          "etui": "Nosler",
+          "canon": "24\" Wiseman"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/25-06-Rem-115gr-version-9-0.pdf",
+          "balle_gr": 115,
+          "case_holds_gr": 63.3,
+          "oacl_essai": "3.200",
+          "etui": "Nosler",
+          "canon": "24\" Wiseman"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/25-06-Rem-120gr-version-9-0.pdf",
+          "balle_gr": 120,
+          "case_holds_gr": 63.5,
+          "oacl_essai": "3.200",
+          "etui": "Nosler",
+          "canon": "24\" Wiseman"
+        }
+      ]
+    },
+    "250-3000-savage": {
+      "cle_estimateur": "250 Savage",
+      "fiches": 5,
+      "mediane_gr": 40.3,
+      "min_gr": 40.1,
+      "max_gr": 42.7,
+      "mediane_cm3": 2.611,
+      "detail": [
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/250-Savage-85gr-version-9-0.pdf",
+          "balle_gr": 85,
+          "case_holds_gr": 42.7,
+          "oacl_essai": "2.515",
+          "etui": "Winchester",
+          "canon": "22\" Hart"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/250-Savage-100gr-version-9-0.pdf",
+          "balle_gr": 100,
+          "case_holds_gr": 41.2,
+          "oacl_essai": "2.515",
+          "etui": "Winchester",
+          "canon": "22\" Hart"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/250-Savage-110gr-version-9-0.pdf",
+          "balle_gr": 110,
+          "case_holds_gr": 40.3,
+          "oacl_essai": "2.515",
+          "etui": "Winchester",
+          "canon": "22\" Hart"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/250-Savage-115gr-version-9-0.pdf",
+          "balle_gr": 115,
+          "case_holds_gr": 40.2,
+          "oacl_essai": "2.515",
+          "etui": "Winchester",
+          "canon": "22\" Hart"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/250-Savage-120gr-version-9-0.pdf",
+          "balle_gr": 120,
+          "case_holds_gr": 40.1,
+          "oacl_essai": "2.515",
+          "etui": "Winchester",
+          "canon": "22\" Hart"
+        }
+      ]
+    },
+    "257-roberts": {
+      "cle_estimateur": "257 Roberts",
+      "fiches": 5,
+      "mediane_gr": 51.6,
+      "min_gr": 51.4,
+      "max_gr": 53.6,
+      "mediane_cm3": 3.344,
+      "detail": [
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/257-Roberts_P-85gr-version-9-0.pdf",
+          "balle_gr": 85,
+          "case_holds_gr": 53.6,
+          "oacl_essai": "2.750",
+          "etui": "Nosler",
+          "canon": "24\" Lilja"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/257-Roberts_P-100gr-version-9-0.pdf",
+          "balle_gr": 100,
+          "case_holds_gr": 52.2,
+          "oacl_essai": "2.750",
+          "etui": "Nosler",
+          "canon": "24\" Lilja"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/257-Roberts_P-110gr-version-9-0.pdf",
+          "balle_gr": 110,
+          "case_holds_gr": 51.6,
+          "oacl_essai": "2.750",
+          "etui": "Nosler",
+          "canon": "24\" Lilja"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/257-Roberts_P-115gr-version-9-0.pdf",
+          "balle_gr": 115,
+          "case_holds_gr": 51.6,
+          "oacl_essai": "2.750",
+          "etui": "Nosler",
+          "canon": "24\" Lilja"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/257-Roberts_P-120gr-version-9-0.pdf",
+          "balle_gr": 120,
+          "case_holds_gr": 51.4,
+          "oacl_essai": "2.750",
+          "etui": "Nosler",
+          "canon": "24\" Lilja"
+        }
+      ]
+    },
+    "257-weatherby-magnum": {
+      "cle_estimateur": "257 Wby. Mag.",
+      "fiches": 5,
+      "mediane_gr": 81.2,
+      "min_gr": 81.0,
+      "max_gr": 84.8,
+      "mediane_cm3": 5.262,
+      "detail": [
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/257-WBY-Mag-85gr-version-9-0.pdf",
+          "balle_gr": 85,
+          "case_holds_gr": 84.8,
+          "oacl_essai": "3.209",
+          "etui": "Nosler",
+          "canon": "26\" Lilja"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/257-WBY-Mag-100gr-version-9-0.pdf",
+          "balle_gr": 100,
+          "case_holds_gr": 81.8,
+          "oacl_essai": "3.209",
+          "etui": "Nosler",
+          "canon": "26\" Lilja"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/257-WBY-Mag-110gr-version-9-0.pdf",
+          "balle_gr": 110,
+          "case_holds_gr": 81.0,
+          "oacl_essai": "3.209",
+          "etui": "Nosler",
+          "canon": "26\" Lilja"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/257-WBY-Mag-115gr-version-9-0.pdf",
+          "balle_gr": 115,
+          "case_holds_gr": 81.0,
+          "oacl_essai": "3.209",
+          "etui": "Nosler",
+          "canon": "26\" Lilja"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/257-WBY-Mag-120gr-version-9-0.pdf",
+          "balle_gr": 120,
+          "case_holds_gr": 81.2,
+          "oacl_essai": "3.209",
+          "etui": "Nosler",
+          "canon": "26\" Lilja"
+        }
+      ]
+    },
+    "260-remington": {
+      "cle_estimateur": "260 Rem.",
+      "fiches": 6,
+      "mediane_gr": 47.8,
+      "min_gr": 47.0,
+      "max_gr": 51.6,
+      "mediane_cm3": 3.097,
+      "detail": [
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/260-Rem-125gr-version-9-0.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 47.8,
+          "oacl_essai": "2.800",
+          "etui": "Nosler",
+          "canon": "24\" Wiseman"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/260-Rem-130gr-version-9-0.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 47.0,
+          "oacl_essai": "2.800",
+          "etui": "Nosler",
+          "canon": "24\" Wiseman"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/260-Rem-140gr-version-9-0.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 47.4,
+          "oacl_essai": "2.800",
+          "etui": "Nosler",
+          "canon": "24\" Wiseman"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/260-Rem-90gr-version-9-0.pdf",
+          "balle_gr": 90,
+          "case_holds_gr": 51.6,
+          "oacl_essai": "2.730",
+          "etui": "Nosler",
+          "canon": "24\" Wiseman"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/260-Rem-100gr-version-9-0.pdf",
+          "balle_gr": 100,
+          "case_holds_gr": 50.2,
+          "oacl_essai": "2.800",
+          "etui": "Nosler",
+          "canon": "24\" Wiseman"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/260-Rem-120gr-version-9-0.pdf",
+          "balle_gr": 120,
+          "case_holds_gr": 47.8,
+          "oacl_essai": "2.800",
+          "etui": "Nosler",
+          "canon": "24\" Wiseman"
+        }
+      ]
+    },
+    "270-weatherby-magnum": {
+      "cle_estimateur": "270 Weatherby Magnum",
+      "fiches": 6,
+      "mediane_gr": 80.75,
+      "min_gr": 79.0,
+      "max_gr": 83.1,
+      "mediane_cm3": 5.232,
+      "detail": [
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/270-Wby-100gr-version-9-0.pdf",
+          "balle_gr": 100,
+          "case_holds_gr": 83.1,
+          "oacl_essai": "3.200",
+          "etui": "Nosler",
+          "canon": "26\" Lilja"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/270-Wby-110gr-version-9-0.pdf",
+          "balle_gr": 110,
+          "case_holds_gr": 82.0,
+          "oacl_essai": "3.200",
+          "etui": "Nosler",
+          "canon": "26\" Lilja"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/270-Wby-130gr-version-9-0.pdf",
+          "balle_gr": 130,
+          "case_holds_gr": 81.7,
+          "oacl_essai": "3.230",
+          "etui": "Nosler",
+          "canon": "26\" Lilja"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/270-Wby-140gr-version-9-0.pdf",
+          "balle_gr": 140,
+          "case_holds_gr": 79.0,
+          "oacl_essai": "3.230",
+          "etui": "Nosler",
+          "canon": "26\" Lilja"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/270-Wby-150gr-version-9-0.pdf",
+          "balle_gr": 150,
+          "case_holds_gr": 79.4,
+          "oacl_essai": "3.230",
+          "etui": "Nosler",
+          "canon": "26\" Lilja"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/270-Wby-160gr-version-9-0.pdf",
+          "balle_gr": 160,
+          "case_holds_gr": 79.8,
+          "oacl_essai": "3.230",
+          "etui": "Nosler",
+          "canon": "26\" Lilja"
+        }
+      ]
+    },
+    "270-winchester": {
+      "cle_estimateur": "270 Win.",
+      "fiches": 6,
+      "mediane_gr": 64.2,
+      "min_gr": 62.8,
+      "max_gr": 64.7,
+      "mediane_cm3": 4.16,
+      "detail": [
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/270-Winchester-100gr-version-9-0.pdf",
+          "balle_gr": 100,
+          "case_holds_gr": 64.7,
+          "oacl_essai": "3.275",
+          "etui": "Nosler",
+          "canon": "26\" Pac-Nor"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/270-Winchester-110gr-version-9-0.pdf",
+          "balle_gr": 110,
+          "case_holds_gr": 64.6,
+          "oacl_essai": "3.275",
+          "etui": "Nosler",
+          "canon": "24\" Shilen"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/270-Winchester-130gr-version-9-0.pdf",
+          "balle_gr": 130,
+          "case_holds_gr": 64.6,
+          "oacl_essai": "3.320",
+          "etui": "Nosler",
+          "canon": "24\" Shilen"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/270-Winchester-140gr-version-9-0.pdf",
+          "balle_gr": 140,
+          "case_holds_gr": 63.7,
+          "oacl_essai": "3.320",
+          "etui": "Nosler",
+          "canon": "24\" Shilen"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/270-Winchester-150gr-version-9-0.pdf",
+          "balle_gr": 150,
+          "case_holds_gr": 62.8,
+          "oacl_essai": "3.320",
+          "etui": "Nosler",
+          "canon": "24\" Shilen"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/270-Winchester-160gr-version-9-0.pdf",
+          "balle_gr": 160,
+          "case_holds_gr": 63.8,
+          "oacl_essai": "3.320",
+          "etui": "Nosler",
+          "canon": "24\" Shlien"
+        }
+      ]
+    },
+    "280-remington": {
+      "cle_estimateur": "280 Remington",
+      "fiches": 6,
+      "mediane_gr": 62.55,
+      "min_gr": 61.1,
+      "max_gr": 65.4,
+      "mediane_cm3": 4.053,
+      "detail": [
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/280-Rem-120gr-version-9-0.pdf",
+          "balle_gr": 120,
+          "case_holds_gr": 65.4,
+          "oacl_essai": "3.330",
+          "etui": "Nosler",
+          "canon": "26\" Lilja"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/280-Rem-140gr-version-9-0.pdf",
+          "balle_gr": 140,
+          "case_holds_gr": 62.6,
+          "oacl_essai": "3.330",
+          "etui": "Nosler",
+          "canon": "26\" Lilja"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/280-Rem-150gr-version-9-0.pdf",
+          "balle_gr": 150,
+          "case_holds_gr": 62.5,
+          "oacl_essai": "3.330",
+          "etui": "Nosler",
+          "canon": "26\" Lilja"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/280-Rem-160gr-version-9-0.pdf",
+          "balle_gr": 160,
+          "case_holds_gr": 61.5,
+          "oacl_essai": "3.330",
+          "etui": "Nosler",
+          "canon": "26\" Lilja"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/280-Rem-168gr-version-9-0.pdf",
+          "balle_gr": 168,
+          "case_holds_gr": 62.9,
+          "oacl_essai": "3.300",
+          "etui": "Nosler",
+          "canon": "26\" Lilja"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/280-Rem-175gr-version-9-0.pdf",
+          "balle_gr": 175,
+          "case_holds_gr": 61.1,
+          "oacl_essai": "3.330",
+          "etui": "Nosler",
+          "canon": "26\" Lilja"
+        }
+      ]
+    },
+    "284-winchester": {
+      "cle_estimateur": "284 Winchester",
+      "fiches": 5,
+      "mediane_gr": 58.0,
+      "min_gr": 57.0,
+      "max_gr": 61.3,
+      "mediane_cm3": 3.758,
+      "detail": [
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/284-Winchester-120gr-version-8-0-archived.pdf",
+          "balle_gr": 120,
+          "case_holds_gr": 61.3,
+          "oacl_essai": "2.800",
+          "etui": "Winchester",
+          "canon": "24\" Lilja"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/284-Winchester-140gr-version-8-0-archived.pdf",
+          "balle_gr": 140,
+          "case_holds_gr": 61.3,
+          "oacl_essai": "2.800",
+          "etui": "Winchester",
+          "canon": "24\" Lilja"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/284-Winchester-150gr-version-8-3-archived.pdf",
+          "balle_gr": 150,
+          "case_holds_gr": 57.6,
+          "oacl_essai": "2.800",
+          "etui": "Winchester",
+          "canon": "24\" Lilja"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/284-Winchester-160gr-version-8-0-archived.pdf",
+          "balle_gr": 160,
+          "case_holds_gr": 58.0,
+          "oacl_essai": "2.800",
+          "etui": "Winchester",
+          "canon": "24\" Lilja"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/284-Winchester-175gr-version-8-3-archived.pdf",
+          "balle_gr": 175,
+          "case_holds_gr": 57.0,
+          "oacl_essai": "2.800",
+          "etui": "Winchester",
+          "canon": "24\" Lilja"
+        }
+      ]
+    },
+    "30-06-springfield": {
+      "cle_estimateur": "30-06 Spring.",
+      "fiches": 9,
+      "mediane_gr": 62.7,
+      "min_gr": 59.0,
+      "max_gr": 67.7,
+      "mediane_cm3": 4.063,
+      "detail": [
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/30-06-Sprg-150gr-version-9-0.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 62.7,
+          "oacl_essai": "3.320",
+          "etui": "Nosler",
+          "canon": "24\" Lilja"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/30-06-Sprg-165gr-version-9-0.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 60.2,
+          "oacl_essai": "3.320",
+          "etui": "Nosler",
+          "canon": "24\" Lilja"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/30-06-Sprg-180gr-version-9-0.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 63.9,
+          "oacl_essai": "3.330",
+          "etui": "Nosler",
+          "canon": "24\" H-S Prec."
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/30-06-Sprg-110gr-version-9-0.pdf",
+          "balle_gr": 110,
+          "case_holds_gr": 65.1,
+          "oacl_essai": "3.130",
+          "etui": "Nosler",
+          "canon": "24\" H-S Prec."
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/30-06-Sprg-125gr-version-9-0.pdf",
+          "balle_gr": 125,
+          "case_holds_gr": 67.7,
+          "oacl_essai": "3.320",
+          "etui": "Nosler",
+          "canon": "24\" Lilja"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/30-06-Sprg-190gr-version-9-0.pdf",
+          "balle_gr": 190,
+          "case_holds_gr": 62.7,
+          "oacl_essai": "3.340",
+          "etui": "Nosler",
+          "canon": "24\" H-S Prec."
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/30-06-Sprg-200gr-version-9-0.pdf",
+          "balle_gr": 200,
+          "case_holds_gr": 59.4,
+          "oacl_essai": "3.320",
+          "etui": "Nosler",
+          "canon": "24\" Lilja"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/30-06-Sprg-210gr-version-9-0.pdf",
+          "balle_gr": 210,
+          "case_holds_gr": 59.0,
+          "oacl_essai": "3.340",
+          "etui": "Nosler",
+          "canon": "24\" Lilja"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/30-06-Sprg-220gr-version-9-0.pdf",
+          "balle_gr": 220,
+          "case_holds_gr": 61.9,
+          "oacl_essai": "3.340",
+          "etui": "Nosler",
+          "canon": "24\" Lilja"
+        }
+      ]
+    },
+    "30-30-winchester": {
+      "cle_estimateur": "30-30 Win.",
+      "fiches": 2,
+      "mediane_gr": 35.6,
+      "min_gr": 34.6,
+      "max_gr": 36.6,
+      "mediane_cm3": 2.307,
+      "detail": [
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/30-30-Win-150gr-version-9-0.pdf",
+          "balle_gr": 150,
+          "case_holds_gr": 36.6,
+          "oacl_essai": "2.550",
+          "etui": "Winchester",
+          "canon": "20\" Wiseman"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/30-30-Win-170gr-version-9-0.pdf",
+          "balle_gr": 170,
+          "case_holds_gr": 34.6,
+          "oacl_essai": "2.550",
+          "etui": "Winchester",
+          "canon": "20\" Wiseman"
+        }
+      ]
+    },
+    "30-tc": {
+      "cle_estimateur": "30 T/C",
+      "fiches": 4,
+      "mediane_gr": 47.1,
+      "min_gr": 43.5,
+      "max_gr": 50.0,
+      "mediane_cm3": 3.052,
+      "detail": [
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/30-TC-150-155gr-version-8-0-archived.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 48.5,
+          "oacl_essai": "2.640",
+          "etui": "Hornady",
+          "canon": "24\" Pac-Nor"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/30-TC-165-168gr-version-8-0-archived.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 45.7,
+          "oacl_essai": "2.640",
+          "etui": "Hornady",
+          "canon": "24\" Pac-Nor"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/30-TC-175-180gr-version-8-0-archived.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 43.5,
+          "oacl_essai": "2.640",
+          "etui": "Hornady",
+          "canon": "24\" Pac-Nor"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/30-TC-125gr-version-8-0-archived.pdf",
+          "balle_gr": 125,
+          "case_holds_gr": 50.0,
+          "oacl_essai": "2.640",
+          "etui": "Hornady",
+          "canon": "24\" Pac-Nor"
+        }
+      ]
+    },
+    "300-aac-blackout": {
+      "cle_estimateur": "300 AAC BLK",
+      "fiches": 3,
+      "mediane_gr": 19.1,
+      "min_gr": 13.1,
+      "max_gr": 19.2,
+      "mediane_cm3": 1.238,
+      "detail": [
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/300-Blk-110gr-version-9-0.pdf",
+          "balle_gr": 110,
+          "case_holds_gr": 19.2,
+          "oacl_essai": "2.025",
+          "etui": "Nosler",
+          "canon": "16\" Pac-Nor"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/300-Blk-125gr-version-9-0.pdf",
+          "balle_gr": 125,
+          "case_holds_gr": 19.1,
+          "oacl_essai": "2.060",
+          "etui": "Nosler",
+          "canon": "16\" Pac-Nor"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/300-Blk-220gr-version-9-0.pdf",
+          "balle_gr": 220,
+          "case_holds_gr": 13.1,
+          "oacl_essai": "2.100",
+          "etui": "Nosler",
+          "canon": "16\" Pac-Nor"
+        }
+      ]
+    },
+    "300-savage": {
+      "cle_estimateur": "300 Savage",
+      "fiches": 4,
+      "mediane_gr": 42.7,
+      "min_gr": 39.7,
+      "max_gr": 47.2,
+      "mediane_cm3": 2.767,
+      "detail": [
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/300-Savage-150gr-version-9-0.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 44.4,
+          "oacl_essai": "2.600",
+          "etui": "Winchester",
+          "canon": "24\" Wiseman"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/300-Savage-165gr-version-9-0.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 41.0,
+          "oacl_essai": "2.600",
+          "etui": "Winchester",
+          "canon": "24\" Wiseman"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/300-Savage-180gr-version-9-0.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 39.7,
+          "oacl_essai": "2.600",
+          "etui": "Winchester",
+          "canon": "24\" Wiseman"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/300-Savage-125gr-version-9-0.pdf",
+          "balle_gr": 125,
+          "case_holds_gr": 47.2,
+          "oacl_essai": "2.600",
+          "etui": "Winchester",
+          "canon": "24\" Wiseman"
+        }
+      ]
+    },
+    "300-weatherby-magnum": {
+      "cle_estimateur": "300 Weatherby Magnum",
+      "fiches": 8,
+      "mediane_gr": 91.0,
+      "min_gr": 87.6,
+      "max_gr": 96.0,
+      "mediane_cm3": 5.897,
+      "detail": [
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/300-Wby-150gr-version-9-0.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 92.2,
+          "oacl_essai": "3.550",
+          "etui": "Nosler",
+          "canon": "26\" Pac-Nor"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/300-Wby-165gr-version-9-0.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 88.8,
+          "oacl_essai": "3.550",
+          "etui": "Nosler",
+          "canon": "26\" Pac-Nor"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/300-Wby-180gr-version-9-0.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 91.8,
+          "oacl_essai": "3.550",
+          "etui": "Nosler",
+          "canon": "26\" Pac-Nor"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/300-Wby-125gr-version-9-0.pdf",
+          "balle_gr": 125,
+          "case_holds_gr": 96.0,
+          "oacl_essai": "3.530",
+          "etui": "Nosler",
+          "canon": "26\" Pac-Nor"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/300-Wby-190gr-version-9-0.pdf",
+          "balle_gr": 190,
+          "case_holds_gr": 92.8,
+          "oacl_essai": "3.550",
+          "etui": "Nosler",
+          "canon": "26\" Pac-Nor"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/300-Wby-200gr-version-9-0.pdf",
+          "balle_gr": 200,
+          "case_holds_gr": 87.6,
+          "oacl_essai": "3.550",
+          "etui": "Nosler",
+          "canon": "26\" Pac-Nor"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/300-Wby-210gr-version-9-0.pdf",
+          "balle_gr": 210,
+          "case_holds_gr": 90.0,
+          "oacl_essai": "3.560",
+          "etui": "Nosler",
+          "canon": "26\" Pac-Nor"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/300-Wby-220gr-version-9-0.pdf",
+          "balle_gr": 220,
+          "case_holds_gr": 90.2,
+          "oacl_essai": "3.560",
+          "etui": "Nosler",
+          "canon": "26\" Pac-Nor"
+        }
+      ]
+    },
+    "300-winchester-magnum": {
+      "cle_estimateur": "300 Win. Mag.",
+      "fiches": 8,
+      "mediane_gr": 81.4,
+      "min_gr": 78.2,
+      "max_gr": 85.8,
+      "mediane_cm3": 5.275,
+      "detail": [
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/300-Win-Mag-150gr-version-9-0.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 81.7,
+          "oacl_essai": "3.340",
+          "etui": "Nosler",
+          "canon": "24\" Lilja"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/300-Win-Mag-165gr-version-9-0.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 81.1,
+          "oacl_essai": "3.340",
+          "etui": "Nosler",
+          "canon": "24\" Lilja"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/300-Win-Mag-180gr-version-9-0.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 82.3,
+          "oacl_essai": "3.330",
+          "etui": "Nosler",
+          "canon": "24\" H-S Prec."
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/300-Win-Mag-125gr-version-9-0.pdf",
+          "balle_gr": 125,
+          "case_holds_gr": 85.8,
+          "oacl_essai": "3.340",
+          "etui": "Nosler",
+          "canon": "24\" Lilja"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/300-Win-Mag-190gr-version-9-0.pdf",
+          "balle_gr": 190,
+          "case_holds_gr": 83.2,
+          "oacl_essai": "3.330",
+          "etui": "Nosler",
+          "canon": "24\" H-S Prec."
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/300-Win-Mag-200gr-version-9-0.pdf",
+          "balle_gr": 200,
+          "case_holds_gr": 81.1,
+          "oacl_essai": "3.340",
+          "etui": "Nosler",
+          "canon": "24\" Lilja"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/300-Win-Mag-210gr-version-9-0.pdf",
+          "balle_gr": 210,
+          "case_holds_gr": 78.2,
+          "oacl_essai": "3.340",
+          "etui": "Nosler",
+          "canon": "24\" H-S Prec."
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/300-Win-Mag-220gr-version-9-0.pdf",
+          "balle_gr": 220,
+          "case_holds_gr": 79.6,
+          "oacl_essai": "3.340",
+          "etui": "Nosler",
+          "canon": "24\" Lilja"
+        }
+      ]
+    },
+    "308-marlin-express": {
+      "cle_estimateur": "308 Marlin Express",
+      "fiches": 2,
+      "mediane_gr": 41.95,
+      "min_gr": 41.7,
+      "max_gr": 42.2,
+      "mediane_cm3": 2.718,
+      "detail": [
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/308-Marlin-Express-150gr-version-8-0-archived.pdf",
+          "balle_gr": 150,
+          "case_holds_gr": 41.7,
+          "oacl_essai": "2.400",
+          "etui": "Hornady",
+          "canon": "24\" Pac-Nor"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/308-Marlin-Express-170gr-version-8-0-archived.pdf",
+          "balle_gr": 170,
+          "case_holds_gr": 42.2,
+          "oacl_essai": "2.380",
+          "etui": "Hornady",
+          "canon": "24\" Pac-Nor"
+        }
+      ]
+    },
+    "308-winchester": {
+      "cle_estimateur": "308 Win.",
+      "fiches": 6,
+      "mediane_gr": 49.05,
+      "min_gr": 47.0,
+      "max_gr": 52.0,
+      "mediane_cm3": 3.178,
+      "detail": [
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/308-Win-150gr-version-9-0.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 49.5,
+          "oacl_essai": "2.800",
+          "etui": "Nosler",
+          "canon": "24\" Lilja"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/308-Win-165gr-version-9-0.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 48.3,
+          "oacl_essai": "2.800",
+          "etui": "Nosler",
+          "canon": "24\" Lilja"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/308-Win-180gr-version-9-0.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 48.6,
+          "oacl_essai": "2.800",
+          "etui": "Nosler",
+          "canon": "24\" H-S Prec."
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/308-Win-110gr-version-9-0.pdf",
+          "balle_gr": 110,
+          "case_holds_gr": 52.0,
+          "oacl_essai": "2.600",
+          "etui": "Nosler",
+          "canon": "24\" H-S Prec."
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/308-Win-125gr-version-9-0.pdf",
+          "balle_gr": 125,
+          "case_holds_gr": 51.5,
+          "oacl_essai": "2.750",
+          "etui": "Nosler",
+          "canon": "24\" Lilja"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/308-Win-190gr-version-9-0.pdf",
+          "balle_gr": 190,
+          "case_holds_gr": 47.0,
+          "oacl_essai": "2.800",
+          "etui": "Nosler",
+          "canon": "24\" H-S Prec."
+        }
+      ]
+    },
+    "338-06-a-square": {
+      "cle_estimateur": "338-06",
+      "fiches": 4,
+      "mediane_gr": 61.8,
+      "min_gr": 57.6,
+      "max_gr": 64.0,
+      "mediane_cm3": 4.005,
+      "detail": [
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/338-06-200gr-version-9-0.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 62.6,
+          "oacl_essai": "3.330",
+          "etui": "Nosler",
+          "canon": "24\" Lilja"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/338-06-180gr-version-9-0.pdf",
+          "balle_gr": 180,
+          "case_holds_gr": 64.0,
+          "oacl_essai": "3.330",
+          "etui": "Nosler",
+          "canon": "24\" Lilja"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/338-06-225gr-version-9-0.pdf",
+          "balle_gr": 225,
+          "case_holds_gr": 61.0,
+          "oacl_essai": "3.330",
+          "etui": "Nosler",
+          "canon": "24\" Lilja"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/338-06-250gr-version-9-0.pdf",
+          "balle_gr": 250,
+          "case_holds_gr": 57.6,
+          "oacl_essai": "3.330",
+          "etui": "Nosler",
+          "canon": "24\" Lilja"
+        }
+      ]
+    },
+    "338-lapua-magnum": {
+      "cle_estimateur": "338 Lapua Mag.",
+      "fiches": 6,
+      "mediane_gr": 103.35,
+      "min_gr": 98.0,
+      "max_gr": 107.0,
+      "mediane_cm3": 6.697,
+      "detail": [
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/338-Lapua-200gr-version-9-0.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 106.0,
+          "oacl_essai": "3.580",
+          "etui": "Nosler",
+          "canon": "26\" Pac-Nor"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/338-Lapua-180gr-version-9-0.pdf",
+          "balle_gr": 180,
+          "case_holds_gr": 107.0,
+          "oacl_essai": "3.580",
+          "etui": "Nosler",
+          "canon": "26\" Pac-Nor"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/338-Lapua-225gr-version-9-0.pdf",
+          "balle_gr": 225,
+          "case_holds_gr": 105.0,
+          "oacl_essai": "3.580",
+          "etui": "Nosler",
+          "canon": "26\" Pac-Nor"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/338-Lapua-250gr-version-9-0.pdf",
+          "balle_gr": 250,
+          "case_holds_gr": 101.7,
+          "oacl_essai": "3.580",
+          "etui": "Nosler",
+          "canon": "26' Pac-Nor"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/338-Lapua-265gr-version-9-0.pdf",
+          "balle_gr": 265,
+          "case_holds_gr": 100.4,
+          "oacl_essai": "3.681",
+          "etui": "Nosler",
+          "canon": "24\" H-S Prec."
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/338-Lapua-300gr-version-9-0.pdf",
+          "balle_gr": 300,
+          "case_holds_gr": 98.0,
+          "oacl_essai": "3.650",
+          "etui": "Nosler",
+          "canon": "24\" Pac-Nor"
+        }
+      ]
+    },
+    "338-winchester-magnum": {
+      "cle_estimateur": "338 Win. Mag.",
+      "fiches": 6,
+      "mediane_gr": 75.35,
+      "min_gr": 70.3,
+      "max_gr": 78.6,
+      "mediane_cm3": 4.883,
+      "detail": [
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/338-Win-Mag-200gr-version-9-0.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 76.8,
+          "oacl_essai": "3.330",
+          "etui": "Nosler",
+          "canon": "24\" Wiseman"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/338-Win-Mag-180gr-version-9-0.pdf",
+          "balle_gr": 180,
+          "case_holds_gr": 78.6,
+          "oacl_essai": "3.330",
+          "etui": "Nosler",
+          "canon": "24\" Wiseman"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/338-Win-Mag-225gr-version-9-0.pdf",
+          "balle_gr": 225,
+          "case_holds_gr": 76.4,
+          "oacl_essai": "3.330",
+          "etui": "Nosler",
+          "canon": "24\" Wiseman"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/338-Win-Mag-250gr-version-9-0.pdf",
+          "balle_gr": 250,
+          "case_holds_gr": 73.0,
+          "oacl_essai": "3.330",
+          "etui": "Nosler",
+          "canon": "24\" Wiseman"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/338-Win-Mag-265gr-version-9-0.pdf",
+          "balle_gr": 265,
+          "case_holds_gr": 74.3,
+          "oacl_essai": "3.340",
+          "etui": "Nosler",
+          "canon": "24\" H-S Prec."
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/338-Win-Mag-300gr-version-9-0.pdf",
+          "balle_gr": 300,
+          "case_holds_gr": 70.3,
+          "oacl_essai": "3.330",
+          "etui": "Nosler",
+          "canon": "24\" Lilja"
+        }
+      ]
+    },
+    "357-magnum": {
+      "cle_estimateur": "357 Magnum",
+      "fiches": 1,
+      "mediane_gr": 17.6,
+      "min_gr": 17.6,
+      "max_gr": 17.6,
+      "mediane_cm3": 1.14,
+      "detail": [
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/357-Mag-158gr-version-9-0.pdf",
+          "balle_gr": 158,
+          "case_holds_gr": 17.6,
+          "oacl_essai": "1.585",
+          "etui": "Federal",
+          "canon": "8.3\" H-S Prec."
+        }
+      ]
+    },
+    "357-remington-maximum": {
+      "cle_estimateur": "357 Maximum",
+      "fiches": 1,
+      "mediane_gr": 24.2,
+      "min_gr": 24.2,
+      "max_gr": 24.2,
+      "mediane_cm3": 1.568,
+      "detail": [
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/357-Rem-Max-158gr-version-9-0.pdf",
+          "balle_gr": 158,
+          "case_holds_gr": 24.2,
+          "oacl_essai": "1.940",
+          "etui": "Federal",
+          "canon": "10.5\" H-S Prec."
+        }
+      ]
+    },
+    "357-sig": {
+      "cle_estimateur": "357 SIG",
+      "fiches": 2,
+      "mediane_gr": 13.8,
+      "min_gr": 13.8,
+      "max_gr": 13.8,
+      "mediane_cm3": 0.894,
+      "detail": [
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/357-Sig-115gr-version-9-0.pdf",
+          "balle_gr": 115,
+          "case_holds_gr": 13.8,
+          "oacl_essai": "1.140",
+          "etui": "Federal",
+          "canon": "3.9\" Sig"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/357-Sig-124gr-version-9-0.pdf",
+          "balle_gr": 124,
+          "case_holds_gr": 13.8,
+          "oacl_essai": "1.120",
+          "etui": "Federal",
+          "canon": "3.9\" Sig"
+        }
+      ]
+    },
+    "375-ruger": {
+      "cle_estimateur": "375 Ruger",
+      "fiches": 2,
+      "mediane_gr": 83.1,
+      "min_gr": 80.7,
+      "max_gr": 85.5,
+      "mediane_cm3": 5.385,
+      "detail": [
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/375-Ruger-260gr-version-9-0.pdf",
+          "balle_gr": 260,
+          "case_holds_gr": 85.5,
+          "oacl_essai": "3.320",
+          "etui": "Hornady",
+          "canon": "26\" Pac-Nor"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/375-Ruger-300gr-version-9-0.pdf",
+          "balle_gr": 300,
+          "case_holds_gr": 80.7,
+          "oacl_essai": "3.325",
+          "etui": "Hornady",
+          "canon": "26\" Pac-Nor"
+        }
+      ]
+    },
+    "38-special": {
+      "cle_estimateur": "38 Special",
+      "fiches": 2,
+      "mediane_gr": 15.6,
+      "min_gr": 15.6,
+      "max_gr": 15.6,
+      "mediane_cm3": 1.011,
+      "detail": [
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/38-Special-158gr-version-9-0.pdf",
+          "balle_gr": 158,
+          "case_holds_gr": 15.6,
+          "oacl_essai": "1.440",
+          "etui": "Federal",
+          "canon": "7.75\" H-S Prec."
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/38-Special_P-158gr-version-9-0.pdf",
+          "balle_gr": 158,
+          "case_holds_gr": 15.6,
+          "oacl_essai": "1.440",
+          "etui": "Federal",
+          "canon": "7.71\" H-S Prec."
+        }
+      ]
+    },
+    "380-auto-acp": {
+      "cle_estimateur": "9 mm Browning court",
+      "fiches": 1,
+      "mediane_gr": 5.3,
+      "min_gr": 5.3,
+      "max_gr": 5.3,
+      "mediane_cm3": 0.343,
+      "detail": [
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/380-Auto-115gr-version-9-0.pdf",
+          "balle_gr": 115,
+          "case_holds_gr": 5.3,
+          "oacl_essai": "0.975",
+          "etui": "Remington",
+          "canon": "2-1/4\" Colt Mk4"
+        }
+      ]
+    },
+    "40-s-w": {
+      "cle_estimateur": "40 S&W",
+      "fiches": 4,
+      "mediane_gr": 10.6,
+      "min_gr": 9.3,
+      "max_gr": 12.7,
+      "mediane_cm3": 0.687,
+      "detail": [
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/40-S_W-135gr-version-9-0.pdf",
+          "balle_gr": 135,
+          "case_holds_gr": 12.7,
+          "oacl_essai": "1.125",
+          "etui": "Winchester",
+          "canon": "4.0\" S&W"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/40-S_W-150gr-version-9-0.pdf",
+          "balle_gr": 150,
+          "case_holds_gr": 11.3,
+          "oacl_essai": "1.125",
+          "etui": "Winchester",
+          "canon": "4.0\" S&W"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/40-S_W-180gr-version-9-0.pdf",
+          "balle_gr": 180,
+          "case_holds_gr": 9.9,
+          "oacl_essai": "1.125",
+          "etui": "Winchester",
+          "canon": "4.0\" S&W"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/40-S_W-200gr-version-9-0.pdf",
+          "balle_gr": 200,
+          "case_holds_gr": 9.3,
+          "oacl_essai": "1.125",
+          "etui": "Winchester",
+          "canon": "4.0\" S&W"
+        }
+      ]
+    },
+    "41-remington-magnum": {
+      "cle_estimateur": "41 Rem. Mag.",
+      "fiches": 1,
+      "mediane_gr": 20.2,
+      "min_gr": 20.2,
+      "max_gr": 20.2,
+      "mediane_cm3": 1.309,
+      "detail": [
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/41-Remington-Mag-210gr-version-9-0.pdf",
+          "balle_gr": 210,
+          "case_holds_gr": 20.2,
+          "oacl_essai": "1.585",
+          "etui": "Federal",
+          "canon": "10\" Douglas"
+        }
+      ]
+    },
+    "416-rigby": {
+      "cle_estimateur": "416 Rigby",
+      "fiches": 1,
+      "mediane_gr": 106.0,
+      "min_gr": 106.0,
+      "max_gr": 106.0,
+      "mediane_cm3": 6.869,
+      "detail": [
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/416-Rigby-400gr-version-9-0.pdf",
+          "balle_gr": 400,
+          "case_holds_gr": 106.0,
+          "oacl_essai": "3.630",
+          "etui": "Norma",
+          "canon": "24\" H-S Prec."
+        }
+      ]
+    },
+    "44-remington-magnum": {
+      "cle_estimateur": "44 Rem. Mag.",
+      "fiches": 3,
+      "mediane_gr": 22.4,
+      "min_gr": 17.6,
+      "max_gr": 24.0,
+      "mediane_cm3": 1.451,
+      "detail": [
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/44-Rem-Mag-Rifle-200gr-version-9-0.pdf",
+          "balle_gr": 200,
+          "case_holds_gr": 24.0,
+          "oacl_essai": "1.580",
+          "etui": "Winchester",
+          "canon": "18-1/2\" Ruger"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/44-Rem-Mag-Rifle-240gr-version-9-0.pdf",
+          "balle_gr": 240,
+          "case_holds_gr": 22.4,
+          "oacl_essai": "1.580",
+          "etui": "Winchester",
+          "canon": "18-1/2\" Ruger"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/44-Rem-Mag-Rifle-300gr-version-9-0.pdf",
+          "balle_gr": 300,
+          "case_holds_gr": 17.6,
+          "oacl_essai": "1.580",
+          "etui": "Winchester",
+          "canon": "18-1/2\" Ruger"
+        }
+      ]
+    },
+    "44-remington-magnum-handgun": {
+      "cle_estimateur": "44 Rem. Mag.",
+      "fiches": 3,
+      "mediane_gr": 22.4,
+      "min_gr": 17.6,
+      "max_gr": 24.0,
+      "mediane_cm3": 1.451,
+      "detail": [
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/44-Remington-Mag-200gr-version-9-0.pdf",
+          "balle_gr": 200,
+          "case_holds_gr": 24.0,
+          "oacl_essai": "1.580",
+          "etui": "Winchester",
+          "canon": "8-1/4\" Douglas"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/44-Remington-Mag-240gr-version-9-0.pdf",
+          "balle_gr": 240,
+          "case_holds_gr": 22.4,
+          "oacl_essai": "1.580",
+          "etui": "Winchester",
+          "canon": "8-1/4\" Douglas"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/44-Remington-Mag-300gr-version-9-0.pdf",
+          "balle_gr": 300,
+          "case_holds_gr": 17.6,
+          "oacl_essai": "1.580",
+          "etui": "Winchester",
+          "canon": "8-1/4\" Douglas"
+        }
+      ]
+    },
+    "45-70-govt-strong-actions-only": {
+      "cle_estimateur": "45 - 70 Govt.",
+      "fiches": 1,
+      "mediane_gr": 64.6,
+      "min_gr": 64.6,
+      "max_gr": 64.6,
+      "mediane_cm3": 4.186,
+      "detail": [
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/45-70-300gr-version-9-0.pdf",
+          "balle_gr": 300,
+          "case_holds_gr": 64.6,
+          "oacl_essai": "2.550",
+          "etui": "Winchester",
+          "canon": "24\" Pac-Nor"
+        }
+      ]
+    },
+    "45-auto-acp": {
+      "cle_estimateur": "45 ACP (Auto)",
+      "fiches": 2,
+      "mediane_gr": 18.45,
+      "min_gr": 17.7,
+      "max_gr": 19.2,
+      "mediane_cm3": 1.196,
+      "detail": [
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/45-Auto-185gr-version-9-0.pdf",
+          "balle_gr": 185,
+          "case_holds_gr": 19.2,
+          "oacl_essai": "1.200",
+          "etui": "Winchester",
+          "canon": "5\" Douglas"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/45-Auto-230gr-version-9-0.pdf",
+          "balle_gr": 230,
+          "case_holds_gr": 17.7,
+          "oacl_essai": "1.200",
+          "etui": "Winchester",
+          "canon": "5\" Douglas"
+        }
+      ]
+    },
+    "45-colt-single-action-army-replicas": {
+      "cle_estimateur": "45 Colt",
+      "fiches": 1,
+      "mediane_gr": 24.3,
+      "min_gr": 24.3,
+      "max_gr": 24.3,
+      "mediane_cm3": 1.575,
+      "detail": [
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/45-Colt-_SAA-Replicas_-250gr-version-9-0.pdf",
+          "balle_gr": 250,
+          "case_holds_gr": 24.3,
+          "oacl_essai": "1.590",
+          "etui": "Winchester",
+          "canon": "7.25\" Douglas"
+        }
+      ]
+    },
+    "458-socom": {
+      "cle_estimateur": "458 SOCOM",
+      "fiches": 1,
+      "mediane_gr": 42.2,
+      "min_gr": 42.2,
+      "max_gr": 42.2,
+      "mediane_cm3": 2.735,
+      "detail": [
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/458-SOCOM-300gr-version-9-0.pdf",
+          "balle_gr": 300,
+          "case_holds_gr": 42.2,
+          "oacl_essai": "2.035",
+          "etui": "Starline",
+          "canon": "16\" Pac-Nor"
+        }
+      ]
+    },
+    "458-winchester-magnum": {
+      "cle_estimateur": "458 Winchester Magnum",
+      "fiches": 1,
+      "mediane_gr": 64.2,
+      "min_gr": 64.2,
+      "max_gr": 64.2,
+      "mediane_cm3": 4.16,
+      "detail": [
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/458-Win-Mag-500gr-version-9-0.pdf",
+          "balle_gr": 500,
+          "case_holds_gr": 64.2,
+          "oacl_essai": "3.320",
+          "etui": "Winchester",
+          "canon": "24\" Pac-Nor"
+        }
+      ]
+    },
+    "6-5-prc": {
+      "cle_estimateur": "6.5 PRC",
+      "fiches": 5,
+      "mediane_gr": 63.7,
+      "min_gr": 62.3,
+      "max_gr": 65.9,
+      "mediane_cm3": 4.128,
+      "detail": [
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/6.5-PRC-125gr-version-9-0.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 65.9,
+          "oacl_essai": "2.930",
+          "etui": "Hornady",
+          "canon": "26\" Shilen"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/6.5-PRC-130gr-version-9-0.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 63.7,
+          "oacl_essai": "2.955",
+          "etui": "Hornady",
+          "canon": "26\" Shilen"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/6.5-PRC-140gr-version-9-0.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 62.3,
+          "oacl_essai": "2.955",
+          "etui": "Hornady",
+          "canon": "26\" Shilen"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/6.5-PRC-150gr-version-9-0.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 62.7,
+          "oacl_essai": "2.955",
+          "etui": "Hornady",
+          "canon": "26\" Shilen"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/6.5-PRC-120gr-version-9-0.pdf",
+          "balle_gr": 120,
+          "case_holds_gr": 64.6,
+          "oacl_essai": "2.775",
+          "etui": "Hornady",
+          "canon": "26\" Shilen"
+        }
+      ]
+    },
+    "65-284-norma": {
+      "cle_estimateur": "6.5-284 Norma",
+      "fiches": 6,
+      "mediane_gr": 59.55,
+      "min_gr": 58.4,
+      "max_gr": 62.8,
+      "mediane_cm3": 3.859,
+      "detail": [
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/6.5-284-Norma-125gr-version-9-0.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 59.7,
+          "oacl_essai": "2.980",
+          "etui": "Nosler",
+          "canon": "26\" Wiseman"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/6.5-284-Norma-130gr-version-9-0.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 59.4,
+          "oacl_essai": "2.980",
+          "etui": "Nosler",
+          "canon": "26\" Wiseman"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/6.5-284-Norma-140gr-version-9-0.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 58.4,
+          "oacl_essai": "2.980",
+          "etui": "Nosler",
+          "canon": "26\" Wiseman"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/6.5-284-Norma-90gr-version-9-0.pdf",
+          "balle_gr": 90,
+          "case_holds_gr": 62.8,
+          "oacl_essai": "2.850",
+          "etui": "Nosler",
+          "canon": "24\" H-S Prec."
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/6.5-284-Norma-100gr-version-9-0.pdf",
+          "balle_gr": 100,
+          "case_holds_gr": 60.8,
+          "oacl_essai": "2.980",
+          "etui": "Nosler",
+          "canon": "26\" Wiseman"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/6.5-284-Norma-120gr-version-9-0.pdf",
+          "balle_gr": 120,
+          "case_holds_gr": 59.0,
+          "oacl_essai": "2.980",
+          "etui": "Nosler",
+          "canon": "26\" Wiseman"
+        }
+      ]
+    },
+    "65-55-swedish-mauser": {
+      "cle_estimateur": "6.5 x 55 SE",
+      "fiches": 5,
+      "mediane_gr": 53.4,
+      "min_gr": 50.2,
+      "max_gr": 55.3,
+      "mediane_cm3": 3.46,
+      "detail": [
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/6.5x55-125gr-version-9-0.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 53.4,
+          "oacl_essai": "3.025",
+          "etui": "Nosler",
+          "canon": "23\" Lilja"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/6.5x55-130gr-version-9-0.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 52.0,
+          "oacl_essai": "3.025",
+          "etui": "Nosler",
+          "canon": "23\" Lilja"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/6.5x55-140gr-version-9-0.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 50.2,
+          "oacl_essai": "3.025",
+          "etui": "Nosler",
+          "canon": "23\" Lilja"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/6.5x55-100gr-version-9-0.pdf",
+          "balle_gr": 100,
+          "case_holds_gr": 55.3,
+          "oacl_essai": "3.025",
+          "etui": "Nosler",
+          "canon": "23\" Lilja"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/6.5x55-120gr-version-9-0.pdf",
+          "balle_gr": 120,
+          "case_holds_gr": 54.0,
+          "oacl_essai": "3.025",
+          "etui": "Nosler",
+          "canon": "23\" Lilja"
+        }
+      ]
+    },
+    "65-creedmoor": {
+      "cle_estimateur": "6.5 Creedmoor",
+      "fiches": 7,
+      "mediane_gr": 48.4,
+      "min_gr": 45.2,
+      "max_gr": 50.9,
+      "mediane_cm3": 3.136,
+      "detail": [
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/6.5-CM-125gr-version-9-0.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 49.5,
+          "oacl_essai": "2.650",
+          "etui": "Nosler",
+          "canon": "24\" Pac-Nor"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/6.5-CM-130gr-version-9-0.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 47.1,
+          "oacl_essai": "2.775",
+          "etui": "Nosler",
+          "canon": "24\" Pac-Nor"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/6.5-CM-140gr-version-9-0.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 46.8,
+          "oacl_essai": "2.805",
+          "etui": "Nosler",
+          "canon": "24\" Pac-Nor"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/6.5-CM-90gr-version-9-0.pdf",
+          "balle_gr": 90,
+          "case_holds_gr": 49.2,
+          "oacl_essai": "2.720",
+          "etui": "Nosler",
+          "canon": "24\" Pac-Nor"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/6.5-CM-100gr-version-9-0.pdf",
+          "balle_gr": 100,
+          "case_holds_gr": 50.9,
+          "oacl_essai": "2.775",
+          "etui": "Nosler",
+          "canon": "24\" Pac-Nor"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/6.5-CM-120gr-version-9-0.pdf",
+          "balle_gr": 120,
+          "case_holds_gr": 48.4,
+          "oacl_essai": "2.775",
+          "etui": "Nosler",
+          "canon": "24\" Pac-Nor"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/6.5-CM-150gr-version-9-0.pdf",
+          "balle_gr": 150,
+          "case_holds_gr": 45.2,
+          "oacl_essai": "2.805",
+          "etui": "Nosler",
+          "canon": "24\" Pac-Nor"
+        }
+      ]
+    },
+    "65-grendel": {
+      "cle_estimateur": "6.5 Grendel",
+      "fiches": 5,
+      "mediane_gr": 30.0,
+      "min_gr": 28.7,
+      "max_gr": 33.0,
+      "mediane_cm3": 1.944,
+      "detail": [
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/6.5-Grendel-125gr-version-9-0.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 30.0,
+          "oacl_essai": "2.250",
+          "etui": "Nosler",
+          "canon": "24\" PacNor"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/6.5-Grendel-130gr-version-9-0.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 28.7,
+          "oacl_essai": "2.260",
+          "etui": "Nosler",
+          "canon": "24\" PacNor"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/6.5-Grendel-90gr-version-9-0.pdf",
+          "balle_gr": 90,
+          "case_holds_gr": 32.0,
+          "oacl_essai": "2.240",
+          "etui": "Nosler",
+          "canon": "24\" Pac-Nor"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/6.5-Grendel-100gr-version-9-0.pdf",
+          "balle_gr": 100,
+          "case_holds_gr": 33.0,
+          "oacl_essai": "2.245",
+          "etui": "Nosler",
+          "canon": "24\" PacNor"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/6.5-Grendel-120gr-version-9-0.pdf",
+          "balle_gr": 120,
+          "case_holds_gr": 29.0,
+          "oacl_essai": "2.245",
+          "etui": "Nosler",
+          "canon": "24\" PacNor"
+        }
+      ]
+    },
+    "6mm-creedmoor": {
+      "cle_estimateur": "6 mm Creedmoor",
+      "fiches": 7,
+      "mediane_gr": 48.1,
+      "min_gr": 46.8,
+      "max_gr": 49.6,
+      "mediane_cm3": 3.117,
+      "detail": [
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/6mm-CM-105gr-version-9-0.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 48.1,
+          "oacl_essai": "2.800",
+          "etui": "Nosler",
+          "canon": "24\" H-S Prec."
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/6mm-CM-90gr-version-9-0.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 48.1,
+          "oacl_essai": "2.660",
+          "etui": "Nosler",
+          "canon": "24\" H-S Prec."
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/6mm-CM-95gr-version-9-0.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 47.7,
+          "oacl_essai": "2.800",
+          "etui": "Nosler",
+          "canon": "24\" H-S Prec."
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/6mm-CM-55gr-version-9-0.pdf",
+          "balle_gr": 55,
+          "case_holds_gr": 49.1,
+          "oacl_essai": "2.480",
+          "etui": "Nosler",
+          "canon": "24\" H-S Prec."
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/6mm-CM-70gr-version-9-0.pdf",
+          "balle_gr": 70,
+          "case_holds_gr": 49.6,
+          "oacl_essai": "2.675",
+          "etui": "Nosler",
+          "canon": "24\" H-S Prec."
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/6mm-CM-80gr-version-9-0.pdf",
+          "balle_gr": 80,
+          "case_holds_gr": 49.2,
+          "oacl_essai": "2.675",
+          "etui": "Nosler",
+          "canon": "24\" H-S Prec."
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/6mm-CM-115gr-version-9-0.pdf",
+          "balle_gr": 115,
+          "case_holds_gr": 46.8,
+          "oacl_essai": "2.800",
+          "etui": "Nosler",
+          "canon": "24\" H-S Prec."
+        }
+      ]
+    },
+    "6mm-ppc-usa": {
+      "cle_estimateur": "6mm PPC",
+      "fiches": 3,
+      "mediane_gr": 29.4,
+      "min_gr": 28.3,
+      "max_gr": 30.5,
+      "mediane_cm3": 1.905,
+      "detail": [
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/6mm-PPC-55gr-version-9-0.pdf",
+          "balle_gr": 55,
+          "case_holds_gr": 30.5,
+          "oacl_essai": "2.060",
+          "etui": "Sako",
+          "canon": "22\" Wiseman"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/6mm-PPC-70gr-version-9-0.pdf",
+          "balle_gr": 70,
+          "case_holds_gr": 29.4,
+          "oacl_essai": "2.060",
+          "etui": "Sako",
+          "canon": "22\" Wiseman"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/6mm-PPC-80gr-version-9-0.pdf",
+          "balle_gr": 80,
+          "case_holds_gr": 28.3,
+          "oacl_essai": "2.060",
+          "etui": "Sako",
+          "canon": "22\" Wiseman"
+        }
+      ]
+    },
+    "6mm-remington": {
+      "cle_estimateur": "6 mm Remington",
+      "fiches": 5,
+      "mediane_gr": 52.4,
+      "min_gr": 51.8,
+      "max_gr": 55.5,
+      "mediane_cm3": 3.395,
+      "detail": [
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/6mm-Rem-90gr-version-9-0.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 52.0,
+          "oacl_essai": "2.770",
+          "etui": "Remington",
+          "canon": "24\" Shilen"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/6mm-Rem-95gr-version-9-0.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 51.8,
+          "oacl_essai": "2.770",
+          "etui": "Remington",
+          "canon": "24\" Shilen"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/6mm-Rem-55gr-version-9-0.pdf",
+          "balle_gr": 55,
+          "case_holds_gr": 55.5,
+          "oacl_essai": "2.770",
+          "etui": "Remington",
+          "canon": "24\" Shilen"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/6mm-Rem-70gr-version-9-0.pdf",
+          "balle_gr": 70,
+          "case_holds_gr": 53.2,
+          "oacl_essai": "2.770",
+          "etui": "Remington",
+          "canon": "24\" Shilen"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/6mm-Rem-80gr-version-9-0.pdf",
+          "balle_gr": 80,
+          "case_holds_gr": 52.4,
+          "oacl_essai": "2.770",
+          "etui": "Remington",
+          "canon": "24\" Shilen"
+        }
+      ]
+    },
+    "6mm-xc": {
+      "cle_estimateur": "6 XC",
+      "fiches": 4,
+      "mediane_gr": 46.15,
+      "min_gr": 44.1,
+      "max_gr": 47.6,
+      "mediane_cm3": 2.99,
+      "detail": [
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/6mm-XC-105gr-version-9-0.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 45.4,
+          "oacl_essai": "2.730",
+          "etui": "Norma",
+          "canon": "26\" Bartlein"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/6mm-XC-90gr-version-9-0.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 47.6,
+          "oacl_essai": "2.700",
+          "etui": "Norma",
+          "canon": "26\" Bartlein"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/6mm-XC-95gr-version-9-0.pdf",
+          "balle_gr": null,
+          "case_holds_gr": 46.9,
+          "oacl_essai": "2.730",
+          "etui": "Norma",
+          "canon": "26\" Bartlein"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/6mm-XC-115gr-version-9-0.pdf",
+          "balle_gr": 115,
+          "case_holds_gr": 44.1,
+          "oacl_essai": "2.730",
+          "etui": "Norma",
+          "canon": "26\" Bartlein"
+        }
+      ]
+    },
+    "7-57mm-mauser": {
+      "cle_estimateur": "7 x 57",
+      "fiches": 5,
+      "mediane_gr": 51.4,
+      "min_gr": 48.7,
+      "max_gr": 54.3,
+      "mediane_cm3": 3.331,
+      "detail": [
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/7mm-7x57-120gr-version-9-0.pdf",
+          "balle_gr": 120,
+          "case_holds_gr": 54.3,
+          "oacl_essai": "3.045",
+          "etui": "Winchester",
+          "canon": "22\" Lilja"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/7mm-7x57-140gr-version-9-0.pdf",
+          "balle_gr": 140,
+          "case_holds_gr": 52.5,
+          "oacl_essai": "3.065",
+          "etui": "Winchester",
+          "canon": "22\" Lilja"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/7mm-7x57-150gr-version-9-0.pdf",
+          "balle_gr": 150,
+          "case_holds_gr": 51.4,
+          "oacl_essai": "3.045",
+          "etui": "Winchester",
+          "canon": "22\" Lilja"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/7mm-7x57-160gr-version-9-0.pdf",
+          "balle_gr": 160,
+          "case_holds_gr": 50.6,
+          "oacl_essai": "3.045",
+          "etui": "Winchester",
+          "canon": "22\" Lilja"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/7mm-7x57-175gr-version-9-0.pdf",
+          "balle_gr": 175,
+          "case_holds_gr": 48.7,
+          "oacl_essai": "3.045",
+          "etui": "Winchester",
+          "canon": "22\" Lilja"
+        }
+      ]
+    },
+    "762-39mm": {
+      "cle_estimateur": "7.62 x 39",
+      "fiches": 1,
+      "mediane_gr": 27.7,
+      "min_gr": 27.7,
+      "max_gr": 27.7,
+      "mediane_cm3": 1.795,
+      "detail": [
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/7.62x39-123gr-version-9-0.pdf",
+          "balle_gr": 123,
+          "case_holds_gr": 27.7,
+          "oacl_essai": "2.190",
+          "etui": "Lapua",
+          "canon": "22\""
+        }
+      ]
+    },
+    "7mm-08-remington": {
+      "cle_estimateur": "7 -08 Rem.",
+      "fiches": 6,
+      "mediane_gr": 47.7,
+      "min_gr": 44.6,
+      "max_gr": 50.4,
+      "mediane_cm3": 3.091,
+      "detail": [
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/7mm-08-Rem-120gr-version-9-0.pdf",
+          "balle_gr": 120,
+          "case_holds_gr": 50.4,
+          "oacl_essai": "2.800",
+          "etui": "Nosler",
+          "canon": "26\" Wiseman"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/7mm-08-Rem-140gr-version-9-0.pdf",
+          "balle_gr": 140,
+          "case_holds_gr": 48.6,
+          "oacl_essai": "2.800",
+          "etui": "Nosler",
+          "canon": "26\" Wiseman"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/7mm-08-Rem-150gr-version-9-0.pdf",
+          "balle_gr": 150,
+          "case_holds_gr": 47.8,
+          "oacl_essai": "2.800",
+          "etui": "Nosler",
+          "canon": "26\" Wiseman"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/7mm-08-Rem-160gr-version-9-0.pdf",
+          "balle_gr": 160,
+          "case_holds_gr": 47.6,
+          "oacl_essai": "2.800",
+          "etui": "Nosler",
+          "canon": "26\" Wiseman"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/7mm-08-Rem-168gr-version-9-0.pdf",
+          "balle_gr": 168,
+          "case_holds_gr": 44.6,
+          "oacl_essai": "2.770",
+          "etui": "Nosler",
+          "canon": "26\" Pac-Nor"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/7mm-08-Rem-175gr-version-9-0.pdf",
+          "balle_gr": 175,
+          "case_holds_gr": 47.2,
+          "oacl_essai": "2.800",
+          "etui": "Nosler",
+          "canon": "26\" Wiseman"
+        }
+      ]
+    },
+    "7mm-remington-magnum": {
+      "cle_estimateur": "7 Rem. Mag.",
+      "fiches": 7,
+      "mediane_gr": 77.8,
+      "min_gr": 75.0,
+      "max_gr": 81.4,
+      "mediane_cm3": 5.041,
+      "detail": [
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/7mm-Rem-Mag-120gr-version-9-0.pdf",
+          "balle_gr": 120,
+          "case_holds_gr": 81.4,
+          "oacl_essai": "3.290",
+          "etui": "Nosler",
+          "canon": "24\" Wiseman"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/7mm-Rem-Mag-140gr-version-9-0.pdf",
+          "balle_gr": 140,
+          "case_holds_gr": 77.8,
+          "oacl_essai": "3.290",
+          "etui": "Nosler",
+          "canon": "24\" Wiseman"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/7mm-Rem-Mag-150gr-version-9-0.pdf",
+          "balle_gr": 150,
+          "case_holds_gr": 78.0,
+          "oacl_essai": "3.290",
+          "etui": "Nosler",
+          "canon": "24\" Wiseman"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/7mm-Rem-Mag-160gr-version-9-0.pdf",
+          "balle_gr": 160,
+          "case_holds_gr": 80.4,
+          "oacl_essai": "3.290",
+          "etui": "Nosler",
+          "canon": "24\" Wiseman"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/7mm-Rem-Mag-168gr-version-9-0.pdf",
+          "balle_gr": 168,
+          "case_holds_gr": 75.0,
+          "oacl_essai": "3.250",
+          "etui": "Nosler",
+          "canon": "24\" Pac-Nor"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/7mm-Rem-Mag-175gr-version-9-0.pdf",
+          "balle_gr": 175,
+          "case_holds_gr": 77.0,
+          "oacl_essai": "3.290",
+          "etui": "Nosler",
+          "canon": "24\" Wiseman"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/7mm-Rem-Mag-185gr-version-9-0.pdf",
+          "balle_gr": 185,
+          "case_holds_gr": 76.6,
+          "oacl_essai": "3.290",
+          "etui": "Nosler",
+          "canon": "26\" Wiseman"
+        }
+      ]
+    },
+    "7mm-weatherby-magnum": {
+      "cle_estimateur": "7mm Weatherby Magnum",
+      "fiches": 7,
+      "mediane_gr": 81.0,
+      "min_gr": 78.0,
+      "max_gr": 85.0,
+      "mediane_cm3": 5.249,
+      "detail": [
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/7mm-Wby-120gr-version-9-0.pdf",
+          "balle_gr": 120,
+          "case_holds_gr": 85.0,
+          "oacl_essai": "3.360",
+          "etui": "Norma",
+          "canon": "24\" Lilja"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/7mm-Wby-140gr-version-9-0.pdf",
+          "balle_gr": 140,
+          "case_holds_gr": 82.0,
+          "oacl_essai": "3.360",
+          "etui": "Norma",
+          "canon": "24\" Lilja"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/7mm-Wby-150gr-version-9-0.pdf",
+          "balle_gr": 150,
+          "case_holds_gr": 81.4,
+          "oacl_essai": "3.360",
+          "etui": "Norma",
+          "canon": "24\" Lilja"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/7mm-Wby-160gr-version-9-0.pdf",
+          "balle_gr": 160,
+          "case_holds_gr": 81.0,
+          "oacl_essai": "3.360",
+          "etui": "Norma",
+          "canon": "24\" Lilja"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/7mm-Wby-168gr-version-9-0.pdf",
+          "balle_gr": 168,
+          "case_holds_gr": 78.0,
+          "oacl_essai": "3.340",
+          "etui": "Norma",
+          "canon": "24\" Lilja"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/7mm-Wby-175gr-version-9-0.pdf",
+          "balle_gr": 175,
+          "case_holds_gr": 80.0,
+          "oacl_essai": "3.360",
+          "etui": "Norma",
+          "canon": "24\" Lilja"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/7mm-Wby-185gr-version-9-0.pdf",
+          "balle_gr": 185,
+          "case_holds_gr": 78.3,
+          "oacl_essai": "3.360",
+          "etui": "Norma",
+          "canon": "24\" Lilja"
+        }
+      ]
+    },
+    "8-57mm-js-mauser": {
+      "cle_estimateur": "8 x 57 IS",
+      "fiches": 2,
+      "mediane_gr": 51.95,
+      "min_gr": 51.5,
+      "max_gr": 52.4,
+      "mediane_cm3": 3.366,
+      "detail": [
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/8x57-180gr-version-9-0.pdf",
+          "balle_gr": 180,
+          "case_holds_gr": 52.4,
+          "oacl_essai": "3.030",
+          "etui": "Federal",
+          "canon": "24\" Lilja"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/8x57-200gr-version-9-0.pdf",
+          "balle_gr": 200,
+          "case_holds_gr": 51.5,
+          "oacl_essai": "3.030",
+          "etui": "Federal",
+          "canon": "24\" Lilja"
+        }
+      ]
+    },
+    "93x62-mauser": {
+      "cle_estimateur": "9.3 x 62",
+      "fiches": 2,
+      "mediane_gr": 61.45,
+      "min_gr": 60.4,
+      "max_gr": 62.5,
+      "mediane_cm3": 3.982,
+      "detail": [
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/9.3x62-250gr-version-9-0.pdf",
+          "balle_gr": 250,
+          "case_holds_gr": 62.5,
+          "oacl_essai": "3.230",
+          "etui": "Nosler",
+          "canon": "26\" Lo. Walther"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/9.3x62-286gr-version-9-0.pdf",
+          "balle_gr": 286,
+          "case_holds_gr": 60.4,
+          "oacl_essai": "3.220",
+          "etui": "Nosler",
+          "canon": "26\" Lo. Walther"
+        }
+      ]
+    },
+    "93x64mm-brenneke": {
+      "cle_estimateur": "9.3 x 64 Brenneke",
+      "fiches": 2,
+      "mediane_gr": 72.2,
+      "min_gr": 71.4,
+      "max_gr": 73.0,
+      "mediane_cm3": 4.678,
+      "detail": [
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/9-3x64-Brenneke-250gr-version-8-0-archived.pdf",
+          "balle_gr": 250,
+          "case_holds_gr": 73.0,
+          "oacl_essai": "3.345",
+          "etui": "RWS",
+          "canon": "25\" Lothar Walther"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/9-3x64-Brenneke-286gr-version-8-0-archived.pdf",
+          "balle_gr": 286,
+          "case_holds_gr": 71.4,
+          "oacl_essai": "3.305",
+          "etui": "RWS",
+          "canon": "25\" Lothar Walther"
+        }
+      ]
+    },
+    "93x74-r": {
+      "cle_estimateur": "9.3 x 74 R",
+      "fiches": 2,
+      "mediane_gr": 67.6,
+      "min_gr": 66.7,
+      "max_gr": 68.5,
+      "mediane_cm3": 4.38,
+      "detail": [
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/9-3x74R-250gr-version-8-0-archived.pdf",
+          "balle_gr": 250,
+          "case_holds_gr": 68.5,
+          "oacl_essai": "3.710",
+          "etui": "Nosler",
+          "canon": "26\" Lilja"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/9-3x74R-286gr-version-8-0-archived.pdf",
+          "balle_gr": 286,
+          "case_holds_gr": 66.7,
+          "oacl_essai": "3.710",
+          "etui": "Nosler",
+          "canon": "24\" Lilja"
+        }
+      ]
+    },
+    "9mm-luger-parabellum": {
+      "cle_estimateur": "9 mm Luger",
+      "fiches": 3,
+      "mediane_gr": 10.0,
+      "min_gr": 8.4,
+      "max_gr": 10.0,
+      "mediane_cm3": 0.648,
+      "detail": [
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/9mm-115gr-version-9-0_new.pdf",
+          "balle_gr": 115,
+          "case_holds_gr": 10.0,
+          "oacl_essai": "1.100",
+          "etui": "Winchester",
+          "canon": "4\" Douglas"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/9mm-124gr-version-9-0.pdf",
+          "balle_gr": 124,
+          "case_holds_gr": 10.0,
+          "oacl_essai": "1.120",
+          "etui": "Winchester",
+          "canon": "4\" Douglas"
+        },
+        {
+          "pdf": "https://www.nosler.com/media/load_data_assets/pdfs/9mm-147gr-version-9-0.pdf",
+          "balle_gr": 147,
+          "case_holds_gr": 8.4,
+          "oacl_essai": "1.120",
+          "etui": "Nosler",
+          "canon": "4\" Douglas"
+        }
+      ]
+    }
+  }
+}
