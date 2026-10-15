@@ -1656,6 +1656,54 @@
         }
       ]
     },
+    "556_comm": {
+      "description": "Version commerciale du 5,56 normalisée par la SAAMI en 2026. Le plan de la cartouche reprend les cotes de la .223 Remington ; la chambre a une gorge plus longue, et la pression moyenne maximale est de 62 000 psi, contre 55 000 pour la .223. Selon la SAAMI, la conformité à cette norme n'implique aucune conformité militaire ou OTAN, et aucune munition 5,56 ne doit être tirée dans une chambre .223 Remington.",
+      "description_en": "Commercial version of the 5.56, standardised by SAAMI in 2026. The cartridge drawing takes over the .223 Remington dimensions; the chamber has a longer throat, and the maximum average pressure is 62,000 psi, against 55,000 for the .223. According to SAAMI, conformance to this standard implies no military or NATO conformance, and no 5.56 ammunition is to be fired in a .223 Remington chamber.",
+      "affirmations": [
+        {
+          "texte": "Norme SAAMI de 2026, nommée 5.56 Commercial",
+          "source": "SAAMI, « New Cartridge & Chamber – 5.56 Commercial (5.56 COMM) », 22 juin 2026, introduction publique, https://saami.org/wp-content/uploads/2026/10/Public-Introduction-5.56-Commercial-2026-06-22-FINAL-Rev-3.pdf (lu le 2026-10-15)",
+          "page": "p. 1",
+          "citation": "New Cartridge & Chamber 5.56 Commercial (5.56 COMM) Date Issued: June 22, 2026 Rev. 0",
+          "nature": "primaire"
+        },
+        {
+          "texte": "Cotes de cartouche de la .223 Remington",
+          "source": "SAAMI, « New Cartridge & Chamber – 5.56 Commercial (5.56 COMM) », 22 juin 2026, introduction publique, https://saami.org/wp-content/uploads/2026/10/Public-Introduction-5.56-Commercial-2026-06-22-FINAL-Rev-3.pdf (lu le 2026-10-15) ; ANSI/SAAMI Z299.4-2025, Centerfire Rifle (copie locale lue le 2026-10-15)",
+          "page": "p. 2 (plan MAXIMUM CARTRIDGE) ; Z299.4-2025 p. 84 (plan de la .223 Remington)",
+          "citation": "Cotes identiques sur les deux plans, sauf la tolérance de longueur d'étui (1.760 - .020 contre 1.760 - .030), le rayon du raccord épaulement-collet (.125 R MAX contre .100 R MAX) et le corps (.3760 contre .3759)",
+          "nature": "primaire"
+        },
+        {
+          "texte": "Chambre à gorge plus longue",
+          "source": "SAAMI, « New Cartridge & Chamber – 5.56 Commercial (5.56 COMM) », 22 juin 2026, introduction publique, https://saami.org/wp-content/uploads/2026/10/Public-Introduction-5.56-Commercial-2026-06-22-FINAL-Rev-3.pdf (lu le 2026-10-15) ; ANSI/SAAMI Z299.4-2025, Centerfire Rifle (copie locale lue le 2026-10-15)",
+          "page": "p. 2 (plan MINIMUM CHAMBER) ; Z299.4-2025 p. 84",
+          "citation": "5.56 COMM : .2262 CYL, 1.8448 (46.858), 1° 13' 20\" B, 2.0135 (51.144) ; 223 REM : .224 CYL, 1.812 (46.02), 3° 10' 36\" B, 1.8570 (47.169)",
+          "nature": "primaire"
+        },
+        {
+          "texte": "62 000 psi contre 55 000 pour la .223",
+          "source": "SAAMI, « New Cartridge & Chamber – 5.56 Commercial (5.56 COMM) », 22 juin 2026, introduction publique, https://saami.org/wp-content/uploads/2026/10/Public-Introduction-5.56-Commercial-2026-06-22-FINAL-Rev-3.pdf (lu le 2026-10-15) ; ANSI/SAAMI Z299.4-2025, Centerfire Rifle (copie locale lue le 2026-10-15)",
+          "page": "p. 1 ; Z299.4-2025 p. 29 (TRANSDUCER Pressure psi/100, MAP)",
+          "citation": "Maximum Average Pressure (MAP)* = 62,000 psi || 223 Remington : MAP 550 (psi/100)",
+          "nature": "primaire"
+        },
+        {
+          "texte": "Aucune conformité militaire ou OTAN impliquée",
+          "source": "SAAMI, « New Cartridge & Chamber – 5.56 Commercial (5.56 COMM) », 22 juin 2026, introduction publique, https://saami.org/wp-content/uploads/2026/10/Public-Introduction-5.56-Commercial-2026-06-22-FINAL-Rev-3.pdf (lu le 2026-10-15)",
+          "page": "p. 1",
+          "citation": "Conformance to this specification does not imply or ensure conformance with any military or NATO specification.",
+          "nature": "primaire"
+        },
+        {
+          "texte": "Aucune munition 5,56 en chambre .223 Remington",
+          "source": "SAAMI, « New Cartridge & Chamber – 5.56 Commercial (5.56 COMM) », 22 juin 2026, introduction publique, https://saami.org/wp-content/uploads/2026/10/Public-Introduction-5.56-Commercial-2026-06-22-FINAL-Rev-3.pdf (lu le 2026-10-15)",
+          "page": "p. 1",
+          "citation": "The use of any 5.56 ammunition, including all military variants as well as ammunition produced to this standard in a 223 Remington chamber creates increased pressure and is considered an unsafe combination.",
+          "nature": "primaire"
+        }
+      ]
+    },
     "57x28_fn": {
       "description": "Cartouche développée par FN Herstal pour des missions de défense et de sécurité, tirée par l'arme P90 et le pistolet Five-seveN. Selon le fabricant, sa balle perce les protections souples et les casques jusqu'à 200 m ; le calibre est standardisé par l'OTAN.",
       "description_en": "A cartridge developed by FN Herstal for defence and security missions, fired by the P90 and the Five-seveN pistol. According to the maker, its bullet penetrates soft body armour and helmets up to 200 m; the caliber is NATO-standardised.",

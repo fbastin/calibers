@@ -67,6 +67,12 @@ CULOT_FR = {"Rimless": "sans bourrelet", "Rimmed": "à bourrelet", "Semi-rimmed"
             "Belted": "à ceinture", "Rebated": "rétreint"}
 
 
+# Pression SAAMI des fiches curées à la main (hors estimateur) : sans elle, la valeur ne
+# pourrait alimenter que `max_pressure_bar`, sans référentiel. 62 000 psi : document SAAMI
+# « New Cartridge & Chamber – 5.56 Commercial », 22 juin 2026.
+CURATED_SAAMI = {"556_comm": {"pmax_saami_bar": 4275}}
+
+
 def pressure_fields(cid, sim_val=None, fallback=None):
     """Renvoie (pmax_cip_bar, pmax_saami_bar, max_pressure_bar) pour un calibre.
 
@@ -314,6 +320,13 @@ hand_curated_metadata = {
         "intro_year": 1980,
         "origin_country": "Belgique",
         "description": "Standard OTAN (STANAG 4172) dérivé du .223 Remington, adopté avec le projectile SS109/M855 à noyau d'acier. Cotes extérieures identiques au .223, mais chambre à cône de forcement (leade) plus long et chargement à plus haute pression. Munition de service des fusils d'assaut de l'OTAN (M16, HK416, etc.)."
+    },
+    "556_comm": {
+        "name": "5.56 Commercial",
+        # Ni année ni pays : la norme SAAMI est datée (22 juin 2026), pas la mise sur le marché.
+        "intro_year": None,
+        "origin_country": None,
+        "description": "Version commerciale du 5,56 normalisée par la SAAMI en 2026 (description publiée : description_reference.json)."
     },
     "762x51_nato": {
         "name": "7.62×51mm NATO",
@@ -807,6 +820,7 @@ WIKI_LINKS = {
     "762x51_nato": _MIL + "#nato_et_la_308_winchester",
     "46x30_hk": _MIL + "#hk",
     "223_rem": _MIL + "#nato_et_le_223_remington",
+    "556_comm": _MIL + "#la_556_commercial_saami_2026",
     # La .308 a sa page depuis 2026-08 : elle prime sur la section de calibres_militaires.
     "308_win": "https://www.tireur.org/wiki/doku.php?id=technique:308_winchester",
     "22_lr": "https://www.tireur.org/wiki/doku.php?id=technique:cartouche_22_long_rifle",
@@ -827,12 +841,12 @@ DATA_NOTE_EN = {
         "Estimated case capacity (not published by C.I.P./SAAMI). Dimensions and pressures taken from the C.I.P. TAB. V sheet “22 Long Rifle” (revision 2024-05-14): L3 = 15.57, L6 = 25.40, R1 = 7.06, P1 = 5.74, G1 = 5.72 mm; Pmax 1700, PK 1955, PE 2210 bar. C.I.P. reference barrel: bore 5.38 / groove 5.58 mm, 6 grooves, 406 mm twist (1:16\").",
     "Pression maximale indicative (cartouche non normalisée C.I.P.).":
         "Indicative maximum pressure (cartridge not standardised by C.I.P.).",
-    "Cotes extérieures identiques au .223 Remington, mais cartouches NON strictement interchangeables : une munition 5.56 OTAN tirée dans une chambre .223 Rem peut générer une surpression dangereuse. L'inverse (.223 Rem dans une chambre 5.56/OTAN) est généralement sans risque. Spécification militaire OTAN, non normalisée C.I.P.":
-        "Same external dimensions as the .223 Remington, but the cartridges are NOT strictly interchangeable: 5.56 NATO ammunition fired in a .223 Rem chamber can generate dangerous overpressure. The reverse (.223 Rem in a 5.56/NATO chamber) is generally safe. NATO military specification, not standardised by C.I.P.",
+    "Cotes extérieures identiques au .223 Remington, mais cartouches NON strictement interchangeables : une munition 5.56 OTAN tirée dans une chambre .223 Rem peut générer une surpression dangereuse. L'inverse (.223 Rem dans une chambre 5.56/OTAN) est généralement sans risque. Spécification militaire OTAN, non normalisée C.I.P. La SAAMI normalise depuis 2026 une version civile distincte, la 5.56 Commercial (fiche à part), sans conformité garantie avec les munitions militaires.":
+        "Same external dimensions as the .223 Remington, but the cartridges are NOT strictly interchangeable: 5.56 NATO ammunition fired in a .223 Rem chamber can generate dangerous overpressure. The reverse (.223 Rem in a 5.56/NATO chamber) is generally safe. NATO military specification, not standardised by C.I.P. Since 2026 SAAMI has standardised a distinct civilian version, the 5.56 Commercial (separate entry), with no guaranteed conformance with military ammunition.",
     "Très proche du .308 Winchester, mais cartouches NON strictement interchangeables : le 7.62 OTAN se tire généralement sans risque dans une chambre .308 Win, alors qu'une munition .308 (pression plus élevée, parois d'étui plus fines) tirée dans une chambre militaire 7.62 (headspace plus long) peut provoquer une rupture d'étui. Spécification militaire OTAN, non normalisée C.I.P.":
         "Very close to the .308 Winchester, but the cartridges are NOT strictly interchangeable: 7.62 NATO can generally be fired safely in a .308 Win chamber, whereas .308 ammunition (higher pressure, thinner case walls) fired in a 7.62 military chamber (longer headspace) can cause a case rupture. NATO military specification, not standardised by C.I.P.",
-    "Voir aussi la variante militaire distincte 5.56×45mm NATO (cotes extérieures identiques, mais chambre à leade plus long et pression supérieure). Une chambre .223 Rem n'est pas prévue pour la munition 5.56 OTAN.":
-        "See also the distinct military variant, 5.56×45mm NATO (identical external dimensions, but a chamber with a longer leade and a higher pressure). A .223 Rem chamber is not intended for 5.56 NATO ammunition.",
+    "Voir aussi la variante militaire distincte 5.56×45mm NATO (cotes extérieures identiques, mais chambre à leade plus long et pression supérieure) et la 5.56 Commercial normalisée par la SAAMI en 2026. Une chambre .223 Rem n'est prévue pour aucune munition 5,56, militaire ou 5.56 Commercial (SAAMI).":
+        "See also the distinct military variant, 5.56×45mm NATO (identical external dimensions, but a chamber with a longer leade and a higher pressure), and the 5.56 Commercial standardised by SAAMI in 2026. A .223 Rem chamber is not intended for any 5.56 ammunition, military or 5.56 Commercial (SAAMI).",
     "Voir aussi la variante militaire distincte 7.62×51mm NATO (cotes proches, spécifications différentes). Tirer une munition .308 Win dans une chambre militaire 7.62 OTAN (headspace plus long) peut provoquer une rupture d'étui.":
         "See also the distinct military variant, 7.62×51mm NATO (similar dimensions, different specifications). Firing .308 Win ammunition in a 7.62 NATO military chamber (longer headspace) can cause a case rupture.",
     "Wildcat non normalisé : absent des tables C.I.P. (Tab I) comme du standard SAAMI Z299.4-2025, vérifié le 2026-08-11. Plafond de TRAVAIL de 65 000 psi, au-dessus des 14 charges maximales mesurées du guide ADI 2013 (59 900 à 63 400 psi) : sur les cartouches que ce guide donne en psi, il développe 200 à 1 600 psi sous la MAP (.308 Win, .223 Rem). Valeur indicative, non normative.":
@@ -842,6 +856,7 @@ DATA_NOTE_EN = {
     "Wildcat non homologué C.I.P. ni normalisé SAAMI : limite reprise du .243 Win. dont il dérive (même étui, épaulement redressé). Valeur indicative.":
         "Wildcat, neither approved by C.I.P. nor standardised by SAAMI: limit taken from the .243 Win. it derives from (same case, sharper shoulder). Indicative value.",
 }
+DATA_NOTE_EN["Norme SAAMI « New Cartridge & Chamber – 5.56 Commercial » du 22 juin 2026. Cotes de cartouche de la .223 Remington ; chambre à gorge plus longue : tronçon cylindrique de 5,745 mm jusqu'à 46,86 mm de la face de culasse, puis cône de 1° 13′ 20″ qui rejoint l'âme à 51,14 mm (47,17 mm pour la .223 Rem). Pression moyenne maximale de 62 000 psi au capteur, 55 gr à 3 400 fps, canon d'essai de 508 mm au pas de 1:7. Selon la SAAMI, la conformité à cette norme n'implique aucune conformité militaire ou OTAN, et toute munition 5,56 tirée dans une chambre .223 Remington est une combinaison dangereuse. Volume d'étui non publié."] = 'SAAMI standard “New Cartridge & Chamber – 5.56 Commercial” of 22 June 2026. .223 Remington cartridge dimensions; a chamber with a longer throat: a 5.745 mm cylindrical section up to 46.86 mm from the breech face, then a 1° 13′ 20″ cone meeting the bore at 51.14 mm (47.17 mm for the .223 Rem). Maximum average pressure of 62,000 psi (transducer), 55 gr at 3,400 fps, 508 mm test barrel with a 1:7 twist. According to SAAMI, conformance to this standard implies no military or NATO conformance, and any 5.56 ammunition fired in a .223 Remington chamber is an unsafe combination. Case capacity not published.'
 NOTES_SANS_TRADUCTION = []
 
 
@@ -860,9 +875,10 @@ ESTIMATED_NOTES = {
     "500_sw_mag": "Volume d'étui estimé (non publié C.I.P./SAAMI).",
     "8x50r_lebel": "Volume d'étui estimé (non publié C.I.P./SAAMI).",
     "416_barrett": "Pression maximale indicative (cartouche non normalisée C.I.P.).",
-    "556x45_nato": "Cotes extérieures identiques au .223 Remington, mais cartouches NON strictement interchangeables : une munition 5.56 OTAN tirée dans une chambre .223 Rem peut générer une surpression dangereuse. L'inverse (.223 Rem dans une chambre 5.56/OTAN) est généralement sans risque. Spécification militaire OTAN, non normalisée C.I.P.",
+    "556x45_nato": "Cotes extérieures identiques au .223 Remington, mais cartouches NON strictement interchangeables : une munition 5.56 OTAN tirée dans une chambre .223 Rem peut générer une surpression dangereuse. L'inverse (.223 Rem dans une chambre 5.56/OTAN) est généralement sans risque. Spécification militaire OTAN, non normalisée C.I.P. La SAAMI normalise depuis 2026 une version civile distincte, la 5.56 Commercial (fiche à part), sans conformité garantie avec les munitions militaires.",
     "762x51_nato": "Très proche du .308 Winchester, mais cartouches NON strictement interchangeables : le 7.62 OTAN se tire généralement sans risque dans une chambre .308 Win, alors qu'une munition .308 (pression plus élevée, parois d'étui plus fines) tirée dans une chambre militaire 7.62 (headspace plus long) peut provoquer une rupture d'étui. Spécification militaire OTAN, non normalisée C.I.P.",
-    "223_rem": "Voir aussi la variante militaire distincte 5.56×45mm NATO (cotes extérieures identiques, mais chambre à leade plus long et pression supérieure). Une chambre .223 Rem n'est pas prévue pour la munition 5.56 OTAN.",
+    "556_comm": "Norme SAAMI « New Cartridge & Chamber – 5.56 Commercial » du 22 juin 2026. Cotes de cartouche de la .223 Remington ; chambre à gorge plus longue : tronçon cylindrique de 5,745 mm jusqu'à 46,86 mm de la face de culasse, puis cône de 1° 13′ 20″ qui rejoint l'âme à 51,14 mm (47,17 mm pour la .223 Rem). Pression moyenne maximale de 62 000 psi au capteur, 55 gr à 3 400 fps, canon d'essai de 508 mm au pas de 1:7. Selon la SAAMI, la conformité à cette norme n'implique aucune conformité militaire ou OTAN, et toute munition 5,56 tirée dans une chambre .223 Remington est une combinaison dangereuse. Volume d'étui non publié.",
+    "223_rem": "Voir aussi la variante militaire distincte 5.56×45mm NATO (cotes extérieures identiques, mais chambre à leade plus long et pression supérieure) et la 5.56 Commercial normalisée par la SAAMI en 2026. Une chambre .223 Rem n'est prévue pour aucune munition 5,56, militaire ou 5.56 Commercial (SAAMI).",
     "308_win": "Voir aussi la variante militaire distincte 7.62×51mm NATO (cotes proches, spécifications différentes). Tirer une munition .308 Win dans une chambre militaire 7.62 OTAN (headspace plus long) peut provoquer une rupture d'étui.",
 }
 
@@ -1125,6 +1141,12 @@ def merge_databases():
             rim, base, shoulder, neck, bullet, case_len, pmax, category, rim_type, primer = 9.60, 9.58, 9.00, 6.43, 5.70, 44.70, 4300, "Rifle", "Rimless", "Small Rifle"
             case_vol = 1.85
             aliases = ["5.56 NATO", "5.56x45", "5.56 mm x 45", "SS109", "M855"]
+        elif cid == "556_comm":
+            # Plan SAAMI MAXIMUM CARTRIDGE, 2026-06-09 : .378, .3760, .3542 (intersection, comme
+            # l'épaulement de 9,00 des deux fiches voisines), .253, .2245, 1.760 pouce.
+            rim, base, shoulder, neck, bullet, case_len, pmax, category, rim_type, primer = 9.60, 9.55, 9.00, 6.43, 5.70, 44.70, 4275, "Rifle", "Rimless", "Small Rifle"
+            case_vol = None
+            aliases = ["5.56 COMM", "5.56 Comm."]
         elif cid == "762x51_nato":
             rim, base, shoulder, neck, bullet, case_len, pmax, category, rim_type, primer = 12.00, 11.90, 11.50, 8.80, 7.82, 51.20, 4150, "Rifle", "Rimless", "Large Rifle"
             case_vol = 3.38
@@ -1136,7 +1158,7 @@ def merge_databases():
 
         # La table C.I.P. prime aussi sur les cotes curées à la main, saisies sans
         # provenance : sans elle, une valeur approchée resterait servie telle quelle.
-        pmax_cip, pmax_saami, pmax = pressure_fields(cid, None, pmax)
+        pmax_cip, pmax_saami, pmax = pressure_fields(cid, CURATED_SAAMI.get(cid), pmax)
 
         item = {
             "id": cid,
