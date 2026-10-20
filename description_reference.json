@@ -2688,6 +2688,61 @@
           "nature": "primaire"
         }
       ]
+    },
+    "6_norma_br": {
+      "description": "Cartouche de tir sur cible conçue par Norma en 1994 pour le bench rest à 300 m, sur l'étui de la 6 mm BR Remington, qui garde le culot de la .308 Winchester. Les deux versions ont le même étui ; la chambre Norma fait commencer les rayures plus loin et son canon d'épreuve a un pas de 1:8″, pour des balles lourdes. Sa fiche C.I.P. date de 1995.",
+      "description_en": "Target cartridge designed by Norma in 1994 for 300-metre bench rest, on the case of the 6 mm BR Remington, which keeps the .308 Winchester head. Both versions share the same case; the Norma chamber starts the rifling further forward and its proof barrel has a 1:8″ twist, for heavy bullets. Its C.I.P. sheet dates from 1995.",
+      "affirmations": [
+        {
+          "texte": "Conçue par Norma en 1994 pour le bench rest à 300 m",
+          "source": "Norma, « 6 mm Norma BR », onglet « Caliber History », norma.cc, copie de l'Internet Archive du 19 juin 2016, http://web.archive.org/web/20160619021047/http://www.norma.cc:80/en/Products/Hunting/6-mm-Norma-Br/ (récupérée par curl le 2026-10-20)",
+          "page": "onglet Caliber History",
+          "citation": "This cartridge was designed by Norma in 1994 specifically for 300 meter bench rest shooting.",
+          "nature": "primaire"
+        },
+        {
+          "texte": "Même étui que la 6 mm BR Remington",
+          "source": "C.I.P., fiches TAB. I « 6 mm BR Norma » (95-12-20, révision 02-05-15), https://bobp.cip-bobp.org/uploads/tdcc/tab-i/6-mm-br-norma.pdf, et « 6 mm BR Rem. » (94-03-01, révision 02-05-15), https://bobp.cip-bobp.org/uploads/tdcc/tab-i/tabical-fr-page13.pdf (lues au rendu image le 2026-10-20)",
+          "page": "colonnes CARTOUCHE MAXI",
+          "citation": "L1 27,30 · L2 31,44 · L3 39,62 · R1 12,01 · P1 11,96 · P2 11,68 · α 60° · H1 6,90 · H2 6,87 · G1 6,18 sur les deux fiches ; seules diffèrent f (0,40 contre 0,46), β (45° contre 35°) et r2 (1,50 contre 1,27)",
+          "nature": "primaire"
+        },
+        {
+          "texte": "Culot de la .308 Winchester",
+          "source": "C.I.P., fiche TAB. I « 308 Win. » (84-06-14, révision 08-09-23), CIP/308_win.pdf du dépôt (lue le 2026-10-20)",
+          "page": "colonne CARTOUCHE MAXI, culot",
+          "citation": "R 1,37 · R1 12,01 · E 3,85 · E1 10,39 · e min 1,40 · δ 36° · P1 11,96, comme sur la fiche « 6 mm BR Norma »",
+          "nature": "primaire"
+        },
+        {
+          "texte": "Rayures qui commencent plus loin dans la chambre Norma",
+          "source": "C.I.P., fiches TAB. I « 6 mm BR Norma » (95-12-20, révision 02-05-15), https://bobp.cip-bobp.org/uploads/tdcc/tab-i/6-mm-br-norma.pdf, et « 6 mm BR Rem. » (94-03-01, révision 02-05-15), https://bobp.cip-bobp.org/uploads/tdcc/tab-i/tabical-fr-page13.pdf (lues au rendu image le 2026-10-20)",
+          "page": "colonnes CHAMBRE MINI, prise de rayures",
+          "citation": "G 5,98 et L3+G 45,61 (Norma) contre G 4,82 et L3+G 44,44 (Rem.) ; i 1°30' contre 3°",
+          "nature": "primaire"
+        },
+        {
+          "texte": "Canon d'épreuve au pas de 1:8″",
+          "source": "C.I.P., fiches TAB. I « 6 mm BR Norma » (95-12-20, révision 02-05-15), https://bobp.cip-bobp.org/uploads/tdcc/tab-i/6-mm-br-norma.pdf, et « 6 mm BR Rem. » (94-03-01, révision 02-05-15), https://bobp.cip-bobp.org/uploads/tdcc/tab-i/tabical-fr-page13.pdf (lues au rendu image le 2026-10-20)",
+          "page": "Rayures",
+          "citation": "u = 203.20 (Norma) ; u = 228.60 (Rem.)",
+          "nature": "primaire"
+        },
+        {
+          "texte": "Pour des balles lourdes",
+          "source": "Norma, « 6 mm Norma BR », onglet « Caliber History », norma.cc, copie de l'Internet Archive du 19 juin 2016, http://web.archive.org/web/20160619021047/http://www.norma.cc:80/en/Products/Hunting/6-mm-Norma-Br/ (récupérée par curl le 2026-10-20)",
+          "page": "onglet Caliber History",
+          "citation": "The use of heavy bullets demands a rifle twist of 1 turn in 8 inches.",
+          "nature": "primaire"
+        },
+        {
+          "texte": "Fiche C.I.P. de 1995",
+          "source": "C.I.P., fiches TAB. I « 6 mm BR Norma » (95-12-20, révision 02-05-15), https://bobp.cip-bobp.org/uploads/tdcc/tab-i/6-mm-br-norma.pdf, et « 6 mm BR Rem. » (94-03-01, révision 02-05-15), https://bobp.cip-bobp.org/uploads/tdcc/tab-i/tabical-fr-page13.pdf (lues au rendu image le 2026-10-20)",
+          "page": "en-tête",
+          "citation": "TAB. I · Date 95-12-20 · Révision 02-05-15",
+          "nature": "primaire"
+        }
+      ]
     }
   }
 }

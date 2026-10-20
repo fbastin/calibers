@@ -459,6 +459,13 @@
       "citation": "Officially adopted in 1951, this cartridge was also imposed upon Warsaw Pact countries during the 60’s and 70’s in an attempt at standardization.",
       "nature": "secondaire",
       "note": "Sources russes officielles inaccessibles (anti-robot)."
+    },
+    "6_norma_br": {
+      "annee": 1996,
+      "source": "Sierra Bullets, Rifle Reloading Data, 6e éd., « 6mm BR Norma » (PDF du 17 avril 2020), remarques, https://sierrabullets.com/content/load-data/rifle/243-6mm/6mm-br-norma.pdf (récupéré par curl le 2026-10-20)",
+      "citation": "Norma introduced the BR as the 6mm BR Norma in 1996.",
+      "nature": "secondaire",
+      "note": "Norma date la conception de 1994 (Caliber History) et la fiche C.I.P. du 20 décembre 1995 ; 1996 est l'année de mise sur le marché donnée par Sierra."
     }
   }
 }

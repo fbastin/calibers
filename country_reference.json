@@ -1241,6 +1241,23 @@
         }
       ],
       "note": "« European-sounding designation » : le nom métrique ne reflète pas une origine européenne."
+    },
+    "6_norma_br": {
+      "pays": "Suède",
+      "concepteur": "Norma Precision AB, sur l'étui de la 6 mm BR Remington",
+      "sources": [
+        {
+          "source": "Norma, « 6 mm Norma BR », onglet « Caliber History », norma.cc, copie de l'Internet Archive du 19 juin 2016, http://web.archive.org/web/20160619021047/http://www.norma.cc:80/en/Products/Hunting/6-mm-Norma-Br/ (récupérée par curl le 2026-10-20)",
+          "citation": "This cartridge was designed by Norma in 1994 specifically for 300 meter bench rest shooting.",
+          "nature": "primaire"
+        },
+        {
+          "source": "C.I.P., fiches TAB. I « 6 mm BR Norma » (95-12-20, révision 02-05-15), https://bobp.cip-bobp.org/uploads/tdcc/tab-i/6-mm-br-norma.pdf, et « 6 mm BR Rem. » (94-03-01, révision 02-05-15), https://bobp.cip-bobp.org/uploads/tdcc/tab-i/tabical-fr-page13.pdf (lues au rendu image le 2026-10-20)",
+          "citation": "6mm BR Norma — Pays d'origine: SE",
+          "nature": "primaire"
+        }
+      ],
+      "note": "La famille BR est américaine (Remington, fin des années 1970) ; la fiche de la base est la version Norma, conçue en Suède."
     }
   }
 }
