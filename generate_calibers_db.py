@@ -825,6 +825,7 @@ WIKI_LINKS = {
     "308_win": "https://www.tireur.org/wiki/doku.php?id=technique:308_winchester",
     "223_rem": "https://www.tireur.org/wiki/doku.php?id=technique:cartouche_223_remington",
     "6_norma_br": "https://www.tireur.org/wiki/doku.php?id=technique:cartouche_6mm_br",
+    "45_acp": "https://www.tireur.org/wiki/doku.php?id=technique:cartouche_45_acp",
     "22_lr": "https://www.tireur.org/wiki/doku.php?id=technique:cartouche_22_long_rifle",
     "222_rem": "https://www.tireur.org/wiki/doku.php?id=technique:cartouche_222_remington",
     "65x55_swedish": "https://www.tireur.org/wiki/doku.php?id=technique:cartouche_6_5x55",

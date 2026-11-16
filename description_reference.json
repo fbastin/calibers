@@ -1358,15 +1358,22 @@
       ]
     },
     "45_acp": {
-      "description": "Cartouche de John Browning et Colt, apparue avec le pistolet Colt Model 1905 ; les essais Thompson-LaGarde ayant conduit l'Ordnance à exiger un calibre .45, l'armée américaine l'a adoptée avec le pistolet Colt M1911. Le M1911 et sa version 1911A1 sont restés l'arme de poing réglementaire américaine jusqu'à leur remplacement officiel par le 9 mm Beretta en 1985.",
-      "description_en": "A John Browning and Colt cartridge that appeared with the Colt Model 1905 pistol; after the Thompson-LaGarde tests led Ordnance to call for a .45 caliber, the U.S. Army adopted it with the Colt M1911 pistol. The M1911 and its 1911A1 version remained the standard U.S. sidearm until officially replaced by the 9 mm Beretta in 1985.",
+      "description": "Cartouche apparue avec le pistolet Colt Model 1905 de John Browning, d'abord chargée d'une balle de 200 grains. Après les essais Thompson-LaGarde, la commission de 1907 exige un calibre .45 et une balle d'au moins 230 grains ; l'armée américaine adopte en 1911 le pistolet Colt M1911 et sa cartouche de 230 grains. Le M1911 et sa version 1911A1 sont restés l'arme de poing réglementaire américaine jusqu'à leur remplacement officiel par le 9 mm Beretta en 1985.",
+      "description_en": "A cartridge that appeared with John Browning's Colt Model 1905 pistol, first loaded with a 200-grain bullet. After the Thompson-LaGarde tests, the 1907 board required a .45 calibre and a bullet of at least 230 grains; in 1911 the U.S. Army adopted the Colt M1911 pistol and its 230-grain cartridge. The M1911 and its 1911A1 version remained the standard U.S. sidearm until officially replaced by the 9 mm Beretta in 1985.",
       "affirmations": [
         {
           "texte": "apparue avec le Colt Model 1905 de Browning",
           "source": "Lyman Reloading Handbook, 48e éd. (2002), commentaire de la cartouche (texte : gtxt/Lyman Reloading Handbook .txt)",
-          "page": "p. 357 (notice 45 ACP)",
+          "page": "p. 355 (notice 45 ACP ; page 357 du PDF)",
           "citation": "The 45 ACP (Automatic Colt Pistol) originated in the Colt Model 1905 pistol developed by John Moses Browning.",
           "nature": "secondaire"
+        },
+        {
+          "texte": "d'abord chargée d'une balle de 200 grains",
+          "source": "P. T. Streit, « The Colt-Browning Automatic Pistol, Caliber .45. », Outdoor Life, vol. 17, n° 4, avril 1906, https://archive.org/details/sim_outdoor-life_1906-04_17_4 ; catalogue Remington-UMC 1911-1912, p. 97",
+          "page": "p. 403",
+          "citation": "This new pistol shoots a full metal-jacketed bullet weighing 200 grains, with a velocity of about 900 feet per second",
+          "nature": "primaire"
         },
         {
           "texte": "Thompson-LaGarde → calibre .45 exigé ; Model 1905",
@@ -1374,6 +1381,13 @@
           "page": "(page web)",
           "citation": "As a result of the Thompson-LaGarde Tests, the Ordnance Department specified a .45-cal. cartridge, and Browning obliged the department with a .45-cal. Model 1905 pistol.",
           "nature": "secondaire"
+        },
+        {
+          "texte": "la commission de 1907 exige un calibre .45 et une balle d'au moins 230 grains",
+          "source": "« Report of Board on Tests of Revolvers and Automatic Pistols », Annual Report of the Chief of Ordnance, 1907, appendice, https://archive.org/details/1907pistoltrials",
+          "page": "p. 85",
+          "citation": "(1) Caliber not less than .45. (2) The magazine to hold not less than 6 cartridges. (3) Weight of bullet not less than 230 grains.",
+          "nature": "primaire"
         },
         {
           "texte": "adoptée par l'armée avec le M1911",
@@ -1385,7 +1399,7 @@
         {
           "texte": "arme réglementaire jusqu'au remplacement par le Beretta en 1985",
           "source": "Lyman Reloading Handbook, 48e éd. (2002), commentaire de la cartouche (texte : gtxt/Lyman Reloading Handbook .txt)",
-          "page": "p. 357 (notice 45 ACP)",
+          "page": "p. 355 (notice 45 ACP ; page 357 du PDF)",
           "citation": "Although officially replaced by the 9mm Beretta in 1985, the 45 ACP cartridge remains in use with Special Operations units.",
           "nature": "secondaire"
         },
